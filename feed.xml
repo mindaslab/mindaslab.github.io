@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-02T14:20:46+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">India is not just two party state</title><link href="/2017/09/27/India-is-not-just-two-party-state.html" rel="alternate" type="text/html" title="India is not just two party state" /><published>2017-09-27T00:00:00+05:30</published><updated>2017-09-27T00:00:00+05:30</updated><id>/2017/09/27/India-is-not-just-two-party-state</id><content type="html" xml:base="/2017/09/27/India-is-not-just-two-party-state.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-02T14:25:11+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">What can I do if computing prices are falling?</title><link href="/2017/10/02/What-can-I-do-if-computing-prices-are-falling.html" rel="alternate" type="text/html" title="What can I do if computing prices are falling?" /><published>2017-10-02T00:00:00+05:30</published><updated>2017-10-02T00:00:00+05:30</updated><id>/2017/10/02/What-can-I-do-if-computing-prices-are-falling</id><content type="html" xml:base="/2017/10/02/What-can-I-do-if-computing-prices-are-falling.html">&lt;p&gt;&lt;img src=&quot;http://www.pngall.com/wp-content/uploads/2016/04/Server-PNG.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So we got a new client, he wanted to migrate from a previous service provider to
+us. We have built a web agency thats cutting edge, we have developed automation
+to such an extent that manual labor is reduced by 90%, and we are aggressively
+pursuing Artificial Intelligence.&lt;/p&gt;
+
+&lt;p&gt;My friend asked how much the infrastructure of the new client will cost, I said a
+price that would baffle him, it was just 1/400th the price of the previous
+service provider that had been milking our to be client. My friend flew on a rage,
+‘you open source people just think about cost, there are other aspects there is service, value and
+business angle’ he said.&lt;/p&gt;
+
+&lt;p&gt;Then I gave an another quote thats 12 time larger than the previous one and said
+you can pay and buy beefy machines if you like, none stops you, but for this
+project this look enough.&lt;/p&gt;
+
+&lt;p&gt;The global server prices have fallen. We don’t rely on Amazon, Rackspace,
+Heroku and stuff like that, we just simply use our own trusted server bank that
+has enough replication to prevent data loss. To our surprise we found our offering
+to be faster than Digital ocean.&lt;/p&gt;
+
+&lt;p&gt;Digital Ocean is just a startup, which means that it barks and markets a lot
+than it bites and does real stuff. Something is wrong with their server which
+take lot of time to respond. And Amazon AWS is far worst, one would never know
+why it stops or starts all of a sudden and why it lags more. Too much
+virtualization I suppose.&lt;/p&gt;
+
+&lt;p&gt;People who are in the closed source, in the Microsoft camp can’t imagine if
+something is darn cheap it can be good. They simply lack imagination. Possibly
+they will value shit more higher than gold if some one can sells it to them at
+greater price. And people who are in Microsoft, and Apple technological products
+are doing just that, they are selling shit and are feeling good about it because
+you have paid a higher price.&lt;/p&gt;
+
+&lt;p&gt;Somehow free software people I see are able to look beyond the money and
+corporate glare, possibly none is trying to make them dumb, or possibly they are
+more democratic or something. They seem to have more common sense.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">India is not just two party state</title><link href="/2017/09/27/India-is-not-just-two-party-state.html" rel="alternate" type="text/html" title="India is not just two party state" /><published>2017-09-27T00:00:00+05:30</published><updated>2017-09-27T00:00:00+05:30</updated><id>/2017/09/27/India-is-not-just-two-party-state</id><content type="html" xml:base="/2017/09/27/India-is-not-just-two-party-state.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;One of my friends tweeted this&lt;/p&gt;
 
@@ -270,10 +307,4 @@ controlling us.&lt;/p&gt;</content><author><name></name></author><summary type="
 
 &lt;h2 id=&quot;final-word&quot;&gt;Final word&lt;/h2&gt;
 
-&lt;p&gt;BJP is shaky, not really good as I expected it to be. But still apart from Vijay Mallaya there seem to be no bigger corruption issues like the congress government, but who knows, there could be lot of corruption and we are unaware of it. There is still lot for the BJP to improve, it has to shake off RSS and outdated Hinduism to become a better party.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Intolerant Christians</title><link href="/religion/christianity/2017/08/21/intolerant-christians.html" rel="alternate" type="text/html" title="Intolerant Christians" /><published>2017-08-21T00:00:00+05:30</published><updated>2017-08-21T00:00:00+05:30</updated><id>/religion/christianity/2017/08/21/intolerant-christians</id><content type="html" xml:base="/religion/christianity/2017/08/21/intolerant-christians.html">&lt;p&gt;&lt;img src=&quot;http://www.mygodpictures.com/wp-content/uploads/2015/02/Face-Portrait-Of-Lored-Jesus-Christ.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I was in car with an owner of a Travels company, he said about a personal incident. In his private car was a Hindu driver, he (the driver) one day saw a sticker of Shiva which looked great, he bought it and stuck it in the car so that he can worship it. After a while a day when he was on a holiday, another Christian driver took charge of the car. It was just a one day job for him. When he saw the Shivas image he started to shiver, he said that these images should not be in  the car and removed it off. The travels owner being a Hindu himself, but recognizing the driver is kind of a psycho let the Christian proceed his way so that at least his job won’t be blocked on that day.&lt;/p&gt;
-
-&lt;p&gt;I have heard of government teacher say something similar. A poojai was done in his house, he took laddus as prasadam to his school. He gave laddu to fellow teachers, when he said that laddu was a prasadam, one of the teaches spit it out. She said she is not supposed to eat “Hindu food”. Then why she is eating food grown in India? All farmers offer their produce to Hindu Gods and only then sell them.&lt;/p&gt;
-
-&lt;p&gt;I myself have witnessed an incident. I asked for change from my friend who was a christian, he gave me two five rupee coins, I returned one of them saying that I need only 5 rupees, the coin was nice brass golden color, on its heads was beautiful image of Durga devi, I showed it to him and said that its rare to find coins like these. He flipped the one he had and after seeing Durga, I don’t know what happened to him, he placed the coin on table and left it off. It looked as though he was really afraid.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;BJP is shaky, not really good as I expected it to be. But still apart from Vijay Mallaya there seem to be no bigger corruption issues like the congress government, but who knows, there could be lot of corruption and we are unaware of it. There is still lot for the BJP to improve, it has to shake off RSS and outdated Hinduism to become a better party.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
