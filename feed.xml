@@ -1,5 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-08T12:14:16+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Electromagnetic Field Theory Book</title><link href="/2017/10/08/electromagnetic-field-theory-book.html" rel="alternate" type="text/html" title="Electromagnetic Field Theory Book" /><published>2017-10-08T00:00:00+05:30</published><updated>2017-10-08T00:00:00+05:30</updated><id>/2017/10/08/electromagnetic-field-theory-book</id><content type="html" xml:base="/2017/10/08/electromagnetic-field-theory-book.html">&lt;p&gt;Get it &lt;a href=&quot;https://www.calvin.edu/~pribeiro/courses/engr315/EMFT_Book.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Get it here.</summary></entry><entry><title type="html">Why people use JIRA</title><link href="/2017/10/07/Why-people-use-JIRA.html" rel="alternate" type="text/html" title="Why people use JIRA" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>/2017/10/07/Why-people-use-JIRA</id><content type="html" xml:base="/2017/10/07/Why-people-use-JIRA.html">&lt;p&gt;Jira is a popular project management tool used by thousands of projects, but do
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-11T20:51:43+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">What I hate about medium</title><link href="/2017/10/11/What-I-hate-about-medium.html" rel="alternate" type="text/html" title="What I hate about medium" /><published>2017-10-11T00:00:00+05:30</published><updated>2017-10-11T00:00:00+05:30</updated><id>/2017/10/11/What-I-hate-about-medium</id><content type="html" xml:base="/2017/10/11/What-I-hate-about-medium.html">&lt;p&gt;&lt;img src=&quot;http://logok.org/wp-content/uploads/2015/10/Medium-logo-2015-logotype.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Medium is popular blogging platform, but I moved away from  it to Jekyll and
+Jekyll was good. Let me tell you why I don’t like to blog any more on medium.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Medium wants to track you&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Medium loves to track you. It wants to know what your interests are? What you
+like to read? Who you follow? Are people working in Medium your friends to know
+these details about you?&lt;/p&gt;
+
+&lt;p&gt;Though medium does not force you to login, look at this ugly tool bar at the
+bottom&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/messing_up_as_developer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Medium reduces your reading area, it forces you to sign in to read so that it
+knows about you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You don’t know what they do with your data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you really know what Medium does with your data and the behavioral data
+they collect from you? Do they sell it to others? Share it to NSA? Who knows?
+This is the major problem we face today using software as service platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Anonymous commenting not possible&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Even to comment on ones blog, one needs to login to medium and have a medium
+account. Thats ridiculous. Commenting means you have more interest on that
+particular topic, so you can be sold more ads about it. Thats why they want you
+to login so that they can track about you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blog migration is hard&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Migrating your blog content away from Medium is hard. Unlike Wordpress you do
+not have a good migration tool or a tool where you can download all your data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What happens if you delete your blog?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In medium, none know what happens if you delete your blog or account.
+Does it really get deleted? Your details are kept by them even if you have
+deleted your account? Who knows what they are doing without your knowledge?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All these questions have made me to log off medium, I wish you too do the same.
+Its far far better to have your own server, possibly a wordpress one and blog
+with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Electromagnetic Field Theory Book</title><link href="/2017/10/08/electromagnetic-field-theory-book.html" rel="alternate" type="text/html" title="Electromagnetic Field Theory Book" /><published>2017-10-08T00:00:00+05:30</published><updated>2017-10-08T00:00:00+05:30</updated><id>/2017/10/08/electromagnetic-field-theory-book</id><content type="html" xml:base="/2017/10/08/electromagnetic-field-theory-book.html">&lt;p&gt;Get it &lt;a href=&quot;https://www.calvin.edu/~pribeiro/courses/engr315/EMFT_Book.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Get it here.</summary></entry><entry><title type="html">Why people use JIRA</title><link href="/2017/10/07/Why-people-use-JIRA.html" rel="alternate" type="text/html" title="Why people use JIRA" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>/2017/10/07/Why-people-use-JIRA</id><content type="html" xml:base="/2017/10/07/Why-people-use-JIRA.html">&lt;p&gt;Jira is a popular project management tool used by thousands of projects, but do
 developers really like it?&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;how much jira do we have to use before we&amp;#39;re agile?&lt;/p&gt;&amp;mdash; 0operator (@sadoperator) &lt;a href=&quot;https://twitter.com/sadoperator/status/916077741845258242?ref_src=twsrc%5Etfw&quot;&gt;October 5, 2017&lt;/a&gt;&lt;/blockquote&gt;
@@ -291,12 +338,4 @@ shoulders, I truly wonder why there must be so many exams?&lt;/p&gt;
 &lt;p&gt;I feel education system in India and possibly in most  of industrialized countries
 are broken, and I feel the world looks qualified enough but is not educated enough
 to realize that its mostly made up of stupid people and they are the ones who are
-controlling us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">More of a con guru than a Sadguru</title><link href="/2017/09/07/more-of-con-guru-than-satguru.html" rel="alternate" type="text/html" title="More of a con guru than a Sadguru" /><published>2017-09-07T00:00:00+05:30</published><updated>2017-09-07T00:00:00+05:30</updated><id>/2017/09/07/more-of-con-guru-than-satguru</id><content type="html" xml:base="/2017/09/07/more-of-con-guru-than-satguru.html">&lt;p&gt;&lt;img src=&quot;http://pxhst.co/avaxhome/9f/0e/003b0e9f.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sadhguru Jaggi Vasudev either a fool or a con man. Recently he seemed to have launched a project to grow trees. Well isn’t that good? Ummmm, smells fishy as he is posing himself as some one who care about nature and environment. Why because of this…&lt;/p&gt;
-
-&lt;p&gt;This Jaggi has a huge ashram in Coimbatore and it covers lot of hectares, but what land it was? It was a land that had lot of frees and was kinda forest people say. It was also a path which was used by elephants to cross.&lt;/p&gt;
-
-&lt;p&gt;Well this is BJP rule, a blind Hindu government means its a good times for conman like Jaggi and he was able to acquire the land somehow and the environment ministry seems to have given a nod for his ashram.&lt;/p&gt;
-
-&lt;p&gt;Having bashed trees, and having disrupted the movements of elephants and as though he is super innocent now he is posing himself to launch a new project to plant trees. Wouldn’t it be better for him to close his ashram and let nature take over?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+controlling us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
