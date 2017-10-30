@@ -1,5 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-22T00:18:12+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">I am greater Idiot than Rahul Gandhi, says Narendra Modi</title><link href="/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi.html" rel="alternate" type="text/html" title="I am greater Idiot than Rahul Gandhi, says Narendra Modi" /><published>2017-10-22T00:00:00+05:30</published><updated>2017-10-22T00:00:00+05:30</updated><id>/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi</id><content type="html" xml:base="/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/9/90/PM_Modi_2015.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-30T19:45:21+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Renaming class in Ruby (a kinda)</title><link href="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html" rel="alternate" type="text/html" title="Renaming class in Ruby (a kinda)" /><published>2017-10-30T00:00:00+05:30</published><updated>2017-10-30T00:00:00+05:30</updated><id>/2017/10/30/Renaming-class-in-Ruby-a-kinda</id><content type="html" xml:base="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html">&lt;p&gt;Lets say that you have a situation where you need to code about dogs. You know
+that there are different kind of dogs and you end up with  a code structure as
+shown&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Animal&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Domestic&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;woof&quot;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Wild&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;grrr&quot;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So there are two kinds of dogs, one is wild that can be accessed like
+&lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt; and other one is
+Domestic which could be accessed in similar way.&lt;/p&gt;
+
+&lt;p&gt;So if you want to print out how Domestic and Wild dog sounds like you can
+write a program as shown:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# using_dog_in_animal_module.rb&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dog_in_animal_module.rb&quot;&lt;/span&gt;
+
+&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;But if you look I am using something like this &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;/code&gt; which is
+long to code and tax my fingers, what if I could do something that would make
+my typing shorter? Fortunately you can do that in Ruby. See the program below:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# renaming_class.rb&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dog_in_animal_module.rb&quot;&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;WildDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WildDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the code above, notice line 5 and line 6, we are kinda reaming the class.
+Rather using the long form &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt;
+we simply assign it to a constant name &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;/code&gt;  as shown 
+&lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt; and
+in line  8 we can use it short like &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In a large programming environment, we would have reduced lot of typing. Happy coding! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mindaslab/ilrx/tree/master/rename_class&quot;&gt;Code Samples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mindaslab.github.io/I-Love-Ruby/&quot;&gt;Download my Ruby Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Lets say that you have a situation where you need to code about dogs. You know that there are different kind of dogs and you end up with a code structure as shown</summary></entry><entry><title type="html">I am greater Idiot than Rahul Gandhi, says Narendra Modi</title><link href="/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi.html" rel="alternate" type="text/html" title="I am greater Idiot than Rahul Gandhi, says Narendra Modi" /><published>2017-10-22T00:00:00+05:30</published><updated>2017-10-22T00:00:00+05:30</updated><id>/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi</id><content type="html" xml:base="/2017/10/22/I-am-greater-Idiot-than-Rahul-Gandhi-says-Narendra-Modi.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/9/90/PM_Modi_2015.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We all know that the Nehru family consists of a bunch of idiots. The fact how
 Nehru was merciful with China even thought they were invading us in ‘62, the
@@ -126,7 +225,7 @@ with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"><
 developers really like it?&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;how much jira do we have to use before we&amp;#39;re agile?&lt;/p&gt;&amp;mdash; 0operator (@sadoperator) &lt;a href=&quot;https://twitter.com/sadoperator/status/916077741845258242?ref_src=twsrc%5Etfw&quot;&gt;October 5, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;If they don’t, then why people use Jira? Well, Information Technology industry
 is more about deception than real science and software, and Jira is much needed
@@ -206,12 +305,12 @@ more democratic or something. They seem to have more common sense.&lt;/p&gt;</co
 &lt;p&gt;One of my friends tweeted this&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If not modi who else, Shall we bring back Manmohan?. I not seeing much difference between congress and BJP other than communal issue&lt;/p&gt;&amp;mdash; Jahith Hussain (@jahith) &lt;a href=&quot;https://twitter.com/jahith/status/912988494632427521?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;It was response to this tweet&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Should Narendra Modi continue as Prime minister of &lt;a href=&quot;https://twitter.com/hashtag/India?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#India&lt;/a&gt;? | &lt;a href=&quot;https://twitter.com/hashtag/Politics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Politics&lt;/a&gt;&lt;/p&gt;&amp;mdash; Karthikeyan A K (@karthik_ak) &lt;a href=&quot;https://twitter.com/karthik_ak/status/912956326598213633?ref_src=twsrc%5Etfw&quot;&gt;September 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;I asked blunt to twitter users weather Narendramodi should continue as Indian P.M
 or not? Its right for a person to vote, its right for a person to change his
@@ -319,24 +418,4 @@ else’s soil, lets use this situation to test our weapons, technology progress
 and political theory.&lt;/p&gt;
 
 &lt;p&gt;Wonder how many Indian politicians are corrupt and will let USA treat us as
-another colony? We must wait and see.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">A murder of democracy in Tamilnadu</title><link href="/2017/09/24/a-muder-of-democracy-in-tamilnadu.html" rel="alternate" type="text/html" title="A murder of democracy in Tamilnadu" /><published>2017-09-24T00:00:00+05:30</published><updated>2017-09-24T00:00:00+05:30</updated><id>/2017/09/24/a-muder-of-democracy-in-tamilnadu</id><content type="html" xml:base="/2017/09/24/a-muder-of-democracy-in-tamilnadu.html">&lt;p&gt;&lt;img src=&quot;http://www.nmtv.tv/wp-content/uploads/2016/12/Vidyasagar-Rao.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Its fascinating to see how much of our democratic process is undermined by our
-state government and the BJP at the center. Clearly EPS government has lost
-majority and it just maintains it on paper by dismissing MLA’s who would vote
-against it. Every thing is watched by the governor who is just another jerk only
-fit to wash the feet of BJP and RSS people.&lt;/p&gt;
-
-&lt;p&gt;Its fascinating to see how much the BJP and the RSS have moved away from the
-great days of Atal Vajpyee who resigned from office of PM just because he was
-short of one M.P vote. Now for the BJP its all about technically and staying in
-power and showing a blind eye to moral responsibility.&lt;/p&gt;
-
-&lt;p&gt;BJP has become a force that would protect any one who falls to at feet. What
-an shameful existence. We Tamilians are fools too. The youth who came out to the
-streets to save our Jallikattu culture will not come out to restore democracy.
-These very same youth will get money for their vote. Is there any proof they or
-their family members are not morally inferior?&lt;/p&gt;
-
-&lt;p&gt;Its a shameful time to live as Tamilian in India. Once again after the English
-we are subjugated by the Hindi’s and none takes a note of it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+another colony? We must wait and see.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
