@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-02T20:15:29+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Renaming class in Ruby (a kinda)</title><link href="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html" rel="alternate" type="text/html" title="Renaming class in Ruby (a kinda)" /><published>2017-10-30T00:00:00+05:30</published><updated>2017-10-30T00:00:00+05:30</updated><id>/2017/10/30/Renaming-class-in-Ruby-a-kinda</id><content type="html" xml:base="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html">&lt;p&gt;Lets say that you have a situation where you need to code about dogs. You know
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-02T20:18:50+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">News reporter Jebersan threatened by BJP</title><link href="/2017/11/02/News-reporter-Jebersan-threatened-by-BJP.html" rel="alternate" type="text/html" title="News reporter Jebersan threatened by BJP" /><published>2017-11-02T00:00:00+05:30</published><updated>2017-11-02T00:00:00+05:30</updated><id>/2017/11/02/News-reporter-Jebersan-threatened-by-BJP</id><content type="html" xml:base="/2017/11/02/News-reporter-Jebersan-threatened-by-BJP.html">&lt;p&gt;&lt;img src=&quot;http://timesofindia.indiatimes.com/photo/52075142.cms&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Its alarming how religious violence is increasing in Tamilnadu. Even during
+partition of India, Tamilnadu experienced no Hindu and Muslim violence. We
+people simply did not know the difference, but now it looks like we must rethink
+things. There are people who want to polarize us so that they can come to power.&lt;/p&gt;
+
+&lt;p&gt;Today there was a news in Polimer channel in which Thanthi T.V news person asks
+Tamilisai (chief of BJP in Tamilnadu) a question. Tamilisai complains about
+the rising corruption in the state and how politicians have turned a blind to
+people and how because of that 2 kids have died due to electrocution due to
+watter logging because of rains. For that Mr. Jebersan ‘why is BJP so against a
+movie Mersal, but its not showing that much intensity against corruption?’,
+unable to answer Tamilisai becomes sentimental and flees the spot.&lt;/p&gt;
+
+&lt;p&gt;Then comes the drama. BJP cadres threaten and corner Jebersan, they question
+him how can he ask such a question. What? Bloody hell, when will this BJP
+realize they operate in India which is a democracy? And you should be able to
+answer it. Is there room for dumb people like Tamilisai in India or do we want
+a leader who can make us understand things well?&lt;/p&gt;
+
+&lt;p&gt;By answering Jebersons question, BJP could have unearthed an weakness in it, and
+could have proceed to fix it, instead they simply want to hide it from the
+external world by threatening others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Renaming class in Ruby (a kinda)</title><link href="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html" rel="alternate" type="text/html" title="Renaming class in Ruby (a kinda)" /><published>2017-10-30T00:00:00+05:30</published><updated>2017-10-30T00:00:00+05:30</updated><id>/2017/10/30/Renaming-class-in-Ruby-a-kinda</id><content type="html" xml:base="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html">&lt;p&gt;Lets say that you have a situation where you need to code about dogs. You know
 that there are different kind of dogs and you end up with  a code structure as
 shown&lt;/p&gt;
 
@@ -300,30 +323,7 @@ you have paid a higher price.&lt;/p&gt;
 
 &lt;p&gt;Somehow free software people I see are able to look beyond the money and
 corporate glare, possibly none is trying to make them dumb, or possibly they are
-more democratic or something. They seem to have more common sense.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">News reporter Jebersan threathned by BJP</title><link href="/2017/10/02/News-reporter-Jebersan-threathned-by-BJP.html" rel="alternate" type="text/html" title="News reporter Jebersan threathned by BJP" /><published>2017-10-02T00:00:00+05:30</published><updated>2017-10-02T00:00:00+05:30</updated><id>/2017/10/02/News-reporter-Jebersan-threathned-by-BJP</id><content type="html" xml:base="/2017/10/02/News-reporter-Jebersan-threathned-by-BJP.html">&lt;p&gt;&lt;img src=&quot;http://timesofindia.indiatimes.com/photo/52075142.cms&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Its alarming how religious violence is increasing in Tamilnadu. Even during
-partition of India, Tamilnadu experienced no Hindu and Muslim violence. We
-people simply did not know the difference, but now it looks like we must rethink
-things. There are people who want to polarize us so that they can come to power.&lt;/p&gt;
-
-&lt;p&gt;Today there was a news in Polimer channel in which Thanthi T.V news person asks
-Tamilisai (chief of BJP in Tamilnadu) a question. Tamilisai complains about
-the rising corruption in the state and how politicians have turned a blind to
-people and how because of that 2 kids have died due to electrocution due to
-watter logging because of rains. For that Mr. Jebersan ‘why is BJP so against a
-movie Mersal, but its not showing that much intensity against corruption?’,
-unable to answer Tamilisai becomes sentimental and flees the spot.&lt;/p&gt;
-
-&lt;p&gt;Then comes the drama. BJP cadres threaten and corner Jebersan, they question
-him how can he ask such a question. What? Bloody hell, when will this BJP
-realize they operate in India which is a democracy? And you should be able to
-answer it. Is there room for dumb people like Tamilisai in India or do we want
-a leader who can make us understand things well?&lt;/p&gt;
-
-&lt;p&gt;By answering Jebersons question, BJP could have unearthed an weakness in it, and
-could have proceed to fix it, instead they simply want to hide it from the
-external world by threatening others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">India is not just two party state</title><link href="/2017/09/27/India-is-not-just-two-party-state.html" rel="alternate" type="text/html" title="India is not just two party state" /><published>2017-09-27T00:00:00+05:30</published><updated>2017-09-27T00:00:00+05:30</updated><id>/2017/09/27/India-is-not-just-two-party-state</id><content type="html" xml:base="/2017/09/27/India-is-not-just-two-party-state.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+more democratic or something. They seem to have more common sense.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">India is not just two party state</title><link href="/2017/09/27/India-is-not-just-two-party-state.html" rel="alternate" type="text/html" title="India is not just two party state" /><published>2017-09-27T00:00:00+05:30</published><updated>2017-09-27T00:00:00+05:30</updated><id>/2017/09/27/India-is-not-just-two-party-state</id><content type="html" xml:base="/2017/09/27/India-is-not-just-two-party-state.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;One of my friends tweeted this&lt;/p&gt;
 
