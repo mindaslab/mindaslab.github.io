@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Axis bank letq me down</title>
-  <meta name="description" content="">
+  <title>Stubbing with Python in built server</title>
+  <meta name="description" content="Its sometimes required that you need to have some url returning some data to finish your client server software. But you may not have the luxury of server si...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/2017/08/08/axis-bank-lets-me-down.html">
+  <link rel="canonical" href="/2017/11/12/Stubbing-with-Python-inbuilt-server.html">
   <link rel="alternate" type="application/rss+xml" title="Karthikeyan A K&#39;s blog" href="/feed.xml">
   
   
@@ -70,48 +70,42 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Axis bank lets me down</h1>
+    <h1 class="post-title" itemprop="name headline">Stubbing with Python in built server</h1>
     <p class="post-meta">
-      <time datetime="2017-08-08T00:00:00+05:30" itemprop="datePublished">
+      <time datetime="2017-11-12T07:41:00+05:30" itemprop="datePublished">
         
-        Aug 8, 2017
+        Nov 12, 2017
       </time>
       </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><img src="http://mercantile.in/wp-content/uploads/2016/06/Axis-bank-logo.jpg" alt="" /></p>
+    <p>Its sometimes required that you need to have some url returning some data to
+finish your client server software. But you may not have the luxury of server
+side thing completed as it may involve some complexities.</p>
 
-<p>Have been in times where you have to transfer money or make a payment at a crucial 
-time? A situation like that happened to me yesterday and I had to use Axis bank
-payment method. I entered the amount that has to be paid and I waited for OTP (
-one time password). I waited and waited it never arrived. I hit the “RESEND OTP” button
-and it was still the same. I waited. Then I hit the “On Call OTP” button and
-still nothing happened even though I was promised to receive a call within a
-minute.</p>
+<p>Lets say that I have a json file like this</p>
 
-<p>Then after 20 - 30 minutes or so I got the OTP (definetly an expired on by now).
-Thinking that their systems have became normal I tried paying once again and it 
-was the same. No new OTP came and I never got a call that would spell out an OTP
-for me.</p>
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Karthik"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">28</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Murugan"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">32</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span></code></pre></figure>
 
-<p>I went for lunch, nearly 90 minutes later I got series of calls from Axis bank,
-a robot called me and chatted out OTP to me. Grrr, I was in hotel, and even if I
-had stayed on web page and continued, my session would have expired.</p>
+<p>All I need to do is to create a folder. Create a file say called <em>people.json</em>
+with the data above in it. In my terminal goto that location and type
+<code class="highlight language-bash" data-lang="bash">python -m http.server</code>, launch my browser and type
+<em>http://localhost:8000/people.json</em> and I will be having that data to stub and
+complete my work.</p>
 
-<p>Axis bank is third largest Bank in India and its technology is so weak. I am an
- engineer and as web engineer we deal with problem like these. What should happen
- if your server is over loaded? What should happen if there is an earthquake where
- your servers are located? Believe me, without leaving the comfort of your couch
- you can Google for answers and implement it. No kidding. Its difficult to think
- such a large institution would have neglected to think in that way.</p>
+<p>See my result here:</p>
 
-<p>At the least they could have sent or shown me a message saying that their system
- queue is overloaded and its not advisable to do a transaction online. This problem
- I think still persists at this moment, I made a payment via check finally. I wonder
- why these banks boast of digital banking.</p>
-
-<p>I hope bitcoin catches up in India.</p>
+<p><img src="/images/stubbing_json.png" alt="" /></p>
 
   </div>
 

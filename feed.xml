@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-12T08:12:44+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Water logging problem in Skylab Avenue Sithalapakkam</title><link href="/2017/11/08/water-logging-problem-in-sithalapakkam.html" rel="alternate" type="text/html" title="Water logging problem in Skylab Avenue Sithalapakkam" /><published>2017-11-08T00:00:00+05:30</published><updated>2017-11-08T00:00:00+05:30</updated><id>/2017/11/08/water-logging-problem-in-sithalapakkam</id><content type="html" xml:base="/2017/11/08/water-logging-problem-in-sithalapakkam.html">&lt;p&gt;In Sithalapakkam, we the residents did a stupid thing out of panic. In third
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-12T09:02:00+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Stubbing with Python in built server</title><link href="/2017/11/12/Stubbing-with-Python-inbuilt-server.html" rel="alternate" type="text/html" title="Stubbing with Python in built server" /><published>2017-11-12T07:41:00+05:30</published><updated>2017-11-12T07:41:00+05:30</updated><id>/2017/11/12/Stubbing-with-Python-inbuilt-server</id><content type="html" xml:base="/2017/11/12/Stubbing-with-Python-inbuilt-server.html">&lt;p&gt;Its sometimes required that you need to have some url returning some data to
+finish your client server software. But you may not have the luxury of server
+side thing completed as it may involve some complexities.&lt;/p&gt;
+
+&lt;p&gt;Lets say that I have a json file like this&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Karthik&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Murugan&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All I need to do is to create a folder. Create a file say called &lt;em&gt;people.json&lt;/em&gt;
+with the data above in it. In my terminal goto that location and type
+&lt;code class=&quot;highlight language-bash&quot; data-lang=&quot;bash&quot;&gt;python -m http.server&lt;/code&gt;, launch my browser and type
+&lt;em&gt;http://localhost:8000/people.json&lt;/em&gt; and I will be having that data to stub and
+complete my work.&lt;/p&gt;
+
+&lt;p&gt;See my result here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/stubbing_json.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Its sometimes required that you need to have some url returning some data to finish your client server software. But you may not have the luxury of server side thing completed as it may involve some complexities.</summary></entry><entry><title type="html">Water logging problem in Skylab Avenue Sithalapakkam</title><link href="/2017/11/08/water-logging-problem-in-sithalapakkam.html" rel="alternate" type="text/html" title="Water logging problem in Skylab Avenue Sithalapakkam" /><published>2017-11-08T00:00:00+05:30</published><updated>2017-11-08T00:00:00+05:30</updated><id>/2017/11/08/water-logging-problem-in-sithalapakkam</id><content type="html" xml:base="/2017/11/08/water-logging-problem-in-sithalapakkam.html">&lt;p&gt;In Sithalapakkam, we the residents did a stupid thing out of panic. In third
 street Skylab Avenue, due to an construction, water levels started to
 rise up during November rains. The residents fought against people who blocked
 natural water flow and broke the construction which was a good thing, but then
@@ -353,4 +378,4 @@ deleted your account? Who knows what they are doing without your knowledge?&lt;/
 
 &lt;p&gt;All these questions have made me to log off medium, I wish you too do the same.
 Its far far better to have your own server, possibly a wordpress one and blog
-with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Electromagnetic Field Theory Book</title><link href="/2017/10/08/electromagnetic-field-theory-book.html" rel="alternate" type="text/html" title="Electromagnetic Field Theory Book" /><published>2017-10-08T00:00:00+05:30</published><updated>2017-10-08T00:00:00+05:30</updated><id>/2017/10/08/electromagnetic-field-theory-book</id><content type="html" xml:base="/2017/10/08/electromagnetic-field-theory-book.html">&lt;p&gt;Get it &lt;a href=&quot;https://www.calvin.edu/~pribeiro/courses/engr315/EMFT_Book.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Get it here.</summary></entry></feed>
+with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
