@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-12T09:02:00+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Stubbing with Python in built server</title><link href="/2017/11/12/Stubbing-with-Python-inbuilt-server.html" rel="alternate" type="text/html" title="Stubbing with Python in built server" /><published>2017-11-12T07:41:00+05:30</published><updated>2017-11-12T07:41:00+05:30</updated><id>/2017/11/12/Stubbing-with-Python-inbuilt-server</id><content type="html" xml:base="/2017/11/12/Stubbing-with-Python-inbuilt-server.html">&lt;p&gt;Its sometimes required that you need to have some url returning some data to
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-19T17:27:30+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Why not MSP rather than CTC?</title><link href="/2017/11/19/why-not-msp-rather-than-ctc.html" rel="alternate" type="text/html" title="Why not MSP rather than CTC?" /><published>2017-11-19T00:00:00+05:30</published><updated>2017-11-19T00:00:00+05:30</updated><id>/2017/11/19/why-not-msp-rather-than-ctc</id><content type="html" xml:base="/2017/11/19/why-not-msp-rather-than-ctc.html">&lt;p&gt;Your company cares about you. It has given you the opportunity to succeed right?
+And they make your life better and simple right? Okay in that case why don’t
+your I.T company say that this is the Minimum Salary Paid (MSP) paid to you
+rather than you are a Cost To The Company (CTC)?&lt;/p&gt;
+
+&lt;p&gt;Well, why am I proposing this. Its simple. CTC is a degrading term. It means that 
+you are costing that company, possibly not worth it. Well, that what it really means.
+You are an liability rather than an asset. Customer brings in money and
+magically it turns into profit, and you bite away those profits being an cost to
+and rather not an asset to the company.&lt;/p&gt;
+
+&lt;p&gt;Companies that truly care about people should not advertise that if you are
+employed and it costs the company so much, saying that you cost a bite out of
+their fortune, rather they must praise your worth. Companies must say that you
+are worth so much, so this is the minimum salary that we can pay you. That means
+at the end of working for that year your account will have that much amount
+credited by the company. And that is a minimum amount. It can go up and not down.
+This means that your minimum worth is so much and maximum is yet to be explored!&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t that be nice?&lt;/p&gt;</content><author><name></name></author><summary type="html">Your company cares about you. It has given you the opportunity to succeed right? And they make your life better and simple right? Okay in that case why don’t your I.T company say that this is the Minimum Salary Paid (MSP) paid to you rather than you are a Cost To The Company (CTC)?</summary></entry><entry><title type="html">Stubbing with Python in built server</title><link href="/2017/11/12/Stubbing-with-Python-inbuilt-server.html" rel="alternate" type="text/html" title="Stubbing with Python in built server" /><published>2017-11-12T07:41:00+05:30</published><updated>2017-11-12T07:41:00+05:30</updated><id>/2017/11/12/Stubbing-with-Python-inbuilt-server</id><content type="html" xml:base="/2017/11/12/Stubbing-with-Python-inbuilt-server.html">&lt;p&gt;Its sometimes required that you need to have some url returning some data to
 finish your client server software. But you may not have the luxury of server
 side thing completed as it may involve some complexities.&lt;/p&gt;
 
@@ -331,51 +350,4 @@ like Peter betraying Jesus.&lt;/p&gt;
 &lt;p&gt;But I am proud of myself of being unshakable and sticking to the truth, the
 people who are supporting me in my defiant stand is my mom who is non
 engineer! How ungrateful I have been to her till now and how much I understand
-of how much she understands me now.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">What I hate about medium</title><link href="/2017/10/11/What-I-hate-about-medium.html" rel="alternate" type="text/html" title="What I hate about medium" /><published>2017-10-11T00:00:00+05:30</published><updated>2017-10-11T00:00:00+05:30</updated><id>/2017/10/11/What-I-hate-about-medium</id><content type="html" xml:base="/2017/10/11/What-I-hate-about-medium.html">&lt;p&gt;&lt;img src=&quot;http://logok.org/wp-content/uploads/2015/10/Medium-logo-2015-logotype.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Medium is popular blogging platform, but I moved away from  it to Jekyll and
-Jekyll was good. Let me tell you why I don’t like to blog any more on medium.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Medium wants to track you&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Medium loves to track you. It wants to know what your interests are? What you
-like to read? Who you follow? Are people working in Medium your friends to know
-these details about you?&lt;/p&gt;
-
-&lt;p&gt;Though medium does not force you to login, look at this ugly tool bar at the
-bottom&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/messing_up_as_developer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Medium reduces your reading area, it forces you to sign in to read so that it
-knows about you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You don’t know what they do with your data&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Do you really know what Medium does with your data and the behavioral data
-they collect from you? Do they sell it to others? Share it to NSA? Who knows?
-This is the major problem we face today using software as service platforms.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Anonymous commenting not possible&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Even to comment on ones blog, one needs to login to medium and have a medium
-account. Thats ridiculous. Commenting means you have more interest on that
-particular topic, so you can be sold more ads about it. Thats why they want you
-to login so that they can track about you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Blog migration is hard&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Migrating your blog content away from Medium is hard. Unlike Wordpress you do
-not have a good migration tool or a tool where you can download all your data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What happens if you delete your blog?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In medium, none know what happens if you delete your blog or account.
-Does it really get deleted? Your details are kept by them even if you have
-deleted your account? Who knows what they are doing without your knowledge?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;All these questions have made me to log off medium, I wish you too do the same.
-Its far far better to have your own server, possibly a wordpress one and blog
-with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+of how much she understands me now.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
