@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-02T21:48:21+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Unfair expectations</title><link href="/2017/12/02/unfair-expectations.html" rel="alternate" type="text/html" title="Unfair expectations" /><published>2017-12-02T00:00:00+05:30</published><updated>2017-12-02T00:00:00+05:30</updated><id>/2017/12/02/unfair-expectations</id><content type="html" xml:base="/2017/12/02/unfair-expectations.html">&lt;p&gt;I am consulting for a company now in Python web development. My team is in a
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-05T11:11:39+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Employee Skill and Business Needs</title><link href="/2017/12/05/Employee-Skill-and-Business-Needs.html" rel="alternate" type="text/html" title="Employee Skill and Business Needs" /><published>2017-12-05T00:00:00+05:30</published><updated>2017-12-05T00:00:00+05:30</updated><id>/2017/12/05/Employee-Skill-and-Business-Needs</id><content type="html" xml:base="/2017/12/05/Employee-Skill-and-Business-Needs.html">&lt;p&gt;You are a proud programmer, you know Ruby and there is no programming language
+like it, and all of a sudden you are caught up in a situation thats unrelated to
+you. Sales of the software slumps and your boss yells at your team. You don’t
+know what’s happening, but you are made to work hard, atleast sit in your office,
+make some cold marketting calls. What you must do? The best answer is to leave
+the business and find something else.&lt;/p&gt;
+
+&lt;p&gt;I find not so easy as a programer and as an artist that businesses are not able
+to understand ones skills and are unable to utilize ones talent. Imagine you are
+an author in 1960’s, you write a novel, a publisher likes it and pays for you
+to complete it. You complete it and goback to him, then he says that as a writer
+you must understand the publishing business, you say you do, then he shows a
+press machine and tells you to operate it. Imagine how stupid it will be?&lt;/p&gt;
+
+&lt;p&gt;If you think its absurd to tell the writer to operate the press machine, you
+should think how absurd Info Tech companies are operating in India and around
+the world. People with money seem to have no clue how to run a company. People
+have left programming a while ago and seem to forget how to be a programmer,
+they seem to forget the pressures programmer faces.&lt;/p&gt;
+
+&lt;p&gt;Its like press or publishing house been run by a person who doesn’t know what
+it means to be a writer.&lt;/p&gt;</content><author><name></name></author><summary type="html">You are a proud programmer, you know Ruby and there is no programming language like it, and all of a sudden you are caught up in a situation thats unrelated to you. Sales of the software slumps and your boss yells at your team. You don’t know what’s happening, but you are made to work hard, atleast sit in your office, make some cold marketting calls. What you must do? The best answer is to leave the business and find something else.</summary></entry><entry><title type="html">Unfair expectations</title><link href="/2017/12/02/unfair-expectations.html" rel="alternate" type="text/html" title="Unfair expectations" /><published>2017-12-02T00:00:00+05:30</published><updated>2017-12-02T00:00:00+05:30</updated><id>/2017/12/02/unfair-expectations</id><content type="html" xml:base="/2017/12/02/unfair-expectations.html">&lt;p&gt;I am consulting for a company now in Python web development. My team is in a
 state where it does not know what HTTP 500 error is. That too one is 10 year
 experienced developer and another is 4. I raised an alarm that we may not make
 it this sprint, and what I get as a reward? It was told to me that I am been
@@ -356,10 +377,4 @@ himself from the spoils of his governance.&lt;/p&gt;
 out say ‘Yes I have made a mistake, I am sorry, and these are the ways I am
 planning to fix it’. Isn’t that a mark of a good leader? Why on Earth Modi
 who wants to project himself as a strong man is behaving like a rat and making
-fool of himself?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mailspring is evil</title><link href="/2017/10/21/mailspring-is-evil.html" rel="alternate" type="text/html" title="Mailspring is evil" /><published>2017-10-21T00:00:00+05:30</published><updated>2017-10-21T00:00:00+05:30</updated><id>/2017/10/21/mailspring-is-evil</id><content type="html" xml:base="/2017/10/21/mailspring-is-evil.html">&lt;p&gt;&lt;img src=&quot;https://getmailspring.com/static/img/hero_graphic_linux@2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I was using mailspring as my mail client for some time, but now I uninstalled it. Mailspring markets itself as a mail client for corporate and like corporates it has evil in its DNA.&lt;/p&gt;
-
-&lt;p&gt;As digital freedom progresses, we think that one must not be tracked and ones privacy must be respected, but mailspring thinks the opposite. I was shocked to see when mailspring reported who had opened my mails and when. I called those persons and asked weather they knew that I knew that they had read my mails and they said no. This could mean just one thing, mailspring tracks people even without them knowing. Its evil, pure evil.&lt;/p&gt;
-
-&lt;p&gt;People have been made to use mailspring because its convenient, in exchange it compromises their freedom. Thats kind of not acceptable. Instead I would ask people to contribute to mailpile which is hosted here &lt;a href=&quot;http://mailpile.is&quot;&gt;http://mailpile.is&lt;/a&gt; . Its not convenient to use, but its surely built with concept of freedom in mind. If enough people contribute, it could become the best Email solution. Or better one can use Thunderbird &lt;a href=&quot;https://www.mozilla.org/en-US/thunderbird/&quot;&gt;https://www.mozilla.org/en-US/thunderbird/&lt;/a&gt; with enigmail extension &lt;a href=&quot;https://www.enigmail.net/index.php/en/&quot;&gt;https://www.enigmail.net/index.php/en/&lt;/a&gt; , these will prevent Google and other email providers from tracking you.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+fool of himself?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
