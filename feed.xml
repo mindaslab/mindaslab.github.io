@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-27T15:41:09+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">I Love Ruby comes to top</title><link href="/2017/12/27/I-Love-Ruby-comes-to-top.html" rel="alternate" type="text/html" title="I Love Ruby comes to top" /><published>2017-12-27T00:00:00+05:30</published><updated>2017-12-27T00:00:00+05:30</updated><id>/2017/12/27/I-Love-Ruby-comes-to-top</id><content type="html" xml:base="/2017/12/27/I-Love-Ruby-comes-to-top.html">&lt;p&gt;&lt;img src=&quot;/assets/ilr_at_top.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-31T16:56:35+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Why I don’t wish people</title><link href="/2017/12/31/Why-I-dont-wish-people.html" rel="alternate" type="text/html" title="Why I don't wish people" /><published>2017-12-31T00:00:00+05:30</published><updated>2017-12-31T00:00:00+05:30</updated><id>/2017/12/31/Why-I-dont-wish-people</id><content type="html" xml:base="/2017/12/31/Why-I-dont-wish-people.html">&lt;p&gt;&lt;img src=&quot;/images/briyani_by_karthik_dad.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday was a great day. I felt like eating Briyani badly, one of my family
+member purchased it and was on the way, then some one knocked. It was my neighbor
+and what he had? Wow that was kind of unexpected.&lt;/p&gt;
+
+&lt;p&gt;The briyani tasted great. It was delivered to us because he was celebrating his
+birthday. I shook hands with him but I said nothing. Did I wish? No! One may
+ask why and why I don’t wish people?&lt;/p&gt;
+
+&lt;p&gt;Well its simple. You meet a person and you congratulate because one has a
+father, a mother and he is breathing. Do it to some one and see. It will look
+absurd. Why? Because its natural for all person to have these. Similarly for me
+its very natural to have a birthday, new year, end of the year and other
+festivals.&lt;/p&gt;
+
+&lt;p&gt;For some reason I think its normal for a person to have a birthday, a death day,
+so on and so forth. You have done nothing to deserve it. So why you need to
+wish? It looks silly for me to wish people just because they are alive this new
+year or this birthday. For some reason I don’t want to think that they or I will
+be dead the next year so that we may not be able to wish each other.&lt;/p&gt;
+
+&lt;p&gt;If a person has done something spectacular to amaze me, like some one made me
+great briyani or a chicken soup which my wife makes (that bowls me down) I am
+ready to congratulate them at that instant. Other times no.&lt;/p&gt;
+
+&lt;p&gt;So yday I had two briyani’s at a time and a food coma. Thanks for that if you
+are my neighbor and read this.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">I Love Ruby comes to top</title><link href="/2017/12/27/I-Love-Ruby-comes-to-top.html" rel="alternate" type="text/html" title="I Love Ruby comes to top" /><published>2017-12-27T00:00:00+05:30</published><updated>2017-12-27T00:00:00+05:30</updated><id>/2017/12/27/I-Love-Ruby-comes-to-top</id><content type="html" xml:base="/2017/12/27/I-Love-Ruby-comes-to-top.html">&lt;p&gt;&lt;img src=&quot;/assets/ilr_at_top.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was a pleasant surprise for me to type “I Love Ruby” on Google and to find that
 my book has bubbled to the top finally. There were many reason why it did not.&lt;/p&gt;
@@ -251,103 +278,4 @@ a leader who can make us understand things well?&lt;/p&gt;
 
 &lt;p&gt;By answering Jebersons question, BJP could have unearthed an weakness in it, and
 could have proceed to fix it, instead they simply want to hide it from the
-external world by threatening others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Renaming class in Ruby (a kinda)</title><link href="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html" rel="alternate" type="text/html" title="Renaming class in Ruby (a kinda)" /><published>2017-10-30T00:00:00+05:30</published><updated>2017-10-30T00:00:00+05:30</updated><id>/2017/10/30/Renaming-class-in-Ruby-a-kinda</id><content type="html" xml:base="/2017/10/30/Renaming-class-in-Ruby-a-kinda.html">&lt;p&gt;Lets say that you have a situation where you need to code about dogs. You know
-that there are different kind of dogs and you end up with  a code structure as
-shown&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Animal&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Domestic&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
-        &lt;span class=&quot;s2&quot;&gt;&quot;woof&quot;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Wild&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
-        &lt;span class=&quot;s2&quot;&gt;&quot;grrr&quot;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;So there are two kinds of dogs, one is wild that can be accessed like
-&lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt; and other one is
-Domestic which could be accessed in similar way.&lt;/p&gt;
-
-&lt;p&gt;So if you want to print out how Domestic and Wild dog sounds like you can
-write a program as shown:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# using_dog_in_animal_module.rb&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dog_in_animal_module.rb&quot;&lt;/span&gt;
-
-&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;But if you look I am using something like this &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;/code&gt; which is
-long to code and tax my fingers, what if I could do something that would make
-my typing shorter? Fortunately you can do that in Ruby. See the program below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# renaming_class.rb&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dog_in_animal_module.rb&quot;&lt;/span&gt;
-
-&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;WildDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Wild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WildDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;In the code above, notice line 5 and line 6, we are kinda reaming the class.
-Rather using the long form &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt;
-we simply assign it to a constant name &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;/code&gt;  as shown 
-&lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Domestic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;/code&gt; and
-in line  8 we can use it short like &lt;code class=&quot;highlight language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DomesticDog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sound&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In a large programming environment, we would have reduced lot of typing. Happy coding! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mindaslab/ilrx/tree/master/rename_class&quot;&gt;Code Samples&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mindaslab.github.io/I-Love-Ruby/&quot;&gt;Download my Ruby Book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Lets say that you have a situation where you need to code about dogs. You know that there are different kind of dogs and you end up with a code structure as shown</summary></entry></feed>
+external world by threatening others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
