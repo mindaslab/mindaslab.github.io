@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-28T16:35:22+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Factual Beliefs</title><link href="/2018/01/28/factual-beliefs.html" rel="alternate" type="text/html" title="Factual Beliefs" /><published>2018-01-28T00:00:00+05:30</published><updated>2018-01-28T00:00:00+05:30</updated><id>/2018/01/28/factual-beliefs</id><content type="html" xml:base="/2018/01/28/factual-beliefs.html">&lt;p&gt;India obtained its independence is a a fact, but is India independent? If you say
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-02T14:01:14+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">How Heroku still makes money?</title><link href="/2018/02/02/how-heroku-still-makes-money.html" rel="alternate" type="text/html" title="How Heroku still makes money?" /><published>2018-02-02T00:00:00+05:30</published><updated>2018-02-02T00:00:00+05:30</updated><id>/2018/02/02/how-heroku-still-makes-money</id><content type="html" xml:base="/2018/02/02/how-heroku-still-makes-money.html">&lt;p&gt;&lt;img src=&quot;http://logz.io/wp-content/uploads/2016/04/heroku-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just wonder how Heroku makes money? According to me, Heroku does just one
+thing, it makes deploying apps easy. Thats it. But there are other solutions if
+you sweat a bit, and they makes it much easier and cheaper than deploying on
+Heroku. One such thing is Capistrano-rails.&lt;/p&gt;
+
+&lt;p&gt;I wonder why so many Rails and other app developers are so lazy in buying
+prepackaged solutions, when just a little knowledge of Linux is all thats enough
+to set up your own deployment.&lt;/p&gt;
+
+&lt;p&gt;Its strange to me. If you really think Heroku is easy, one must give a try for
+capistrano, if one has not done it, most probably that companies tech guys or
+CTO is a fool.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/ttrhow/deploying-rails-app-using-nginx-puma-and-capistrano-3&quot;&gt;Deploying Rails App with Capistrano&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Factual Beliefs</title><link href="/2018/01/28/factual-beliefs.html" rel="alternate" type="text/html" title="Factual Beliefs" /><published>2018-01-28T00:00:00+05:30</published><updated>2018-01-28T00:00:00+05:30</updated><id>/2018/01/28/factual-beliefs</id><content type="html" xml:base="/2018/01/28/factual-beliefs.html">&lt;p&gt;India obtained its independence is a a fact, but is India independent? If you say
 yes thats a belief. Right from the processor I use on the computer I type and
 the processor you use on the phone or what ever devise you read this article is
 un-Indian. Most of us in the tech and tech based industry, in fact any industry
@@ -276,20 +295,4 @@ complete my work.&lt;/p&gt;
 
 &lt;p&gt;See my result here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/stubbing_json.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Its sometimes required that you need to have some url returning some data to finish your client server software. But you may not have the luxury of server side thing completed as it may involve some complexities.</summary></entry><entry><title type="html">Water logging problem in Skylab Avenue Sithalapakkam</title><link href="/2017/11/08/water-logging-problem-in-sithalapakkam.html" rel="alternate" type="text/html" title="Water logging problem in Skylab Avenue Sithalapakkam" /><published>2017-11-08T00:00:00+05:30</published><updated>2017-11-08T00:00:00+05:30</updated><id>/2017/11/08/water-logging-problem-in-sithalapakkam</id><content type="html" xml:base="/2017/11/08/water-logging-problem-in-sithalapakkam.html">&lt;p&gt;In Sithalapakkam, we the residents did a stupid thing out of panic. In third
-street Skylab Avenue, due to an construction, water levels started to
-rise up during November rains. The residents fought against people who blocked
-natural water flow and broke the construction which was a good thing, but then
-for some reason panic set in. Rather than thinking of building a channel for
-water to drain into Sithalapakkam lake, the residents of 3rd street started to
-collect money to rise up the road level.&lt;/p&gt;
-
-&lt;p&gt;Yes raising up the road level will prevent water from coming in, but till what
-limit? Shouldn’t water be let to flow along down the land in efficient
-manner than damming it? Now Water stagnates. Stagnates like hell before the
-place where road level has been risen.&lt;/p&gt;
-
-&lt;p&gt;To make matters worst, the water has no place to drain and it stagnates on a
-piece of land where residents for long had thrown their garbage. The water has
-turned black, foul and is leaching into soil. The collective action of us has
-proven to be collective stupidity.&lt;/p&gt;</content><author><name></name></author><summary type="html">In Sithalapakkam, we the residents did a stupid thing out of panic. In third street Skylab Avenue, due to an construction, water levels started to rise up during November rains. The residents fought against people who blocked natural water flow and broke the construction which was a good thing, but then for some reason panic set in. Rather than thinking of building a channel for water to drain into Sithalapakkam lake, the residents of 3rd street started to collect money to rise up the road level.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/images/stubbing_json.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Its sometimes required that you need to have some url returning some data to finish your client server software. But you may not have the luxury of server side thing completed as it may involve some complexities.</summary></entry></feed>
