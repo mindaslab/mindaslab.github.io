@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-02T14:01:14+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">How Heroku still makes money?</title><link href="/2018/02/02/how-heroku-still-makes-money.html" rel="alternate" type="text/html" title="How Heroku still makes money?" /><published>2018-02-02T00:00:00+05:30</published><updated>2018-02-02T00:00:00+05:30</updated><id>/2018/02/02/how-heroku-still-makes-money</id><content type="html" xml:base="/2018/02/02/how-heroku-still-makes-money.html">&lt;p&gt;&lt;img src=&quot;http://logz.io/wp-content/uploads/2016/04/heroku-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-11T16:56:15+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">A shameful day for Tamils</title><link href="/2018/02/11/a-shameful-day-for-tamils.html" rel="alternate" type="text/html" title="A shameful day for Tamils" /><published>2018-02-11T00:00:00+05:30</published><updated>2018-02-11T00:00:00+05:30</updated><id>/2018/02/11/a-shameful-day-for-tamils</id><content type="html" xml:base="/2018/02/11/a-shameful-day-for-tamils.html">&lt;p&gt;&lt;img src=&quot;http://static.bengali.news18.com/static-bengali/2016/12/jayalalithaa1-630x420.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow 12th of February 2018 will be a very shameful day for all Tamils in
+India. This day will prove that we are utter fools and have misused a great tool
+given to us by Independence. We have elected such a government that will
+inaugurate a picture of a convicted criminal in our assembly.&lt;/p&gt;
+
+&lt;p&gt;In short this proves that we have elected a gang thats such audaciously so
+criminal and such dumb minded they don’t even realize that they are
+inaugurating a picture of criminal in assembly and they don’t seem to realize
+its wrong.&lt;/p&gt;
+
+&lt;p&gt;Jayalalitha is a criminal, she is a goon and thats been proven in court. If at
+all we must allow her picture to be hosted in assembly, then it must be proven
+that she is innocent. Dumb ass Edapadi and Paneerselvam are so so fools they
+don’t even know to respect law.&lt;/p&gt;
+
+&lt;p&gt;If we don’t realize its wrong, no force in this universe will be able to save
+us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">How Heroku still makes money?</title><link href="/2018/02/02/how-heroku-still-makes-money.html" rel="alternate" type="text/html" title="How Heroku still makes money?" /><published>2018-02-02T00:00:00+05:30</published><updated>2018-02-02T00:00:00+05:30</updated><id>/2018/02/02/how-heroku-still-makes-money</id><content type="html" xml:base="/2018/02/02/how-heroku-still-makes-money.html">&lt;p&gt;&lt;img src=&quot;http://logz.io/wp-content/uploads/2016/04/heroku-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I just wonder how Heroku makes money? According to me, Heroku does just one
 thing, it makes deploying apps easy. Thats it. But there are other solutions if
@@ -270,29 +288,4 @@ at the end of working for that year your account will have that much amount
 credited by the company. And that is a minimum amount. It can go up and not down.
 This means that your minimum worth is so much and maximum is yet to be explored!&lt;/p&gt;
 
-&lt;p&gt;Wouldn’t that be nice?&lt;/p&gt;</content><author><name></name></author><summary type="html">Your company cares about you. It has given you the opportunity to succeed right? And they make your life better and simple right? Okay in that case why don’t your I.T company say that this is the Minimum Salary Paid (MSP) paid to you rather than you are a Cost To The Company (CTC)?</summary></entry><entry><title type="html">Stubbing with Python in built server</title><link href="/2017/11/12/Stubbing-with-Python-inbuilt-server.html" rel="alternate" type="text/html" title="Stubbing with Python in built server" /><published>2017-11-12T07:41:00+05:30</published><updated>2017-11-12T07:41:00+05:30</updated><id>/2017/11/12/Stubbing-with-Python-inbuilt-server</id><content type="html" xml:base="/2017/11/12/Stubbing-with-Python-inbuilt-server.html">&lt;p&gt;Its sometimes required that you need to have some url returning some data to
-finish your client server software. But you may not have the luxury of server
-side thing completed as it may involve some complexities.&lt;/p&gt;
-
-&lt;p&gt;Lets say that I have a json file like this&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Karthik&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Murugan&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;All I need to do is to create a folder. Create a file say called &lt;em&gt;people.json&lt;/em&gt;
-with the data above in it. In my terminal goto that location and type
-&lt;code class=&quot;highlight language-bash&quot; data-lang=&quot;bash&quot;&gt;python -m http.server&lt;/code&gt;, launch my browser and type
-&lt;em&gt;http://localhost:8000/people.json&lt;/em&gt; and I will be having that data to stub and
-complete my work.&lt;/p&gt;
-
-&lt;p&gt;See my result here:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/stubbing_json.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Its sometimes required that you need to have some url returning some data to finish your client server software. But you may not have the luxury of server side thing completed as it may involve some complexities.</summary></entry></feed>
+&lt;p&gt;Wouldn’t that be nice?&lt;/p&gt;</content><author><name></name></author><summary type="html">Your company cares about you. It has given you the opportunity to succeed right? And they make your life better and simple right? Okay in that case why don’t your I.T company say that this is the Minimum Salary Paid (MSP) paid to you rather than you are a Cost To The Company (CTC)?</summary></entry></feed>
