@@ -1,5 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-25T09:00:30+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">Sharpen your axe</title><link href="/2018/02/25/sharpen-your-axe.html" rel="alternate" type="text/html" title="Sharpen your axe" /><published>2018-02-25T00:00:00+05:30</published><updated>2018-02-25T00:00:00+05:30</updated><id>/2018/02/25/sharpen-your-axe</id><content type="html" xml:base="/2018/02/25/sharpen-your-axe.html">&lt;p&gt;&lt;img src=&quot;http://panasian-hk.com/image/data/Product/Handtool/Hammer-and-Axe/Axe/3240_1-1_4_lb__felling_axe_tekton.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-16T07:22:21+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">Another admission of defeat for Windows</title><link href="/2018/04/16/another-admission-of-defeat-for-windows.html" rel="alternate" type="text/html" title="Another admission of defeat for Windows" /><published>2018-04-16T00:00:00+05:30</published><updated>2018-04-16T00:00:00+05:30</updated><id>/2018/04/16/another-admission-of-defeat-for-windows</id><content type="html" xml:base="/2018/04/16/another-admission-of-defeat-for-windows.html">&lt;p&gt;&lt;img src=&quot;https://cdn.wallpapersafari.com/38/59/PYHvQk.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows is slowly but surely giving way to GNU Linux. Linux’s desktop share is just
+above 2%, but on the Internet scale GNU Linux rules. All computers that power our
+Internet are critical systems and they run Linux. Most mobile phones use Linux
+as Android. Many people who use Amndroid never know they are Linux users and
+they vocally oppose using Linux on their desktops!?&lt;/p&gt;
+
+&lt;p&gt;But Microsoft is not as foolish as the people who use its OS. Looks like many
+engineers on the M$ know that defeat of Windows is imminent, and they are giving
+their way slowly ao that it would not look like a humiliating defeat.&lt;/p&gt;
+
+&lt;p&gt;First is M$’s Azure. It offers Linux on its servers, and I bet there are more Azure 
+instances that run Linux than Windows. Recently I had a problem with Windows.
+In my office we use Python as we are a data science company, one of my coworker
+had a problem in running a flask app. It worked perfectly on my system which was
+and Ubuntu.&lt;/p&gt;
+
+&lt;p&gt;After a little bit investigation it was evident the way that the way Windows OS
+functioned was a problem. I had an irrational resistance for installing GNU Linux on
+her computer, but it was clear the resistance was irrational. There is a way to
+combat irrationality, let the irrational people finish stuff. Work stopped and
+fortunately for me, the person realized loss in productivity and it was the only
+the way to go ahead, so I installed GNU Lubuntu.&lt;/p&gt;
+
+&lt;p&gt;I just wondered if Windows was such a crap system, why are developers using it?
+Are CTO’s around the world gone nuts? Haven’t they seen such a problem? But then
+to my amazement, I found that Windows 10 now allows Linux subsystem to be
+installed in it! Its not as good as full GNU Linux at your disposal, but rather
+than fighting the free software community, M$ has recognized Linux which once it
+famously called as the toy OS.&lt;/p&gt;
+
+&lt;p&gt;Like a Spartan phalanx Linux is advancing, though M$ is doing all it can to stop
+Linux, it seems not enough. As more and more developers pour in to develop Linux
+during their free time, M$ simply does not have the budget to win such a war, and
+they know it really well.&lt;/p&gt;
+
+&lt;p&gt;Many economic theorist will be confused to  know that a capitalistic organization
+is bowing to a communal force thats not interested in making a buck. Well, we
+don’t know if the Universe is infinite, but we are sure that human stupidity is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10&quot;&gt;Install the Windows Subsystem for Linux&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Sharpen your axe</title><link href="/2018/02/25/sharpen-your-axe.html" rel="alternate" type="text/html" title="Sharpen your axe" /><published>2018-02-25T00:00:00+05:30</published><updated>2018-02-25T00:00:00+05:30</updated><id>/2018/02/25/sharpen-your-axe</id><content type="html" xml:base="/2018/02/25/sharpen-your-axe.html">&lt;p&gt;&lt;img src=&quot;http://panasian-hk.com/image/data/Product/Handtool/Hammer-and-Axe/Axe/3240_1-1_4_lb__felling_axe_tekton.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Its was in  a project named places.com, a real estate website, I was into a
 company called Zanec, that company had never seen Ruby on Rails, I was the first
@@ -292,22 +335,4 @@ great briyani or a chicken soup which my wife makes (that bowls me down) I am
 ready to congratulate them at that instant. Other times no.&lt;/p&gt;
 
 &lt;p&gt;So yday I had two briyani’s at a time and a food coma. Thanks for that if you
-are my neighbor and read this.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">I Love Ruby comes to top</title><link href="/2017/12/27/I-Love-Ruby-comes-to-top.html" rel="alternate" type="text/html" title="I Love Ruby comes to top" /><published>2017-12-27T00:00:00+05:30</published><updated>2017-12-27T00:00:00+05:30</updated><id>/2017/12/27/I-Love-Ruby-comes-to-top</id><content type="html" xml:base="/2017/12/27/I-Love-Ruby-comes-to-top.html">&lt;p&gt;&lt;img src=&quot;/assets/ilr_at_top.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It was a pleasant surprise for me to type “I Love Ruby” on Google and to find that
-my book has bubbled to the top finally. There were many reason why it did not.&lt;/p&gt;
-
-&lt;p&gt;First I had no dedicated website for it. I was lazy and first published it out
-of Dropbox. But Dropbox was an unethical company so I switched to Open mail box.
-Open mail box had own cloud in it. But ll of a sudden open mail box maid these
-features as paid and I was left in dust.&lt;/p&gt;
-
-&lt;p&gt;Finally I moved to github and now the project is hosted there and it seems to
-be okay. Any way if you are Rubyist you can get my book in the links provided
-below.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mindaslab.github.io/I-Love-Ruby/&quot;&gt;I Love Ruby&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+are my neighbor and read this.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
