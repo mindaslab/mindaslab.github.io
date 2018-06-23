@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-05-30T22:47:40+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">The dark side of Fantastic Jeyachandran</title><link href="/2018/05/30/the-dark-side-of-fantastic-jeyachandran.html" rel="alternate" type="text/html" title="The dark side of Fantastic Jeyachandran" /><published>2018-05-30T22:33:00+05:30</published><updated>2018-05-30T22:33:00+05:30</updated><id>/2018/05/30/the-dark-side-of-fantastic-jeyachandran</id><content type="html" xml:base="/2018/05/30/the-dark-side-of-fantastic-jeyachandran.html">&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/n2z-8oLPOWY?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-23T14:18:19+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">A possible mistake in Rails Active Storage documentation</title><link href="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html" rel="alternate" type="text/html" title="A possible mistake in Rails Active Storage documentation" /><published>2018-06-23T00:00:00+05:30</published><updated>2018-06-23T00:00:00+05:30</updated><id>/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation</id><content type="html" xml:base="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html">&lt;p&gt;I was coding for a project where image needs to uploaded and resized. I used Rails 5.2 and hence active storage. I did refer its documentation and resized the image as stated in 
+http://edgeguides.rubyonrails.org/active_storage_overview.html#transforming-images , and to my dismay I got this error message:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;MiniMagick::Error &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;mogrify -resize-to-fit &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;100, 100] /tmp/mini_magick20180623-27536-w8k32h.jpg&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; failed with error:
+mogrify-im6.q16: unrecognized option &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;-resize-to-fit&lt;span class=&quot;s1&quot;&gt;' @ error/mogrify.c/MogrifyImageCommand/5885.
+):&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So reading the error I was able to figure out &lt;em&gt;resize_to_fit&lt;/em&gt; was not the thing that must be used, so I checked on the internet and found that &lt;em&gt;resize&lt;/em&gt; works, and one rather than giving:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= image_tag user.avatar.variant(resize_to_fit: [100, 100]) %&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;can get away by modifying it as&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= image_tag user.avatar.variant(resize: &quot;100 x100&quot;) %&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Did any one of you face such an issue? Is there a mistake in Rails docs? I don’t know. But it definitely did not work for me.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was coding for a project where image needs to uploaded and resized. I used Rails 5.2 and hence active storage. I did refer its documentation and resized the image as stated in http://edgeguides.rubyonrails.org/active_storage_overview.html#transforming-images , and to my dismay I got this error message:</summary></entry><entry><title type="html">The dark side of Fantastic Jeyachandran</title><link href="/2018/05/30/the-dark-side-of-fantastic-jeyachandran.html" rel="alternate" type="text/html" title="The dark side of Fantastic Jeyachandran" /><published>2018-05-30T22:33:00+05:30</published><updated>2018-05-30T22:33:00+05:30</updated><id>/2018/05/30/the-dark-side-of-fantastic-jeyachandran</id><content type="html" xml:base="/2018/05/30/the-dark-side-of-fantastic-jeyachandran.html">&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/n2z-8oLPOWY?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Jeyachandran invests crores to put ads on T.V about its new showroom in Pallikaranai, and its a grand showroom. I drive past it every day and I drive back late at night everyday.&lt;/p&gt;
 
@@ -195,23 +210,4 @@ that she is innocent. Dumb ass Edapadi and Paneerselvam are so so fools they
 don’t even know to respect law.&lt;/p&gt;
 
 &lt;p&gt;If we don’t realize its wrong, no force in this universe will be able to save
-us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">How Heroku still makes money?</title><link href="/2018/02/02/how-heroku-still-makes-money.html" rel="alternate" type="text/html" title="How Heroku still makes money?" /><published>2018-02-02T00:00:00+05:30</published><updated>2018-02-02T00:00:00+05:30</updated><id>/2018/02/02/how-heroku-still-makes-money</id><content type="html" xml:base="/2018/02/02/how-heroku-still-makes-money.html">&lt;p&gt;&lt;img src=&quot;http://logz.io/wp-content/uploads/2016/04/heroku-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I just wonder how Heroku makes money? According to me, Heroku does just one
-thing, it makes deploying apps easy. Thats it. But there are other solutions if
-you sweat a bit, and they makes it much easier and cheaper than deploying on
-Heroku. One such thing is Capistrano-rails.&lt;/p&gt;
-
-&lt;p&gt;I wonder why so many Rails and other app developers are so lazy in buying
-prepackaged solutions, when just a little knowledge of Linux is all thats enough
-to set up your own deployment.&lt;/p&gt;
-
-&lt;p&gt;Its strange to me. If you really think Heroku is easy, one must give a try for
-capistrano, if one has not done it, most probably that companies tech guys or
-CTO is a fool.&lt;/p&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/ttrhow/deploying-rails-app-using-nginx-puma-and-capistrano-3&quot;&gt;Deploying Rails App with Capistrano&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
