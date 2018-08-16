@@ -1,5 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-23T17:21:17+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
-</subtitle><entry><title type="html">A possible mistake in Rails Active Storage documentation</title><link href="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html" rel="alternate" type="text/html" title="A possible mistake in Rails Active Storage documentation" /><published>2018-06-23T00:00:00+05:30</published><updated>2018-06-23T00:00:00+05:30</updated><id>/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation</id><content type="html" xml:base="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html">&lt;p&gt;I was coding for a project where image needs to uploaded and resized. I used Rails 5.2 and hence active storage. I did refer its documentation and resized the image as stated in 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-08-16T15:07:13+05:30</updated><id>/</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God.
+</subtitle><entry><title type="html">India wide energy and water network</title><link href="/2018/08/16/india-wide-energy-and-water-network.html" rel="alternate" type="text/html" title="India wide energy and water network" /><published>2018-08-16T00:00:00+05:30</published><updated>2018-08-16T00:00:00+05:30</updated><id>/2018/08/16/india-wide-energy-and-water-network</id><content type="html" xml:base="/2018/08/16/india-wide-energy-and-water-network.html">&lt;p&gt;Its flood in Kerala, tens are dying in it, Karnataka too is receiving a huge rainfall. These were the states that denied water to my state Tamilnadu for political and other reasons, and politicians in my state too took advantage of it to  increase their propaganda and get attention. The truth is, though we cannot completely avoid floods, we can minimize it by distributing water surplus to throughout India with careful planning and engineering.&lt;/p&gt;
+
+&lt;p&gt;As floods ravage many parts of our nation, we still have huge deserts in the North which when irrigated could produce food and support lot of livestock. Imagine the price of meat today in or nation, it has sky rocketed leaving many poor to be vegetarians.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Thar_desert_Rajasthan_India.jpg/1024px-Thar_desert_Rajasthan_India.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;Thar Desert India&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In fact the Chinese are converting their deserts to green paradise and are shrinking desert size, this achievement has never been done by any country&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/jkdxObsCVGY?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This type of achievement is possible in India too, if we can distribute water throughout the nation with pipes and motors we can achieve this. Pumping water costs energy, how can we find energy in an energy starved nation like us? The answer is solar and wind, India is a sunlight surplus nation, we also lot of shoreline that means we can harness wind energy, now offshore wind is becoming big and its costs are dropping.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/PUlfvXaISvc?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;If we can let homes apply for 0% loans to install solar on their roof tops, connect it to national grid, then we can make electricity extremely cheap. When there is excess electricity we can use it for pumping water from one place to another thus leveling out floods and water surplus.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/pKHTmhOeyLg?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Imagine a million kilometers of pipe with 2 meters in diameter, they can store 2 trillion liters of water, this mega pipeline that crisscrosses the nation will add a network storage effort. On such a large scale this grand Indian pipeline will become like the railways, it needs many managers, engineers , laborers to keep it working.&lt;/p&gt;
+
+&lt;p&gt;This freshwater network could also serve as a energy storage solution. When there is huge amount of fresh water we can use pumped hydro to store excess energy that’s been generated by our electricity grid and salinity gradient to generate energy in coastal regions.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/CDlvjkfpX_o?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/5UxCUuk4CEs?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;More canals, dykes and dams would mean more aquaculture. We all know how much fish and sea food costs now, this project could bring it down.&lt;/p&gt;
+
+&lt;p&gt;Are all these possible in a corrupt and bureaucratic country like India? I don’t know. Technically its possible, as an Engineer I can guarantee it. But there are water surplus states in India who would like to let their water waste to sea than to give it to their neighbors. They have been blocking such a scheme for long.&lt;/p&gt;</content><author><name></name></author><summary type="html">Its flood in Kerala, tens are dying in it, Karnataka too is receiving a huge rainfall. These were the states that denied water to my state Tamilnadu for political and other reasons, and politicians in my state too took advantage of it to increase their propaganda and get attention. The truth is, though we cannot completely avoid floods, we can minimize it by distributing water surplus to throughout India with careful planning and engineering.</summary></entry><entry><title type="html">A possible mistake in Rails Active Storage documentation</title><link href="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html" rel="alternate" type="text/html" title="A possible mistake in Rails Active Storage documentation" /><published>2018-06-23T00:00:00+05:30</published><updated>2018-06-23T00:00:00+05:30</updated><id>/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation</id><content type="html" xml:base="/2018/06/23/a-possible-mistake-in-rails-active-storage-documentation.html">&lt;p&gt;I was coding for a project where image needs to uploaded and resized. I used Rails 5.2 and hence active storage. I did refer its documentation and resized the image as stated in 
 &lt;a href=&quot;http://edgeguides.rubyonrails.org/active_storage_overview.html#transforming-images&quot;&gt;http://edgeguides.rubyonrails.org/active_storage_overview.html#transforming-images&lt;/a&gt; , and to my dismay I got this error message:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;MiniMagick::Error &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;mogrify -resize-to-fit &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;100, 100] /tmp/mini_magick20180623-27536-w8k32h.jpg&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; failed with error:
@@ -192,22 +231,4 @@ who obeys Hinduisms idiotic ideology more. Thats it.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/2018/02/11/a-shameful-day-for-tamils.html&quot;&gt;A shameful day for Tamils&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2018/01/07/Why-not-Shakeela-become-next-Tamilnadu-CM.html&quot;&gt;Why not Shakeela become next Tamilnadu CM?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">A shameful day for Tamils</title><link href="/2018/02/11/a-shameful-day-for-tamils.html" rel="alternate" type="text/html" title="A shameful day for Tamils" /><published>2018-02-11T00:00:00+05:30</published><updated>2018-02-11T00:00:00+05:30</updated><id>/2018/02/11/a-shameful-day-for-tamils</id><content type="html" xml:base="/2018/02/11/a-shameful-day-for-tamils.html">&lt;p&gt;&lt;img src=&quot;http://static.bengali.news18.com/static-bengali/2016/12/jayalalithaa1-630x420.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tomorrow 12th of February 2018 will be a very shameful day for all Tamils in
-India. This day will prove that we are utter fools and have misused a great tool
-given to us by Independence. We have elected such a government that will
-inaugurate a picture of a convicted criminal in our assembly.&lt;/p&gt;
-
-&lt;p&gt;In short this proves that we have elected a gang thats such audaciously so
-criminal and such dumb minded they don’t even realize that they are
-inaugurating a picture of criminal in assembly and they don’t seem to realize
-its wrong.&lt;/p&gt;
-
-&lt;p&gt;Jayalalitha is a criminal, she is a goon and thats been proven in court. If at
-all we must allow her picture to be hosted in assembly, then it must be proven
-that she is innocent. Dumb ass Edapadi and Paneerselvam are so so fools they
-don’t even know to respect law.&lt;/p&gt;
-
-&lt;p&gt;If we don’t realize its wrong, no force in this universe will be able to save
-us.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
