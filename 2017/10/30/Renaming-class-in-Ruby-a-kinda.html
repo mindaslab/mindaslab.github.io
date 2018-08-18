@@ -84,7 +84,7 @@
 that there are different kind of dogs and you end up with  a code structure as
 shown</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -100,7 +100,8 @@ shown</p>
 14
 15
 16
-17</pre></td><td class="code"><pre><span class="k">module</span> <span class="nn">Animal</span>
+17
+</pre></td><td class="code"><pre><span class="k">module</span> <span class="nn">Animal</span>
   <span class="k">module</span> <span class="nn">Domestic</span>
     <span class="k">class</span> <span class="nc">Dog</span>
       <span class="k">def</span> <span class="nf">sound</span>
@@ -116,8 +117,7 @@ shown</p>
       <span class="k">end</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+<span class="k">end</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <p>So there are two kinds of dogs, one is wild that can be accessed like
 <code class="highlight language-ruby" data-lang="ruby"><span class="no">Animal</span><span class="o">::</span><span class="no">Wild</span><span class="o">::</span><span class="no">Dog</span></code> and other one is
@@ -126,28 +126,7 @@ Domestic which could be accessed in similar way.</p>
 <p>So if you want to print out how Domestic and Wild dog sounds like you can
 write a program as shown:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8</pre></td><td class="code"><pre><span class="c1"># using_dog_in_animal_module.rb</span>
-
-<span class="nb">require_relative</span> <span class="s2">"dog_in_animal_module.rb"</span>
-
-<span class="kp">include</span> <span class="no">Animal</span>
-
-<span class="nb">puts</span> <span class="no">Domestic</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span>
-<span class="nb">puts</span> <span class="no">Wild</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
-
-<p>But if you look I am using something like this <code class="highlight language-ruby" data-lang="ruby"><span class="no">Domestic</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span></code> which is
-long to code and tax my fingers, what if I could do something that would make
-my typing shorter? Fortunately you can do that in Ruby. See the program below:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -155,7 +134,29 @@ my typing shorter? Fortunately you can do that in Ruby. See the program below:</
 6
 7
 8
-9</pre></td><td class="code"><pre><span class="c1"># renaming_class.rb</span>
+</pre></td><td class="code"><pre><span class="c1"># using_dog_in_animal_module.rb</span>
+
+<span class="nb">require_relative</span> <span class="s2">"dog_in_animal_module.rb"</span>
+
+<span class="kp">include</span> <span class="no">Animal</span>
+
+<span class="nb">puts</span> <span class="no">Domestic</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span>
+<span class="nb">puts</span> <span class="no">Wild</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>But if you look I am using something like this <code class="highlight language-ruby" data-lang="ruby"><span class="no">Domestic</span><span class="o">::</span><span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span></code> which is
+long to code and tax my fingers, what if I could do something that would make
+my typing shorter? Fortunately you can do that in Ruby. See the program below:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="c1"># renaming_class.rb</span>
 
 <span class="nb">require_relative</span> <span class="s2">"dog_in_animal_module.rb"</span>
 
@@ -163,8 +164,7 @@ my typing shorter? Fortunately you can do that in Ruby. See the program below:</
 <span class="no">WildDog</span> <span class="o">=</span> <span class="no">Animal</span><span class="o">::</span><span class="no">Wild</span><span class="o">::</span><span class="no">Dog</span>
 
 <span class="nb">puts</span> <span class="no">DomesticDog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span>
-<span class="nb">puts</span> <span class="no">WildDog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+<span class="nb">puts</span> <span class="no">WildDog</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">sound</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <p>In the code above, notice line 5 and line 6, we are kinda reaming the class.
 Rather using the long form <code class="highlight language-ruby" data-lang="ruby"><span class="no">Animal</span><span class="o">::</span><span class="no">Domestic</span><span class="o">::</span><span class="no">Dog</span></code>
