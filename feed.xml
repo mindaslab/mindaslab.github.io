@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-02-07T21:06:03+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-02-07T21:13:03+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
 </subtitle><entry><title type="html">Donald Trump is an Idiot</title><link href="/2019/02/07/donald-trump-is-an-idiot.html" rel="alternate" type="text/html" title="Donald Trump is an Idiot" /><published>2019-02-07T00:00:00+05:30</published><updated>2019-02-07T00:00:00+05:30</updated><id>/2019/02/07/donald-trump-is-an-idiot</id><content type="html" xml:base="/2019/02/07/donald-trump-is-an-idiot.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/379px-Donald_Trump_official_portrait.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have heard stories about Trump, how much idiot he is. My friends say some of their American clients gets furious when name of Trump gets mentioned. Many in USA view it as a disgrace and depletion of intelligence to America for him to have got elected. Well, here in India we have been electing very stupid leaders in my state Tamilnadu. We Tamil’s are so idiot that we don’t even realize that we have been electing idiots for decades.&lt;/p&gt;
@@ -101,7 +101,7 @@ Your browser does not support the audio element.
 
 &lt;p&gt;Install required dependency&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential checkinstall libx11-dev libxext-dev zlib1g-dev libpng12-dev libjpeg-dev libfreetype6-dev libxml2-dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install build-essential checkinstall libx11-dev libxext-dev zlib1g-dev libpng12-dev libjpeg-dev libfreetype6-dev libxml2-dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now, go to /opt directory and download latest version of imagemagick.&lt;/p&gt;
 
@@ -113,11 +113,11 @@ Your browser does not support the audio element.
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo tar &lt;/span&gt;xvzf ImageMagick.tar.gz
 &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ImageMagick-7.0.8-2
-&lt;span class=&quot;nb&quot;&gt;sudo touch &lt;/span&gt;configure
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;touch configure
 &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./configure
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
-sudo &lt;/span&gt;ldconfig /usr/local/lib
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make install
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;ldconfig /usr/local/lib
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make check&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can check if installation is successful using below command:&lt;/p&gt;
