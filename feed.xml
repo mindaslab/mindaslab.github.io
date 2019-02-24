@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-02-22T05:12:07+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">சைவம்</title><link href="/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE.html" rel="alternate" type="text/html" title="சைவம்" /><published>2019-02-22T00:00:00+05:30</published><updated>2019-02-22T00:00:00+05:30</updated><id>/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE%E0%AF%8D</id><content type="html" xml:base="/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE.html">&lt;audio controls=&quot;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-02-24T12:26:21+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Echo cancellation in Ubuntu</title><link href="/2019/02/24/echo-cancellation-in-ubuntu.html" rel="alternate" type="text/html" title="Echo cancellation in Ubuntu" /><published>2019-02-24T00:00:00+05:30</published><updated>2019-02-24T00:00:00+05:30</updated><id>/2019/02/24/echo-cancellation-in-ubuntu</id><content type="html" xml:base="/2019/02/24/echo-cancellation-in-ubuntu.html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;https://peertube.xtenz.xyz/videos/embed/f3c9a4f8-f89e-44d9-bfe6-5c84d6360011&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">சைவம்</title><link href="/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE.html" rel="alternate" type="text/html" title="சைவம்" /><published>2019-02-22T00:00:00+05:30</published><updated>2019-02-22T00:00:00+05:30</updated><id>/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE%E0%AF%8D</id><content type="html" xml:base="/2019/02/22/%E0%AE%9A%E0%AF%88%E0%AE%B5%E0%AE%AE.html">&lt;audio controls=&quot;&quot;&gt;
         &lt;source src=&quot;/sounds/saivam_Feb 16_9_37_PM.mp3 &quot; type=&quot;audio/mpeg&quot; /&gt;
       Your browser does not support the audio element.
       &lt;/audio&gt;</content><author><name></name></author><summary type="html">Your browser does not support the audio element.</summary></entry><entry><title type="html">Donald Trump is an Idiot</title><link href="/2019/02/07/donald-trump-is-an-idiot.html" rel="alternate" type="text/html" title="Donald Trump is an Idiot" /><published>2019-02-07T00:00:00+05:30</published><updated>2019-02-07T00:00:00+05:30</updated><id>/2019/02/07/donald-trump-is-an-idiot</id><content type="html" xml:base="/2019/02/07/donald-trump-is-an-idiot.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/379px-Donald_Trump_official_portrait.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -94,47 +94,4 @@ Your browser does not support the audio element.
 
 &lt;p&gt;You are reading this blog because I transmit my knowledge for free, some one hosts my blog for free, and some on e wrote the software tools to build this blog for free. Else information on your screen could cause dear and you will be reading say one highly expensive article a week and brag about the information wealth you obtained to the people known to you.&lt;/p&gt;
 
-&lt;p&gt;So realize that just because some one says something novel or new or out of ordinary, it does not mean that they care about you, all they want is to grab your attention and sell their movie to you and make you their propaganda tool.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Install latest version of imagemagick in Ubuntu 18.04</title><link href="/2018/11/22/install-latest-version-of-imagemagick-in-ubuntu-18-04.html" rel="alternate" type="text/html" title="Install latest version of imagemagick in Ubuntu 18.04" /><published>2018-11-22T15:58:00+05:30</published><updated>2018-11-22T15:58:00+05:30</updated><id>/2018/11/22/install-latest-version-of-imagemagick-in-ubuntu-18-04</id><content type="html" xml:base="/2018/11/22/install-latest-version-of-imagemagick-in-ubuntu-18-04.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/ImageMagick_logo.svg/1200px-ImageMagick_logo.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are lot of resources available on internet to install imagemagick. But everytime I struggle when I install it. Sometimes it misses dependency or sometime misses required delegation like png, jpeg etc.&lt;/p&gt;
-
-&lt;p&gt;So, I thought to write short note about it to install imagemagick in one try.&lt;/p&gt;
-
-&lt;p&gt;We will install it from source so that we can know the exact version. Now, follow below steps to install Imagemagick 7.0.8-2&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Install required dependency&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install build-essential checkinstall libx11-dev libxext-dev zlib1g-dev libpng12-dev libjpeg-dev libfreetype6-dev libxml2-dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now, go to /opt directory and download latest version of imagemagick.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /opt
-
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;wget http://www.imagemagick.org/download/ImageMagick.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This will download latest version of imagemagick. While writing this it was 7.0.8-2 Unzip it and follow remaining steps for installation and configuration.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo tar &lt;/span&gt;xvzf ImageMagick.tar.gz
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ImageMagick-7.0.8-2
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;touch configure
-&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./configure
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make install
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;ldconfig /usr/local/lib
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make check&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can check if installation is successful using below command:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;convert &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If it installed correctly then you can see output like below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Version: ImageMagick 7.0.8-2 Q16 x86_64 2018-06-24 https://www.imagemagick.org
-Copyright: © 1999-2018 ImageMagick Studio LLC
-License: https://www.imagemagick.org/script/license.php
-Features: Cipher DPC HDRI OpenMP
-Delegates &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;built-in&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: bzlib djvu fontconfig freetype gvc jbig jng jpeg lcms lqr lzma openexr png tiff wmf x xml zlib&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Congrats! You have installed imagemagick successfully.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;So realize that just because some one says something novel or new or out of ordinary, it does not mean that they care about you, all they want is to grab your attention and sell their movie to you and make you their propaganda tool.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
