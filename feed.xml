@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-27T15:38:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
 </subtitle><entry><title type="html">Rahul is not speaking about UBI.</title><link href="http://localhost:4000/2019/03/27/rahul-is-not-speaking-about-ubi.html" rel="alternate" type="text/html" title="Rahul is not speaking about UBI." /><published>2019-03-27T00:00:00+05:30</published><updated>2019-03-27T00:00:00+05:30</updated><id>http://localhost:4000/2019/03/27/rahul-is-not-speaking-about-ubi</id><content type="html" xml:base="http://localhost:4000/2019/03/27/rahul-is-not-speaking-about-ubi.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Rahul_Gandhi.jpg/1200px-Rahul_Gandhi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -62,7 +62,7 @@ Your browser does not support the audio element.
 &lt;h2 id=&quot;not-much-difference&quot;&gt;Not much difference&lt;/h2&gt;
 
 &lt;p&gt;Apart from not having Hindu fanaticism right now, congress is no better. Why vote for it?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
-=======
+
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-02-27T13:23:24+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
 </subtitle><entry><title type="html">Ruby on Rails Developer needed in Chennai.</title><link href="/2019/02/27/ruby-on-rails-developer-needed-in-chennai.html" rel="alternate" type="text/html" title="Ruby on Rails Developer needed in Chennai." /><published>2019-02-27T00:00:00+05:30</published><updated>2019-02-27T00:00:00+05:30</updated><id>/2019/02/27/ruby-on-rails-developer-needed-in-chennai</id><content type="html" xml:base="/2019/02/27/ruby-on-rails-developer-needed-in-chennai.html">&lt;p&gt;Hello,&lt;/p&gt;
 
@@ -152,4 +152,4 @@ Your browser does not support the audio element.
 &lt;p&gt;Finally the cost. Should you need to pay Rs 4 Lakhs and invest 4 years to become an engineer if you can get a better degree with better training by investing just Rs 5000/- on an online degree and spending just 3 to 6 months? I hope you have common sense.&lt;/p&gt;
 
 &lt;p&gt;Now small companies are failing to recognize engineers, soon even huge gorillas too will feel the pressure and do the same.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
->>>>>>> 221f145c4d5a0016aebfbcf0e25b63a154280532
+
