@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Heroku Rails 3.1 Checklist | Karthikeyan A K’s blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Heroku Rails 3.1 Checklist" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan." />
+<meta property="og:description" content="Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan." />
+<link rel="canonical" href="/2011/10/02/heroku_rails_3-1_checklist.html" />
+<meta property="og:url" content="/2011/10/02/heroku_rails_3-1_checklist.html" />
+<meta property="og:site_name" content="Karthikeyan A K’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-10-02T00:00:00+05:30" />
+<script type="application/ld+json">
+{"url":"/2011/10/02/heroku_rails_3-1_checklist.html","headline":"Heroku Rails 3.1 Checklist","dateModified":"2011-10-02T00:00:00+05:30","datePublished":"2011-10-02T00:00:00+05:30","description":"Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.","mainEntityOfPage":{"@type":"WebPage","@id":"/2011/10/02/heroku_rails_3-1_checklist.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Karthikeyan A K&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Karthikeyan A K</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Heroku Rails 3.1 Checklist</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2011-10-02T00:00:00+05:30" itemprop="datePublished">Oct 2, 2011
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img class="aligncenter" title="Heroku" src="https://i1.wp.com/logos.heroku.com/images/heroku-logo-dark.png" alt="" width="300" height="100" /></p>
+
+<p>So you have developed your shiny new app on your local computer using Ruby on Rails the brand new 3.1 release , you want to deploy it on <a title="Heroku" href="http://heroku.com">Heroku</a>, well you might run into unforeseen problems, this blog is to tell you how to avoid that headache.</p>
+
+<p><strong>1. Add Postgre SQL gem in gem-file</strong></p>
+
+<p>You most probably have developed application using Sqlite. When you upload your app to heroku and run the command <em>heroku rake db:migrate</em> , you might find a error that migrations have been aborted. Its because until Rails 3.0 , there is no need to add postgre sql gem into your gem file, now you need to. So open gem file  your_app_path/Gemfile and add this:</p>
+
+<p>at the end. But on your local machine you must run bundle install as<em> bundle install –without production</em> , that will prevent unnecessary installation of Postgre SQL gem into your PC.</p>
+
+<p><strong>2. Make assets compilable</strong></p>
+
+<p>Rails assets folder has .sass and .coffee files. These are not CSS and Javascript files as they need to be compiled to CSS and Javascript before use. On your local machine in  development environment these things will be compiled every time you request a rails action, but on Heroku you must tell it to compile, else you will get an error.. To do so goto your_app_path/config/enviornments/production.rb and in line 18 ( or some thing around that if by any chance ) set <strong><em>config.assets.compile = true </em></strong></p>
+
+<p>Thats it, this should make your deployment on heroku pain free. If you still have trouble contact <a href="http://ruby-forum.com/">ruby forum</a>.</p>
+
+
+  </div><a class="u-url" href="/2011/10/02/heroku_rails_3-1_checklist.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Karthikeyan A K&#39;s blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Karthikeyan A K&#39;s blog</li><li><a class="u-email" href="mailto:mindaslab@protonmail.com">mindaslab@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mindaslab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mindaslab</span></a></li><li><a href="https://www.twitter.com/karthik_ak"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">karthik_ak</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
