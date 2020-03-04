@@ -1,5 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-03-03T21:24:39+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Crap Briyani @ Flavours and Platters - Technopark Trivandrum</title><link href="/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum.html" rel="alternate" type="text/html" title="Crap Briyani @ Flavours and Platters - Technopark Trivandrum" /><published>2020-03-03T21:24:00+05:30</published><updated>2020-03-03T21:24:00+05:30</updated><id>/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum</id><content type="html" xml:base="/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum.html">&lt;p&gt;&lt;img src=&quot;/images/flavours_and_platters.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-03-04T20:25:27+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Don’t declare private function on top of class</title><link href="/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class.html" rel="alternate" type="text/html" title="Don't declare private function on top of class" /><published>2020-03-04T20:25:00+05:30</published><updated>2020-03-04T20:25:00+05:30</updated><id>/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class</id><content type="html" xml:base="/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class.html">&lt;p&gt;I find that some people are declaring private function at the top of class, like this&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;
+
+  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Well, if you do like that then the &lt;code class=&quot;highlighter-rouge&quot;&gt;public_function&lt;/code&gt; defined below the &lt;code class=&quot;highlighter-rouge&quot;&gt;private&lt;/code&gt; key word is also a private! Duh!!.&lt;/p&gt;
+
+&lt;p&gt;A remedy would be to do something like this&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;
+
+  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+  
+  &lt;span class=&quot;kp&quot;&gt;public&lt;/span&gt; 
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;That is as soon a private function(s) definition(s) ends you can call &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; thus making all functions that follow it public. But, though it’s right, it would be better to design an class like this&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassHowFunctionsCouldBePlaced&lt;/span&gt;
+  
+  &lt;span class=&quot;c1&quot;&gt;# put all public functions here&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+   
+  &lt;span class=&quot;kp&quot;&gt;protected&lt;/span&gt;
+   
+  &lt;span class=&quot;c1&quot;&gt;# put all protected functions here&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;protected_function&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  
+  
+  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
+  
+  &lt;span class=&quot;c1&quot;&gt;# put all private functions here&lt;/span&gt;
+  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+   
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you put functions as &lt;code class=&quot;highlighter-rouge&quot;&gt;class ClassHowFunctionsCouldBePlaced&lt;/code&gt; is defined, then you will have no  access problems or other access issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">I find that some people are declaring private function at the top of class, like this</summary></entry><entry><title type="html">Crap Briyani @ Flavours and Platters - Technopark Trivandrum</title><link href="/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum.html" rel="alternate" type="text/html" title="Crap Briyani @ Flavours and Platters - Technopark Trivandrum" /><published>2020-03-03T21:24:00+05:30</published><updated>2020-03-03T21:24:00+05:30</updated><id>/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum</id><content type="html" xml:base="/trivandrum/briyani/food/restaurant%20reviews/2020/03/03/crap-briyani-flavours-and-platters-technopark-trivandrum.html">&lt;p&gt;&lt;img src=&quot;/images/flavours_and_platters.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are times when you are sick, you will be offered a awful tasting gruel prepared @ your home. Its tasteless and awful. You would wonder what wrong you had done to deserve such a fate.&lt;/p&gt;
 
@@ -246,20 +312,4 @@
 
 &lt;p&gt;If you quit them, our air get little bit pure, our kids might not suffer respiratory disease tomorrow, our old may not die early due to pollution, people allergic to smoke and having other respiratory ailments might find their health improved. I can have a good walk and improve my health and brain.&lt;/p&gt;
 
-&lt;p&gt;It’s up to you.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Python Projects for Beginners - a great book</title><link href="/programming/python/computer%20science/data%20science/book%20review/2020/01/03/python-projects-for-beginners-a-great-book.html" rel="alternate" type="text/html" title="Python Projects for Beginners - a great book" /><published>2020-01-03T09:11:00+05:30</published><updated>2020-01-03T09:11:00+05:30</updated><id>/programming/python/computer%20science/data%20science/book%20review/2020/01/03/python-projects-for-beginners-a-great-book</id><content type="html" xml:base="/programming/python/computer%20science/data%20science/book%20review/2020/01/03/python-projects-for-beginners-a-great-book.html">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/148425354X/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=148425354X&amp;amp;linkCode=as2&amp;amp;tag=mindaslab-20&amp;amp;linkId=a0710f637e35ea0b55266870fe169588&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;MarketPlace=US&amp;amp;ASIN=148425354X&amp;amp;ServiceVersion=20070822&amp;amp;ID=AsinImage&amp;amp;WS=1&amp;amp;Format=_SL250_&amp;amp;tag=mindaslab-20&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;//ir-na.amazon-adsystem.com/e/ir?t=mindaslab-20&amp;amp;l=am2&amp;amp;o=1&amp;amp;a=148425354X&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To become a data scientist Python is essential. Though there are other languages, Python leads it. Not just for Data Science and &lt;a href=&quot;http://www.blog.pythonlibrary.org/2019/04/11/python-used-to-take-photo-of-black-hole/&quot;&gt;imaging the black hole&lt;/a&gt;, Python can be used for the following things:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Data Science&lt;/li&gt;
-  &lt;li&gt;Embedded system programming like RaspberryPi&lt;/li&gt;
-  &lt;li&gt;PyGame to develop games&lt;/li&gt;
-  &lt;li&gt;Web development with Django, Flask, Pyramid etc&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And many more. In fact Python is becoming ubiquitous. There are many many books for Python, I have read many of them, but to learn Python one stands out, that is &lt;a href=&quot;https://amzn.to/2ZLfEUo&quot;&gt;Python Projects for Beginners&lt;/a&gt;. This book is divides into ten week course. Each week is divided into 5 days (Monday - Friday) and if you can spend 1 or 2 hours every day, you can be very proficient with Python. This book never goes into unnecessary complications. The author has got the real art of writing in him.&lt;/p&gt;
-
-&lt;p&gt;A good book needs to teach the necessary, that necessary should enable a student to think and build things on his own. It should not clutter one with unnecessary details, and this book does just that. This book would be a great buy and you will see that you have got value worth paid back once you have read it.&lt;/p&gt;
-
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;OneJS=1&amp;amp;Operation=GetAdHtml&amp;amp;MarketPlace=US&amp;amp;source=ac&amp;amp;ref=tf_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=mindaslab-20&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=148425354X&amp;amp;asins=148425354X&amp;amp;linkId=ef25f5fc6bd80cee6db6b47e479410cb&amp;amp;show_border=false&amp;amp;link_opens_in_new_window=false&amp;amp;price_color=333333&amp;amp;title_color=0066c0&amp;amp;bg_color=ffffff&quot;&gt;
-    &lt;/iframe&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;It’s up to you.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
