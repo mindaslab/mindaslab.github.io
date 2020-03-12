@@ -48,3 +48,31 @@
 [2020-03-04 15:40:40.706] [15374] INFO [handle]Deploy handling ...
 [2020-03-04 15:40:40.789] [15374] INFO [handle]Deploy succeeded
 [2020-03-04 15:40:40.789] [15374] INFO deploy: finished
+[2020-03-12 22:04:03.371] [25800] WARN WmIniFile::Init:file does not exist
+[2020-03-12 22:04:03.371] [25800]  ERR WmIniFile::Init: 0x7000
+[2020-03-12 22:04:03.371] [25800]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-03-12 22:04:03.371] [25800] INFO Set log level: 4
+[2020-03-12 22:04:03.371] [25800] INFO Executing command: [deploy]
+[2020-03-12 22:04:03.371] [25800] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-03-12 22:04:03.373] [25800] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-03-12 22:04:03.373] [25800] INFO [handle]Deploy handling ...
+[2020-03-12 22:09:02.222] [26345] WARN WmIniFile::Init:file does not exist
+[2020-03-12 22:09:02.222] [26345]  ERR WmIniFile::Init: 0x7000
+[2020-03-12 22:09:02.222] [26345]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-03-12 22:09:02.222] [26345] INFO Set log level: 4
+[2020-03-12 22:09:02.223] [26345] INFO Executing command: [deploy]
+[2020-03-12 22:09:02.223] [26345] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-03-12 22:09:02.224] [26345] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-03-12 22:09:02.224] [26345] INFO [handle]Deploy handling ...
+[2020-03-12 22:14:13.485] [26345] INFO [handle]Deploy succeeded
+[2020-03-12 22:14:13.485] [26345] INFO deploy: finished
+[2020-03-12 23:06:18.467] [31166] WARN WmIniFile::Init:file does not exist
+[2020-03-12 23:06:18.467] [31166]  ERR WmIniFile::Init: 0x7000
+[2020-03-12 23:06:18.467] [31166]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-03-12 23:06:18.467] [31166] INFO Set log level: 4
+[2020-03-12 23:06:18.467] [31166] INFO Executing command: [deploy]
+[2020-03-12 23:06:18.467] [31166] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-03-12 23:06:18.476] [31166] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-03-12 23:06:18.476] [31166] INFO [handle]Deploy handling ...
+[2020-03-12 23:11:29.188] [31166] INFO [handle]Deploy succeeded
+[2020-03-12 23:11:29.188] [31166] INFO deploy: finished
