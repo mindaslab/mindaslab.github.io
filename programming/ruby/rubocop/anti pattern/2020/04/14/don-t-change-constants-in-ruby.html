@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Don’t change constants in Ruby | Karthikeyan A K’s blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Don’t change constants in Ruby" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a think that crashed our server." />
+<meta property="og:description" content="I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a think that crashed our server." />
+<link rel="canonical" href="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html" />
+<meta property="og:url" content="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html" />
+<meta property="og:site_name" content="Karthikeyan A K’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-14T20:42:00+05:30" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Don’t change constants in Ruby","dateModified":"2020-04-14T20:42:00+05:30","datePublished":"2020-04-14T20:42:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html"},"description":"I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a think that crashed our server.","url":"/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Karthikeyan A K&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Karthikeyan A K</a><a class="page-link" href="/categories/">Categories</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Don&#39;t change constants in Ruby</h1>
+  </header>
+
+  <div class="post-categories">
+    
+    
+      <a href="/categories/#programming">programming</a>
+      &nbsp;
+    
+      <a href="/categories/#ruby">ruby</a>
+      &nbsp;
+    
+      <a href="/categories/#rubocop">rubocop</a>
+      &nbsp;
+    
+      <a href="/categories/#anti pattern">anti pattern</a>
+      
+    
+  </div>
+  <p></p>
+  <div class="post-content">
+    <p>I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a think that crashed our server.</p>
+
+<p>Take this one</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">SOME_HASH</span> <span class="o">=</span> <span class="p">{}</span>
+</code></pre></div></div>
+
+<p>Now for some reason, this hash constant changes, don’t ask me why, this changes, so the code is like this</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">SOME_HASH</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="no">SOME_HASH</span><span class="p">[</span><span class="ss">:some_key</span><span class="p">]</span> <span class="o">=</span> <span class="ss">:some_value</span>
+</code></pre></div></div>
+
+<p>Usually in the above code, ruby just warns and lets you a free run. I am kind of against that, but that’s how Ruby works. But now when I run rubocop auto correct against it, the above code get’s transformed to something like below</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">SOME_HASH</span> <span class="o">=</span> <span class="p">{}.</span><span class="nf">freeze</span>
+
+<span class="no">SOME_HASH</span><span class="p">[</span><span class="ss">:some_key</span><span class="p">]</span> <span class="o">=</span> <span class="ss">:some_value</span>
+</code></pre></div></div>
+
+<p>So <code class="highlighter-rouge">SOME_HASH</code> is frozen, and it cannot be changed. Rubocop is right, constant should not change, that’s why its a constant! Common!! Thats why rubocop froze it. So when it enounters this line <code class="highlighter-rouge">SOME_HASH[:some_key] = :some_value</code>, what was set not to change, now changes.</p>
+
+<p><img src="https://i0.wp.com/theverybesttop10.com/wp-content/uploads/2014/01/Top-10-Best-Images-of-Surprised-Cats-2.jpeg" alt="" /></p>
+
+<p>So Ruby throws an error and stops code execution. The basic thing is CONSTANT IS CONTANT and don’t ever chage it.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Karthikeyan A K&#39;s blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Karthikeyan A K&#39;s blog</li><li><a class="u-email" href="mailto:mindaslab@protonmail.com">mindaslab@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mindaslab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mindaslab</span></a></li><li><a href="https://www.twitter.com/karthik_ak"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">karthik_ak</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
