@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-04-15T09:15:29+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Don’t change constants in Ruby</title><link href="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html" rel="alternate" type="text/html" title="Don't change constants in Ruby" /><published>2020-04-14T20:42:00+05:30</published><updated>2020-04-14T20:42:00+05:30</updated><id>/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby</id><content type="html" xml:base="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html">&lt;p&gt;I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a thing that crashed our server.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-04-17T09:51:32+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Don’t write complex SQL queries</title><link href="/programming/ruby/ruby%20on%20rails/anti%20patterns/2020/04/17/don-t-write-complex-sql-queries.html" rel="alternate" type="text/html" title="Don't write complex SQL queries" /><published>2020-04-17T09:51:00+05:30</published><updated>2020-04-17T09:51:00+05:30</updated><id>/programming/ruby/ruby%20on%20rails/anti%20patterns/2020/04/17/don-t-write-complex-sql-queries</id><content type="html" xml:base="/programming/ruby/ruby%20on%20rails/anti%20patterns/2020/04/17/don-t-write-complex-sql-queries.html">&lt;p&gt;Say that you want to be a musician, so you buy a nice violin, but you don’t know how to play it and don’t have the patience to learn how to play it, so to produce music you trash the violin on rock and call it music.&lt;/p&gt;
+
+&lt;p&gt;This is the case I find with many teams using Rails. They pick up Rails because it’s fancy, a buzz word and they fail to stick with it’s best practices. Yesterday my team mate called me and asked me a doubt, there was a function that just had one line of ORM and it was easy to test, so I told him how. There was another in which a complex join was used, the function spanned 10 lines or so and mostly it was occupied by SQL query.&lt;/p&gt;
+
+&lt;p&gt;The function was badly written and it did not have any other documentation that said what it did. I simply couldn’t tell the poor fellow how to test it. It might have been an old code written before the dawn of humanity and it was crap.&lt;/p&gt;
+
+&lt;p&gt;One reason I’d been told by the so called Rails people is that writing SQL is efficient than using ORM. The strength of Rails, well, most of it is in ActiveRecord, it’s ORM layer. If you don’t want it why on earth are you using Rails?&lt;/p&gt;
+
+&lt;p&gt;Now coming to Rails, it’s true that ORM is inefficient and firing lot of SQL slows down the DB. But haven’t you chosen the Rails and Ruby path because you are concerned with human productivity than with computer efficiency? Is your application so big that it spans more than 100 servers all scaled to max vertically that is making you to take such a drastic decision?&lt;/p&gt;
+
+&lt;p&gt;Now what about making computers do lot of work so that humans are productive? Isn’t that progress? There are ways to scale Data Base, be it MySQL or Postgres. Postgres comes with very excellent scaling which you can use to make many servers act like one Posgres DB. For MySQL there are stuffs like ProxySQL that catches and make the DB run more cooler.&lt;/p&gt;
+
+&lt;p&gt;Making computer’s work hard makes economic sense too. An Engineer who is supposed to follow computing trends should know that computing costs are getting cheaper and human costs are getting higher.&lt;/p&gt;
+
+&lt;p&gt;I wonder why people are bring up so much bane on themselves when there are so much boon that’s been given to us by the Free Software Community? One thing is due to ignorance. Managers push programmers so much and make them accountable for everything, that programmers become like narrow visioned horses which concentrate just on their destination than to think out of the box.&lt;/p&gt;
+
+&lt;p&gt;Any technical house should trust it’s engineers, should give them enough resources to them to explore, when you are faced with a problem, the team should come up with 5 to 10 solutions which should be put to the test, out of that which is the most suitable for the team should be chosen.&lt;/p&gt;
+
+&lt;p&gt;So if you like to bang things around and want to be a musician, choose to play drums rather than a violin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Say that you want to be a musician, so you buy a nice violin, but you don’t know how to play it and don’t have the patience to learn how to play it, so to produce music you trash the violin on rock and call it music.</summary></entry><entry><title type="html">Don’t change constants in Ruby</title><link href="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html" rel="alternate" type="text/html" title="Don't change constants in Ruby" /><published>2020-04-14T20:42:00+05:30</published><updated>2020-04-14T20:42:00+05:30</updated><id>/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby</id><content type="html" xml:base="/programming/ruby/rubocop/anti%20pattern/2020/04/14/don-t-change-constants-in-ruby.html">&lt;p&gt;I am reviewing a lot of code now, kind of projects that have million plus lines of Ruby code that been (un)maintained for 13 years or so. That’s lot of code and lot of years. Still the project goes strong. I once encountered a thing that crashed our server.&lt;/p&gt;
 
 &lt;p&gt;Take this one&lt;/p&gt;
 
@@ -174,70 +192,4 @@
 
 &lt;p&gt;Today I ate parota and Egg Masla in Flavours and it was good too. I loved the smell of burnt onions, some people outside India may not like it.&lt;/p&gt;
 
-&lt;p&gt;In one sentence, Flavors is not for Briyani, but its good for tiffin.&lt;/p&gt;</content><author><name></name></author><summary type="html">In one of my blogs I had slammed flavors and platters for their briyani, and ya, briyani over there is pathetic. I must however say that their tiffin is good, or should I say okay enough.</summary></entry><entry><title type="html">Don’t declare private function on top of class</title><link href="/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class.html" rel="alternate" type="text/html" title="Don't declare private function on top of class" /><published>2020-03-04T20:25:00+05:30</published><updated>2020-03-04T20:25:00+05:30</updated><id>/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class</id><content type="html" xml:base="/programming/ruby/best%20practice/2020/03/04/don-t-declare-private-function-on-top-of-class.html">&lt;p&gt;I find that some people are declaring private function at the top of class, like this&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;
-
-  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Well, if you do like that then the &lt;code class=&quot;highlighter-rouge&quot;&gt;public_function&lt;/code&gt; defined below the &lt;code class=&quot;highlighter-rouge&quot;&gt;private&lt;/code&gt; key word is also a private! Duh!!.&lt;/p&gt;
-
-&lt;p&gt;A remedy would be to do something like this&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;
-
-  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
-  
-  &lt;span class=&quot;kp&quot;&gt;public&lt;/span&gt; 
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# some stuff&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;That is as soon a private function(s) definition(s) ends you can call &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; thus making all functions that follow it public. But, though it’s right, it would be better to design an class like this&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassHowFunctionsCouldBePlaced&lt;/span&gt;
-  
-  &lt;span class=&quot;c1&quot;&gt;# put all public functions here&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;public_function&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-   
-  &lt;span class=&quot;kp&quot;&gt;protected&lt;/span&gt;
-   
-  &lt;span class=&quot;c1&quot;&gt;# put all protected functions here&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;protected_function&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  
-  
-  &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt;
-  
-  &lt;span class=&quot;c1&quot;&gt;# put all private functions here&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;private_function&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-   
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you put functions as &lt;code class=&quot;highlighter-rouge&quot;&gt;class ClassHowFunctionsCouldBePlaced&lt;/code&gt; is defined, then you will have no  access problems or other access issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">I find that some people are declaring private function at the top of class, like this</summary></entry></feed>
+&lt;p&gt;In one sentence, Flavors is not for Briyani, but its good for tiffin.&lt;/p&gt;</content><author><name></name></author><summary type="html">In one of my blogs I had slammed flavors and platters for their briyani, and ya, briyani over there is pathetic. I must however say that their tiffin is good, or should I say okay enough.</summary></entry></feed>
