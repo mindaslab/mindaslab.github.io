@@ -146,3 +146,13 @@
 [2020-04-25 00:22:48.723] [31883] INFO [handle]Deploy handling ...
 [2020-04-25 00:22:59.376] [31883] INFO [handle]Deploy succeeded
 [2020-04-25 00:22:59.376] [31883] INFO deploy: finished
+[2020-05-20 21:47:08.372] [0476] WARN WmIniFile::Init:file does not exist
+[2020-05-20 21:47:08.372] [0476]  ERR WmIniFile::Init: 0x7000
+[2020-05-20 21:47:08.372] [0476]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-05-20 21:47:08.372] [0476] INFO Set log level: 4
+[2020-05-20 21:47:08.372] [0476] INFO Executing command: [deploy]
+[2020-05-20 21:47:08.372] [0476] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-05-20 21:47:08.376] [0476] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-05-20 21:47:08.376] [0476] INFO [handle]Deploy handling ...
+[2020-05-20 21:47:19.289] [0476] INFO [handle]Deploy succeeded
+[2020-05-20 21:47:19.289] [0476] INFO deploy: finished
