@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Some useful gems for Ruby on Rails | Karthikeyan A K’s blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Some useful gems for Ruby on Rails" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Some useful gems I use in almost all Rails applications" />
+<meta property="og:description" content="Some useful gems I use in almost all Rails applications" />
+<link rel="canonical" href="/programming/web%20development/ruby/ruby%20on%20rails/2020/05/21/some-useful-gems-for-ruby-on-rails.html" />
+<meta property="og:url" content="/programming/web%20development/ruby/ruby%20on%20rails/2020/05/21/some-useful-gems-for-ruby-on-rails.html" />
+<meta property="og:site_name" content="Karthikeyan A K’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-21T11:52:00+05:30" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Some useful gems for Ruby on Rails","dateModified":"2020-05-21T11:52:00+05:30","datePublished":"2020-05-21T11:52:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"/programming/web%20development/ruby/ruby%20on%20rails/2020/05/21/some-useful-gems-for-ruby-on-rails.html"},"description":"Some useful gems I use in almost all Rails applications","url":"/programming/web%20development/ruby/ruby%20on%20rails/2020/05/21/some-useful-gems-for-ruby-on-rails.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Karthikeyan A K&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Karthikeyan A K</a><a class="page-link" href="/categories/">Categories</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Some useful gems for Ruby on Rails</h1>
+  </header>
+
+  <div class="post-categories">
+    
+    
+      <a href="/categories/#programming">programming</a>
+      &nbsp;
+    
+      <a href="/categories/#web development">web development</a>
+      &nbsp;
+    
+      <a href="/categories/#ruby">ruby</a>
+      &nbsp;
+    
+      <a href="/categories/#ruby on rails">ruby on rails</a>
+      
+    
+  </div>
+  <p></p>
+  <div class="post-content">
+    <p>Some useful gems I use in almost all Rails applications</p>
+
+<p><strong><a href="https://github.com/basecamp/local_time">local_time</a></strong> - An relatively older gem and stable, but this is a gem that includes a view helper and javascript helper to display relative time (i.e. ‘updated 2 minutes ago’)</p>
+
+<p><strong><a href="https://github.com/plataformatec/devise">devise</a></strong> - Devise is still the go-to gem for authentication in most Rails apps. Its ease of use and existing features make it dead-simple to add authentication. For those looking for a simpler gem with a smaller footprint, <a href="https://github.com/binarylogic/authlogic">Authlogic</a> gets a runner up in this list for authentication.</p>
+
+<p><strong><a href="https://github.com/collectiveidea/interactor">Interactor</a></strong> - When you start to follow the Service Object pattern, adding Interactor can help guide your context and result of those objects through a common interface.</p>
+
+<p><strong><a href="https://github.com/RolifyCommunity/rolify">rolify</a> and <a href="https://github.com/CanCanCommunity/cancancan">cancancan</a></strong> - Rolify allows us to assign roles such as User or Admin then CanCanCan will enable us to take those roles and apply authorization policies. However, there is a case for <a href="https://github.com/varvet/pundit">Pundit</a> for those who like the Policy Object approach’s simplicity.</p>
+
+<p><strong><a href="https://github.com/ankane/lockbox">Lockbox</a></strong> - When you need to encrypt data in your database for compliance or even client security, Lockbox makes it very easy to do. Working with plenty of types out of the box, such as most database types, other Rails tools(ActiveStorage), and third-party gems(Shrine).</p>
+
+<p><strong><a href="https://github.com/mperham/sidekiq">Sidekiq</a></strong> - This is <strong>the gem</strong> when it comes to running asynchronous tasks. Sidekiq is backed by Redis and has been long supported by the ActiveJob Rails abstractions.</p>
+
+<p><strong><a href="https://github.com/kaminari/kaminari">Kaminari</a></strong> - A simple yet powerful approach to adding pagination into your Rails applications. In many places, it is as simple a few drop-in changes, but can be used to on anything from ActiveRecord collections to plain Arrays. It also has templates to be used in many of the most known CSS frameworks such as Bootstrap.</p>
+
+<p><strong><a href="https://github.com/stuyam/bootstrap-email">Bootstrap Email</a></strong> - Take the guesswork out of email design and CSS inlining inside of Rails Mailers. This gem allows you to use Bootstrap-like HTML structures, use a Bootstrap like design, and inline the CSS to work in most email browser/apps. Quite the timesaver!</p>
+
+<p><strong><a href="https://github.com/RubyMoney/money-rails">money-rails</a></strong> - This will help standardize around common issues found when calculating money as well as providing a few template helpers.</p>
+
+<p><strong><a href="https://github.com/MiniProfiler/rack-mini-profiler">Rack Mini Profiler</a></strong> - Everyone should know what their application is doing and where it is spending its time. This gem adds a profiler to the development pages and can include some nifty flame graphs when you really want to dig into the data.</p>
+
+<p><strong><a href="https://github.com/rspec/rspec-rails">rspec-rails</a>, <a href="https://github.com/thoughtbot/factory_bot_rails">factory_bot_rails</a>, <a href="https://github.com/colszowka/simplecov">simplecov</a></strong> - I personally like to use RSpec over the default Rails test framework. Though, the community can be quite divisive on testing tools! With every test suite, I include FactoryBot to easily spin up objects for those specs and SimpleCov to dig into my test coverage.</p>
+
+<p><strong><a href="https://github.com/ryanb/letter_opener">letter_opener</a></strong> - Still my #1 gem for working with email in a Rails app. In your local development, it catches the outgoing mail and opens in a browser, rendering it as it would an email.</p>
+
+<p><strong><a href="https://github.com/lostisland/faraday">Faraday</a> or <a href="https://github.com/jnunemaker/httparty">HTTParty</a></strong> - When I am looking to handle an extensive HTTP API or system, I will reach for the infinitely configurable Faraday. Still, when there are only a few HTTP interactions needed, HTTParty is super simple to use to make HTTP calls.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Karthikeyan A K&#39;s blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Karthikeyan A K&#39;s blog</li><li><a class="u-email" href="mailto:mindaslab@protonmail.com">mindaslab@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mindaslab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mindaslab</span></a></li><li><a href="https://www.twitter.com/karthik_ak"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">karthik_ak</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
