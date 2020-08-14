@@ -236,3 +236,33 @@
 [2020-07-30 10:36:00.724] [6902] INFO [handle]Deploy handling ...
 [2020-07-30 10:36:12.201] [6902] INFO [handle]Deploy succeeded
 [2020-07-30 10:36:12.201] [6902] INFO deploy: finished
+[2020-08-01 10:39:24.980] [9708] WARN WmIniFile::Init:file does not exist
+[2020-08-01 10:39:24.980] [9708]  ERR WmIniFile::Init: 0x7000
+[2020-08-01 10:39:24.980] [9708]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-08-01 10:39:24.980] [9708] INFO Set log level: 4
+[2020-08-01 10:39:24.980] [9708] INFO Executing command: [deploy]
+[2020-08-01 10:39:24.980] [9708] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-08-01 10:39:24.985] [9708] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-08-01 10:39:24.985] [9708] INFO [handle]Deploy handling ...
+[2020-08-01 10:39:36.293] [9708] INFO [handle]Deploy succeeded
+[2020-08-01 10:39:36.293] [9708] INFO deploy: finished
+[2020-08-02 10:01:28.385] [10086] WARN WmIniFile::Init:file does not exist
+[2020-08-02 10:01:28.385] [10086]  ERR WmIniFile::Init: 0x7000
+[2020-08-02 10:01:28.385] [10086]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-08-02 10:01:28.385] [10086] INFO Set log level: 4
+[2020-08-02 10:01:28.385] [10086] INFO Executing command: [deploy]
+[2020-08-02 10:01:28.385] [10086] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-08-02 10:01:28.428] [10086] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-08-02 10:01:28.428] [10086] INFO [handle]Deploy handling ...
+[2020-08-02 10:01:39.935] [10086] INFO [handle]Deploy succeeded
+[2020-08-02 10:01:39.935] [10086] INFO deploy: finished
+[2020-08-13 23:39:55.494] [15104] WARN WmIniFile::Init:file does not exist
+[2020-08-13 23:39:55.494] [15104]  ERR WmIniFile::Init: 0x7000
+[2020-08-13 23:39:55.494] [15104]  ERR WmIniFile::GetEntry(WmString):Init: 0x7000
+[2020-08-13 23:39:55.494] [15104] INFO Set log level: 4
+[2020-08-13 23:39:55.494] [15104] INFO Executing command: [deploy]
+[2020-08-13 23:39:55.525] [15104] INFO [SDCryptoModule] TTOKI initialization ...
+[2020-08-13 23:39:55.541] [15104] INFO [SDCryptoModule] TTOKI initialization completed
+[2020-08-13 23:39:55.541] [15104] INFO [handle]Deploy handling ...
+[2020-08-13 23:40:06.746] [15104] INFO [handle]Deploy succeeded
+[2020-08-13 23:40:06.746] [15104] INFO deploy: finished
