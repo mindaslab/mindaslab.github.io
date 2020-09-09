@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-08-27T08:38:45+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Life Of An Indian</title><link href="/india/caste/2020/08/27/life-of-an-indian.html" rel="alternate" type="text/html" title="Life Of An Indian" /><published>2020-08-27T08:33:00+05:30</published><updated>2020-08-27T08:33:00+05:30</updated><id>/india/caste/2020/08/27/life-of-an-indian</id><content type="html" xml:base="/india/caste/2020/08/27/life-of-an-indian.html">&lt;p&gt;&lt;img src=&quot;/images/life_of_an_indian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why I don’t bet on gold?</title><link href="/2020/08/18/why-i-don-t-bet-on-gold.html" rel="alternate" type="text/html" title="Why I don't bet on gold?" /><published>2020-08-18T21:12:00+05:30</published><updated>2020-08-18T21:12:00+05:30</updated><id>/2020/08/18/why-i-don-t-bet-on-gold</id><content type="html" xml:base="/2020/08/18/why-i-don-t-bet-on-gold.html">&lt;p&gt;&lt;img src=&quot;https://dailytimes.com.pk/assets/uploads/2018/04/29/today-gold-prices-in-pakistan-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-09T09:42:22+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Experience/Advice from a 10+ year data scientist</title><link href="/2020/09/09/experience-advice-from-a-10-year-data-scientist.html" rel="alternate" type="text/html" title="Experience/Advice from a 10+ year data scientist" /><published>2020-09-09T09:36:00+05:30</published><updated>2020-09-09T09:36:00+05:30</updated><id>/2020/09/09/experience-advice-from-a-10-year-data-scientist</id><content type="html" xml:base="/2020/09/09/experience-advice-from-a-10-year-data-scientist.html">&lt;p&gt;For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Been working in quant/data science for 10-11 years now. Didn’t know where to go because this field didn’t exist when I was in school.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Self-taught. This is where my imposter syndrome appears but little did anyone know this. Learned SQL through sqlzoo, learned R as a hobby to day-trade (yahoo-finance api, zoo package, etc.), Python through codeschool(?) or codeacademy(?) in 2012 (it was free back then), Math through OCW/torrented whitepapers &amp;amp; textbooks, ML through whitepapers &amp;amp; textbooks (coursera did not exist yet)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interviewed around a lot and got rejected a lot (100+). When I first began, this was not a field, but the interview process &amp;amp; rejections gave me grit and understand what to study. I interviewed for a lot of exciting startups (now public companies) before they were even big. A small hedge fund gave me a chance as a quant trader, and our group got shut down in a year. I got a second chance somewhere else and the company went public (data science was central to their strategy)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Science is exciting. This field has brought me around the world. Worked at a hedge fund, electricity markets, global consulting, somehow ended up doing A.I work, and now in a leadership strategy role. I don’t oversee data scientists anymore, they mostly report to my business function now but previously managed 20+ data scientists. Worked all over the globe and across many, many states.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Study and code everyday. Make it a habit. Blog posts, whitepapers, textbooks. I’ve lost this habit and I regret it – getting back into it. You should love learning, otherwise you’re in the wrong field.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build up your foundations. Python/R, Probability/Stats/Calculus/LinAlg/DiffEq, Algorithms. This will help you understand a lot . Do take an algorithms &amp;amp; design course. Most problems are solved through a design approach / framework rather than a model.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stay in touch with whats going on. hackernews/datatau/rweekly &amp;amp; understanding new Data Engineering trends, Tech Engineering Blogs. Example, when I read some company blog about their implementation of spark in 2014, I immediately started playing around with it with my models.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Always be humble &amp;amp; prepare to get humbled but remain self-confident and determined. Don’t be afraid.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find a subject you like to get started. Loving data &amp;amp; modeling is one thing, but find an area that really interests you. For me, I started with time series (not for the faint of heart). This introduced me to a lot of difficult concepts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find a product/field. For me it was Energy &amp;amp; Finance. It can be marketing, sales, finance, pure ML, pure optimization work, supply chain, etc. Being a general hobbyist will only get you so far.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lastly, Data science is not all SQL. It depends on how close you are to the revenue generating side. If you’re making a quarterly report on demand, that isn’t data science. If you’re building growth models to accelerate users on your platform that tie to scale and revenue. SQL will get your dad but still have to come up with model&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry><entry><title type="html">Life Of An Indian</title><link href="/india/caste/2020/08/27/life-of-an-indian.html" rel="alternate" type="text/html" title="Life Of An Indian" /><published>2020-08-27T08:33:00+05:30</published><updated>2020-08-27T08:33:00+05:30</updated><id>/india/caste/2020/08/27/life-of-an-indian</id><content type="html" xml:base="/india/caste/2020/08/27/life-of-an-indian.html">&lt;p&gt;&lt;img src=&quot;/images/life_of_an_indian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why I don’t bet on gold?</title><link href="/2020/08/18/why-i-don-t-bet-on-gold.html" rel="alternate" type="text/html" title="Why I don't bet on gold?" /><published>2020-08-18T21:12:00+05:30</published><updated>2020-08-18T21:12:00+05:30</updated><id>/2020/08/18/why-i-don-t-bet-on-gold</id><content type="html" xml:base="/2020/08/18/why-i-don-t-bet-on-gold.html">&lt;p&gt;&lt;img src=&quot;https://dailytimes.com.pk/assets/uploads/2018/04/29/today-gold-prices-in-pakistan-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Many of my friend, Indians of course are stumped by why I don’t bet on Gold. There are two simple reasons for that, first I still expect to live another 50 years, and I still plan to have a family and leave my values and wealth behind.&lt;/p&gt;
 
@@ -200,50 +246,4 @@
 
 &lt;p&gt;I am happy the way tech is progressing. Before, only few powerful and rich can hold it and boast about it then, now almost all can do it because barrier of entry is decreasing rapidly. Very soon I feel I.T hubs concentrated at few points will make no sense; almost everyone can work from anywhere; even if one goes on camping all one needs to carry a solar power pack and this pizza box that will give you a SpaceX Star Link connection to the internet.&lt;/p&gt;
 
-&lt;p&gt;I think this myth of software developers are doing something great, and they must be seen as bigger than life too will disappear. During my Grandparents time, having a B.A or having some form of education was a big thing. Possibly even schooling was a big thing then. Those who knew to read and write were respected, look up to, and they earned more than average. Today you get Engineering or Doctor degree it’s no big deal. But starting and running a software company is seen as a big thing, but it isn’t. Once people start gaining knowledge and know about it, then thousands of new software companies and mostly importantly freelancers will pop up. That’s how the world should be, more democratic.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">What Tamilnadu teaches India?</title><link href="/2020/06/29/what-tamilnadu-teaches-india.html" rel="alternate" type="text/html" title="What Tamilnadu teaches India?" /><published>2020-06-29T09:42:00+05:30</published><updated>2020-06-29T09:42:00+05:30</updated><id>/2020/06/29/what-tamilnadu-teaches-india</id><content type="html" xml:base="/2020/06/29/what-tamilnadu-teaches-india.html">&lt;h1 id=&quot;we-are-historically-corrupt--casteist&quot;&gt;We are historically corrupt &amp;amp; Casteist&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/6052/6322071540_2bbf975b27_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An Auvaiyaar song goes that there are two types of castes in this world, one is the higher caste which has the heart to give and help, and another is a lower caste which is stingy. But it says one is a higher caste only if one gives in a right way.&lt;/p&gt;
-
-&lt;p&gt;Long long ago people were giving wealth in a wrong way too, that is they were bribing. That’s why she explicitly mentions we must give in a right way.&lt;/p&gt;
-
-&lt;p&gt;The poem also talks about caste, it says there are only two castes, that is she means to say to the people please leave your caste system and just look at people as they belong to these two castes. This means back then Tamils had the cancer of caste right in their nerves and blood.&lt;/p&gt;
-
-&lt;h1 id=&quot;corruption-without-corruption&quot;&gt;Corruption without corruption&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://newsd.in/wp-content/uploads/2019/06/Karunanidhi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Karunanidhi is considered as the father of corruption in India. It’s not because he and his family are corrupt and introduced dynastic politics in Tamilnadu, but he can be openly corrupt and escape with it. Back in Indira days, Indra tried to crush him by exposing his corruption, but the officials appointed by her gave up and termed the kind of corruption that goes on here as scientifically corrupt.&lt;/p&gt;
-
-&lt;p&gt;Though some in India are getting caught and facing arrest because of corruption, it’s this DMK template of corruption that many follow and escape.&lt;/p&gt;
-
-&lt;h1 id=&quot;you-can-get-away-with-any-magnitude-of-corruption&quot;&gt;You can get away with any magnitude of corruption&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://english.cdn.zeenews.com/sites/default/files/2017/12/21/648968-untitled-design-56.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The 2-G corruption may amount to 1,70,000 crores, an unimaginable sum. Raja and Kanimozhi (daughter of scientific looter) were charged in that, but they escaped just like that. How? Okay if no money was looted why did the CAG go so wrong and why there is no investigation against the CAG? You wasted so much resources of our nation to bring false charges on someone! Why there were mysterious suicides in Tamilnadu of people who might be related to this case? We simply don’t have the answer.&lt;/p&gt;
-
-&lt;h1 id=&quot;proven-corrupt-can-be-the-god-mother&quot;&gt;Proven corrupt can be the God Mother&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.indianexpress.com/2014/09/jaya759.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Jayalalitha is a proven criminal, yet the state of Tamilnadu is running a criminal government saying that this is Jaya’s government. That is they claim that a proven criminal is the moral head of state and whole India watches on as though…. fuckin God what to say about these Indians?&lt;/p&gt;
-
-&lt;p&gt;I wonder if I can run a government saying that Kasab, Osama are the moral leaders, I might still get away.&lt;/p&gt;
-
-&lt;h1 id=&quot;you-are-a-shit-unless-you-are-rich-and-powerful&quot;&gt;You are a shit unless you are rich and powerful&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.newindianexpress.com/uploads/user/imagelibrary/2020/6/10/w900X450/J_Anbazhagan_EPS_Photo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When people die of Corona, their bodies are treated like shit. Literally they are just tossed into a large pit with a bleach and it’s covered. one might say that the government employees who handle the body are afraid of the infection are are too  afraid to touch the body. Okay fine.&lt;/p&gt;
-
-&lt;p&gt;There was a DMK leader called J.Anbhazagan who died, and he died of Corona. His body was preserved properly, put into a nice coffin, was lowered into his grave slowly and with care. This proves that if you are a commoner in Tamilnadu, perhaps in India you would get no respect. You have to be rich and powerful to be treated as human.&lt;/p&gt;
-
-&lt;h1 id=&quot;its-okay-to-be-a-psychopath&quot;&gt;It’s okay to be a psychopath&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://hwnews.in/wp-content/uploads/2020/06/tamil-nadu-960x540.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are two traders in Tamilnadu (pictured above) who were tortured and killed in Tutthukudi district. Gossip says that the police who killed him might be of different caste. Any way, the way in which the police killed him was horrific. Iron tipped lathis were sent into their butt, their hair pulled out of their chest, they were beaten like hell and so on. This incident shook the nation. But take it from me the police guys who had done it won’t be hanged, mostly they will come out unscaled.&lt;/p&gt;
-
-&lt;p&gt;Psychopath Tamilnadu Police is there to protect Psychopaths and they will.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are historically corrupt &amp;amp; Casteist</summary></entry></feed>
+&lt;p&gt;I think this myth of software developers are doing something great, and they must be seen as bigger than life too will disappear. During my Grandparents time, having a B.A or having some form of education was a big thing. Possibly even schooling was a big thing then. Those who knew to read and write were respected, look up to, and they earned more than average. Today you get Engineering or Doctor degree it’s no big deal. But starting and running a software company is seen as a big thing, but it isn’t. Once people start gaining knowledge and know about it, then thousands of new software companies and mostly importantly freelancers will pop up. That’s how the world should be, more democratic.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
