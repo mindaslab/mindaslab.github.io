@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-10-17T15:46:55+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Why India should absorb Pakistan and Bangladesh?</title><link href="/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh.html" rel="alternate" type="text/html" title="Why India should absorb Pakistan and Bangladesh?" /><published>2020-10-17T15:46:00+05:30</published><updated>2020-10-17T15:46:00+05:30</updated><id>/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh</id><content type="html" xml:base="/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh.html">&lt;p&gt;Why did we elect Modi as our priminister? We did not like Manmohan Singh (even though he’s a genius,) to listen to a woman of Italian origin. We have just got freedom from Brits who don’t even wash their bottoms yet, and now we have to listen to a lady who is from a similar culture. We were fed up with 2G, and other scams that plagued our nation. For people like me, if Modi came to power he would not hesitate to kill Pakistanis and integrate that state with us. He is a person who watched genocide of Muslims in his own state and feels unrepentant, I thought he would not hesitate to put an end to Pakistan.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-11T16:23:29+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Rajinikanth in Free Software</title><link href="/free%20software/ruby/apple/mac%20m1/tamil/japan/culture/2021/02/11/rajinikanth-in-free-software.html" rel="alternate" type="text/html" title="Rajinikanth in Free Software" /><published>2021-02-11T16:03:00+05:30</published><updated>2021-02-11T16:03:00+05:30</updated><id>/free%20software/ruby/apple/mac%20m1/tamil/japan/culture/2021/02/11/rajinikanth-in-free-software</id><content type="html" xml:base="/free%20software/ruby/apple/mac%20m1/tamil/japan/culture/2021/02/11/rajinikanth-in-free-software.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/4/49/%E0%AE%9A%E0%AF%82%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%B0%E0%AF%8D%E0%AE%B8%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%B0%E0%AF%8D_%E0%AE%B0%E0%AE%9C%E0%AE%BF%E0%AE%A9%E0%AE%BF%E0%AE%95%E0%AE%BE%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%8D_-_Actor_Rajinikanth.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rajinikanth is an hero here in Tamilnadu, India. He is a hero in Japan too. He has done nothing useful but to act, but his funny and comical way of acting has attracted fans like Tom and Jerry would attract fans and his movies are great to watch.&lt;/p&gt;
+
+&lt;p&gt;Ruby’s creator Matz is Japanese, so as an Tamil I was asking him to view Rajikanth’s movie and he did :D&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/karthik_ak?ref_src=twsrc%5Etfw&quot;&gt;@karthik_ak&lt;/a&gt; I watched &amp;#39;The Robot|Enthiran&amp;#39;. It was marvelous.&lt;/p&gt;&amp;mdash; Yukihiro Matsumoto (@yukihiro_matz) &lt;a href=&quot;https://twitter.com/yukihiro_matz/status/720808569365397504?ref_src=twsrc%5Etfw&quot;&gt;April 15, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;and that’s okay because Rajini is super famous in Japan. His film Muthu grossed more than Titanic in Japan.&lt;/p&gt;
+
+&lt;p&gt;Now I wanted to manage Ruby versions on my machine and hence tried rbenv, and it did not work. I was using Mac M1 and its a bit pain to get Ruby on it. So after lot of DuckDuckGoing pain I found this tool called asdf here &lt;a href=&quot;https://www.driftingruby.com/episodes/a-rubyist-s-apple-m1-review&quot;&gt;https://www.driftingruby.com/episodes/a-rubyist-s-apple-m1-review&lt;/a&gt;. It looked simple and it should work. But ya, we are installing Ruby 3 on rosetta instead of M1, hmmmm….. not okay, but okay. I managed to get Ruby installed.&lt;/p&gt;
+
+&lt;p&gt;Then this happened:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% asdf | tail
+                                        environment used for command shim execution.
+asdf info                               Print OS, Shell and ASDF debug information.
+asdf reshim &amp;lt;name&amp;gt; &amp;lt;version&amp;gt;            Recreate shims for version of a package
+asdf shim-versions &amp;lt;command&amp;gt;            List the plugins and versions that
+                                        provide a command
+asdf update                             Update asdf to the latest stable release
+asdf update --head                      Update asdf to the latest on the master branch
+
+&quot;Late but latest&quot;
+-- Rajinikanth
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is the version of asdf I am currently using :o&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% asdf --version
+v0.8.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I checked the faces on &lt;a href=&quot;https://github.com/asdf-vm/asdf&quot;&gt;asdf&lt;/a&gt; and found this guy &lt;a href=&quot;https://github.com/HashNuke&quot;&gt;Akash Manohar&lt;/a&gt;, an Indian, possibly a Tamil if not Japanese :D living in Banglore.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why India should absorb Pakistan and Bangladesh?</title><link href="/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh.html" rel="alternate" type="text/html" title="Why India should absorb Pakistan and Bangladesh?" /><published>2020-10-17T15:46:00+05:30</published><updated>2020-10-17T15:46:00+05:30</updated><id>/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh</id><content type="html" xml:base="/geography/india/2020/10/17/why-india-should-absorb-pakistan-and-bangladesh.html">&lt;p&gt;Why did we elect Modi as our priminister? We did not like Manmohan Singh (even though he’s a genius,) to listen to a woman of Italian origin. We have just got freedom from Brits who don’t even wash their bottoms yet, and now we have to listen to a lady who is from a similar culture. We were fed up with 2G, and other scams that plagued our nation. For people like me, if Modi came to power he would not hesitate to kill Pakistanis and integrate that state with us. He is a person who watched genocide of Muslims in his own state and feels unrepentant, I thought he would not hesitate to put an end to Pakistan.&lt;/p&gt;
 
 &lt;p&gt;History needs Hitler like and devils. If it’s not for Winston Churchill who killed millions in India by shipping grains to Europe, England would have not won the second world war. If India needs a bloody war with Pakistan to wipe them off so that our territorial integrity is maintained, and so be it. Congress won’t do it, so we put a Satan in power. But this Satan is killing our own people who are Muslims and other lower castes in Hinduism, than killing Pakistanis and thus bringing relief to Iran, Afghanistan and us.&lt;/p&gt;
 
@@ -52,19 +86,19 @@
 
 &lt;p&gt;Now how to use it? First add the necessary dependencies using yarn&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ yarn add bootstrap-icon
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ yarn add bootstrap-icon
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Now create a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;app/helpers/bootstrap_icons_helper.rb&lt;/code&gt;, in it add this code&lt;/p&gt;
+&lt;p&gt;Now create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app/helpers/bootstrap_icons_helper.rb&lt;/code&gt;, in it add this code&lt;/p&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;BootstrapIconsHelper&lt;/span&gt;
   &lt;span class=&quot;c1&quot;&gt;# refer https://icons.getbootstrap.com/&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{})&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node_modules/bootstrap-icons/icons/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.svg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Nokogiri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTML&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DocumentFragment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;at_css&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'svg'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;at_css&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;svg&apos;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;present?&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;svg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'class'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;svg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html_safe&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
@@ -146,7 +180,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry><entry><title type="html">Life Of An Indian</title><link href="/india/caste/2020/08/27/life-of-an-indian.html" rel="alternate" type="text/html" title="Life Of An Indian" /><published>2020-08-27T08:33:00+05:30</published><updated>2020-08-27T08:33:00+05:30</updated><id>/india/caste/2020/08/27/life-of-an-indian</id><content type="html" xml:base="/india/caste/2020/08/27/life-of-an-indian.html">&lt;p&gt;&lt;img src=&quot;/images/life_of_an_indian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why I don’t bet on gold?</title><link href="/2020/08/18/why-i-don-t-bet-on-gold.html" rel="alternate" type="text/html" title="Why I don't bet on gold?" /><published>2020-08-18T21:12:00+05:30</published><updated>2020-08-18T21:12:00+05:30</updated><id>/2020/08/18/why-i-don-t-bet-on-gold</id><content type="html" xml:base="/2020/08/18/why-i-don-t-bet-on-gold.html">&lt;p&gt;&lt;img src=&quot;https://dailytimes.com.pk/assets/uploads/2018/04/29/today-gold-prices-in-pakistan-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry><entry><title type="html">Life Of An Indian</title><link href="/india/caste/2020/08/27/life-of-an-indian.html" rel="alternate" type="text/html" title="Life Of An Indian" /><published>2020-08-27T08:33:00+05:30</published><updated>2020-08-27T08:33:00+05:30</updated><id>/india/caste/2020/08/27/life-of-an-indian</id><content type="html" xml:base="/india/caste/2020/08/27/life-of-an-indian.html">&lt;p&gt;&lt;img src=&quot;/images/life_of_an_indian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why I don’t bet on gold?</title><link href="/2020/08/18/why-i-don-t-bet-on-gold.html" rel="alternate" type="text/html" title="Why I don&apos;t bet on gold?" /><published>2020-08-18T21:12:00+05:30</published><updated>2020-08-18T21:12:00+05:30</updated><id>/2020/08/18/why-i-don-t-bet-on-gold</id><content type="html" xml:base="/2020/08/18/why-i-don-t-bet-on-gold.html">&lt;p&gt;&lt;img src=&quot;https://dailytimes.com.pk/assets/uploads/2018/04/29/today-gold-prices-in-pakistan-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Many of my friend, Indians of course are stumped by why I don’t bet on Gold. There are two simple reasons for that, first I still expect to live another 50 years, and I still plan to have a family and leave my values and wealth behind.&lt;/p&gt;
 
@@ -169,28 +203,4 @@
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ion_thruster&quot;&gt;Ion Thruster&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.wired.com/story/nuclear-power-balls-triso-fuel/&quot;&gt;Powerball&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://x-energy.com/reactors/xe-100&quot;&gt;Xenergy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Silencing Prashanth Bhushan - Supreme Court Destroys India</title><link href="/india/justice/2020/08/15/silencing-prashanth-bhushan-supreme-court-destroys-india.html" rel="alternate" type="text/html" title="Silencing Prashanth Bhushan - Supreme Court Destroys India" /><published>2020-08-15T10:12:00+05:30</published><updated>2020-08-15T10:12:00+05:30</updated><id>/india/justice/2020/08/15/silencing-prashanth-bhushan-supreme-court-destroys-india</id><content type="html" xml:base="/india/justice/2020/08/15/silencing-prashanth-bhushan-supreme-court-destroys-india.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1c/Prashant_Bhushan.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Prashant Bhushan - The Victim&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;It’s hardly surprising in an ultra orthodox religious rule that the justice system fails. It was by suppressing free and fair justice, extremist like Hitler came to power, and only in a similar way Modi can attain full control of India. In my mind there is no doubt he will become the dictator monarch of India and will destroy the nation.&lt;/p&gt;
-
-&lt;p&gt;Today the supreme court is testing the waters. They are seeing how the nation would react if we bring clamp down on free speech. A very prominent lawyer Prashant Bhushan has tweeted facts about judges of supreme court, and he being a person who can bring out the truth, he tweeted with undeniable evidence.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;316&quot; src=&quot;https://www.youtube.com/embed/fSlzBd26atc?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
-     &lt;/iframe&gt;
-
-&lt;p&gt;If the judges had some moral left in them, they should have resigned and begged the nation to forgive them, but just like any other banana republic, people in power want to harass those who question their wrong doing. And since this stuff is exposing the amassing of wealth by BJP people, the government will back the judges.&lt;/p&gt;
-
-&lt;p&gt;This is only the first step. But I feel the soul of India is already destroyed. A nation tolerant to stuff, and nation that can listen to any one, and a nation that should think with common sense is no more. Just few months back a channel called Karuppar Kootam was banned because it made comments about Hinduism. Hindu’s couldn’t tolerate it, Muslims were afraid they were next to be questioned, Christians would have been alarmed too.&lt;/p&gt;
-
-&lt;p&gt;For stupids to survive, say the BJP, RSS, any religion, cults etc, you should stifle common sense, free thought and free opinion, and India is well on way to evolve back to darkness.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/what_is_fascism&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Prashant Bhushan - The Victim</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

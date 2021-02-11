@@ -2,9 +2,9 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Rails How to Use Greater Than / Less Than in Active Record where Statements | Karthikeyan A K’s blog</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Rails How to Use Greater Than / Less Than in Active Record where Statements" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="For example, if I want to find all users created within the last week, I would ask for all users from my User model in which the column updated_at is greater than 1 week ago, or 1.week.ago." />
@@ -14,8 +14,10 @@
 <meta property="og:site_name" content="Karthikeyan A K’s blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-01-01T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Rails How to Use Greater Than / Less Than in Active Record where Statements" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Rails How to Use Greater Than / Less Than in Active Record where Statements","dateModified":"2020-01-01T00:00:00+05:30","datePublished":"2020-01-01T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"/programming/ruby/ruby%20on%20rails/2020/01/01/rails-how-to-use-greater-than-less-than-in-active-record-where-statements.html"},"description":"For example, if I want to find all users created within the last week, I would ask for all users from my User model in which the column updated_at is greater than 1 week ago, or 1.week.ago.","url":"/programming/ruby/ruby%20on%20rails/2020/01/01/rails-how-to-use-greater-than-less-than-in-active-record-where-statements.html","@context":"https://schema.org"}</script>
+{"url":"/programming/ruby/ruby%20on%20rails/2020/01/01/rails-how-to-use-greater-than-less-than-in-active-record-where-statements.html","headline":"Rails How to Use Greater Than / Less Than in Active Record where Statements","dateModified":"2020-01-01T00:00:00+05:30","datePublished":"2020-01-01T00:00:00+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/programming/ruby/ruby%20on%20rails/2020/01/01/rails-how-to-use-greater-than-less-than-in-active-record-where-statements.html"},"description":"For example, if I want to find all users created within the last week, I would ask for all users from my User model in which the column updated_at is greater than 1 week ago, or 1.week.ago.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
@@ -59,7 +61,7 @@
   </div>
   <p></p>
   <div class="post-content">
-    <p>For example, if I want to find all users created within the last week, I would ask for all users from my <code class="highlighter-rouge">User</code> model in which the column <code class="highlighter-rouge">updated_at</code> is greater than 1 week ago, or <code class="highlighter-rouge">1.week.ago</code>.</p>
+    <p>For example, if I want to find all users created within the last week, I would ask for all users from my <code class="language-plaintext highlighter-rouge">User</code> model in which the column <code class="language-plaintext highlighter-rouge">updated_at</code> is greater than 1 week ago, or <code class="language-plaintext highlighter-rouge">1.week.ago</code>.</p>
 
 <h1 id="1-using-rubys-infinity-range-best">1. Using Ruby’s Infinity Range (Best)</h1>
 
@@ -68,14 +70,14 @@
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">User</span><span class="p">.</span><span class="nf">where</span><span class="p">(</span><span class="ss">created_at: </span><span class="mi">1</span><span class="p">.</span><span class="nf">week</span><span class="p">.</span><span class="nf">ago</span><span class="o">..</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>If you haven’t upgraded to Ruby 2.6 yet, you can specify the end of the range as the constant <code class="highlighter-rouge">Float::INFINITY</code>:</p>
+<p>If you haven’t upgraded to Ruby 2.6 yet, you can specify the end of the range as the constant <code class="language-plaintext highlighter-rouge">Float::INFINITY</code>:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">User</span><span class="p">.</span><span class="nf">where</span><span class="p">(</span><span class="ss">created_at: </span><span class="mi">1</span><span class="p">.</span><span class="nf">week</span><span class="p">.</span><span class="nf">ago</span><span class="o">..</span><span class="no">Float</span><span class="o">::</span><span class="no">INFINITY</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>This is the best option because it is the closest syntax to actuality.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>From 1 week ago until infinity == greater than or equal to 1 week ago
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>From 1 week ago until infinity == greater than or equal to 1 week ago
 </code></pre></div></div>
 
 <p>It also doesn’t have any of the caveats that using a raw string has (explained later in this post)</p>
