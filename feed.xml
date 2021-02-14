@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-13T14:37:20+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Stunning possibility in Data Science</title><link href="/2021/02/13/stunning-possibility-in-data-science.html" rel="alternate" type="text/html" title="Stunning possibility in Data Science" /><published>2021-02-13T14:36:00+05:30</published><updated>2021-02-13T14:36:00+05:30</updated><id>/2021/02/13/stunning-possibility-in-data-science</id><content type="html" xml:base="/2021/02/13/stunning-possibility-in-data-science.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-14T20:20:40+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Why you must not buy Apple M1</title><link href="/2021/02/14/why-you-must-not-buy-apple-m1.html" rel="alternate" type="text/html" title="Why you must not buy Apple M1" /><published>2021-02-14T20:19:00+05:30</published><updated>2021-02-14T20:19:00+05:30</updated><id>/2021/02/14/why-you-must-not-buy-apple-m1</id><content type="html" xml:base="/2021/02/14/why-you-must-not-buy-apple-m1.html">&lt;p&gt;&lt;img src=&quot;https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-m1-chip-graphic_11102020_big.jpg.large.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;People who know me know that I am against Apple. Apple is just another black box, possibly a spying machine that sits right in your home. Who knows right now a NSA agent might be looking at me on camera, ya its Feb 14th today, so if its a woman she would be hopelessly in love with me. But I got a M1, why?&lt;/p&gt;
+
+&lt;p&gt;Well I was in a situation, my personal Ubuntu GNU/Linux Lenovo machine started giving me problems, its screen went kaput and it took 6K to replace it and it was a poor work. Due to sloppy workmanship by S.S. Computer, Sithalapakkam, just a month after repair, its keyboard started failing. I was in a situation where I had no real projects and commitments at that time, but I was bugged by my friend to finish a Data Science project. My Lenovo got busted when it was analysing 60,000 images for a machine learning problem, its ENTER key won’t work at last. The Data Science experiment in it s i3 hardware was slow, waitful and painful.&lt;/p&gt;
+
+&lt;p&gt;My friends office uses Mac. He and his employees are idiots. He is definitely an idiot, and he would give salary to his employees only if they behave like idiot too. So to be with their ecosystem he asked me to use Mac. M1 is a well architected processor and is very bold in its innovations, I respect that, so I said yes. So an expensive an laptop landed on my desk. I couldn’t get System 76, or other really awesome GNU/Linux machines because they do not serve India. I can’t let him wait for long, so if he pays the money its okay for me. That’s how I ended up having a Mac. The shipment was slow, that wait for nearly a month. A person who codes every day, a month without coding was an unimaginable stuff, but I endured it.&lt;/p&gt;
+
+&lt;p&gt;Now let me say how mac sucks.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-for-true-developers&quot;&gt;Not for true developers&lt;/h2&gt;
+
+&lt;p&gt;First I can’t have GNOME, KDE, XFCE on it as Apple won’t let them run it. So I am stuck with the crappy UI Apple offers. Can you imagine my friend who is an computer engineer himself, I am not kidding, he really is and he really is chooses Apple to develop? In apple you don’t even have a decent terminal, you have to use a thing called &lt;a href=&quot;https://iterm2.com/&quot;&gt;iTerm&lt;/a&gt;. It’s for babies this computer was designed for.&lt;/p&gt;
+
+&lt;h2 id=&quot;wifi-issues--dumb-users&quot;&gt;Wifi Issues &amp;amp; Dumb Users&lt;/h2&gt;
+
+&lt;p&gt;The WiFi sucks. Suddenly it gets disconnected and even if I tell it to connect the connection keeps dropping. There is no solution for it. Unlike GNU/Linux where there is so much support, for Mac, no. Even if you chat for support they (the Apple folks) answer you like idiots. When you talk to a person who uses GNU/Linux you can see that he understands you because he understands computers, but Apple people look dumb all the time.&lt;/p&gt;
+
+&lt;h2 id=&quot;sloppy-ux&quot;&gt;Sloppy UX&lt;/h2&gt;
+
+&lt;p&gt;I think I have used Mac OS now and then for 6 years I think. Each time forced by some one who wants to pay me. Unlike GNU/Linux where the UI has many iterations and changes and is refined constantly, here just look when I drag and drop a picture, it just stay in the folder just like that:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sloppy_ux.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The icons never rearrange. God. What’s wrong with Apple? Why are they so dumb and yet so rich? Why is Javascript the worst programming language and yet so popular? I simply don’t understand humanity.&lt;/p&gt;
+
+&lt;h2 id=&quot;large-program-size&quot;&gt;Large Program Size&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/large_program_size.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at the image above. Mac wants to update Keynote, its presentation software and it costs 340MB+. Almost any software you install is 100MB+ and you start wondering what the heck. Yes even in Ubuntu GNU/Linux, after this stupid snaps and flatpacks, the size has increased too, So this can’t be said as unique Apple problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;battery-drains-when-screen-is-bright&quot;&gt;Battery drains when screen is bright&lt;/h2&gt;
+
+&lt;p&gt;The battery drains fast when the screen is bright. Or else the longevity of the battery is awesome, it drains only 60% in 9 hours of use. Thats good. Even when I played a near 1 hour game of 0AD, it drained only 11%, that too this happened in a laptop which was quiet and fan less! Now that’s a miracle. But the battery soon starts to drain a percent per minute as soon as you work in sunny conditions where screen must be bright. So it sucks if you don’t live in Moscow.&lt;/p&gt;
+
+&lt;h2 id=&quot;crappy-software&quot;&gt;Crappy Software&lt;/h2&gt;
+
+&lt;p&gt;Traditionally Apple’s software sucks compared to that of GNU/Linux, but there are programs like Apple Books which are supposed to open and Ebook and they won’t do so. You can only view that that program has detected your Ebook, but you can’t open it. Once again if you ask Apple people they will respond its a good program. They simply don’t have the intelligence to listen to you like GNU/Linux guys. Worst, you can’t uninstall this shit program!! I don’t know why? there isn’t a decent Chess program like &lt;a href=&quot;https://pychess.github.io/&quot;&gt;PyChess&lt;/a&gt; on Apple.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-good-stuff&quot;&gt;Some Good Stuff&lt;/h2&gt;
+
+&lt;p&gt;M1 is fast, &lt;a href=&quot;/free%20software/ruby/apple/mac%20m1/tamil/japan/culture/2021/02/11/rajinikanth-in-free-software.html&quot;&gt;I installed Ruby&lt;/a&gt;, actually Ruby 3.0.0, in my old systems it took 20+ seconds to generate my &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; blog, here its 3. In the above text you would have found how M1 handles 0.A.D in a cool way when other laptops fan would be screaming. As always Apple looks good, the build is solid which other makers do not offer.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thought&quot;&gt;Final Thought&lt;/h2&gt;
+
+&lt;p&gt;Apple sucks, no doubt about it. I am just waiting for AMD and Intel to crush M1. Will that happen or will Apple kill them at their own game is yet to be seen. I haven’t restarted my friends project yet, I am still evaluating stuff, once done will blog about Data Science on M1. I feel M1 is okay for computer pioneers, for others who can lay hands on &lt;a href=&quot;https://system76.com&quot;&gt;System 76&lt;/a&gt;, better do so.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Stunning possibility in Data Science</title><link href="/2021/02/13/stunning-possibility-in-data-science.html" rel="alternate" type="text/html" title="Stunning possibility in Data Science" /><published>2021-02-13T14:36:00+05:30</published><updated>2021-02-13T14:36:00+05:30</updated><id>/2021/02/13/stunning-possibility-in-data-science</id><content type="html" xml:base="/2021/02/13/stunning-possibility-in-data-science.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://www.arizonafoothillsmagazine.com/valleygirlblog/wp-content/uploads/Marilyn-Monroe-Pictures.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
@@ -212,4 +258,4 @@ v0.8.0
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry><entry><title type="html">Life Of An Indian</title><link href="/india/caste/2020/08/27/life-of-an-indian.html" rel="alternate" type="text/html" title="Life Of An Indian" /><published>2020-08-27T08:33:00+05:30</published><updated>2020-08-27T08:33:00+05:30</updated><id>/india/caste/2020/08/27/life-of-an-indian</id><content type="html" xml:base="/india/caste/2020/08/27/life-of-an-indian.html">&lt;p&gt;&lt;img src=&quot;/images/life_of_an_indian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry></feed>
