@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-14T20:20:40+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Why you must not buy Apple M1</title><link href="/2021/02/14/why-you-must-not-buy-apple-m1.html" rel="alternate" type="text/html" title="Why you must not buy Apple M1" /><published>2021-02-14T20:19:00+05:30</published><updated>2021-02-14T20:19:00+05:30</updated><id>/2021/02/14/why-you-must-not-buy-apple-m1</id><content type="html" xml:base="/2021/02/14/why-you-must-not-buy-apple-m1.html">&lt;p&gt;&lt;img src=&quot;https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-m1-chip-graphic_11102020_big.jpg.large.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-18T14:20:54+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Running PHP on Mac M1</title><link href="/2021/02/18/running-php-on-mac-m1.html" rel="alternate" type="text/html" title="Running PHP on Mac M1" /><published>2021-02-18T14:18:00+05:30</published><updated>2021-02-18T14:18:00+05:30</updated><id>/2021/02/18/running-php-on-mac-m1</id><content type="html" xml:base="/2021/02/18/running-php-on-mac-m1.html">&lt;p&gt;&lt;img src=&quot;https://www.codigofonte.com.br/wp-content/uploads/2017/04/php-elephant.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mac is stupid for development. I got a assignment from a friend for writing his PHP site. He had contracted a PHP programmer for cheap, and just like any cheap programmer the code of the site was bad, non reusable, inconsistent UI and UX were there and changes made added to complexity.&lt;/p&gt;
+
+&lt;p&gt;The code was full of inconsistencies and trailing white spaces. I use Ruby for creation of websites, but my friend had bought a cheap hosting provider and was unwilling to change, that hosting provider gave only PHP on his servers for dirt pricing. So I had to do with PHP on Mac.&lt;/p&gt;
+
+&lt;h2 id=&quot;trying-out-xamp&quot;&gt;Trying out XAMP&lt;/h2&gt;
+
+&lt;p&gt;XAMP is a wonderful tool to run AMP stack (Apache, Maria DB, PHP) on any OS. I first installed on it on my laptop and tried. To my horror for some reason PHP files got downloaded rather than it being executed on server and HTML sent back. Mac sucks in development, the support was bad it took very long time to figure it out. You see it may be due to XAMP using PHP 8 and I later found out that my Mac had inbuilt PHP 7 which could be the cause of the issue. These mismatches means some how XAMP PHP won’t work on Mac.&lt;/p&gt;
+
+&lt;p&gt;If this kind of problem occurred on Ubuntu GNU/Linux, then it would be going to a forum and a 20 minute fix, because this happened in mac, it took nearly a day to find the solution. Pheeew!! Mac sucks for development, its a closed box and good enough developers should not use it.&lt;/p&gt;
+
+&lt;p&gt;So now knowing that XAMP won’t work properly, I switched to Mac’s internal installation. thankfully XAMP had an uninstall script which I triggered to remove it.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-macs-apache-and-php&quot;&gt;Using Mac’s Apache and PHP&lt;/h2&gt;
+
+&lt;p&gt;Okay, Mac has inbuilt Apache and PHP. Why a company which builds opaque OS and Processors that does not disclose about it to developers includes these software? I don’t know. So start Apache like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ apachectl start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Launch &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost&lt;/code&gt; in your browser and you should see this&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/php_mac_m1/apache_works.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now edit this file:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vi /etc/apache2/httpd.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In that find this one&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;LoadModule php7_module libexec/apache2/libphp7.so
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and uncomment it if its commented, if you can’t find it add it at last. Now in finder locate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/Library/WebServer/Documents/&lt;/code&gt; and right click on it and click Get Info, it must show something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/php_mac_m1/changing_folder_permissions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In that I have added myself and given me Read and Write permissions. Now restart Apache like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ apachectl restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Place your PHP files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/Library/WebServer/Documents/&lt;/code&gt; and access it in your browser.&lt;/p&gt;
+
+&lt;p&gt;If you  are a Mac user, my only advise is don’t be a stupid, switch to GNU/Linux.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why you must not buy Apple M1</title><link href="/2021/02/14/why-you-must-not-buy-apple-m1.html" rel="alternate" type="text/html" title="Why you must not buy Apple M1" /><published>2021-02-14T20:19:00+05:30</published><updated>2021-02-14T20:19:00+05:30</updated><id>/2021/02/14/why-you-must-not-buy-apple-m1</id><content type="html" xml:base="/2021/02/14/why-you-must-not-buy-apple-m1.html">&lt;p&gt;&lt;img src=&quot;https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-m1-chip-graphic_11102020_big.jpg.large.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;People who know me know that I am against Apple. Apple is just another black box, possibly a spying machine that sits right in your home. Who knows right now a NSA agent might be looking at me on camera, ya its Feb 14th today, so if its a woman she would be hopelessly in love with me. But I got a M1, why?&lt;/p&gt;
 
@@ -212,50 +258,4 @@ v0.8.0
 
 &lt;p&gt;Sometimes it could be the case where just because I curse some one when they are really bad, and they know about their ill doings, their subconscious works to punish them. Like deaths in family. Say some one in your family is dying, you must do all you can to stop it, but your subconscious mind says you have done a bad thing and hence you must endure a loss rather than do all it takes to save the life, perhaps the you rather than to put in work and thought freeze thus loosing a person. Who knows?&lt;/p&gt;
 
-&lt;p&gt;But once I curse I forget about it. That’s it. That person is my friend again and I have almost nothing against him, I just wish things would go right, but seems that the word runs in their mind and they associate it with evil things that happens in their lives.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Experience/Advice from a 10+ year data scientist</title><link href="/2020/09/09/experience-advice-from-a-10-year-data-scientist.html" rel="alternate" type="text/html" title="Experience/Advice from a 10+ year data scientist" /><published>2020-09-09T09:36:00+05:30</published><updated>2020-09-09T09:36:00+05:30</updated><id>/2020/09/09/experience-advice-from-a-10-year-data-scientist</id><content type="html" xml:base="/2020/09/09/experience-advice-from-a-10-year-data-scientist.html">&lt;p&gt;For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Been working in quant/data science for 10-11 years now. Didn’t know where to go because this field didn’t exist when I was in school.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Self-taught. This is where my imposter syndrome appears but little did anyone know this. Learned SQL through sqlzoo, learned R as a hobby to day-trade (yahoo-finance api, zoo package, etc.), Python through codeschool(?) or codeacademy(?) in 2012 (it was free back then), Math through OCW/torrented whitepapers &amp;amp; textbooks, ML through whitepapers &amp;amp; textbooks (coursera did not exist yet)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Interviewed around a lot and got rejected a lot (100+). When I first began, this was not a field, but the interview process &amp;amp; rejections gave me grit and understand what to study. I interviewed for a lot of exciting startups (now public companies) before they were even big. A small hedge fund gave me a chance as a quant trader, and our group got shut down in a year. I got a second chance somewhere else and the company went public (data science was central to their strategy)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data Science is exciting. This field has brought me around the world. Worked at a hedge fund, electricity markets, global consulting, somehow ended up doing A.I work, and now in a leadership strategy role. I don’t oversee data scientists anymore, they mostly report to my business function now but previously managed 20+ data scientists. Worked all over the globe and across many, many states.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Study and code everyday. Make it a habit. Blog posts, whitepapers, textbooks. I’ve lost this habit and I regret it – getting back into it. You should love learning, otherwise you’re in the wrong field.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Build up your foundations. Python/R, Probability/Stats/Calculus/LinAlg/DiffEq, Algorithms. This will help you understand a lot . Do take an algorithms &amp;amp; design course. Most problems are solved through a design approach / framework rather than a model.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Stay in touch with whats going on. hackernews/datatau/rweekly &amp;amp; understanding new Data Engineering trends, Tech Engineering Blogs. Example, when I read some company blog about their implementation of spark in 2014, I immediately started playing around with it with my models.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Always be humble &amp;amp; prepare to get humbled but remain self-confident and determined. Don’t be afraid.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Find a subject you like to get started. Loving data &amp;amp; modeling is one thing, but find an area that really interests you. For me, I started with time series (not for the faint of heart). This introduced me to a lot of difficult concepts.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Find a product/field. For me it was Energy &amp;amp; Finance. It can be marketing, sales, finance, pure ML, pure optimization work, supply chain, etc. Being a general hobbyist will only get you so far.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Lastly, Data science is not all SQL. It depends on how close you are to the revenue generating side. If you’re making a quarterly report on demand, that isn’t data science. If you’re building growth models to accelerate users on your platform that tie to scale and revenue. SQL will get your dad but still have to come up with model&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Taken from:&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&quot;&gt;https://www.reddit.com/r/datascience/comments/iorbjg/experienceadvice_from_a_10_year_data_scientist/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For context, I was in most people’s shoes here so this is why I want to give back some advice and inspiration. There’s a bit of misinformation in this subreddit so I’ll consolidate my thinking. DM me if you need specific advice</summary></entry></feed>
+&lt;p&gt;But once I curse I forget about it. That’s it. That person is my friend again and I have almost nothing against him, I just wish things would go right, but seems that the word runs in their mind and they associate it with evil things that happens in their lives.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
