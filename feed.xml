@@ -1,5 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-05T15:25:08+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Still using x86 for asdf on M1 Mac</title><link href="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html" rel="alternate" type="text/html" title="Still using x86 for asdf on M1 Mac" /><published>2021-10-05T15:24:00+05:30</published><updated>2021-10-05T15:24:00+05:30</updated><id>/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac</id><content type="html" xml:base="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html">&lt;p&gt;I have to code for a legacy project using Ruby 2.6.6. I am using M1 Mac and using asdf as my version manager. As soon as I tried&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-07T14:58:33+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">How the Universe could measure Time?</title><link href="/2021/10/07/how-the-universe-could-measure-time.html" rel="alternate" type="text/html" title="How the Universe could measure Time?" /><published>2021-10-07T14:57:00+05:30</published><updated>2021-10-07T14:57:00+05:30</updated><id>/2021/10/07/how-the-universe-could-measure-time</id><content type="html" xml:base="/2021/10/07/how-the-universe-could-measure-time.html">&lt;p&gt;I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.&lt;/p&gt;
+
+&lt;p&gt;Today we kind of measure time depending on speed of light which we believe is of constant velocity, but velocity of light is based on time, so there is a circular dependency.&lt;/p&gt;
+
+&lt;p&gt;In this blog I would like to say how I think this universe keeps track of time. It could be right or wrong.&lt;/p&gt;
+
+&lt;h2 id=&quot;time-is-memory-of-state-transitions&quot;&gt;Time is memory of state transitions&lt;/h2&gt;
+
+&lt;p&gt;Let’s say that there is universe, and nothing happens in it, then there is no flow of time. Now say all of a sudden universe switches from state S1 to S2&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-created.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then if the state S2 and the universe remembers it was in state S1, then we register it as time has passed.&lt;/p&gt;
+
+&lt;h2 id=&quot;short-time&quot;&gt;Short Time&lt;/h2&gt;
+
+&lt;p&gt;Let’s say that there is registry of only few states (or state-transitions) available in this universe, then we say the universe is very young.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/short-time.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If there another state transition takes place, and the memory of it persists,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/long-time.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;then we say universe has got bit more older.&lt;/p&gt;
+
+&lt;h2 id=&quot;could-time-reverse&quot;&gt;Could Time reverse?&lt;/h2&gt;
+
+&lt;p&gt;Let’s say that the universe has gone from state S1 to S4 as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-reversal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now if there is possibility of universe going back from S4 to S3 by completely forgetting about S4, then we can say time has reversed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-reversal-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now if that happens, there is no way of knowing it as there is no memory of S4 in S3, and hence no evidence of time reversal has taken place. May be there is time reversal is happening all the time (nice pun!), and we have no way of knowing it.&lt;/p&gt;
+
+&lt;p&gt;Now if time does reverse and universe gots to state S3, then it may or may not take the same path again. The universe may go from S3 to S4, or from S3 to S5 or may be to some other state as shown:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-reversal-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-time-travel-may-not-be-possible&quot;&gt;Why Time travel may not be possible?&lt;/h2&gt;
+
+&lt;p&gt;If universe reverses time we may never be aware of it because sate of the universe includes its memory. Let’s see a scenario as shown in the diagram below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-travel-impossibility.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Universe goes from state S1 to S4, then back to S1, in this case S1 knows that it came from S4, so this is the case of cyclic universe. May be as Sir Roger Penrose suggested universe could go to a state where its just another big bang.&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/ypjZF6Pdrws?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;
+
+&lt;p&gt;Once S1 remembers state of S4, may be that might affect the next state, may be it might not transition to S2 because of randomness, or if the universe is only deterministic, it will only go to S2 and no other state and so on to finally going to S4 and returning back to S1.&lt;/p&gt;
+
+&lt;p&gt;In a very deterministic cyclic universe, all that had happened will happen again and all that is going to happen would have happened.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-there-time&quot;&gt;Is there Time?&lt;/h2&gt;
+
+&lt;p&gt;Time is just the memory of states of universe, that’s it. It’s the remembrance of these states we call time.&lt;/p&gt;
+
+&lt;h2 id=&quot;probabilities--birth-of-new-universe&quot;&gt;Probabilities &amp;amp; Birth of new Universe&lt;/h2&gt;
+
+&lt;p&gt;It would be interesting to investigate if universe is in state S1, the is the universe is really deterministic? Or it has the chance to take on multiple states as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new-universe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If universe can slip into multiple states from current state, then is there is a probability associated with it? Can that probability be measured?&lt;/p&gt;
+
+&lt;p&gt;If the universe is in state S1, and it slips into state S4 a special state where there is no memory of S1, then it would look like the birth of a new universe which arose from nothing.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-the-diagrams&quot;&gt;Get the diagrams&lt;/h2&gt;
+
+&lt;p&gt;You can download the diagrams of this blog &lt;a href=&quot;/diagrams/How-universe-keeps-track-of-time.drawio&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.</summary></entry><entry><title type="html">Still using x86 for asdf on M1 Mac</title><link href="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html" rel="alternate" type="text/html" title="Still using x86 for asdf on M1 Mac" /><published>2021-10-05T15:24:00+05:30</published><updated>2021-10-05T15:24:00+05:30</updated><id>/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac</id><content type="html" xml:base="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html">&lt;p&gt;I have to code for a legacy project using Ruby 2.6.6. I am using M1 Mac and using asdf as my version manager. As soon as I tried&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ asdf install ruby 2.6.6
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -197,45 +274,4 @@
 
 &lt;p&gt;Let’s say you have Covid with no symptoms, and you travel without precaution, then you infect a person on travel and that person feels nothing, that person has old people in his home and they get it and die, then it means you have killed them. It’s as simple as that.&lt;/p&gt;
 
-&lt;p&gt;Imagine your loved one slipping a banana peel, falling down on the pavement with their head jutting out into the road, and a lorry runs over it. The person who threw the peel is just few steps away from you and laughs because its not his mistake to have killed your loved one, its your loved one who has stepped over it.&lt;/p&gt;</content><author><name></name></author><summary type="html">One good thing about Corona is that not all of us will die, but many of us might be crippled in some way that we may not be realise. Maybe less of brain function, less of bodily functions which are not visible, may be our lifespan will decrease and definitely we won’t be aware of it now, who knows what else happens due to invasion of such fast changing virus?</summary></entry><entry><title type="html">Suicides Should be a Human Right</title><link href="/philosophy/life/myth/religion/belief/2021/03/20/suicides-should-be-a-human-right.html" rel="alternate" type="text/html" title="Suicides Should be a Human Right" /><published>2021-03-20T14:41:00+05:30</published><updated>2021-03-20T14:41:00+05:30</updated><id>/philosophy/life/myth/religion/belief/2021/03/20/suicides-should-be-a-human-right</id><content type="html" xml:base="/philosophy/life/myth/religion/belief/2021/03/20/suicides-should-be-a-human-right.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/David_-_The_Death_of_Socrates.jpg/1644px-David_-_The_Death_of_Socrates.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;The Death of Socrates&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I thought you how to live, I’ll teach you how to die - Socrates&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In many parts of the world, one can choose their own leaders. Well, that’s what we are told to believe, and we are also told that we have control of our life, it’s our life and our right until we infringe upon some one else’s right. Well then why shouldn’t one have the right to kill oneself?&lt;/p&gt;
-
-&lt;h2 id=&quot;you-are-not-infringing-on-others-right&quot;&gt;You are not infringing on others right&lt;/h2&gt;
-
-&lt;p&gt;When one kills himself, or the better herself :D, that person is not infringing on other peoples right, but they are just shutting off. That’s it. It’s their idea that this universe and humanity sucks and they don’t belong here, I feel if any society calls itself free should honour it.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-they-tell-its-wrong&quot;&gt;Why they tell its wrong&lt;/h2&gt;
-
-&lt;p&gt;I don’t really know why they say it’s wrong and why many religious and political leaders encourage one to live despite making lives hard. May be because if say some one says “God I want mutton briyani now”, and to his dismay discovers that God doesn’t deliver and he kills himself, then the amount of money the religious leader gets when all people who discover that God does not exist and commit suicide dwindles. The religious leader, can’t have a great life, and most religious leaders are control freaks who want to control lot of people. If people are not afraid of death, then this control becomes really hard, and if they don’t work for him he may not have the life he or she desires. Imagine how Nithyanadha would feel of Ranjitha killed herself rather than sleeping with him.&lt;/p&gt;
-
-&lt;p&gt;Till this day, we were made to believe leaders of business, religion and politics should be respected and its because of them people have a better life, but when Corona struck and human interaction was banned the world productivity dropped, some how all of a sudden the world realised that it’s productivity comes out of people who work, rather than from the people who have money, dream and thought.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;He who is not afraid to die is your master - Roman saying&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Plus say your boss threatens you with a miserable life, only to find out that you have killed yourself the next day, he would feel frustrated, definitely his business would suffer some loss, and if people are bold enough to commit suicide, bosses can’t really abuse them. Human productivity is built on abuse, frustration, sweat and blood than humaness. If people escape these things quick, then these people can’t say to the world they had made it more productive and they are successful and have a large house, a car because of their work (which they really didn’t do).&lt;/p&gt;
-
-&lt;p&gt;Possibly its because of that its said that killing yourself is cowardice and the comedy is throwing before enemy fire and defending against enemy is also a near act of suicide, but those things are glorified :D&lt;/p&gt;
-
-&lt;p&gt;So one getting killed is wrong if it’s weakens the institutional leaders, and if killing of you strengthens them, then it’s right.&lt;/p&gt;
-
-&lt;h2 id=&quot;spain-granting-rights-to-die&quot;&gt;Spain granting rights to die&lt;/h2&gt;
-
-&lt;p&gt;Recently I saw a news that Spain is granting rights to die for people who are in severe medical pain. That’s a good step, but I feel its rubbish that any civilisation could call itself free if it does not allow killing of oneself as easy buying a briyani. But ya briyani is prized really high because of human stupidity, well that’s another blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Death of Socrates</summary></entry></feed>
+&lt;p&gt;Imagine your loved one slipping a banana peel, falling down on the pavement with their head jutting out into the road, and a lorry runs over it. The person who threw the peel is just few steps away from you and laughs because its not his mistake to have killed your loved one, its your loved one who has stepped over it.&lt;/p&gt;</content><author><name></name></author><summary type="html">One good thing about Corona is that not all of us will die, but many of us might be crippled in some way that we may not be realise. Maybe less of brain function, less of bodily functions which are not visible, may be our lifespan will decrease and definitely we won’t be aware of it now, who knows what else happens due to invasion of such fast changing virus?</summary></entry></feed>
