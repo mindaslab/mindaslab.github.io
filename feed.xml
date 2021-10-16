@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-09T14:32:07+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">BDD kills software industry productivity</title><link href="/2021/10/09/bdd-kills-software-industry-productivity.html" rel="alternate" type="text/html" title="BDD kills software industry productivity" /><published>2021-10-09T14:31:00+05:30</published><updated>2021-10-09T14:31:00+05:30</updated><id>/2021/10/09/bdd-kills-software-industry-productivity</id><content type="html" xml:base="/2021/10/09/bdd-kills-software-industry-productivity.html">&lt;p&gt;Software Industry is a knowledge industry, it’s core value lies in its people, the knowledge stored in their brains, the intelligence they develop and willing work they put in, for some reason even veteran’s I see are creating companies that are business driven, of course business is a key to I.T industry, but the companies are mostly doing Business Driven Development (BDD), which pulls down the productivity out of the company decreases the efficiency of software industry as whole.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-16T20:50:55+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Installing Ruby 3.0.2 on Mac M1</title><link href="/apple/mac/m1/programming/ruby/asdf/2021/10/16/installing-ruby-3-0-2-on-mac-m1.html" rel="alternate" type="text/html" title="Installing Ruby 3.0.2 on Mac M1" /><published>2021-10-16T20:49:00+05:30</published><updated>2021-10-16T20:49:00+05:30</updated><id>/apple/mac/m1/programming/ruby/asdf/2021/10/16/installing-ruby-3-0-2-on-mac-m1</id><content type="html" xml:base="/apple/mac/m1/programming/ruby/asdf/2021/10/16/installing-ruby-3-0-2-on-mac-m1.html">&lt;p&gt;I was going through some of my personal projects, some were on Ruby 3.0.0, some were on Ruby 3.0.1. When ever I pushed code for my startup (I hope it won’t become a fucked up), it said ‘common upgrade to Ruby 3.0.2’. Yes it should be done, &lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/&quot;&gt;there are some security fixes that you should not ignore&lt;/a&gt;, so do upgrade.&lt;/p&gt;
+
+&lt;p&gt;I fired up my terminal and typed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;asdf install ruby 3.0.2&lt;/code&gt;, for some suprising reason it said 3.0.2 does not exists, that is the formulas are not updated may be. I even thought of removing asdf and move to trusted RVM, but then digging documentation, I gave this command&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ASDF_RUBY_BUILD_VERSION=master arch -x86_64  asdf install ruby 3.0.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I think this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ASDF_RUBY_BUILD_VERSION=master&lt;/code&gt; tells that to pull from master branch of asdf ruby, so its kinda latest, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arch -x86_64&lt;/code&gt; tells that we must compile it like X86 architecture and not for Mac M1.&lt;/p&gt;
+
+&lt;p&gt;With this it installed 3.0.2 like charm and I ported my project from 3.0.1 to 3.0.2 and pushed it.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was going through some of my personal projects, some were on Ruby 3.0.0, some were on Ruby 3.0.1. When ever I pushed code for my startup (I hope it won’t become a fucked up), it said ‘common upgrade to Ruby 3.0.2’. Yes it should be done, there are some security fixes that you should not ignore, so do upgrade.</summary></entry><entry><title type="html">BDD kills software industry productivity</title><link href="/2021/10/09/bdd-kills-software-industry-productivity.html" rel="alternate" type="text/html" title="BDD kills software industry productivity" /><published>2021-10-09T14:31:00+05:30</published><updated>2021-10-09T14:31:00+05:30</updated><id>/2021/10/09/bdd-kills-software-industry-productivity</id><content type="html" xml:base="/2021/10/09/bdd-kills-software-industry-productivity.html">&lt;p&gt;Software Industry is a knowledge industry, it’s core value lies in its people, the knowledge stored in their brains, the intelligence they develop and willing work they put in, for some reason even veteran’s I see are creating companies that are business driven, of course business is a key to I.T industry, but the companies are mostly doing Business Driven Development (BDD), which pulls down the productivity out of the company decreases the efficiency of software industry as whole.&lt;/p&gt;
 
 &lt;p&gt;Let me tel you an example. Recently I took an I.T project, I was supposed to lead it, instead I crashed out of it. I was told to bring up Ruby on Rails software on my laptop, which I did partly, and to complete it I need to take dump of MySQL from server. None seems to know its password. The project manager assigned me tickets even before its done and kept asking me the status of tickets. I got annoyed, he then tried to arrange meeting with management. I was convinced he is a perfect manager, and there is no future for me in this project. He was just a messaging and annoying spam bot. I stopped responding to him.&lt;/p&gt;
 
@@ -247,55 +256,4 @@
 
 &lt;p&gt;DMK is not a dravidian party, its a party to make Udhayanidhi Stalin the Chief minister because no one in DMK has worked as hard for the party :D. All other party member’s except Udhyanidhi have no balls it seems.&lt;/p&gt;
 
-&lt;p&gt;We need a party that is Democratic, Drvidian, Atheistic, that grows Tamil and better’s the lifes of Tamilians, gives chance to people who love people, and bubbles up leaders than dynasty. Will Tamils ever wake up and create this change?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Why India won’t win over Covid?</title><link href="/2021/04/24/why-india-won-t-win-over-covid.html" rel="alternate" type="text/html" title="Why India won&apos;t win over Covid?" /><published>2021-04-24T20:40:00+05:30</published><updated>2021-04-24T20:40:00+05:30</updated><id>/2021/04/24/why-india-won-t-win-over-covid</id><content type="html" xml:base="/2021/04/24/why-india-won-t-win-over-covid.html">&lt;p&gt;&lt;img src=&quot;https://s01.sgp1.cdn.digitaloceanspaces.com/article/157943-msvocffheg-1619027775.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Deaths are mounting in India and looks like there isn’t enough place to cremate people. Yet this is just the start of Covid in India, more is yet to come. This might ravage us for for 3 to 10 years, who knows? May be a miracle could make it less.&lt;/p&gt;
-
-&lt;p&gt;People are speaking how the governments have mishandled the situation and so on. To me this battle had been lost long ago, and unfortunately we won’t win it, which means, all who will die of covid will die and the remaining will get natural immunity and might suffer some cost like reduced lifespan etc.&lt;/p&gt;
-
-&lt;p&gt;In this blog I will tell my opinion, why and how it happened.&lt;/p&gt;
-
-&lt;h2 id=&quot;lost-a-long-time-ago&quot;&gt;Lost a long time ago&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://germarrudolf.com/wp-content/uploads/2016/07/three_monkeys.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We had lost the battle with Covid long ago, even before the first Covid formed. I won’t forget, when I was working in a company, my car got repaired and a nice friend of mine offered lift. We talked about many things. Once he said that 80% of salary goes just to meet  health and education expense. When a true honest Muslim says such a thing, it hits you. A person well disciplined than me is struggling in life.&lt;/p&gt;
-
-&lt;p&gt;In India, you don’t have the right to kill yourself. The country might kill you by sentencing you, but you do not own your life. In that case the country should guarantee the wellness and happiness of every citizen. Each citizen should be well educated, well fed, should have well health. But here I see a very good citizen complain about this nation. A sign that India has failed.&lt;/p&gt;
-
-&lt;p&gt;We have privatised and commercialised health and education. Meaning you have to have money to have these things. India and Indians have lost to Covid or what ever health pandemic that would hit them at that very time when they slowly accept privatisation of essential services.&lt;/p&gt;
-
-&lt;p&gt;We had lost the moment we stopped selecting good leaders to rule us.&lt;/p&gt;
-
-&lt;h2 id=&quot;ignorant-people&quot;&gt;Ignorant people&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://i1.wp.com/culturalsamvaad.com/wp-content/uploads/2019/10/1200px-Descent_of_the_Ganges_Pallava_period_7th_century_Mahabalipuram_6_23621236598-e1570786632817.jpg?resize=600%2C400&amp;amp;ssl=1&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Rat worshipping a cat, a sculpture in Mahabalipuram, India&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;People are still ignorant. Just a peek outside my window and I can see tens of people and only few of them wearing mask. Even those who wear mask, wear a cloth one which is not so effective and now even surgical masks which I use normally seems to have little effect. They are telling us to wear a thing called triple layered mask.&lt;/p&gt;
-
-&lt;p&gt;Many people are still ignorant, and looks like they might realize only if death happens nearby. For a non ignorant and well educated population one should have an excellent education system which India had lost long ago. So we cannot expect a learned populace.&lt;/p&gt;
-
-&lt;h2 id=&quot;stupid-government&quot;&gt;Stupid government&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.newindianexpress.com/uploads/user/imagelibrary/2018/6/13/w600X300/modichan.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The BJP government is stupid (so is congress). We were failing in economy well before Covid, and Covid exploited our weaknesses well. The government does not know what its doing, it would say there is enough vaccine and the next day news would report that vaccine centres have run out of it. All BJP governments have been out of touch with common populace and this one wants to give press statements that would make stock markets go little higher.&lt;/p&gt;
-
-&lt;p&gt;In short this government which did say Covid will be won in 21 days has failed.&lt;/p&gt;
-
-&lt;p&gt;Like the people so are the rulers. How cam you expect an ill educated population to choose a non stupid leaders?&lt;/p&gt;
-
-&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap up&lt;/h2&gt;
-
-&lt;p&gt;Well, let’s hope that our deaths will decrease human pressure and harm on this environment and reduce global warming. I don’t think India will become an educated and aware nation any time soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;We need a party that is Democratic, Drvidian, Atheistic, that grows Tamil and better’s the lifes of Tamilians, gives chance to people who love people, and bubbles up leaders than dynasty. Will Tamils ever wake up and create this change?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
