@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Using Bootstrap Icons in Ruby on Rails | Karthikeyan A K’s blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Using Bootstrap Icons in Ruby on Rails" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This seems to be the right way that bootstrap icons should be added to Ruby on Rails, I have tried many other ways, some work in local and fail in production, others work in normal production boxes but fail in Heroku, this one seems to work every where." />
+<meta property="og:description" content="This seems to be the right way that bootstrap icons should be added to Ruby on Rails, I have tried many other ways, some work in local and fail in production, others work in normal production boxes but fail in Heroku, this one seems to work every where." />
+<link rel="canonical" href="/programming/web%20development/ruby%20on%20rails/2021/10/18/using-bootstrap-icons-in-ruby-on-rails.html" />
+<meta property="og:url" content="/programming/web%20development/ruby%20on%20rails/2021/10/18/using-bootstrap-icons-in-ruby-on-rails.html" />
+<meta property="og:site_name" content="Karthikeyan A K’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-18T10:58:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Using Bootstrap Icons in Ruby on Rails" />
+<script type="application/ld+json">
+{"url":"/programming/web%20development/ruby%20on%20rails/2021/10/18/using-bootstrap-icons-in-ruby-on-rails.html","headline":"Using Bootstrap Icons in Ruby on Rails","dateModified":"2021-10-18T10:58:00+05:30","datePublished":"2021-10-18T10:58:00+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/programming/web%20development/ruby%20on%20rails/2021/10/18/using-bootstrap-icons-in-ruby-on-rails.html"},"description":"This seems to be the right way that bootstrap icons should be added to Ruby on Rails, I have tried many other ways, some work in local and fail in production, others work in normal production boxes but fail in Heroku, this one seems to work every where.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+
+  <style media="screen">
+    /* responsive videos */
+    .video figure {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video iframe, .video object, .video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .pagination{
+      margin-top: 40px;
+    }
+
+    a.paginate {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+    }
+  </style>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Karthikeyan A K&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Karthikeyan A K</a><a class="page-link" href="/categories/">Categories</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Using Bootstrap Icons in Ruby on Rails</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-10-18T10:58:00+05:30" itemprop="datePublished">Oct 18, 2021
+      </time></p>
+  </header>
+
+  <div class="post-categories">
+    
+    
+      <a href="/categories/#Programming">Programming</a>
+      &nbsp;
+    
+      <a href="/categories/#Web Development">Web Development</a>
+      &nbsp;
+    
+      <a href="/categories/#Ruby on Rails">Ruby on Rails</a>
+      
+    
+  </div>
+  <p></p>
+  <div class="post-content">
+    <p>This seems to be the right way that bootstrap icons should be added to Ruby on Rails, I have tried many other ways, some work in local and fail in production, others work in normal production boxes but fail in Heroku, this one seems to work every where.</p>
+
+<p>First you need to add bootstrap-icons to your project using yarn like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ yarn add bootstrap-icons
+</code></pre></div></div>
+
+<p>Next at the end of <code class="language-plaintext highlighter-rouge">app/assets/stylesheets/application.scss</code> add this code:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s1">"bootstrap-icons/font/bootstrap-icons"</span><span class="p">;</span>
+<span class="k">@font-face</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"bootstrap-icons"</span><span class="p">;</span>
+  <span class="nl">src</span><span class="p">:</span> <span class="n">font-url</span><span class="p">(</span><span class="s1">"bootstrap-icons/font/fonts/bootstrap-icons.woff2"</span><span class="p">)</span> <span class="n">format</span><span class="p">(</span><span class="s1">"woff2"</span><span class="p">),</span>
+    <span class="n">font-url</span><span class="p">(</span><span class="s1">"bootstrap-icons/font/fonts/bootstrap-icons.woff"</span><span class="p">)</span> <span class="n">format</span><span class="p">(</span><span class="s1">"woff"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can start using bootstrap icons like this now:</p>
+
+<div class="language-erb highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the icon for pencil <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"bi bi-pencil"</span><span class="nt">&gt;&lt;/i&gt;</span>.
+</code></pre></div></div>
+
+<p>Yo could write a helper, in <code class="language-plaintext highlighter-rouge">app/helpers/bootstrap_icon_helper.rb</code> add htis:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">module</span> <span class="nn">BootstrapIconHelper</span>
+  <span class="k">def</span> <span class="nf">icon</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+    <span class="sx">%Q{
+      &lt;i class="bi bi-</span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="sx">"&gt;&lt;/i&gt;
+    }</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Now in your application views, you can use icon like this:</p>
+
+<div class="language-erb highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the icon for pencil <span class="cp">&lt;%=</span> <span class="n">icon</span> <span class="s1">'pencil'</span> <span class="cp">%&gt;</span>.
+</code></pre></div></div>
+<p>If you are working under a psycho boss who says there must be brackets for Ruby method calls, you can code like this:</p>
+
+<div class="language-erb highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the icon for pencil <span class="cp">&lt;%=</span> <span class="n">icon</span><span class="p">(</span><span class="s1">'pencil'</span><span class="p">)</span> <span class="cp">%&gt;</span>.
+</code></pre></div></div>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Karthikeyan A K&#39;s blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Karthikeyan A K&#39;s blog</li><li><a class="u-email" href="mailto:mindaslab@protonmail.com">mindaslab@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mindaslab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mindaslab</span></a></li><li><a href="https://www.twitter.com/karthik_ak"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">karthik_ak</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
