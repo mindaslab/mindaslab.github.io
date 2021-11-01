@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-29T12:06:26+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Why Businesses are Afraid of Kerala</title><link href="/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala.html" rel="alternate" type="text/html" title="Why Businesses are Afraid of Kerala" /><published>2021-10-29T12:05:00+05:30</published><updated>2021-10-29T12:05:00+05:30</updated><id>/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala</id><content type="html" xml:base="/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala.html">&lt;p&gt;&lt;img src=&quot;https://www.steppestravel.com/app/uploads/2019/06/village-boat-view-backwaters-kerala-india.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-01T08:20:29+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">When Trix Image / Attachment does not upload to Amazon S3</title><link href="/web%20development/ruby%20on%20rails/trix/aws/s3/2021/11/01/when-trix-image-attachment-does-not-upload-to-amazon-s3.html" rel="alternate" type="text/html" title="When Trix Image / Attachment does not upload to Amazon S3" /><published>2021-11-01T08:18:00+05:30</published><updated>2021-11-01T08:18:00+05:30</updated><id>/web%20development/ruby%20on%20rails/trix/aws/s3/2021/11/01/when-trix-image-attachment-does-not-upload-to-amazon-s3</id><content type="html" xml:base="/web%20development/ruby%20on%20rails/trix/aws/s3/2021/11/01/when-trix-image-attachment-does-not-upload-to-amazon-s3.html">&lt;p&gt;An app was all set and done and I had to test it, we had a commenting system and a rich text commenting was needed and hence we went for Trix editor which integrates well with Ruby on Rails. A problem arose, when we used local storage the image uploads worked, but when we used Amazon S3 it did not.&lt;/p&gt;
+
+&lt;p&gt;It turns out that Trix uploads images directly to storage, and let’s say if you are uploading from say &lt;a href=&quot;http://localhost:3000&quot;&gt;http://localhost:3000&lt;/a&gt;, you must whitelist it in Amzon S3 bucket. So we did.&lt;/p&gt;
+
+&lt;p&gt;So go to your S3 console, you will have a tab call &lt;strong&gt;Permission&lt;/strong&gt;,  click it and scroll down, and this thing called &lt;strong&gt;Cross-origin resource sharing (CORS) would&lt;/strong&gt; appear&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/s3_cors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Add the text below in it and save.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[
+    {
+        &quot;AllowedHeaders&quot;: [
+            &quot;*&quot;
+        ],
+        &quot;AllowedMethods&quot;: [
+            &quot;PUT&quot;,
+            &quot;POST&quot;,
+            &quot;DELETE&quot;
+        ],
+        &quot;AllowedOrigins&quot;: [
+            &quot;http://localhost:3000&quot;
+        ],
+        &quot;ExposeHeaders&quot;: []
+    }
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are using some other domain like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://abc.ocm&lt;/code&gt;, then it should be added instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:3000&lt;/code&gt;. Now add your image in Trix, it should sit upload to S3 bucket like charm.&lt;/p&gt;</content><author><name></name></author><summary type="html">An app was all set and done and I had to test it, we had a commenting system and a rich text commenting was needed and hence we went for Trix editor which integrates well with Ruby on Rails. A problem arose, when we used local storage the image uploads worked, but when we used Amazon S3 it did not.</summary></entry><entry><title type="html">Why Businesses are Afraid of Kerala</title><link href="/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala.html" rel="alternate" type="text/html" title="Why Businesses are Afraid of Kerala" /><published>2021-10-29T12:05:00+05:30</published><updated>2021-10-29T12:05:00+05:30</updated><id>/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala</id><content type="html" xml:base="/india/kerala/business/2021/10/29/why-businesses-are-afraid-of-kerala.html">&lt;p&gt;&lt;img src=&quot;https://www.steppestravel.com/app/uploads/2019/06/village-boat-view-backwaters-kerala-india.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I  was consulting for a company named Guidehouse in Trivandrum, Kerala. All was going good, none said anything bad about me or doubted my performance. Then there was a meeting all of a sudden, in it three of the people there, the H.R Shyam, Suresh Vasudev (Associate Director), and a person called Jeff who is some one senior in it tech ranking was there. They opened 4 page document saying that in my 9 months of work there, these were all the mistakes I did. When I questioned them they said I was behaving like a junior developer than a tech architect. I was shocked.&lt;/p&gt;
 
@@ -249,38 +277,4 @@ you make a U-turn and hurt others for unnecessary reason. It was very same for m
 
 &lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The world of artificial intelligence has excellent applications to be cracked. Jump in! May be &lt;a href=&quot;https://neuralink.com/&quot;&gt;Neural Link&lt;/a&gt; will make humanity just one brain and eliminate all meetings.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">DMK trying to give god back to people</title><link href="/religion/hinduism/india/tamilnadu/dmk/politics/2021/06/12/dmk-trying-to-give-god-back-to-people.html" rel="alternate" type="text/html" title="DMK trying to give god back to people" /><published>2021-06-12T20:47:00+05:30</published><updated>2021-06-12T20:47:00+05:30</updated><id>/religion/hinduism/india/tamilnadu/dmk/politics/2021/06/12/dmk-trying-to-give-god-back-to-people</id><content type="html" xml:base="/religion/hinduism/india/tamilnadu/dmk/politics/2021/06/12/dmk-trying-to-give-god-back-to-people.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://cdn.siasat.com/wp-content/uploads/2019/11/DMK-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Rising Sun - DMK Logo&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;I don’t like DMK for many reasons. The first is dynastic politics. We all know who is the next chief minister after Stalin is. It’s hard to believe none in DMK did not work as much as Stalin to deserve the CM post, and it’s kind of funny to know why there wasn’t a vote or a contender to Stalin when he tried to become the leader of DMK, that too when DMK claims that it’s a party that respects democracy.&lt;/p&gt;
-
-&lt;p&gt;Apart from that DMK is the epitome of corruption, possibly the most corrupt organization on this planet. It’s said that they have made looting a scientific process thus making it untraceable. I would have been very happy if something other than DMK, ADMK came to power in Tamil Nadu. Any way…&lt;/p&gt;
-
-&lt;p&gt;Was seeing the news today. What DMK is doing to Hinduism is great. Actually in Hinduism God is equal to all, so just a particular Brahmin caste doing poojai in temples is bullshit, DMK is trying to reverse that. Looks like very soon any one from any caste can become a poosaari and do poojai in temple.&lt;/p&gt;
-
-&lt;p&gt;In reality any one can be a brahmin, the title brahmin should not be given to someone who is been born to a brahmin, but it should be given to some one having very great personal qualities. For example A.P.J.Abdul Kalaam fits very perfectly into the description of a brahmin, but he is a staunch Muslim and yet a brahmin. Some how things changed and now a person born to a person who claims he is a brahmin is calling himself a Brahmin. Somewhere down the line things were hijacked.&lt;/p&gt;
-
-&lt;div class=&quot;video&quot;&gt;
-    &lt;figure&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/K0HqkC0jbJ8?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
-     &lt;/iframe&gt;
-     &lt;/figure&gt;
-     &lt;/div&gt;
-
-&lt;p&gt;So letting all caste people to become poosari, DMK is demolishing the myth that God is accessible to us only via brahmins, a myth that has gripped this nation since Aryans set foot on the Indus valley.&lt;/p&gt;
-
-&lt;p&gt;Another thing is, if you have noticed, women in our house do the poojai mostly. Before Aryanism took over, women in society were priests. In ancient India there was almost no difference between a man and a woman. After the arrival of Aryanism, women’s rights got reduced and they were pushed away from God at least in the public places. The arrival of Abrahamic religions, namely Christianity and Islam, cemented the myth that women are subordinate to men. DMK is trying to reverse that. Now women too can become priests in Tamil temples. That’s great. In fact Amman cult which is relatively untouched by Ariyanism and other invasions still has many temples who’s priests are women. Non vegetarian is served in the temple as prasatham, animal sacrifices are allowed. DMK has always stood by women’s rights and these changes are laudable.&lt;/p&gt;
-
-&lt;p&gt;Finally this language issue. God is equal to all and could be called out in any language, but the myth that Sanskrit is a deiva bashai and Tamil is a eecha bashai has been spread by Aryans. Till today a Tamil can’t understand what the poosari in Temple tells to the gods when he prays for him. One sould be able to understand what the poosari says to God. In Tamil Nadu Tamil should be spoken to Gods, not some extinct language. DMK is bring Tamil into temples, now any one will know what is been prayed for them.&lt;/p&gt;
-
-&lt;p&gt;I thank Stalin for these stuff. Despite giving power cuts and disturbing my tranquility and profession he is doing good to make god equal to all. I thank him and the DMK and wish all the very best to Dravidian movements success. the ultimate success would be eliminate God itself and make people see the truth, but it’s not the right time to take such drastic move.&lt;/p&gt;</content><author><name></name></author><summary type="html">Rising Sun - DMK Logo</summary></entry></feed>
+&lt;p&gt;The world of artificial intelligence has excellent applications to be cracked. Jump in! May be &lt;a href=&quot;https://neuralink.com/&quot;&gt;Neural Link&lt;/a&gt; will make humanity just one brain and eliminate all meetings.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
