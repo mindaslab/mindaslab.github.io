@@ -1,5 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-11T19:17:24+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Linkedin is an anti-social network</title><link href="/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network.html" rel="alternate" type="text/html" title="Linkedin is an anti-social network" /><published>2021-11-11T19:16:00+05:30</published><updated>2021-11-11T19:16:00+05:30</updated><id>/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network</id><content type="html" xml:base="/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network.html">&lt;p&gt;I was on Linkedin and suddenly I received this notification&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-21T10:17:01+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Backing up Heroku Postgres database, restoring it locally</title><link href="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html" rel="alternate" type="text/html" title="Backing up Heroku Postgres database, restoring it locally" /><published>2021-11-21T10:16:00+05:30</published><updated>2021-11-21T10:16:00+05:30</updated><id>/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally</id><content type="html" xml:base="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html">&lt;p&gt;&lt;img src=&quot;https://www.quest.com/community/cfs-filesystemfile/__key/communityserver-components-secureimagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-00-39/Slide2.JPG_2D00_1100x500x2.jpg?_=637219525519183603&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When ever you are doing a complex ticket and want to be really sure it works in production, it’s better to  take a copy of production db and test your changes locally. We mainly use Heroku for our Ruby on Rails deployments and this is to show how we do the production backup stuff.&lt;/p&gt;
+
+&lt;p&gt;First we must tell heroku to capture your production data base at current time. For that in your app folder type this command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:capture
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You could get the information about the running backup using the following command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:info
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If your DB is large, it will take some time, once the backup is completed, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heroku pg:backups:info&lt;/code&gt; might throw out an output as shown:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;=== Backup b001
+Database:         DATABASE
+Started at:       2021-11-20 14:13:16 +0000
+Finished at:      2021-11-20 14:21:34 +0000
+Status:           Completed
+Type:             Manual
+Original DB Size: 904.40MB
+Backup Size:      8.65MB (91% compression)
+
+=== Backup Logs
+2021-11-20 14:13:16 +0000 pg_dump: last built-in OID is 16383
+2021-11-20 14:13:16 +0000 pg_dump: reading extensions
+2021-11-20 14:13:16 +0000 pg_dump: identifying extension members
+2021-11-20 14:13:16 +0000 pg_dump: reading schemas
+2021-11-20 14:13:16 +0000 pg_dump: reading user-defined tables
+2021-11-20 14:13:21 +0000 pg_dump: reading user-defined functions
+2021-11-20 14:13:23 +0000 pg_dump: reading user-defined types
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you would like to give your data to a Data Analyst who is not added to your heroku project, you can get a downloadable URL of your backup using this command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:url
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can get a dump of your backup using the following command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:download
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;latest.dump&lt;/code&gt; in your project folder, to restore it you can use this command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pg_restore --verbose --clean --no-acl --no-owner -h localhost -d local_db
+_name latest.dump
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Linkedin is an anti-social network</title><link href="/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network.html" rel="alternate" type="text/html" title="Linkedin is an anti-social network" /><published>2021-11-11T19:16:00+05:30</published><updated>2021-11-11T19:16:00+05:30</updated><id>/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network</id><content type="html" xml:base="/work/networking/social%20network/linkedin/2021/11/11/linkedin-is-an-anti-social-network.html">&lt;p&gt;I was on Linkedin and suddenly I received this notification&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/linkedin_2021-11-09 at 09-39-00.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -341,14 +390,4 @@ you make a U-turn and hurt others for unnecessary reason. It was very same for m
 
 &lt;h2 id=&quot;get-the-diagrams&quot;&gt;Get the diagrams&lt;/h2&gt;
 
-&lt;p&gt;You can download the diagrams of this blog &lt;a href=&quot;/diagrams/How-universe-keeps-track-of-time.drawio&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.</summary></entry><entry><title type="html">Still using x86 for asdf on M1 Mac</title><link href="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html" rel="alternate" type="text/html" title="Still using x86 for asdf on M1 Mac" /><published>2021-10-05T15:24:00+05:30</published><updated>2021-10-05T15:24:00+05:30</updated><id>/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac</id><content type="html" xml:base="/mac%20m1/programming/ruby/version%20management/asdf/2021/10/05/still-using-x86-for-asdf-on-m1-mac.html">&lt;p&gt;I have to code for a legacy project using Ruby 2.6.6. I am using M1 Mac and using asdf as my version manager. As soon as I tried&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ asdf install ruby 2.6.6
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It threw out an error, which you can get it &lt;a href=&quot;https://gitlab.com/-/snippets/2184880&quot;&gt;here&lt;/a&gt;, the system stored it in a log file. Then I remembered that I installed my previous Ruby 3.x using &lt;a href=&quot;https://www.driftingruby.com/episodes/a-rubyist-s-apple-m1-review&quot;&gt;this tutorial&lt;/a&gt; from Drifting Ruby. What I need to do now was to specify that we need to use X86 architecture, and so I gave this command&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ arch -x86_64 asdf install ruby 2.6.6
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And it worked like charm.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have to code for a legacy project using Ruby 2.6.6. I am using M1 Mac and using asdf as my version manager. As soon as I tried</summary></entry></feed>
+&lt;p&gt;You can download the diagrams of this blog &lt;a href=&quot;/diagrams/How-universe-keeps-track-of-time.drawio&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.</summary></entry></feed>
