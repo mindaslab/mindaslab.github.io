@@ -1,5 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-21T10:17:01+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Backing up Heroku Postgres database, restoring it locally</title><link href="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html" rel="alternate" type="text/html" title="Backing up Heroku Postgres database, restoring it locally" /><published>2021-11-21T10:16:00+05:30</published><updated>2021-11-21T10:16:00+05:30</updated><id>/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally</id><content type="html" xml:base="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html">&lt;p&gt;&lt;img src=&quot;https://www.quest.com/community/cfs-filesystemfile/__key/communityserver-components-secureimagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-00-39/Slide2.JPG_2D00_1100x500x2.jpg?_=637219525519183603&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-23T21:21:42+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">TransferKit.io the miracle file transfer website</title><link href="/internet/file%20sharing/freedom/2021/11/23/transferkit-io-the-miracle-file-transfer-website.html" rel="alternate" type="text/html" title="TransferKit.io the miracle file transfer website" /><published>2021-11-23T21:20:00+05:30</published><updated>2021-11-23T21:20:00+05:30</updated><id>/internet/file%20sharing/freedom/2021/11/23/transferkit-io-the-miracle-file-transfer-website</id><content type="html" xml:base="/internet/file%20sharing/freedom/2021/11/23/transferkit-io-the-miracle-file-transfer-website.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://bafybeidfkbq5bo6xhz4qxq4qepehfwn6p6foz5ojmn7q32bmm4hba4epgm.ipfs.dweb.link/Masala-Aloo-Potatoes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Potato Masala&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The picture above is of potato masala, it’s tasty, but you can’t eat it just like that. You need to wrap in on dough and make it as samosa as shown below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://bafybeiffyct4idr4spb3juwjgulzst46gybso35zq345rv5uhsi4fjjihe.ipfs.dweb.link/Indian_Samosa_by_clumsy_home_chef.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Samosa&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Then it becomes more edible.&lt;/p&gt;
+
+&lt;p&gt;The below video is that of a parotta shop in Tamilnadu, India, it weighs 150MB, very good quality and it won’t break my website if you see it.&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;https://bafybeidwf57vxo3ft5ammqbqtptcofo57l5diati6jqpr4dpbaruvcwwbu.ipfs.dweb.link/redditsave.com_idhu_endha_oor_kadai-v8p2ejtx4k081.mp4 &quot; /&gt;
+      Your browser does not support the video element.
+      &lt;/video&gt;
+
+&lt;p&gt;Okay, let me come to the first part.
+Potato masala is tasty, but you can’t eat it just like that. You need a good interface like an oil roasted dough covering which converts it into samosa to make it palatable to the masses.&lt;/p&gt;
+
+&lt;h2 id=&quot;ipfs&quot;&gt;IPFS&lt;/h2&gt;
+
+&lt;p&gt;Now let’s consider storing files. Long time back I came across this excellent technology called Inter Planetary File System (IPFS), I even used it to construct a block chain for one of my client’s project. I was in a company called Trumatics then. Then my partner got mad at me so frequent, I had to drop out. But the potential of IPFS was visible.&lt;/p&gt;
+
+&lt;p&gt;Let me tell it to you in brief. First imagine a website like YouTube. It simply isn’t scalable, they have scaled it, but to keep it afloat they need to put lot of annoying ads in it. That’s because of it’s architecture. You have a single end point &lt;a href=&quot;https://youtube.com&quot;&gt;https://youtube.com&lt;/a&gt; into which you post a file and get it back, in this case a video.&lt;/p&gt;
+
+&lt;p&gt;Now imagine an architecture where I watch a video from the internet, it’s so good that I tell you, and you start watching it, now the video get streamed to you from not only the original source, but from me too, or which ever source is nearby to you. That is rather than relying on centralized storage and distribution, this technology is like Torrent or the one implemented by Napster, Emule etc. In these technologies, as the client base grows, clients become host of the file too. IPFS is just like that. Plus if you put a file in IPFS it never get’s deleted if there are enough storage locations hosting it.&lt;/p&gt;
+
+&lt;h2 id=&quot;file-coin&quot;&gt;File Coin&lt;/h2&gt;
+
+&lt;p&gt;Let’s say a actress uploads her video, it get’s watched and stored by many in IPFS and would not get deleted for ages, but say you find a break trough stuff in science and upload a paper, not may would read it, and only your IPFS node would have it, if your computer get’s destroyed or disconnected, the video is lost!&lt;/p&gt;
+
+&lt;p&gt;Now imagine what if some one can mine coins just by storing your files, then they are getting incentivized, that’s the logic behind file coin. If you put a file in file coin network, you are kind of guaranteed that it will be there for ever, till say the internet is destroyed almost completely. File coin operates on IPFS by slapping a block chain on top of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;tansferkit&quot;&gt;TansferKit&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://diasp.org/camo/9a2d089e90ed9cee07647047dae41213168287cb/68747470733a2f2f626166796265696873716f6266656d70376c7475357064627032756367787176766169346c7a326a6b797a717969376935716772696335673769792e697066732e647765622e6c696e6b2f53637265656e73686f74253230323032312d31312d3232253230617425323032312d30332d31362532305472616e736665724b69742532302d253230446563656e7472616c697a656425323046696c652532305472616e736665722e706e67&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;TransferKit&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://TransferKit.io&quot;&gt;TransferKit&lt;/a&gt; provides a neat interface over file coin network. It’s hard to set up a a file coin rig by a normal person, so TransferKit gives you a we UI which you can use to upload files.&lt;/p&gt;
+
+&lt;p&gt;Now if IPFS is like potato, Fie Coin is like cooked potato masala, TransferKit is the dough that wraps around it and roasted into samosa so that you can enjoy! That’s it.&lt;/p&gt;
+
+&lt;p&gt;Do visit it at &lt;a href=&quot;https://transferkit.io&quot;&gt;https://transferkit.io&lt;/a&gt;, use it to share your files with your friends without restrictions. Always support decentralized internet than pledging your data to evil centralized networks and corporations like Microsoft, Facebook, Google, Apple etc which have to make money because of their design and survival strategy.&lt;/p&gt;
+
+&lt;p&gt;All the files in this blog were uploaded to TransferKit and used here, and it does not track you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Potato Masala</summary></entry><entry><title type="html">Backing up Heroku Postgres database, restoring it locally</title><link href="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html" rel="alternate" type="text/html" title="Backing up Heroku Postgres database, restoring it locally" /><published>2021-11-21T10:16:00+05:30</published><updated>2021-11-21T10:16:00+05:30</updated><id>/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally</id><content type="html" xml:base="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html">&lt;p&gt;&lt;img src=&quot;https://www.quest.com/community/cfs-filesystemfile/__key/communityserver-components-secureimagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-00-39/Slide2.JPG_2D00_1100x500x2.jpg?_=637219525519183603&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When ever you are doing a complex ticket and want to be really sure it works in production, it’s better to  take a copy of production db and test your changes locally. We mainly use Heroku for our Ruby on Rails deployments and this is to show how we do the production backup stuff.&lt;/p&gt;
 
@@ -313,81 +388,4 @@ you make a U-turn and hurt others for unnecessary reason. It was very same for m
 
 &lt;p&gt;Given same resources and opportunities, a company following BDD will grow fast initially and get profits, but it will plateau out as it will finally start to rely on management and marketing people to fuel growth, but look at the green curve where the company  invested in KDD, it will make a loss initially, but once it has caught it will over take the BDD curve, eventually it too would plateau out if it follows conventional business practices and falls to management guys, the tricks is not to make that happen.&lt;/p&gt;
 
-&lt;p&gt;Will that happen in DataMaking? Time will tell.&lt;/p&gt;</content><author><name></name></author><summary type="html">Software Industry is a knowledge industry, it’s core value lies in its people, the knowledge stored in their brains, the intelligence they develop and willing work they put in, for some reason even veteran’s I see are creating companies that are business driven, of course business is a key to I.T industry, but the companies are mostly doing Business Driven Development (BDD), which pulls down the productivity out of the company decreases the efficiency of software industry as whole.</summary></entry><entry><title type="html">How the Universe could measure Time?</title><link href="/2021/10/07/how-the-universe-could-measure-time.html" rel="alternate" type="text/html" title="How the Universe could measure Time?" /><published>2021-10-07T14:57:00+05:30</published><updated>2021-10-07T14:57:00+05:30</updated><id>/2021/10/07/how-the-universe-could-measure-time</id><content type="html" xml:base="/2021/10/07/how-the-universe-could-measure-time.html">&lt;p&gt;I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.&lt;/p&gt;
-
-&lt;p&gt;Today we kind of measure time depending on speed of light which we believe is of constant velocity, but velocity of light is based on time, so there is a circular dependency.&lt;/p&gt;
-
-&lt;p&gt;In this blog I would like to say how I think this universe keeps track of time. It could be right or wrong.&lt;/p&gt;
-
-&lt;h2 id=&quot;time-is-memory-of-state-transitions&quot;&gt;Time is memory of state transitions&lt;/h2&gt;
-
-&lt;p&gt;Let’s say that there is universe, and nothing happens in it, then there is no flow of time. Now say all of a sudden universe switches from state S1 to S2&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/time-created.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then if the state S2 and the universe remembers it was in state S1, then we register it as time has passed.&lt;/p&gt;
-
-&lt;h2 id=&quot;short-time&quot;&gt;Short Time&lt;/h2&gt;
-
-&lt;p&gt;Let’s say that there is registry of only few states (or state-transitions) available in this universe, then we say the universe is very young.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/short-time.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If there another state transition takes place, and the memory of it persists,&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/long-time.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;then we say universe has got bit more older.&lt;/p&gt;
-
-&lt;h2 id=&quot;could-time-reverse&quot;&gt;Could Time reverse?&lt;/h2&gt;
-
-&lt;p&gt;Let’s say that the universe has gone from state S1 to S4 as shown below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/time-reversal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now if there is possibility of universe going back from S4 to S3 by completely forgetting about S4, then we can say time has reversed.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/time-reversal-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now if that happens, there is no way of knowing it as there is no memory of S4 in S3, and hence no evidence of time reversal has taken place. May be there is time reversal is happening all the time (nice pun!), and we have no way of knowing it.&lt;/p&gt;
-
-&lt;p&gt;Now if time does reverse and universe gots to state S3, then it may or may not take the same path again. The universe may go from S3 to S4, or from S3 to S5 or may be to some other state as shown:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/time-reversal-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;why-time-travel-may-not-be-possible&quot;&gt;Why Time travel may not be possible?&lt;/h2&gt;
-
-&lt;p&gt;If universe reverses time we may never be aware of it because sate of the universe includes its memory. Let’s see a scenario as shown in the diagram below&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/time-travel-impossibility.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Universe goes from state S1 to S4, then back to S1, in this case S1 knows that it came from S4, so this is the case of cyclic universe. May be as Sir Roger Penrose suggested universe could go to a state where its just another big bang.&lt;/p&gt;
-
-&lt;div class=&quot;video&quot;&gt;
-    &lt;figure&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/ypjZF6Pdrws?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
-     &lt;/iframe&gt;
-     &lt;/figure&gt;
-     &lt;/div&gt;
-
-&lt;p&gt;Once S1 remembers state of S4, may be that might affect the next state, may be it might not transition to S2 because of randomness, or if the universe is only deterministic, it will only go to S2 and no other state and so on to finally going to S4 and returning back to S1.&lt;/p&gt;
-
-&lt;p&gt;In a very deterministic cyclic universe, all that had happened will happen again and all that is going to happen would have happened.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-there-time&quot;&gt;Is there Time?&lt;/h2&gt;
-
-&lt;p&gt;Time is just the memory of states of universe, that’s it. It’s the remembrance of these states we call time.&lt;/p&gt;
-
-&lt;h2 id=&quot;probabilities--birth-of-new-universe&quot;&gt;Probabilities &amp;amp; Birth of new Universe&lt;/h2&gt;
-
-&lt;p&gt;It would be interesting to investigate if universe is in state S1, the is the universe is really deterministic? Or it has the chance to take on multiple states as shown below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/new-universe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If universe can slip into multiple states from current state, then is there is a probability associated with it? Can that probability be measured?&lt;/p&gt;
-
-&lt;p&gt;If the universe is in state S1, and it slips into state S4 a special state where there is no memory of S1, then it would look like the birth of a new universe which arose from nothing.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-the-diagrams&quot;&gt;Get the diagrams&lt;/h2&gt;
-
-&lt;p&gt;You can download the diagrams of this blog &lt;a href=&quot;/diagrams/How-universe-keeps-track-of-time.drawio&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I never got sleep for few days when I was studying 11th standard. I learned time is not same for every one. Time might be ticking slow for me because I am on massive Earth, traveling at incredible speeds through space, where’s an atom entering black hole could have much slow rate of tick, may be some where in void stationary space if there were people watching me on earth and the atom thats near black hole, they could be experiencing ticks much faster as their region is relatively mass less, and their clocks in their hand is stationary to them.</summary></entry></feed>
+&lt;p&gt;Will that happen in DataMaking? Time will tell.&lt;/p&gt;</content><author><name></name></author><summary type="html">Software Industry is a knowledge industry, it’s core value lies in its people, the knowledge stored in their brains, the intelligence they develop and willing work they put in, for some reason even veteran’s I see are creating companies that are business driven, of course business is a key to I.T industry, but the companies are mostly doing Business Driven Development (BDD), which pulls down the productivity out of the company decreases the efficiency of software industry as whole.</summary></entry></feed>
