@@ -1,5 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-16T22:08:47+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Let’s call ourself Code Mechanics now</title><link href="/2022/01/16/let-s-call-ourself-code-mechanics-now.html" rel="alternate" type="text/html" title="Let&apos;s call ourself Code Mechanics now" /><published>2022-01-16T22:08:00+05:30</published><updated>2022-01-16T22:08:00+05:30</updated><id>/2022/01/16/let-s-call-ourself-code-mechanics-now</id><content type="html" xml:base="/2022/01/16/let-s-call-ourself-code-mechanics-now.html">&lt;p&gt;I was working in  a company, they had hired me knowing that I worked as a Tech Architect in my previous company, in the new company they did not call me a tech architect because they said they hated that name, because say tech architects do almost nothing, instead I was just a Ruby on Rails developer. Call me what ever you want, but just give my pay was my motto and I worked. In truth we all work for money, those who say they don’t, cut their salary and see how long would they last.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-23T12:13:13+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">The silliness of frontend frameworks</title><link href="/2022/01/23/the-silliness-of-frontend-frameworks.html" rel="alternate" type="text/html" title="The silliness of frontend frameworks" /><published>2022-01-23T12:12:00+05:30</published><updated>2022-01-23T12:12:00+05:30</updated><id>/2022/01/23/the-silliness-of-frontend-frameworks</id><content type="html" xml:base="/2022/01/23/the-silliness-of-frontend-frameworks.html">&lt;p&gt;I am been developing websites for 15 years, and most of my experience has been good. Before that I have been an embedded systems programmer, to code a microcontroller and not knowing what its really intended for was a wreak on my soul. I am a guy who though belies there is no purpose in life, nothing is constant, and everything is meaningless, strangely seek for a purpose of my actions.&lt;/p&gt;
+
+&lt;p&gt;I left big corporates, and not knowing what HTML is, I stated creating websites for people and businesses, and I was successful. People said there is a miracle stuff called PHP, and I am just using plain HTML to create websites, I learned PHP and it improved my productivity a lot. I loved it.&lt;/p&gt;
+
+&lt;p&gt;Then I came to know about this programming language called Ruby, I tried it out. Boy I was blown away. I thought PHP was super productive compared to C and Java, but Ruby was not even next, it was way way way far ahead. There was this framework Ruby on Rails, I failed to learn it many times, but eventually I mastered it. It immensely increased my productivity, a months job in PHP was just day in Ruby on Rails!&lt;/p&gt;
+
+&lt;p&gt;Rails before Version 4 also eliminated a pain point, it was called JavaScript. A very poorly designed language (and it’s still poorly designed), it was pain to use. Rails people built a  wonderful library called Prototype and Scriptaculous, and they wrote a Ruby wrapper called Rails Java Script which encapsulated the dirtiness of JavaScript. It was all great.&lt;/p&gt;
+
+&lt;p&gt;Then came in jQuery, it was JavaScript-ish which made us shed tears but Rails also included Coffeescript, which removed some pain of writing JavaScript. Though Rails was bit rotting away from its promise, it was okay because of Coffeescript.&lt;/p&gt;
+
+&lt;p&gt;Then for some reason around Rails 6 Cofeescript was kind of stopped working, currently I am using jQuery and vanilla JavaScript to write my front end, and it bit sucks. Plus I have to deal with all this webpacker comedy which makes app development immensely complex!&lt;/p&gt;
+
+&lt;p&gt;In Rails 7 I guess webpacker and nodejs are kind of pushed away and people say its good, but I am still trialing out before I recommend it to my customers. Rails still advocates using JavaScript, which frankly sucks.&lt;/p&gt;
+
+&lt;p&gt;I am exploring Clojure and ClojureScript, just to escape the menace of creating apps using JavaScript. I was also attracted to Microsoft’s Blazor framework where we can code everything with C#, but then which one having brains will ever trust Microsoft?&lt;/p&gt;
+
+&lt;p&gt;The one area I have missed exploring or to be frank haven’t explored because it seems not to integrate with Rails well is Opal. I truly wished Rails embraced Opal, and we need not touch JavaScript ever again, but then for some reason it did not happen.&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/rxlJRydqmk8?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;
+
+&lt;p&gt;Any way let me come to the point of this blog. I want to tell the world why I think its super silly to have a JavaScript framework. Well here it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bafybeicoq5sm36a62eqzxzzotv25mlshgi4sxqauiknnpancvkjuw66g7u.ipfs.dweb.link/silliness-of-js-framework-Page-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We store data mostly in  a system called RDBMS, and its major role is store, and retrieve data thats all. It was created to be very efficient for that. It wasn’t created to generate a HTML document that could be served as web page, plus it’s not created to be immensely secure. One wrong query could destroy an entire app and the Database. So we have this red thing in middle called the Web Framework that makes sure that some user action won’t trigger a query that destroys the business, and it retrieves data from the browser, stores it in the DB and get’s the data from the DB, generates a HTML and sends it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bafybeifkayqteg26g4ayrtlsrwax7a5tzuwsvgyp6243oqoq7ftyplar6a.ipfs.dweb.link/silliness-of-js-framework-Page-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now look at the above picture, you have inserted a JavaScript framework in between and you send JSON back and forth to the web framework and JavaScript framework converts to HTML. That kind of sucks. You are adding an extra layer just for nothing! That to me is really really stupid and could be avoided.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-big-tech-promotes-this-approach&quot;&gt;Why big tech promotes this approach&lt;/h2&gt;
+
+&lt;p&gt;In big tech, what looks good on paper, getting approvals from various levels for your idea, a tech guy looking good on paper and his survival is important than solving problems that humans face. So they tend to do what looks good on paper. Look at the diagram below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bafybeibb3qpo7z3ewspq7us5spphblc5rmusupatzvg42lcoj6lu4po3fm.ipfs.dweb.link/silliness-of-js-framework-Big-Tech-Arch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You see a nice front end, a nice back end and they are connected by JSON. The front end could be a mobile or  website running on a desktop, the back end could be written in any language and they are connected by this JSON which provides good abstraction. On paper this looks clean. For an inexperienced it looks good. So they get this stuff approved. They claim it’s an innovative way of doing things. Since they are big tech, they can afford to develop new front end frameworks which suits their thought at that time. They could hire big teams who would take care of front end, back end, a team to look at the architecture and synchronization between them and can handle all such complexity.&lt;/p&gt;
+
+&lt;p&gt;Now consider us, most of the tech guys who service clients. Now think, are we here to solve some ones problems with tech or spend multiple millions on advertising saying that we are on the bleeding edge? Think if we have the man power or the money to pay big teams which can take on this architecture? Think is it worth the effort to convert website data to JSON to Database rows and vice versa?&lt;/p&gt;
+
+&lt;p&gt;Most tech people think what’s been done in big tech is right because big tech has more money. Why don’t they think big tech has more money and hence they can afford to be inefficient? Most developers fall into this trap, they learn some front end framework, they put it on their resume so that it looks cool, and their life follows resume driven development approach to their grave.&lt;/p&gt;
+
+&lt;p&gt;It’s for you to ask yourself, did you become a tech guy to solve peoples problems using tech? Or are you here just because you are here and are okay to go with what ever is thrown at you?&lt;/p&gt;</content><author><name></name></author><summary type="html">I am been developing websites for 15 years, and most of my experience has been good. Before that I have been an embedded systems programmer, to code a microcontroller and not knowing what its really intended for was a wreak on my soul. I am a guy who though belies there is no purpose in life, nothing is constant, and everything is meaningless, strangely seek for a purpose of my actions.</summary></entry><entry><title type="html">Let’s call ourself Code Mechanics now</title><link href="/2022/01/16/let-s-call-ourself-code-mechanics-now.html" rel="alternate" type="text/html" title="Let&apos;s call ourself Code Mechanics now" /><published>2022-01-16T22:08:00+05:30</published><updated>2022-01-16T22:08:00+05:30</updated><id>/2022/01/16/let-s-call-ourself-code-mechanics-now</id><content type="html" xml:base="/2022/01/16/let-s-call-ourself-code-mechanics-now.html">&lt;p&gt;I was working in  a company, they had hired me knowing that I worked as a Tech Architect in my previous company, in the new company they did not call me a tech architect because they said they hated that name, because say tech architects do almost nothing, instead I was just a Ruby on Rails developer. Call me what ever you want, but just give my pay was my motto and I worked. In truth we all work for money, those who say they don’t, cut their salary and see how long would they last.&lt;/p&gt;
 
 &lt;p&gt;Now coming to names of positions in teams, there are these junior developer, developer, senior developer, tech lead, project lead, tech architect and so on. In this company where I was hired they the name tech architects and rebranded themselves as principal engineers.&lt;/p&gt;
 
@@ -250,36 +297,4 @@ _name latest.dump
 
 &lt;p&gt;Linkedin does not generate its own data, people list data there so that they can be found, but Linkedin is doing the exact opposite of a social network. It’s obstructing people from contacting people who would like to be contacted. In other words its antisocial.&lt;/p&gt;
 
-&lt;p&gt;Diaspora and many free software social networks are distributed and open, they can develop an API where if the user is willing, any one can access their information and use it to contact them. This means by moving away from Linkedin, people will be truly linked in!&lt;/p&gt;</content><author><name></name></author><summary type="html">I was on Linkedin and suddenly I received this notification</summary></entry><entry><title type="html">DMK ministers are making fool of themselves</title><link href="/india/tamilnadu/politics/dmk/chennai/flood/corruption/2021/11/09/dmk-ministers-are-making-fool-of-themselves.html" rel="alternate" type="text/html" title="DMK ministers are making fool of themselves" /><published>2021-11-09T07:59:00+05:30</published><updated>2021-11-09T07:59:00+05:30</updated><id>/india/tamilnadu/politics/dmk/chennai/flood/corruption/2021/11/09/dmk-ministers-are-making-fool-of-themselves</id><content type="html" xml:base="/india/tamilnadu/politics/dmk/chennai/flood/corruption/2021/11/09/dmk-ministers-are-making-fool-of-themselves.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/7b/Ex.mayor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Ma. Subramanian (DMK Minister)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;I was telling to my friends that sooner or later DMK ministers will start blaming AIAMK for Chennai floods and it happened. I switched on the T.V and in it was Ma. Subramanian. Exactly as I was saying he said the flooding in Chennai was caused by AIADMK.&lt;/p&gt;
-
-&lt;p&gt;Well, there is simple question, if you promised good life in manifesto, you must deliver it. Since ADMK ruled Tamilnadu before and hence never can Tamil’s have a good life even if DMK comes to power, then it must be specified in manifesto as well. Has DMK manifesto said that they can’t provide us with good life during rains because ADMK ruled before? If not why?&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://image.nakkheeran.in/cdn/farfuture/UjIHjGoUOsiaKB5XAhmXenLVd7HaTUE2CSqWZOHG5Bk/1544698206/sites/default/files/inline-images/senthil%20balaji%2055.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Senthil Balaji (Power Minister)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Second, this power minister Senthil Balaji who before blamed squirrels for power cuts. He said people should be careful with power infrastructure during rains. My simple question is why? Why should we be careful? If infrastructure in Tamilnadu is not good enough to transmit power safely during rains, then don’t transmit power. Say that’s the state of power infrastructure. Why put this rule and that rule upon people all of a sudden? Say that Varuna Bhagavan doesn’t like Tamilnadu to have electricity, and let’s go back to the age where we had wooden and cow dung fires for energy.&lt;/p&gt;
-
-&lt;p&gt;In short why can’t DMK admit they are party who cannot give us good life if AIADMK ruled before them. That’s what they are saying indirectly.&lt;/p&gt;</content><author><name></name></author><summary type="html">Ma. Subramanian (DMK Minister)</summary></entry></feed>
+&lt;p&gt;Diaspora and many free software social networks are distributed and open, they can develop an API where if the user is willing, any one can access their information and use it to contact them. This means by moving away from Linkedin, people will be truly linked in!&lt;/p&gt;</content><author><name></name></author><summary type="html">I was on Linkedin and suddenly I received this notification</summary></entry></feed>
