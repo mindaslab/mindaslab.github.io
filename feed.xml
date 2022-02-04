@@ -1,5 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-28T20:47:41+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">When Devise sign_in, sign_up does not work with RSpec request spec</title><link href="/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec.html" rel="alternate" type="text/html" title="When Devise sign_in, sign_up does not work with RSpec request spec" /><published>2022-01-28T20:46:00+05:30</published><updated>2022-01-28T20:46:00+05:30</updated><id>/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec</id><content type="html" xml:base="/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec.html">&lt;p&gt;I was updating a Rails 6 project, there were som technical debt, I needed to remove or make failing tests pass. When I was trying to fix request spect, I found out that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sign_in&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sign_up&lt;/code&gt; devise helpers did not work.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-04T11:48:29+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Getting Clojupyter running</title><link href="/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running.html" rel="alternate" type="text/html" title="Getting Clojupyter running" /><published>2022-02-04T11:48:00+05:30</published><updated>2022-02-04T11:48:00+05:30</updated><id>/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running</id><content type="html" xml:base="/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://github.com/clojupyter/clojupyter/raw/master/resources/clojupyter/assets/logo-350x80.png&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Clojupyter Logo&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Like many programmers I fell in love with Clojure. Before I fell in love with Ruby and this framework Ruby on Rails, but when I worked in companies like Guidehouse, I encountered Rails apps with 0.2 million lines of code, having no test, thus practically unmaintainable, my boss was finding scapegoats to blame and was firing people. To mitigate the slow development speeds, a project that could have been done with 3 - 5 people had kind of 10+ developers, a dozen or so testers, and huge ops team! Yes that’s right. Ruby on Rails was supposed be a cost effective framework which few people could use to create great apps, but here they used lot of people to create a waste and muddled app.&lt;/p&gt;
+
+&lt;p&gt;I desperately wanted a maintainable code and I landed up on Clojure and I am learning it. One advantage of Clojure is, if you know it well, you can use ClojureScript instead of JavaScript. Framework like Ruby on Rails does not promise you out of the box that you can replace JavaScript, JavaScript an ill made up language that gives pain to developers, and hence should be eliminated.&lt;/p&gt;
+
+&lt;p&gt;I started with Clojure using Clojupyter that runs on Jupyter notebook, and it was very good. It’s like REPL on steroids. I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/blob/master/doc/conda-installing.md#using-conda-installing-clojupyter&quot;&gt;installed it with conda&lt;/a&gt;, and it seems to work all well. Than I got this error all of a sudden:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[I 2022-01-25 10:21:54.017 LabApp] Build is up to date
+[I 2022-01-25 10:21:57.063 ServerApp] Creating new notebook in
+[I 2022-01-25 10:21:57.529 ServerApp] Kernel started: 271c0671-68c9-4ebc-b92d-9d8fe5b86837
+[E 04:52:08.886 Clojupyter] c8r.messages -- Invalid message signature
+[E 04:52:08.932 Clojupyter] c8r.util-actions --
+                                        java.lang.Thread.run              Thread.java:  745
+          java.util.concurrent.ThreadPoolExecutor$Worker.run  ThreadPoolExecutor.java:  617
+           java.util.concurrent.ThreadPoolExecutor.runWorker  ThreadPoolExecutor.java: 1142
+                                                         ...
+                           clojure.core.async/thread-call/fn                async.clj:  443
+                                     clojupyter.zmq/start/fn                  zmq.clj:  108
+                                      clojure.core.async/&amp;gt;!!                async.clj:  143
+     clojure.core.async.impl.channels.ManyToManyChannel/put!             channels.clj:  143
+                    clojure.core.async.impl.channels/chan/fn             channels.clj:  300
+                                      clojure.core/map/fn/fn                 core.clj: 2742
+                                                         ...
+clojupyter.util-actions/wrap-report-and-absorb-exceptions/fn         util_actions.clj:  239
+                                          clojure.core/apply                 core.clj:  665
+                                                         ...
+                                        clojure.core/comp/fn                 core.clj: 2569
+         clojupyter.kernel.core/wrap-skip-shutdown-tokens/fn                 core.clj:   83
+                                        clojure.core/comp/fn                 core.clj: 2569
+                                     clojure.core/partial/fn                 core.clj: 2624
+                                                         ...
+                 clojure.spec.test.alpha/spec-checking-fn/fn                alpha.clj:  142
+                                                         ...
+                       clojupyter.messages/fn/frames-&amp;gt;jupmsg             messages.clj:  288
+java.lang.Exception: Invalid message signature
+
+[E 04:52:09.009 Clojupyter] c8r.util-actions --
+                                        java.lang.Thread.run              Thread.java:  745
+          java.util.concurrent.ThreadPoolExecutor$Worker.run  ThreadPoolExecutor.java:  617
+           java.util.concurrent.ThreadPoolExecutor.runWorker  ThreadPoolExecutor.java: 1142
+                                                         ...
+                           clojure.core.async/thread-call/fn                async.clj:  443
+                                     clojupyter.zmq/start/fn                  zmq.clj:  108
+                                      clojure.core.async/&amp;gt;!!                async.clj:  143
+     clojure.core.async.impl.channels.ManyToManyChannel/put!             channels.clj:  143
+                    clojure.core.async.impl.channels/chan/fn             channels.clj:  300
+                                      clojure.core/map/fn/fn                 core.clj: 2742
+                                                         ...
+clojupyter.util-actions/wrap-report-and-absorb-exceptions/fn         util_actions.clj:  239
+                                          clojure.core/apply                 core.clj:  665
+                                                         ...
+                                        clojure.core/comp/fn                 core.clj: 2569
+         clojupyter.kernel.core/wrap-skip-shutdown-tokens/fn                 core.clj:   83
+                                        clojure.core/comp/fn                 core.clj: 2569
+                                     clojure.core/partial/fn                 core.clj: 2624
+                                                         ...
+                 clojure.spec.test.alpha/spec-checking-fn/fn                alpha.clj:  142
+                                                         ...
+                       clojupyter.messages/fn/frames-&amp;gt;jupmsg             messages.clj:  288
+java.lang.Exception: Invalid message signature
+
+Exception in thread &quot;async-thread-macro-11&quot; java.lang.AssertionError: Assert failed: handle-request - internal error (&apos;:shell_port&apos; neq &apos;&apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It has been very long since I worked with Java and I couldn’t find head or tail of it. I &lt;a href=&quot;https://clojureverse.org/t/unable-to-work-with-clojupyter/8554&quot;&gt;asked it in ClojureVerse&lt;/a&gt;, none responded. I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/issues/159&quot;&gt;put it in Clojupyter github&lt;/a&gt;, and none responded. I was bit desperate, here was a language that seemed to be good, and it could harness the power of Jupyter, so learning could be fast, but I wasn’t getting enough help.&lt;/p&gt;
+
+&lt;p&gt;I am a Rubyist, the Ruby community is very good, you get response in your emails if you poat a problems, perhaps that’s not the case yet with Clojure community, that’s sad. I wish it improves.&lt;/p&gt;
+
+&lt;p&gt;Finally I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/issues/159&quot;&gt;used Clijupyter as library&lt;/a&gt; and it worked! I hope it doesnt’t screw up. First I got something like zeqomq error, but then when I did &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda upgrade ipykernel&lt;/code&gt;, it got fixed. I got a help from &lt;a href=&quot;https://gitanswer.com/spyder-error-tornado-general-uncaught-exception-in-zmqstream-callback-306179886&quot;&gt;this&lt;/a&gt; blog.&lt;/p&gt;
+
+&lt;p&gt;For now I am okay, but it would be great if clojure community is becomes more helpful in the future. Right now I feel barrier for entry into Clojure, despite the language’s simplicity is high.&lt;/p&gt;</content><author><name></name></author><summary type="html">Clojupyter Logo</summary></entry><entry><title type="html">When Devise sign_in, sign_up does not work with RSpec request spec</title><link href="/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec.html" rel="alternate" type="text/html" title="When Devise sign_in, sign_up does not work with RSpec request spec" /><published>2022-01-28T20:46:00+05:30</published><updated>2022-01-28T20:46:00+05:30</updated><id>/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec</id><content type="html" xml:base="/web%20development/ruby%20on%20rails/devise/tdd/rspec/2022/01/28/when-devise-sign-in-sign-up-does-not-work-with-rspec-request-spec.html">&lt;p&gt;I was updating a Rails 6 project, there were som technical debt, I needed to remove or make failing tests pass. When I was trying to fix request spect, I found out that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sign_in&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sign_up&lt;/code&gt; devise helpers did not work.&lt;/p&gt;
 
 &lt;p&gt;Even after reading Devise documentation I could not make it work. It turns out that we need &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IntegrationHelpers&lt;/code&gt; to be added for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;request&lt;/code&gt;. So in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spec/rails_helper.rb&lt;/code&gt;, add the following lines after &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require &apos;rspec/rails&lt;/code&gt;:&lt;/p&gt;
 
@@ -258,53 +340,4 @@ Potato masala is tasty, but you can’t eat it just like that. You need a good i
 
 &lt;p&gt;Do visit it at &lt;a href=&quot;https://transferkit.io&quot;&gt;https://transferkit.io&lt;/a&gt;, use it to share your files with your friends without restrictions. Always support decentralized internet than pledging your data to evil centralized networks and corporations like Microsoft, Facebook, Google, Apple etc which have to make money because of their design and survival strategy.&lt;/p&gt;
 
-&lt;p&gt;All the files in this blog were uploaded to TransferKit and used here, and it does not track you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Potato Masala</summary></entry><entry><title type="html">Backing up Heroku Postgres database, restoring it locally</title><link href="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html" rel="alternate" type="text/html" title="Backing up Heroku Postgres database, restoring it locally" /><published>2021-11-21T10:16:00+05:30</published><updated>2021-11-21T10:16:00+05:30</updated><id>/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally</id><content type="html" xml:base="/web%20development/ruby/ruby%20on%20rails/postgres/heroku/2021/11/21/backing-up-heroku-postgres-database-restoring-it-locally.html">&lt;p&gt;&lt;img src=&quot;https://www.quest.com/community/cfs-filesystemfile/__key/communityserver-components-secureimagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-00-39/Slide2.JPG_2D00_1100x500x2.jpg?_=637219525519183603&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When ever you are doing a complex ticket and want to be really sure it works in production, it’s better to  take a copy of production db and test your changes locally. We mainly use Heroku for our Ruby on Rails deployments and this is to show how we do the production backup stuff.&lt;/p&gt;
-
-&lt;p&gt;First we must tell heroku to capture your production data base at current time. For that in your app folder type this command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:capture
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You could get the information about the running backup using the following command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:info
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If your DB is large, it will take some time, once the backup is completed, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heroku pg:backups:info&lt;/code&gt; might throw out an output as shown:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;=== Backup b001
-Database:         DATABASE
-Started at:       2021-11-20 14:13:16 +0000
-Finished at:      2021-11-20 14:21:34 +0000
-Status:           Completed
-Type:             Manual
-Original DB Size: 904.40MB
-Backup Size:      8.65MB (91% compression)
-
-=== Backup Logs
-2021-11-20 14:13:16 +0000 pg_dump: last built-in OID is 16383
-2021-11-20 14:13:16 +0000 pg_dump: reading extensions
-2021-11-20 14:13:16 +0000 pg_dump: identifying extension members
-2021-11-20 14:13:16 +0000 pg_dump: reading schemas
-2021-11-20 14:13:16 +0000 pg_dump: reading user-defined tables
-2021-11-20 14:13:21 +0000 pg_dump: reading user-defined functions
-2021-11-20 14:13:23 +0000 pg_dump: reading user-defined types
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you would like to give your data to a Data Analyst who is not added to your heroku project, you can get a downloadable URL of your backup using this command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:url
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can get a dump of your backup using the following command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku pg:backups:download
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This will create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;latest.dump&lt;/code&gt; in your project folder, to restore it you can use this command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pg_restore --verbose --clean --no-acl --no-owner -h localhost -d local_db
-_name latest.dump
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;All the files in this blog were uploaded to TransferKit and used here, and it does not track you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Potato Masala</summary></entry></feed>
