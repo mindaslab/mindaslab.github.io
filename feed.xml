@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-03-19T21:19:04+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Can India overcome dynastic politics</title><link href="/2022/03/19/can-india-overcome-dynastic-politics.html" rel="alternate" type="text/html" title="Can India overcome dynastic politics" /><published>2022-03-19T21:18:00+05:30</published><updated>2022-03-19T21:18:00+05:30</updated><id>/2022/03/19/can-india-overcome-dynastic-politics</id><content type="html" xml:base="/2022/03/19/can-india-overcome-dynastic-politics.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-03-27T08:40:12+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">I Love Ruby 3, front cover</title><link href="/2022/03/27/i-love-ruby-3-front-cover.html" rel="alternate" type="text/html" title="I Love Ruby 3, front cover" /><published>2022-03-27T08:16:00+05:30</published><updated>2022-03-27T08:16:00+05:30</updated><id>/2022/03/27/i-love-ruby-3-front-cover</id><content type="html" xml:base="/2022/03/27/i-love-ruby-3-front-cover.html">&lt;p&gt;Hello World! And hello Ruby community!!&lt;/p&gt;
+
+&lt;p&gt;I am happy to announce the release of I Love Ruby’s new front cover, and here it is:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bafybeicjk7vvjv7xivcz2m2cmfmxr5ioeuriedw2vm6wjyoawtiq6ls2dm.ipfs.dweb.link/i%20love%20ruby%20front%20cover%20final.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It features playing kids discovering Ruby and running towards it. I hope you like it. I wish I have all the time writing and refining my books, but life has other plans for me. &lt;a href=&quot;https://www.youtube.com/watch?v=z34jYvHK27o&amp;amp;list=PLe1T0uBrDrfNyJ8u6V_3fdwtFdSWPpU7M&quot;&gt;My Ruby books video series&lt;/a&gt; has stalled too. It’s sad to say it, as my book is really innovative, I think I came up with the idea of naming things starting with &lt;em&gt;i&lt;/em&gt; even before Apple did it.&lt;/p&gt;
+
+&lt;p&gt;Right now I am working for a company who’s app is coded in Rails, but some of its front end is in React 🤮 (Matz is nice so I am not nice to even out this world). As I am tanking up my JavaScript knowledge and spending all my time learning it, I start to hate it more, at the same time my love for Ruby becomes brighter. Why can’t every one think like Matz and DHH? Matz (and other Japanese Ruby contributors), if you are reading this blog, watch lot of Rajinikanth movies and do something to kill JavaScript.&lt;/p&gt;
+
+&lt;p&gt;I hope you people like the cover, and please encourage me so that I have the will to proceed. Please do discourage and spot mistakes so that I can improve my book. I expect this from Ruby beginners. In short give me lot of feedback.&lt;/p&gt;
+
+&lt;p&gt;One may contact me at &lt;a href=&quot;mailto:mindaslab@protonmail.com&quot;&gt;mindaslab@protonmail.com&lt;/a&gt; or signal me on &lt;a href=&quot;https://signal.me/#p/+918428050777&quot;&gt;+91 8428050777&lt;/a&gt;. And yes you can get my Ruby book here &lt;a href=&quot;https://i-love-ruby.gitlab.io/&quot;&gt;https://i-love-ruby.gitlab.io/&lt;/a&gt;. I will update it soon.&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/gpVA5mx73UE?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;</content><author><name></name></author><summary type="html">Hello World! And hello Ruby community!!</summary></entry><entry><title type="html">Can India overcome dynastic politics</title><link href="/2022/03/19/can-india-overcome-dynastic-politics.html" rel="alternate" type="text/html" title="Can India overcome dynastic politics" /><published>2022-03-19T21:18:00+05:30</published><updated>2022-03-19T21:18:00+05:30</updated><id>/2022/03/19/can-india-overcome-dynastic-politics</id><content type="html" xml:base="/2022/03/19/can-india-overcome-dynastic-politics.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://bafybeidodsejw4oias6cm5qv33dyn3o2sereyqa3s6janhmqtxepfdlm3m.ipfs.dweb.link/gandhi_family.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
@@ -367,19 +386,4 @@ Exception in thread &quot;async-thread-macro-11&quot; java.lang.AssertionError: 
 
 &lt;p&gt;One must know that Buddhism is not a religion. Today there are many forms of Buddhism that’s not Buddhism at all. That is many forms of Buddhism explains that our suffering is because of our karma. In truth what is suffering and happiness if nothing is constant and everything is meaningless?&lt;/p&gt;
 
-&lt;p&gt;There is no previous or next births for karma to carry over. Buddha or Buddhists might have got that thing wrong. You can’t mistake them. Tools of thought at that time were not advanced enough to verify about soul, birth, incarnation and so on. But if you are a Buddhist (a seeker of knowledge and understanding), you must update yourself and throw away the old and bring in the new.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Time highlights inequality in India</title><link href="/2021/12/11/time-highlights-inequality-in-india.html" rel="alternate" type="text/html" title="Time highlights inequality in India" /><published>2021-12-11T10:17:00+05:30</published><updated>2021-12-11T10:17:00+05:30</updated><id>/2021/12/11/time-highlights-inequality-in-india</id><content type="html" xml:base="/2021/12/11/time-highlights-inequality-in-india.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-        &lt;source src=&quot;https://bafybeicwh4dwszkpryylqsfs6j7rwhmc2scls7ju6sffvotgynlwdoztwq.ipfs.dweb.link/0O0GSzNW9xI9Vmp5.mp4 &quot; /&gt;
-      Your browser does not support the video element.
-      &lt;/video&gt;
-
-&lt;p&gt;Few days ago Indian army killed some Naga people, some where around dozen of them I think. It is said that the army was combing to find some terrorists, they tried to stop a vehicle that they want to inspect, when it did not stop, it was fired upon, and about a dozen got killed.&lt;/p&gt;
-
-&lt;p&gt;I think just a day after that, India’s Chief of Defense Staff, his name was Bipin Rawat, climbed into an helicopter, was going via Kodai-kaanal (a place where there is no summer) to a  army training  base, when his helicopter seems to have been stopped by a jack fruit tree. The helicopter tried to push ahead, but it fell down, and all the people in it was fired upon by laws of physics. I think 14 died.&lt;/p&gt;
-
-&lt;p&gt;The thing here is the 14 army people were honored with gun salutes and were honored like national hero’s and were cremated, buried etc, but I think the dozen or so Nagas were not announced that they too are hero’s who lost their lives in India’s fight against terrorism.&lt;/p&gt;
-
-&lt;p&gt;For some reason civilians who died in Taj Hotel attacks by Pakistani terrorist are considered heroes, but not the Nagas. News showed the crying children of Indian army people, but we do not even know if the Nagas who died had a family. We do not know if they had a good life before death, and we won’t know if their loved ones will have a decent life in the future.&lt;/p&gt;
-
-&lt;p&gt;I think a Nagas life is worth just 5 Lakhs. May be in the future we will have advertisement in papers where if one pays Rs 5 Lakhs (it could be more due to high inflation), one could kill a Naga as trophy.&lt;/p&gt;
-
-&lt;p&gt;Has the government not treated Nagas like they treated Bipin Rawat? Or is the media is not covering the honored death of Nagas with 21 gun salute, where the president and prime minister visited and performed last rites? I don’t know.&lt;/p&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry></feed>
+&lt;p&gt;There is no previous or next births for karma to carry over. Buddha or Buddhists might have got that thing wrong. You can’t mistake them. Tools of thought at that time were not advanced enough to verify about soul, birth, incarnation and so on. But if you are a Buddhist (a seeker of knowledge and understanding), you must update yourself and throw away the old and bring in the new.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
