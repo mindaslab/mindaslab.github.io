@@ -1,5 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-04-14T22:43:49+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">R.N.Ravi crushes Tamils in Tamilnadu</title><link href="/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu.html" rel="alternate" type="text/html" title="R.N.Ravi crushes Tamils in Tamilnadu" /><published>2022-04-14T22:43:00+05:30</published><updated>2022-04-14T22:43:00+05:30</updated><id>/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu</id><content type="html" xml:base="/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-04-18T20:22:47+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Possibly a web app with pure Ruby. But will it be on time?</title><link href="/2022/04/18/possibly-a-web-app-with-pure-ruby-but-will-it-be-on-time.html" rel="alternate" type="text/html" title="Possibly a web app with pure Ruby. But will it be on time?" /><published>2022-04-18T20:19:00+05:30</published><updated>2022-04-18T20:19:00+05:30</updated><id>/2022/04/18/possibly-a-web-app-with-pure-ruby-but-will-it-be-on-time</id><content type="html" xml:base="/2022/04/18/possibly-a-web-app-with-pure-ruby-but-will-it-be-on-time.html">&lt;p&gt;Some time back,  don’t know when I saw this post &lt;a href=&quot;https://www.ruby-lang.org/en/news/2022/04/03/ruby-3-2-0-preview1-released/&quot;&gt;https://www.ruby-lang.org/en/news/2022/04/03/ruby-3-2-0-preview1-released/&lt;/a&gt; and I couldn’t sleep that night.&lt;/p&gt;
+
+&lt;p&gt;I am a programmer, like every programmer I want to finish a job quick for my client and get my pay with a smile. I was able to do it when I coded with PHP, I was able to do it when I coded in Ruby on Rails. In fact Ruby on Rails had a thing called RJS (Ruby Java Script). I don’t know who made it, but it was genius. In Rails it combined with Prototype and Scriptaculous and made writing front end a charm.&lt;/p&gt;
+
+&lt;p&gt;Then they moved to Coffeescript and jQuery, in my mind not a wise move, but it kind of worked, we were writing JavaScript-ish that sucked compared to RJS, but Coffeescript made it bit easy. I was presented with this learning curve to learn this jQuery. All this parent, child relationship made it suck, but I learned. I was still able to create apps faster.&lt;/p&gt;
+
+&lt;p&gt;Today while developing a Rails app I don’t understand what’s going on. There is thing called webpack, yarn and I have to search for blogs to make jQuery and Twittter Bootstrap work with it. That’s pain, but once done productivity improves unless some idiot propose a brand new JavaScript library to be included so the project becomes cool. I personally thought going JavaScript way sucked.&lt;/p&gt;
+
+&lt;p&gt;I for long wished Opal became a part of Ruby on Rails. I wished code was easy to write as in the days of RJS. Today if you are writing software with Rails 5 or 6, you need to know about node, yarn, webpack and blah blah to be comfortable with it. It’s like a mini framework in this framework called Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;JavaScript has a philosophy that’s different than Ruby I suppose.  Ruby was clearly written to make programmers life easy, when I switched from PHP to Ruby I could see it. PHP ecosystem meant deployment happiness, which Rails robbed away from us, thus paving way for companies like Heroku to overcharge us, but when it comes to total cost of developing webpages, Rails was okay. Butt this JavaScript, my God! It would make atheist like me to think that there was a previous birth and I had done very bad things to inherit this super bad Karma.&lt;/p&gt;
+
+&lt;p&gt;Thus reading that Ruby might run in the browser was a kind of faint light in a dark hell. A distant and very faint light, but better than nothing.&lt;/p&gt;
+
+&lt;p&gt;I used to think, even though Microsoft is an ultra evil company, they developed Blazor &lt;a href=&quot;https://blazor.net&quot;&gt;https://blazor.net&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/9BhbGbTsyeE?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;
+
+&lt;p&gt;They have this vision of making developers build full webapps with just C# and thus avoid JavaScript. Isn’t that good? For a while I even thought of ditching Ruby on Rails and switching to Blazor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All hopes not lost&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As a Rails developer I would say that all hopes are not lost, it’s possible to develop apps without writing much of JavaScript:&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4 &quot; /&gt;
+      Your browser does not support the video element.
+      &lt;/video&gt;
+
+&lt;p&gt;I see that Rails is getting matured. May be one day doing Rails project might be as good as doing a pure Ruby project. I have to go through this tutorial when I have free time &lt;a href=&quot;https://www.hotrails.dev/turbo-rails&quot;&gt;https://www.hotrails.dev/turbo-rails&lt;/a&gt;. May be I can get off writing a web app with almost no JavaScript very soon. Let’s see.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On Time?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am really pissed off creating web pages today. In India people jump into things without trying things out. People, even in small projects introduce Angular, React into front end without knowing who created it and why it was created. Today you are considered a full stack developer only if you know these JavaScript framework. May be one day a full stack developer would also include VHDL and chip design as their profile, after all webpages are served by Integrated Circuits which too are part of stack.&lt;/p&gt;
+
+&lt;p&gt;May be I will learn Julia (Python sucks for DataScience) or something, finish writing my DataScience book &lt;a href=&quot;https://cliz.in/dsbuk&quot;&gt;https://cliz.in/dsbuk&lt;/a&gt; and escape the world where we take stuff out and put into RDMS via web apps. I don’t know.&lt;/p&gt;
+
+&lt;p&gt;May be I will learn Clojure, avoid JavaScript all together by using it in backend and using ClojureScript in front end.&lt;/p&gt;
+
+&lt;p&gt;It’s nice to be in a world dominated by free software. We have lot of choices. It’s up to programming languages and frameworks now. Will they  help us create better web apps without relying upon JavaScript, or else they will make people mad and drive them away? Time will tell.&lt;/p&gt;</content><author><name></name></author><summary type="html">Some time back, don’t know when I saw this post https://www.ruby-lang.org/en/news/2022/04/03/ruby-3-2-0-preview1-released/ and I couldn’t sleep that night.</summary></entry><entry><title type="html">R.N.Ravi crushes Tamils in Tamilnadu</title><link href="/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu.html" rel="alternate" type="text/html" title="R.N.Ravi crushes Tamils in Tamilnadu" /><published>2022-04-14T22:43:00+05:30</published><updated>2022-04-14T22:43:00+05:30</updated><id>/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu</id><content type="html" xml:base="/2022/04/14/r-n-ravi-crushes-tamils-in-tamilnadu.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/6/60/R.N._Ravi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
@@ -392,20 +436,4 @@ Exception in thread &quot;async-thread-macro-11&quot; java.lang.AssertionError: 
 
 &lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://bafybeihob6xbyvcbcmhbqmaveun3esty34pta7feai4xh7sowiuoy6qlq4.ipfs.dweb.link/silliness-of-js-framework.drawio&quot;&gt;Source of diagrams&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am been developing websites for 15 years, and most of my experience has been good. Before that I have been an embedded systems programmer, to code a microcontroller and not knowing what its really intended for was a wreak on my soul. I am a guy who though belies there is no purpose in life, nothing is constant, and everything is meaningless, strangely seek for a purpose of my actions.</summary></entry><entry><title type="html">Let’s call ourself Code Mechanics now</title><link href="/2022/01/16/let-s-call-ourself-code-mechanics-now.html" rel="alternate" type="text/html" title="Let&apos;s call ourself Code Mechanics now" /><published>2022-01-16T22:08:00+05:30</published><updated>2022-01-16T22:08:00+05:30</updated><id>/2022/01/16/let-s-call-ourself-code-mechanics-now</id><content type="html" xml:base="/2022/01/16/let-s-call-ourself-code-mechanics-now.html">&lt;p&gt;I was working in  a company, they had hired me knowing that I worked as a Tech Architect in my previous company, in the new company they did not call me a tech architect because they said they hated that name, because say tech architects do almost nothing, instead I was just a Ruby on Rails developer. Call me what ever you want, but just give my pay was my motto and I worked. In truth we all work for money, those who say they don’t, cut their salary and see how long would they last.&lt;/p&gt;
-
-&lt;p&gt;Now coming to names of positions in teams, there are these junior developer, developer, senior developer, tech lead, project lead, tech architect and so on. In this company where I was hired they the name tech architects and rebranded themselves as principal engineers.&lt;/p&gt;
-
-&lt;p&gt;Now let me tell you a a secret about the I.T industry. Why we have so many levels and positions? The reason is simple. The up you go the level, the less you code and more you talk. Software development is like a war, in war the lower ranks fight and die, where’s the upper ranks talk, thats exactly what happens in the I.T industry.&lt;/p&gt;
-
-&lt;p&gt;To make those talkers sound cool, before we had names like Project Lead, but that exposed stuff, there was no funky technical word in it, so it became Tech Lead, to make more techie it became Tech Architect (a position I hold in most of the companies), now people know that Tech Architect do nothing but eat Biriyani and Samosas and now they call themselves as Principal Engineers.&lt;/p&gt;
-
-&lt;p&gt;Basically we are close to the management, we do politics and intimidate people and draw huge salaries on others mind breaking work. I will write another blog what a tech architect must really do, but this is a blog to save the current tech architects and Principal Engineers.&lt;/p&gt;
-
-&lt;p&gt;What I have seen in most companies is these Tech Architects and Principal Engineers increase the complexity of the project so that their work looks more relevant. For example I am a Ruby on Rails consultant, that framework has excellent front end stuff, but these tech architect use Vue, React, and Angular (God evil does exist in this universe) and make the app look more complex so that they can talk a lot about it, have a bigger team and prove to others they can manage lot of people even though the entire project could be be done with a small team.&lt;/p&gt;
-
-&lt;p&gt;Another thing they do is to obey the management and lick its feet for survival, create tickets with tight deadlines and put pressure on developer’s. In most companies, these people are just hollow pipes, they convey message from client and management to developers and back.&lt;/p&gt;
-
-&lt;p&gt;So now the truth about Tech Architects and Principal Engineers getting revealed slowly from this blog on, what should we call next to protect our high salaries? I recommend &lt;strong&gt;Code Mechanics&lt;/strong&gt;. We are the great guys who mend the stale code created by ignorant developers. How the ignorant developer get into the team despite our watch is an issue that must be hushed up.&lt;/p&gt;
-
-&lt;p&gt;So I have given you guys a new name to put in your resume, draw higher salaries for bit more longer by cheating the tech industry. Be grateful to me and enjoy life!&lt;/p&gt;</content><author><name></name></author><summary type="html">I was working in a company, they had hired me knowing that I worked as a Tech Architect in my previous company, in the new company they did not call me a tech architect because they said they hated that name, because say tech architects do almost nothing, instead I was just a Ruby on Rails developer. Call me what ever you want, but just give my pay was my motto and I worked. In truth we all work for money, those who say they don’t, cut their salary and see how long would they last.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://bafybeihob6xbyvcbcmhbqmaveun3esty34pta7feai4xh7sowiuoy6qlq4.ipfs.dweb.link/silliness-of-js-framework.drawio&quot;&gt;Source of diagrams&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am been developing websites for 15 years, and most of my experience has been good. Before that I have been an embedded systems programmer, to code a microcontroller and not knowing what its really intended for was a wreak on my soul. I am a guy who though belies there is no purpose in life, nothing is constant, and everything is meaningless, strangely seek for a purpose of my actions.</summary></entry></feed>
