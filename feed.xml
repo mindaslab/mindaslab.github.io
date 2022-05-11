@@ -1,5 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-07T21:10:44+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">mkcd Make and change directory</title><link href="/2022/05/07/mkcd-make-and-change-directory.html" rel="alternate" type="text/html" title="mkcd Make and change directory" /><published>2022-05-07T21:09:00+05:30</published><updated>2022-05-07T21:09:00+05:30</updated><id>/2022/05/07/mkcd-make-and-change-directory</id><content type="html" xml:base="/2022/05/07/mkcd-make-and-change-directory.html">&lt;p&gt;Often I run into a problem, I need to create a directory using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; and I have to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; into it. Some times I need to create a directory structure like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/code/folder/sub_folder&lt;/code&gt;, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;folder&lt;/code&gt; might be missing or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt; might be missing. So I found the following shell command which will &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; with padding and changes i.e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; to the created directory.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-11T11:40:14+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Never Derail</title><link href="/2022/05/11/never-derail.html" rel="alternate" type="text/html" title="Never Derail" /><published>2022-05-11T11:39:00+05:30</published><updated>2022-05-11T11:39:00+05:30</updated><id>/2022/05/11/never-derail</id><content type="html" xml:base="/2022/05/11/never-derail.html">&lt;p&gt;&lt;img src=&quot;https://img.etimg.com/thumb/msid-56799366,width-1070,height-580,imgsize-80923,overlay-economictimes/photo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wonder how they think in 37 signals. According to me Ruby on Rails is a miracle web development framework. they selected very right language Ruby, they seem to have thought about how you can write very messy code with Ruby, so they put up a very opinionated framework called Rails.&lt;/p&gt;
+
+&lt;p&gt;You have to think of learning Rails as learning to become an engine driver. Learning to walk is relatively easy; to go to a near by shop located at one’s street corner and buying few things, walking would suffice. If you want to goto a port and transport tonnes of coal to a power station 100 miles away you need a railway infrastructure, and that’s what Rails gives you. You need to learn about it all to become a Rails developer.&lt;/p&gt;
+
+&lt;p&gt;Rails promise’s one thing, if you obey it’s rules it would work fine, if you derail it, it’s just a pile of mess.  Being a Rails developer, to my astonishment I am seeing this promise come true again and again.&lt;/p&gt;
+
+&lt;p&gt;In this blog I am going to tell you how Rails was derailed many times in my career.&lt;/p&gt;
+
+&lt;h2 id=&quot;derailing-by-using-front-end-frameworks&quot;&gt;Derailing by using front end frameworks&lt;/h2&gt;
+
+&lt;p&gt;Rails follows MVC architecture, the &lt;strong&gt;V&lt;/strong&gt; in that stands for View, yes Rails has got a view layer, and tremendous support for Ajax which can make pages dynamic and it has got this thing called Turbolinks till Rails 6 which makes clicking of links Ajax, and now it has got Turbo, a full fledged framework to support very dynamic pages that needs almost no refreshing. Using a front end framework is an anti-pattern. You are simply turning Rails into a  JSON or GraphQL source. If you do so decouple front end and back end development. Just use the Model and Controller in Rails and pump out data to be consumed by your devices like mobile app and front end framework.&lt;/p&gt;
+
+&lt;p&gt;Making a Rails developer to work on a  front end is like asking an engine driver to paint his train, no that won’t work. The paint job would be in a mess and would peel off any time. Rails developers are good at putting out HTML, JSON and GraphQL (that too when they know about it well). As of now not many Rails dev’s know GraphQL thoroughly.&lt;/p&gt;
+
+&lt;h2 id=&quot;derailing-thinking-that-full-stack-includes-design&quot;&gt;Derailing thinking that full stack includes design&lt;/h2&gt;
+
+&lt;p&gt;Once again full stack does not include design. Designing requires a different kind of brain, it might also need to think about UI and UX. Rails is all about business logic delivered fast. Many people confuse that designing is a part of Rails and that gives us headaches.&lt;/p&gt;
+
+&lt;h2 id=&quot;derailing-by-using-unsupported-databases&quot;&gt;Derailing by using unsupported databases&lt;/h2&gt;
+
+&lt;p&gt;Postgres is very much supported DB in Rails. The community has moved in that direction. I have seen projects where one uses Oracle or Microsoft SQL and see that Ruby does not work well with it. Use a data store that support Rails.&lt;/p&gt;
+
+&lt;p&gt;I have also seen people using Mongo (or some weird NoSQL), and even Neo4j with Rails, and getting involved in productive bottlenecks. All I can say is you are a software engineer, think dude think. Don’t be dumb.&lt;/p&gt;
+
+&lt;p&gt;If your project has grown too large, try using something like Cockroach DB, that’s just drop in replacement to PostgreSQL.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-activejob&quot;&gt;Use ActiveJob&lt;/h2&gt;
+
+&lt;p&gt;At least in 3 project’s I saw Rails been used with Kafka, okay but hasn’t Rails got nicely integrated ActiveJob? The Rails community has realized the need of doing intensive tasks that could fail, and has provided an excellent abstraction layer. I see some companies using Sidekiq and ActivJob and processing nearly TB’s of machine generated data and generating more data due to it :D.&lt;/p&gt;
+
+&lt;p&gt;Kafka is great but integrate with Rails with a proper abstraction like an API where a Rails dev fires an API to create task and queries it to know its status. Kafka should be handled totally separate way. A Railway engineer should not worry about what happens to a parcel is delivered at a Railway station, messages to Kafka is like parcels a train delivers to a platform. Trying to push it into Rails may or may not work.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-convection-over-configuration&quot;&gt;Follow convection over configuration&lt;/h2&gt;
+
+&lt;p&gt;I encountered a situation where emailing stuff was so abstracted from Rails, I had to define same email template in multiple locations. A lot of configuration should be set. I was given a reason for this, but I was not convinced. Use Rails convention. Never violate the rails way.&lt;/p&gt;
+
+&lt;p&gt;Rails is battle tested, 37 signals and other top companies are using it, and they are iterating their products fast and moving along with trend. I believe they are right in many ways. So follow Rails.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-creating-a-knowledge-base&quot;&gt;Not creating a knowledge base&lt;/h2&gt;
+
+&lt;p&gt;Since I do freelancing, I find in many projects the client fails to create knowledge base and documentation for his product. Never I have seen a document that says you need to have imagemagick installed on the server you are deploying, and that sucks. One should create a good enough knowledge base so that it gives lot of information to developers. If your developers are too techi and cannot write english, then hire some technical writers to assist them.&lt;/p&gt;
+
+&lt;p&gt;Never in a Rails project I have seen an architecture diagram describing if you need a redis connected to it, never have I seen a diagram if the current deployment is behind load balancers or not.&lt;/p&gt;
+
+&lt;p&gt;Humans can understand far better using diagrams than reading text, that too reading code is hard. So putting diagrams is not bad. May be consultancy should be formed to evaluate a companies tech knowledge base and reveal its shortcomings.&lt;/p&gt;
+
+&lt;h2 id=&quot;tdd&quot;&gt;TDD&lt;/h2&gt;
+
+&lt;p&gt;Please! Yes do TDD 100%, please! Else forget about fast changes and upgrading your product.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Rails is very thought out, they have lasted the test of time, I think for two decades and they are still roaring like lions. I don’t know who chose the name Rails, but if you derail, things go awry like a real railway system. Either be on track, create knowledge for the driver to understand well when convention is broken, don’t break the convention too much so that it becomes hard for others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">mkcd Make and change directory</title><link href="/2022/05/07/mkcd-make-and-change-directory.html" rel="alternate" type="text/html" title="mkcd Make and change directory" /><published>2022-05-07T21:09:00+05:30</published><updated>2022-05-07T21:09:00+05:30</updated><id>/2022/05/07/mkcd-make-and-change-directory</id><content type="html" xml:base="/2022/05/07/mkcd-make-and-change-directory.html">&lt;p&gt;Often I run into a problem, I need to create a directory using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; and I have to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; into it. Some times I need to create a directory structure like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/code/folder/sub_folder&lt;/code&gt;, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;folder&lt;/code&gt; might be missing or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt; might be missing. So I found the following shell command which will &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; with padding and changes i.e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; to the created directory.&lt;/p&gt;
 
 &lt;p&gt;Paste the line below in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.bashrc&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
 
@@ -327,86 +381,4 @@ BJP is irritating the government by telling the governor to be a impediment to t
 
 &lt;p&gt;Pakistan is a religious nation that does not want to develop. We are Indian’s, we created our nation to be secular, its up to us to choose the right leader. Do we want our kids life’s to be better, and do we want Science, Knowledge, progress, this giving us happy and comfortable life? Or dow we want to be just another Hindu Pakistan?&lt;/p&gt;
 
-&lt;p&gt;Remember Pakistan is a nation that is currently a burden to this planet and nothing else because they will never improve because of their religion. One must remember that Nepal and Bangladesh have shed their religions and have modernized.&lt;/p&gt;</content><author><name></name></author><summary type="html">Modi offering to Ramanujan statue</summary></entry><entry><title type="html">Getting Clojupyter running</title><link href="/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running.html" rel="alternate" type="text/html" title="Getting Clojupyter running" /><published>2022-02-04T11:48:00+05:30</published><updated>2022-02-04T11:48:00+05:30</updated><id>/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running</id><content type="html" xml:base="/programming/clojure/clojupyter/2022/02/04/getting-clojupyter-running.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://github.com/clojupyter/clojupyter/raw/master/resources/clojupyter/assets/logo-350x80.png&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Clojupyter Logo&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Like many programmers I fell in love with Clojure. Before I fell in love with Ruby and this framework Ruby on Rails, but when I worked in companies like a big corp , I encountered Rails apps with 0.2 million lines of code, having no test, thus practically unmaintainable, my boss was finding scapegoats to blame and was firing people. To mitigate the slow development speeds, a project that could have been done with 3 - 5 people had kind of 10+ developers, a dozen or so testers, and huge ops team! Yes that’s right. Ruby on Rails was supposed be a cost effective framework which few people could use to create great apps, but here they used lot of people to create a waste and muddled app.&lt;/p&gt;
-
-&lt;p&gt;I desperately wanted a maintainable code and I landed up on Clojure and I am learning it. One advantage of Clojure is, if you know it well, you can use ClojureScript instead of JavaScript. Framework like Ruby on Rails does not promise you out of the box that you can replace JavaScript, JavaScript an ill made up language that gives pain to developers, and hence should be eliminated.&lt;/p&gt;
-
-&lt;p&gt;I started with Clojure using Clojupyter that runs on Jupyter notebook, and it was very good. It’s like REPL on steroids. I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/blob/master/doc/conda-installing.md#using-conda-installing-clojupyter&quot;&gt;installed it with conda&lt;/a&gt;, and it seems to work all well. Than I got this error all of a sudden:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[I 2022-01-25 10:21:54.017 LabApp] Build is up to date
-[I 2022-01-25 10:21:57.063 ServerApp] Creating new notebook in
-[I 2022-01-25 10:21:57.529 ServerApp] Kernel started: 271c0671-68c9-4ebc-b92d-9d8fe5b86837
-[E 04:52:08.886 Clojupyter] c8r.messages -- Invalid message signature
-[E 04:52:08.932 Clojupyter] c8r.util-actions --
-                                        java.lang.Thread.run              Thread.java:  745
-          java.util.concurrent.ThreadPoolExecutor$Worker.run  ThreadPoolExecutor.java:  617
-           java.util.concurrent.ThreadPoolExecutor.runWorker  ThreadPoolExecutor.java: 1142
-                                                         ...
-                           clojure.core.async/thread-call/fn                async.clj:  443
-                                     clojupyter.zmq/start/fn                  zmq.clj:  108
-                                      clojure.core.async/&amp;gt;!!                async.clj:  143
-     clojure.core.async.impl.channels.ManyToManyChannel/put!             channels.clj:  143
-                    clojure.core.async.impl.channels/chan/fn             channels.clj:  300
-                                      clojure.core/map/fn/fn                 core.clj: 2742
-                                                         ...
-clojupyter.util-actions/wrap-report-and-absorb-exceptions/fn         util_actions.clj:  239
-                                          clojure.core/apply                 core.clj:  665
-                                                         ...
-                                        clojure.core/comp/fn                 core.clj: 2569
-         clojupyter.kernel.core/wrap-skip-shutdown-tokens/fn                 core.clj:   83
-                                        clojure.core/comp/fn                 core.clj: 2569
-                                     clojure.core/partial/fn                 core.clj: 2624
-                                                         ...
-                 clojure.spec.test.alpha/spec-checking-fn/fn                alpha.clj:  142
-                                                         ...
-                       clojupyter.messages/fn/frames-&amp;gt;jupmsg             messages.clj:  288
-java.lang.Exception: Invalid message signature
-
-[E 04:52:09.009 Clojupyter] c8r.util-actions --
-                                        java.lang.Thread.run              Thread.java:  745
-          java.util.concurrent.ThreadPoolExecutor$Worker.run  ThreadPoolExecutor.java:  617
-           java.util.concurrent.ThreadPoolExecutor.runWorker  ThreadPoolExecutor.java: 1142
-                                                         ...
-                           clojure.core.async/thread-call/fn                async.clj:  443
-                                     clojupyter.zmq/start/fn                  zmq.clj:  108
-                                      clojure.core.async/&amp;gt;!!                async.clj:  143
-     clojure.core.async.impl.channels.ManyToManyChannel/put!             channels.clj:  143
-                    clojure.core.async.impl.channels/chan/fn             channels.clj:  300
-                                      clojure.core/map/fn/fn                 core.clj: 2742
-                                                         ...
-clojupyter.util-actions/wrap-report-and-absorb-exceptions/fn         util_actions.clj:  239
-                                          clojure.core/apply                 core.clj:  665
-                                                         ...
-                                        clojure.core/comp/fn                 core.clj: 2569
-         clojupyter.kernel.core/wrap-skip-shutdown-tokens/fn                 core.clj:   83
-                                        clojure.core/comp/fn                 core.clj: 2569
-                                     clojure.core/partial/fn                 core.clj: 2624
-                                                         ...
-                 clojure.spec.test.alpha/spec-checking-fn/fn                alpha.clj:  142
-                                                         ...
-                       clojupyter.messages/fn/frames-&amp;gt;jupmsg             messages.clj:  288
-java.lang.Exception: Invalid message signature
-
-Exception in thread &quot;async-thread-macro-11&quot; java.lang.AssertionError: Assert failed: handle-request - internal error (&apos;:shell_port&apos; neq &apos;&apos;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It has been very long since I worked with Java and I couldn’t find head or tail of it. I &lt;a href=&quot;https://clojureverse.org/t/unable-to-work-with-clojupyter/8554&quot;&gt;asked it in ClojureVerse&lt;/a&gt;, none responded. I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/issues/159&quot;&gt;put it in Clojupyter github&lt;/a&gt;, and none responded. I was bit desperate, here was a language that seemed to be good, and it could harness the power of Jupyter, so learning could be fast, but I wasn’t getting enough help.&lt;/p&gt;
-
-&lt;p&gt;I am a Rubyist, the Ruby community is very good, you get response in your emails if you poat a problems, perhaps that’s not the case yet with Clojure community, that’s sad. I wish it improves.&lt;/p&gt;
-
-&lt;p&gt;Finally I &lt;a href=&quot;https://github.com/clojupyter/clojupyter/issues/159&quot;&gt;used Clojupyter as library&lt;/a&gt; and it worked! I hope it doesnt’t screw up. First I got something like zeqomq error, but then when I did &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda upgrade ipykernel&lt;/code&gt;, it got fixed. I got a help from &lt;a href=&quot;https://gitanswer.com/spyder-error-tornado-general-uncaught-exception-in-zmqstream-callback-306179886&quot;&gt;this&lt;/a&gt; blog.&lt;/p&gt;
-
-&lt;p&gt;For now I am okay, but it would be great if clojure community is becomes more helpful in the future. Right now I feel barrier for entry into Clojure, despite the language’s simplicity is high.&lt;/p&gt;</content><author><name></name></author><summary type="html">Clojupyter Logo</summary></entry></feed>
+&lt;p&gt;Remember Pakistan is a nation that is currently a burden to this planet and nothing else because they will never improve because of their religion. One must remember that Nepal and Bangladesh have shed their religions and have modernized.&lt;/p&gt;</content><author><name></name></author><summary type="html">Modi offering to Ramanujan statue</summary></entry></feed>
