@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-07-02T09:53:21+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Task which will fail 99.99% of Tamilnadu’s Electronic Engineers</title><link href="/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers.html" rel="alternate" type="text/html" title="Task which will fail 99.99% of Tamilnadu&apos;s Electronic Engineers" /><published>2022-07-02T09:50:00+05:30</published><updated>2022-07-02T09:50:00+05:30</updated><id>/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers</id><content type="html" xml:base="/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers.html">&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; Implement RTL NAND on PCB that operates on 5V power supply.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-07-06T00:33:29+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">The problem of being a good Ruby on Rails developer</title><link href="/2022/07/06/the-problem-of-being-a-good-ruby-on-rails-developer.html" rel="alternate" type="text/html" title="The problem of being a good Ruby on Rails developer" /><published>2022-07-06T00:33:00+05:30</published><updated>2022-07-06T00:33:00+05:30</updated><id>/2022/07/06/the-problem-of-being-a-good-ruby-on-rails-developer</id><content type="html" xml:base="/2022/07/06/the-problem-of-being-a-good-ruby-on-rails-developer.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For some reason I listen to keynote speech of Matz, DHH, and Aaron Patterson. I feel what they talk makes sense to me, that too Matz future ideas about programming, and how computers should serve humans and not the other way around, DHH’s idea of making Ruby on Rails so powerful that individual persons can challenge a big corporate employing tens of people coding a web app. these are powerful ideas. Aaron Patterson’s work of making Ruby as well as Rails faster and better. These all makes sense to me.&lt;/p&gt;
+
+&lt;p&gt;I also felt what decisions what were made to Rails were very sensible except these two:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Getting rid of Coffeescript.&lt;/li&gt;
+  &lt;li&gt;Using Webpacker.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I still don’t get what webpacker is. Thanks to Rails 7 we have got rid of it. I am coding in Rails since it was 2.x and it has given me a excellent experience. Even today if I touch legacy code of my former teams, I can understand the code and make changes in an easy way. As far as I know, none who has inherited code from me has reported a problem to me. The reason for that is very simple, Rails follows a convention, and I follow it religiously. Rails is a philosophy which has many best practices, and I stick to it. This however does not mean that changing double quotes to single quotes because shitty Rubocop yells at you. Doing such things is stupid. But I have to admit in project dominated by fools, I did follow Rubocop.&lt;/p&gt;
+
+&lt;p&gt;But then what happens when you are a good, stick to the principle Ruby on Rails developer. For example what will happen if you are a honest India government servant? You won’t take bribes, and you will find t too difficult to fit in India. So what will happen to a Ruby on Rails developer when he is in a project that violates lot of rules laid by Ruby on Rails. It becomes difficult for you, making modifications to it becomes a pain. You start to wonder why people picked up Ruby on Rails if they don’t want to follow it.&lt;/p&gt;
+
+&lt;p&gt;When you get experienced, when you become Architect of tech, Principal Engineer just by your age (I have seen no intelligence increase in a architect compared to novice), people hire you not because they want you to maintain a good project or want to start a green field project, they hire you because they really screwed up with Rails and want some one with age and experience to solve it. It’s like telling a bank manager to work with thieves. Thieves knows crappy way of doing things, the bank manager however sees perfection in system, understands economics and don’t want to loot because he understands economics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; When I say bank, I don’t means real banks of today which loot us, I mean a ideal bank and ideal bank manager in a dream world. Today a thief admits he loots us, a bank does not.&lt;/p&gt;
+
+&lt;p&gt;So being a person who does not mess up Rails framework because you are sane, you need to work with insane people who have truly messed it up. That’s a great problem for a Ruby on Rails purist.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Task which will fail 99.99% of Tamilnadu’s Electronic Engineers</title><link href="/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers.html" rel="alternate" type="text/html" title="Task which will fail 99.99% of Tamilnadu&apos;s Electronic Engineers" /><published>2022-07-02T09:50:00+05:30</published><updated>2022-07-02T09:50:00+05:30</updated><id>/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers</id><content type="html" xml:base="/2022/07/02/task-which-will-fail-99-percent-of-tamilnadus-electronic-engineers.html">&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; Implement RTL NAND on PCB that operates on 5V power supply.&lt;/p&gt;
 
 &lt;p&gt;I am sure the above task will fail 99.99% of Tamilnadu’s electronic engineers and at about 80% of India’s electronic engineers. It could be possible that 50% of all HOD’s in electronics department in Tamilnadu will fail in this task too, those who succeed would have accomplished with tremendous difficulty.&lt;/p&gt;
 
@@ -256,58 +275,4 @@
 
 &lt;p&gt;I don’t know if some one has done research about it, but this pattern seems to be everywhere, the brain gets alert first when something triggers it, then it thinks about it and sees if something is positive or negative (or classifies it).&lt;/p&gt;
 
-&lt;p&gt;May be this is an energy saving act of brain, if everything is done in parallel and with same energy intensity, then our brain will consume too much energy (which is costly in nature), may be it puts various parts to low energy state and triggers some parts to high energy or processing state after some activation. It’s very similar to we having multiple cores (some very specialized) on our computer and most of them are at sleep most of the time.&lt;/p&gt;</content><author><name></name></author><summary type="html">When you touch something you sense it’s hot or cold, but my experience tells me that first brain first senses an extreme in temperature and only then it decides if some thing is hot or cold.</summary></entry><entry><title type="html">Never Derail</title><link href="/2022/05/11/never-derail.html" rel="alternate" type="text/html" title="Never Derail" /><published>2022-05-11T11:39:00+05:30</published><updated>2022-05-11T11:39:00+05:30</updated><id>/2022/05/11/never-derail</id><content type="html" xml:base="/2022/05/11/never-derail.html">&lt;p&gt;&lt;img src=&quot;https://img.etimg.com/thumb/msid-56799366,width-1070,height-580,imgsize-80923,overlay-economictimes/photo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I wonder how they think in 37 signals. According to me Ruby on Rails is a miracle web development framework. they selected very right language Ruby, they seem to have thought about how you can write very messy code with Ruby, so they put up a very opinionated framework called Rails.&lt;/p&gt;
-
-&lt;p&gt;You have to think of learning Rails as learning to become an engine driver. Learning to walk is relatively easy; to go to a near by shop located at one’s street corner and buying few things, walking would suffice. If you want to goto a port and transport tonnes of coal to a power station 100 miles away you need a railway infrastructure, and that’s what Rails gives you. You need to learn about it all to become a Rails developer.&lt;/p&gt;
-
-&lt;p&gt;Rails promise’s one thing, if you obey it’s rules it would work fine, if you derail it, it’s just a pile of mess.  Being a Rails developer, to my astonishment I am seeing this promise come true again and again.&lt;/p&gt;
-
-&lt;p&gt;In this blog I am going to tell you how Rails was derailed many times in my career.&lt;/p&gt;
-
-&lt;h2 id=&quot;derailing-by-using-front-end-frameworks&quot;&gt;Derailing by using front end frameworks&lt;/h2&gt;
-
-&lt;p&gt;Rails follows MVC architecture, the &lt;strong&gt;V&lt;/strong&gt; in that stands for View, yes Rails has got a view layer, and tremendous support for Ajax which can make pages dynamic and it has got this thing called Turbolinks till Rails 6 which makes clicking of links Ajax, and now it has got Turbo, a full fledged framework to support very dynamic pages that needs almost no refreshing. Using a front end framework is an anti-pattern. You are simply turning Rails into a  JSON or GraphQL source. If you do so decouple front end and back end development. Just use the Model and Controller in Rails and pump out data to be consumed by your devices like mobile app and front end framework.&lt;/p&gt;
-
-&lt;p&gt;Making a Rails developer to work on a  front end is like asking an engine driver to paint his train, no that won’t work. The paint job would be in a mess and would peel off any time. Rails developers are good at putting out HTML, JSON and GraphQL (that too when they know about it well). As of now not many Rails dev’s know GraphQL thoroughly.&lt;/p&gt;
-
-&lt;h2 id=&quot;derailing-thinking-that-full-stack-includes-design&quot;&gt;Derailing thinking that full stack includes design&lt;/h2&gt;
-
-&lt;p&gt;Once again full stack does not include design. Designing requires a different kind of brain, it might also need to think about UI and UX. Rails is all about business logic delivered fast. Many people confuse that designing is a part of Rails and that gives us headaches.&lt;/p&gt;
-
-&lt;h2 id=&quot;derailing-by-using-unsupported-databases&quot;&gt;Derailing by using unsupported databases&lt;/h2&gt;
-
-&lt;p&gt;Postgres is very much supported DB in Rails. The community has moved in that direction. I have seen projects where one uses Oracle or Microsoft SQL and see that Ruby does not work well with it. Use a data store that support Rails.&lt;/p&gt;
-
-&lt;p&gt;I have also seen people using Mongo (or some weird NoSQL), and even Neo4j with Rails, and getting involved in productive bottlenecks. All I can say is you are a software engineer, think dude think. Don’t be dumb.&lt;/p&gt;
-
-&lt;p&gt;If your project has grown too large, try using something like Cockroach DB, that’s just drop in replacement to PostgreSQL.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-activejob&quot;&gt;Use ActiveJob&lt;/h2&gt;
-
-&lt;p&gt;At least in 3 project’s I saw Rails been used with Kafka, okay but hasn’t Rails got nicely integrated ActiveJob? The Rails community has realized the need of doing intensive tasks that could fail, and has provided an excellent abstraction layer. I see some companies using Sidekiq and ActivJob and processing nearly TB’s of machine generated data and generating more data due to it :D.&lt;/p&gt;
-
-&lt;p&gt;Kafka is great but integrate with Rails with a proper abstraction like an API where a Rails dev fires an API to create task and queries it to know its status. Kafka should be handled totally separate way. A Railway engineer should not worry about what happens to a parcel is delivered at a Railway station, messages to Kafka is like parcels a train delivers to a platform. Trying to push it into Rails may or may not work.&lt;/p&gt;
-
-&lt;h2 id=&quot;follow-convection-over-configuration&quot;&gt;Follow convection over configuration&lt;/h2&gt;
-
-&lt;p&gt;I encountered a situation where emailing stuff was so abstracted from Rails, I had to define same email template in multiple locations. A lot of configuration should be set. I was given a reason for this, but I was not convinced. Use Rails convention. Never violate the rails way.&lt;/p&gt;
-
-&lt;p&gt;Rails is battle tested, 37 signals and other top companies are using it, and they are iterating their products fast and moving along with trend. I believe they are right in many ways. So follow Rails.&lt;/p&gt;
-
-&lt;h2 id=&quot;not-creating-a-knowledge-base&quot;&gt;Not creating a knowledge base&lt;/h2&gt;
-
-&lt;p&gt;Since I do freelancing, I find in many projects the client fails to create knowledge base and documentation for his product. Never I have seen a document that says you need to have imagemagick installed on the server you are deploying, and that sucks. One should create a good enough knowledge base so that it gives lot of information to developers. If your developers are too techi and cannot write english, then hire some technical writers to assist them.&lt;/p&gt;
-
-&lt;p&gt;Never in a Rails project I have seen an architecture diagram describing if you need a redis connected to it, never have I seen a diagram if the current deployment is behind load balancers or not.&lt;/p&gt;
-
-&lt;p&gt;Humans can understand far better using diagrams than reading text, that too reading code is hard. So putting diagrams is not bad. May be consultancy should be formed to evaluate a companies tech knowledge base and reveal its shortcomings.&lt;/p&gt;
-
-&lt;h2 id=&quot;tdd&quot;&gt;TDD&lt;/h2&gt;
-
-&lt;p&gt;Please! Yes do TDD 100%, please! Else forget about fast changes and upgrading your product.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Rails is very thought out, they have lasted the test of time, I think for two decades and they are still roaring like lions. I don’t know who chose the name Rails, but if you derail, things go awry like a real railway system. Either be on track, create knowledge for the driver to understand well when convention is broken, don’t break the convention too much so that it becomes hard for others.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;May be this is an energy saving act of brain, if everything is done in parallel and with same energy intensity, then our brain will consume too much energy (which is costly in nature), may be it puts various parts to low energy state and triggers some parts to high energy or processing state after some activation. It’s very similar to we having multiple cores (some very specialized) on our computer and most of them are at sleep most of the time.&lt;/p&gt;</content><author><name></name></author><summary type="html">When you touch something you sense it’s hot or cold, but my experience tells me that first brain first senses an extreme in temperature and only then it decides if some thing is hot or cold.</summary></entry></feed>
