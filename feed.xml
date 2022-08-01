@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-07-29T22:59:38+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Patenting inventions in 🇮🇳</title><link href="/2022/07/29/patenting-inventions-in-india.html" rel="alternate" type="text/html" title="Patenting inventions in 🇮🇳" /><published>2022-07-29T22:59:00+05:30</published><updated>2022-07-29T22:59:00+05:30</updated><id>/2022/07/29/patenting-inventions-in-india</id><content type="html" xml:base="/2022/07/29/patenting-inventions-in-india.html">&lt;p&gt;We had a lot of spare computing capacity left, so me and my friends (former colleagues) who worked on few problems told our algorithm to optimize some stuff, and after some long long time it spit out some fluid dynamics optimization which we still don’t understand, but a mech friend of mine after investigating it told us to patent two of the designs suggested by our intelligent machine.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-08-01T11:40:14+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Bayesian Probability for Babies</title><link href="/2022/08/01/bayesian-probability-for-babies.html" rel="alternate" type="text/html" title="Bayesian Probability for Babies" /><published>2022-08-01T11:36:00+05:30</published><updated>2022-08-01T11:36:00+05:30</updated><id>/2022/08/01/bayesian-probability-for-babies</id><content type="html" xml:base="/2022/08/01/bayesian-probability-for-babies.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;https://bafybeia543xdpqwfkhcvad2fw7wc7e2ewktoyvegalpzh7vtl7qgqwqxbq.ipfs.dweb.link/bayesian-probability-for-babies.mp4 &quot; /&gt;
+      Your browser does not support the video element.
+      &lt;/video&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry><entry><title type="html">Patenting inventions in 🇮🇳</title><link href="/2022/07/29/patenting-inventions-in-india.html" rel="alternate" type="text/html" title="Patenting inventions in 🇮🇳" /><published>2022-07-29T22:59:00+05:30</published><updated>2022-07-29T22:59:00+05:30</updated><id>/2022/07/29/patenting-inventions-in-india</id><content type="html" xml:base="/2022/07/29/patenting-inventions-in-india.html">&lt;p&gt;We had a lot of spare computing capacity left, so me and my friends (former colleagues) who worked on few problems told our algorithm to optimize some stuff, and after some long long time it spit out some fluid dynamics optimization which we still don’t understand, but a mech friend of mine after investigating it told us to patent two of the designs suggested by our intelligent machine.&lt;/p&gt;
 
 &lt;p&gt;Now, we heard a story that some contrives don’t permit patents designed by A.I agent, so we need to file it as we humans invented it. While trying to file it, in the first screens we noted this option:&lt;/p&gt;
 
@@ -107,28 +110,4 @@
 
 &lt;p&gt;In fact, if you ask an electronics engineer to do this task as an interview exercise, the person will look at you like you are insane and mad.&lt;/p&gt;
 
-&lt;p&gt;When I say college education is sham, and it loots middle class parents because they are ignorant, I mean it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Task: Implement RTL NAND on PCB that operates on 5V power supply.</summary></entry><entry><title type="html">Fundamentals of a Business</title><link href="/2022/06/18/fundamentals-of-a-business.html" rel="alternate" type="text/html" title="Fundamentals of a Business" /><published>2022-06-18T15:00:00+05:30</published><updated>2022-06-18T15:00:00+05:30</updated><id>/2022/06/18/fundamentals-of-a-business</id><content type="html" xml:base="/2022/06/18/fundamentals-of-a-business.html">&lt;p&gt;I was talking with my friend who wanted to have his own business. I soon found out that he wanted to have a business to get rich, to leave something for his kids, which means his business has failed even before it materialized. He never talked about the three main things which I think is essential for a business.&lt;/p&gt;
-
-&lt;p&gt;In this blog I want to write what qualities I think are fundamental for a business, what qualities I think that will make it successful.&lt;/p&gt;
-
-&lt;h2 id=&quot;value&quot;&gt;Value&lt;/h2&gt;
-
-&lt;p&gt;The first fundamental thing is value. Some one wants to buy your product or service only if they think it’s valuable, or else they have to be a fool to invest money. No matter how ever less value it is, your business must add value.&lt;/p&gt;
-
-&lt;p&gt;For example I was consulting for a company called DataMaking, our team size grew a lot, we had to do something to keep meeting times low, so we developed a tool &lt;a href=&quot;https://doneit.in&quot;&gt;doneit&lt;/a&gt;. It reduced our meeting times. After it worked for us, we told our friends to try, gave them free trials and some of them became paid subscribers.&lt;/p&gt;
-
-&lt;p&gt;There was some value for a tool creation, we could identify it and so we created it. It later became a business.&lt;/p&gt;
-
-&lt;h2 id=&quot;honesty&quot;&gt;Honesty&lt;/h2&gt;
-
-&lt;p&gt;Honesty is necessary for business. Say you have a bank backing you, they want to know how your business will go so that they can predict the future and make sure there is enough funds available to the creditors. If you are dishonest, they will not be able to help you in the long run and will loose trust in you.&lt;/p&gt;
-
-&lt;p&gt;If you are not honest about the product or service you are selling to someone, people will loose trust in it. For example almost no startups use Oracle, no programmer uses Windows. People have lost trust in them.&lt;/p&gt;
-
-&lt;h2 id=&quot;equality&quot;&gt;Equality&lt;/h2&gt;
-
-&lt;p&gt;Today SpaceX is doing real magic in space industry, but I don’t think it will be successful in the long run. Elon Musk treats people like shit, does not value dissent. Business is for people and by people. If one does not recognize the equality of people, a business is doomed to fail in the long run.&lt;/p&gt;
-
-&lt;p&gt;Once a business crosses 3 workers, the owner of the business has no real control of it, he has to consult people to take next decision, it becomes more of a democratic process. If a worker in a business doesn’t like it, crack will appear, will widen, and the business will fail.&lt;/p&gt;
-
-&lt;p&gt;It is the responsibility of people who say that they can run a business to make sure all have equal stake in the business.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was talking with my friend who wanted to have his own business. I soon found out that he wanted to have a business to get rich, to leave something for his kids, which means his business has failed even before it materialized. He never talked about the three main things which I think is essential for a business.</summary></entry></feed>
+&lt;p&gt;When I say college education is sham, and it loots middle class parents because they are ignorant, I mean it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Task: Implement RTL NAND on PCB that operates on 5V power supply.</summary></entry></feed>
