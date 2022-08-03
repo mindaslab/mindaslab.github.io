@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>jQuery is still the 👑 King | Karthikeyan A K’s blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="jQuery is still the 👑 King" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Using Bulma with Rails 7" />
+<meta property="og:description" content="Using Bulma with Rails 7" />
+<link rel="canonical" href="/2022/08/04/jquery-is-still-the-king.html" />
+<meta property="og:url" content="/2022/08/04/jquery-is-still-the-king.html" />
+<meta property="og:site_name" content="Karthikeyan A K’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-04T00:11:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="jQuery is still the 👑 King" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-04T00:11:00+05:30","datePublished":"2022-08-04T00:11:00+05:30","description":"Using Bulma with Rails 7","headline":"jQuery is still the 👑 King","mainEntityOfPage":{"@type":"WebPage","@id":"/2022/08/04/jquery-is-still-the-king.html"},"url":"/2022/08/04/jquery-is-still-the-king.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+
+  <style media="screen">
+    /* responsive videos */
+    .video figure {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video iframe, .video object, .video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .pagination{
+      margin-top: 40px;
+    }
+
+    a.paginate {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+    }
+  </style>
+
+  <link rel="icon" type="image/x-icon" href="https://bafybeihwi7kgkjabdu52dbeedz2cyfviegxohxqpqzfkrmpcrdn63ut6bm.ipfs.dweb.link/AK Logo 3.svg">
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Karthikeyan A K&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Karthikeyan A K</a><a class="page-link" href="/categories/">Categories</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">jQuery is still the 👑 King</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-08-04T00:11:00+05:30" itemprop="datePublished">Aug 4, 2022
+      </time></p>
+  </header>
+
+  <div class="post-categories">
+    
+    
+  </div>
+  <p></p>
+  <div class="post-content">
+    <h2 id="using-bulma-with-rails-7">Using Bulma with Rails 7</h2>
+
+<p>Had a new app idea in my mind. I have been using <a href="https://getbootstrap.com">bootstrap</a> all along, but this time I wanted to try something different. I was scouting for front end CSS frameworks and <a href="https://bulma.io">bulma</a> caught my eye.</p>
+
+<p>It was easy to integrate bulma into new Rails 7 app, you just need to specify you want css as bulma as shown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ rails new app_name -css=bulma
+</code></pre></div></div>
+
+<p>However I do not know how to add it to an already existing Rails app. All this node 🤮 and JavaScript 🤮🤮 is super confusing to me.</p>
+
+<p>Bulma had a good nav bar and it was responsive.</p>
+
+<p><img src="https://bafybeif52dkezpfpltkigy7phivgfp6arkmyxchytbh4nghkgz6fxksegy.ipfs.dweb.link/bulma-nav-burger.png" alt="" /></p>
+
+<p>It hid its menus in mobile view and you can reveal it by clicking a burger menu as shown:</p>
+
+<video controls="" width="100%">
+        <source src="https://bafybeibvedkmc3q53zy7654uztq6t3ciuwirmsiejpl6vi7crn3nfu5qfq.ipfs.dweb.link/bulma-nav-burger.mov " />
+      Your browser does not support the video element.
+      </video>
+
+<h2 id="bulmas-burger-toggle">Bulmas Burger toggle</h2>
+
+<p>To toggle this burger, bulma gave two piece of code, this one is in JavaScript 🤮🤮:</p>
+
+<p><strong>JavaScript 🤮🤮</strong></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+
+  <span class="c1">// Get all "navbar-burger" elements</span>
+  <span class="kd">const</span> <span class="nx">$navbarBurgers</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.navbar-burger</span><span class="dl">'</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+
+  <span class="c1">// Add a click event on each of them</span>
+  <span class="nx">$navbarBurgers</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span> <span class="nx">el</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">el</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+
+      <span class="c1">// Get the target from the "data-target" attribute</span>
+      <span class="kd">const</span> <span class="nx">target</span> <span class="o">=</span> <span class="nx">el</span><span class="p">.</span><span class="nx">dataset</span><span class="p">.</span><span class="nx">target</span><span class="p">;</span>
+      <span class="kd">const</span> <span class="nx">$target</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">target</span><span class="p">);</span>
+
+      <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
+      <span class="nx">el</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
+      <span class="nx">$target</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
+
+    <span class="p">});</span>
+  <span class="p">});</span>
+
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>This one is in jQuery:</p>
+
+<p><strong>jQuery</strong></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="c1">// Check for click events on the navbar burger icon</span>
+  <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+      <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
+      <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+      <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>I really don’t know why crack heads even in Rails community want to use pure JavaScript 🤮🤮, just look at the jQuery code. It’s small and does the job. jQuery is still the king when it comes to JavaScript 🤮🤮. It’s small, better to writer, and get’s the job done! It’s the King!!</p>
+
+<p>That’s it for this blog. If you want to learn how I achieved navbar burger toggle for my website continue reading.</p>
+
+<h2 id="navbar-burger-toggle-in-bulma">Navbar burger toggle in bulma</h2>
+
+<p>First start a webpage with CSS as bulma as shown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ rails new app_name -css=bulma
+</code></pre></div></div>
+
+<p>In Rails 7, if you do <code class="language-plaintext highlighter-rouge">rails s</code>, server will run and it will be served in port 3000, but if you make changes to CSS, it won’t reflect. You must use a command as shown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bin/dev
+</code></pre></div></div>
+
+<p>The command above taps into <code class="language-plaintext highlighter-rouge">Procfile.dev</code>, which has the following code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>web: bin/rails server -p 3000
+js: yarn build --watch
+css: yarn build:css --watch
+</code></pre></div></div>
+
+<p>and starts 3 processes as follows:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">web: bin/rails server -p 3000</code> is for the Rails app to be served on port 3000</li>
+  <li><code class="language-plaintext highlighter-rouge">js: yarn build --watch</code> is to watch the JavaScript 🤮🤮 files and to compile them when they are changed.</li>
+  <li><code class="language-plaintext highlighter-rouge">css: yarn build:css --watch</code> is to watch the CSS files and to compile them when they are changed.</li>
+</ul>
+
+<p>Now I added jQuery using <code class="language-plaintext highlighter-rouge">yarn</code> as shown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ yarn add jquery
+</code></pre></div></div>
+
+<p>I created a file <code class="language-plaintext highlighter-rouge">app/javascript/add_jquery.js</code> which had the following content:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">jquery</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">jquery</span><span class="dl">'</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">jQuery</span> <span class="o">=</span> <span class="nx">jquery</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">$</span> <span class="o">=</span> <span class="nx">jquery</span>
+</code></pre></div></div>
+
+<p>To toggle the navbar burger I created a a file <code class="language-plaintext highlighter-rouge">app/javascript/navbar-burger.js</code> and it had the following content:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Check for click events on the navbar burger icon</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">,</span> <span class="p">{},</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>If you see, this is different than the one given in bulma website. The reason is Rails kind of act’s like single page app, so if you use the bulmas way, the burger will not toggle when the navbar is loaded via ajax request. Wheras my code will make that possible.</p>
+
+<p>Now I need to tell <code class="language-plaintext highlighter-rouge">app/javascript/application.js</code> to include jQuery and my navbar-burger code to toggle navber burger:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Entry point for the build script in your package.json</span>
+<span class="k">import</span> <span class="dl">"</span><span class="s2">@hotwired/turbo-rails</span><span class="dl">"</span>
+<span class="k">import</span> <span class="dl">"</span><span class="s2">./controllers</span><span class="dl">"</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./add_jquery</span><span class="dl">'</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./navbar-burger</span><span class="dl">'</span>
+</code></pre></div></div>
+
+<p>That’s it, any navbar put in any page in your Rails app will toggle the burger in mobile view. Enjoy!!</p>
+
+<p>Phew 😮‍💨, when the hell A.I systems will code and save us from JavaScript 🤮🤮 and other configuration nonsense?</p>
+
+<h2 id="reference">Reference</h2>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/70921378/how-to-install-jquery-and-bootstrap-in-rails-7-app-using-esbuild-without-webpac">Adding jQuery to Rails 7</a></li>
+  <li><a href="https://bulma.io/documentation/components/navbar/#navbar-burger">Bulmas navburger</a></li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Karthikeyan A K&#39;s blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Karthikeyan A K&#39;s blog</li><li><a class="u-email" href="mailto:mindaslab@protonmail.com">mindaslab@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mindaslab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mindaslab</span></a></li><li><a href="https://www.twitter.com/karthik_ak"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">karthik_ak</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
