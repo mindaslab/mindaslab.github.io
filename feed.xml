@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-08-04T00:11:18+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-08-04T09:17:03+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
 </subtitle><entry><title type="html">jQuery is still the 👑 King</title><link href="/2022/08/04/jquery-is-still-the-king.html" rel="alternate" type="text/html" title="jQuery is still the 👑 King" /><published>2022-08-04T00:11:00+05:30</published><updated>2022-08-04T00:11:00+05:30</updated><id>/2022/08/04/jquery-is-still-the-king</id><content type="html" xml:base="/2022/08/04/jquery-is-still-the-king.html">&lt;h2 id=&quot;using-bulma-with-rails-7&quot;&gt;Using Bulma with Rails 7&lt;/h2&gt;
 
 &lt;p&gt;Had a new app idea in my mind. I have been using &lt;a href=&quot;https://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt; all along, but this time I wanted to try something different. I was scouting for front end CSS frameworks and &lt;a href=&quot;https://bulma.io&quot;&gt;bulma&lt;/a&gt; caught my eye.&lt;/p&gt;
@@ -16,10 +16,9 @@
 
 &lt;p&gt;It hid its menus in mobile view and you can reveal it by clicking a burger menu as shown:&lt;/p&gt;
 
-&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-        &lt;source src=&quot;https://bafybeibvedkmc3q53zy7654uztq6t3ciuwirmsiejpl6vi7crn3nfu5qfq.ipfs.dweb.link/bulma-nav-burger.mov &quot; /&gt;
-      Your browser does not support the video element.
-      &lt;/video&gt;
+&lt;video autoplay=&quot;&quot; controls=&quot;false&quot; loop=&quot;&quot; width=&quot;100%&quot;&gt;
+  &lt;source src=&quot;https://bafybeibvedkmc3q53zy7654uztq6t3ciuwirmsiejpl6vi7crn3nfu5qfq.ipfs.dweb.link/bulma-nav-burger.mov&quot; /&gt;
+&lt;/video&gt;
 
 &lt;h2 id=&quot;bulmas-burger-toggle&quot;&gt;Bulmas Burger toggle&lt;/h2&gt;
 
