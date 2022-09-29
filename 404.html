@@ -22,35 +22,63 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
   </script>
 
-  <style media="screen">
-    /* responsive videos */
-    .video figure {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-    }
+<style media="screen">
+  /* responsive videos */
+  .video figure {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
 
-    .video iframe, .video object, .video embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+  .video iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-    .pagination{
-      margin-top: 40px;
-    }
+  .pagination{
+    margin-top: 40px;
+  }
 
-    a.paginate {
-      background-color: #4CAF50;
+  a.paginate {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+  }
+
+
+  .darkmode--activated .site-title, .darkmode--activated .page-link{
+    color: white;
+  }
+
+  @media only screen and (min-width: 600px){
+    .darkmode--activated .page-link {
       color: white;
-      padding: 8px 16px;
     }
-  </style>
+  }
+
+  @media only screen and (max-width: 600px){
+    .darkmode--activated .page-link{
+      color: black;
+    }
+  }
+</style>
 
   <link rel="icon" type="image/x-icon" href="https://bafybeihwi7kgkjabdu52dbeedz2cyfviegxohxqpqzfkrmpcrdn63ut6bm.ipfs.dweb.link/AK Logo 3.svg">
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      const options = {
+        label: '🌓'
+      }
+
+      new Darkmode(options).showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
 </head>
 <body><header class="site-header" role="banner">
 
