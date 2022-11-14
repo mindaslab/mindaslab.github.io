@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-11-07T20:58:34+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Pragamin</title><link href="/2022/11/07/pragamin.html" rel="alternate" type="text/html" title="Pragamin" /><published>2022-11-07T20:58:00+05:30</published><updated>2022-11-07T20:58:00+05:30</updated><id>/2022/11/07/pragamin</id><content type="html" xml:base="/2022/11/07/pragamin.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-11-14T12:47:26+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">This woman is such a great stupid, BJP people would love to have her in their party</title><link href="/2022/11/14/this-woman-is-such-a-great-stupid-bjp-people-would-love-to-have-her-in-their-party.html" rel="alternate" type="text/html" title="This woman is such a great stupid, BJP people would love to have her in their party" /><published>2022-11-14T12:47:00+05:30</published><updated>2022-11-14T12:47:00+05:30</updated><id>/2022/11/14/this-woman-is-such-a-great-stupid-bjp-people-would-love-to-have-her-in-their-party</id><content type="html" xml:base="/2022/11/14/this-woman-is-such-a-great-stupid-bjp-people-would-love-to-have-her-in-their-party.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;https://ipfs.io/ipfs/bafybeictysiokuwms63ywicar2wb5qe7stgf4edaalrwil4nnvzarcmlyi/redditsave.com_tamil_should_not_be_a_compulsory_language_in-dmws7qd2ioz91.mp4 &quot; /&gt;
+      Your browser does not support the video element.
+      &lt;/video&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry><entry><title type="html">Pragamin</title><link href="/2022/11/07/pragamin.html" rel="alternate" type="text/html" title="Pragamin" /><published>2022-11-07T20:58:00+05:30</published><updated>2022-11-07T20:58:00+05:30</updated><id>/2022/11/07/pragamin</id><content type="html" xml:base="/2022/11/07/pragamin.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
         &lt;source src=&quot;https://ipfs.io/ipfs/bafybeicikohkfb75id5ulkphzklqdhl6vlrlika2doguph2hqbsghurimq/pragamin.mp4 &quot; /&gt;
       Your browser does not support the video element.
       &lt;/video&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry><entry><title type="html">Bullshit Job</title><link href="/2022/11/06/bullshit-job.html" rel="alternate" type="text/html" title="Bullshit Job" /><published>2022-11-06T21:44:00+05:30</published><updated>2022-11-06T21:44:00+05:30</updated><id>/2022/11/06/bullshit-job</id><content type="html" xml:base="/2022/11/06/bullshit-job.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
@@ -89,111 +92,4 @@
 
 &lt;p&gt;There are gangs in Tamilnadu that take ancient Hindu verses as truth and want to take us backwards. They have a huge following. The followings are so foolish that they believe in God, miracle, supernatural forces etc. These followings think that God is better worshipped not in Tamil, or ones mother tongue, but they believe God is better worshipped with an extinct language.&lt;/p&gt;
 
-&lt;p&gt;These groups believe in caste, religion, and segregation of people. In short, they are threat to nation that emphasizes equality of all humans.&lt;/p&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry><entry><title type="html">A to Z Pyramid in Ruby</title><link href="/2022/08/26/a-to-z-pyramid-in-ruby.html" rel="alternate" type="text/html" title="A to Z Pyramid in Ruby" /><published>2022-08-26T22:22:00+05:30</published><updated>2022-08-26T22:22:00+05:30</updated><id>/2022/08/26/a-to-z-pyramid-in-ruby</id><content type="html" xml:base="/2022/08/26/a-to-z-pyramid-in-ruby.html">&lt;p&gt;I was contacted by some one on the Internet to print a pyramid from A to Z which has the following pattern:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A
-AB
-ABC
-ABCD
-ABCDE
-ABCDEF
-ABCDEFG
-ABCDEFGH
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and so on. In Ruby it’s simple. I have put out 4 programs which people can choose:&lt;/p&gt;
-
-&lt;h2 id=&quot;program-1&quot;&gt;Program 1&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A_to_Z_pyramid_prank.rb&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%Q{
-A
-AB
-ABC
-ABCD
-ABCDE
-ABCDEF
-ABCDEFG
-ABCDEFGH
-ABCDEFGHI
-ABCDEFGHIJ
-ABCDEFGHIJK
-ABCDEFGHIJKL
-ABCDEFGHIJKLM
-ABCDEFGHIJKLMN
-ABCDEFGHIJKLMNO
-ABCDEFGHIJKLMNOP
-ABCDEFGHIJKLMNOPQ
-ABCDEFGHIJKLMNOPQR
-ABCDEFGHIJKLMNOPQRS
-ABCDEFGHIJKLMNOPQRST
-ABCDEFGHIJKLMNOPQRSTU
-ABCDEFGHIJKLMNOPQRSTUV
-ABCDEFGHIJKLMNOPQRSTUVW
-ABCDEFGHIJKLMNOPQRSTUVWX
-ABCDEFGHIJKLMNOPQRSTUVWXY
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;program-2&quot;&gt;Program 2&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A_to_Z_pyramid.rb&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Z&apos;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;program-3&quot;&gt;Program 3&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A_to_Z_pyramid_one_line.rb&lt;/span&gt;
-
-&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Z&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;program-4&quot;&gt;Program 4&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A_to_Z_pyramid_two_lines_for_performance.rb&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Z&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;output&quot;&gt;Output&lt;/h2&gt;
-
-&lt;p&gt;All the above programs produce the same output:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A
-AB
-ABC
-ABCD
-ABCDE
-ABCDEF
-ABCDEFG
-ABCDEFGH
-ABCDEFGHI
-ABCDEFGHIJ
-ABCDEFGHIJK
-ABCDEFGHIJKL
-ABCDEFGHIJKLM
-ABCDEFGHIJKLMN
-ABCDEFGHIJKLMNO
-ABCDEFGHIJKLMNOP
-ABCDEFGHIJKLMNOPQ
-ABCDEFGHIJKLMNOPQR
-ABCDEFGHIJKLMNOPQRS
-ABCDEFGHIJKLMNOPQRST
-ABCDEFGHIJKLMNOPQRSTU
-ABCDEFGHIJKLMNOPQRSTUV
-ABCDEFGHIJKLMNOPQRSTUVW
-ABCDEFGHIJKLMNOPQRSTUVWX
-ABCDEFGHIJKLMNOPQRSTUVWXY
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name></name></author><summary type="html">I was contacted by some one on the Internet to print a pyramid from A to Z which has the following pattern:</summary></entry></feed>
+&lt;p&gt;These groups believe in caste, religion, and segregation of people. In short, they are threat to nation that emphasizes equality of all humans.&lt;/p&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry></feed>
