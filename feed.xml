@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-04-24T17:14:06+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Why use ReactJS, Angular or Vue with Ruby on Rails?</title><link href="/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails.html" rel="alternate" type="text/html" title="Why use ReactJS, Angular or Vue with Ruby on Rails?" /><published>2023-04-24T17:13:00+05:30</published><updated>2023-04-24T17:13:00+05:30</updated><id>/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails</id><content type="html" xml:base="/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails.html">&lt;p&gt;&lt;img src=&quot;https://bafybeiggzg4m2rnb44a5f6yucz3hlg27uvaaiabcfpgqsbiybz37w7r2ne.ipfs.dweb.link/1571754069Ruby on Rails Copyright Free Logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-04-30T23:00:10+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Miss Vairamuthu in Ponniyin Selvan</title><link href="/2023/04/30/miss-vairamuthu-in-ponniyin-selvan.html" rel="alternate" type="text/html" title="Miss Vairamuthu in Ponniyin Selvan" /><published>2023-04-30T22:59:00+05:30</published><updated>2023-04-30T22:59:00+05:30</updated><id>/2023/04/30/miss-vairamuthu-in-ponniyin-selvan</id><content type="html" xml:base="/2023/04/30/miss-vairamuthu-in-ponniyin-selvan.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Vairamuthu_alaigal_book_shop.JPG&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Photo By Gavaskar.tk - Own work, CC BY-SA 4.0, &lt;a href=&quot;https://commons.wikimedia.org/w/index.php?curid=39272896&quot;&gt;https://commons.wikimedia.org/w/index.php?curid=39272896&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Maniratnam said that we are giving chance to new lyricist in Ponniyin Selvan, but I feel for a such a novel cherished by Tamils, which is been made into a movie, we must have gone for the best.&lt;/p&gt;
+
+&lt;p&gt;I am well aware of the controversy surrounding Vairamuthu, there is even a gossip that says he has girls hotels in chennai supplying girls for him and his friends. If Vairamuthu has done anything against the law he should be punished. There is a very good chance that since Vairamuthu is been cherished by the Tamil people, and has deep political connections, no action is taken against him.&lt;/p&gt;
+
+&lt;p&gt;What I feel is, even Vairamuthu is in jail, he must have been asked if he could write songs for Ponniyin Selvan.&lt;/p&gt;
+
+&lt;p&gt;Those who have read the book have got nothing good to say about the movie, it’s just running because of huge marketing effort. I am not sure if Lyca is just a money laundering company like Red Giant. In fact I am waiting for Viduthalai part 2 than Ponniyin Selvan 2.&lt;/p&gt;
+
+&lt;p&gt;I honestly feel not having Vairamuthu in this movie is another slip for Maniratnam. I feel they should have boldly said that they are not bothered by Vairamuthu’s personal side, and they have recruited the poet in him to make this movie a good one.&lt;/p&gt;</content><author><name></name></author><summary type="html">Photo By Gavaskar.tk - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39272896</summary></entry><entry><title type="html">Why use ReactJS, Angular or Vue with Ruby on Rails?</title><link href="/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails.html" rel="alternate" type="text/html" title="Why use ReactJS, Angular or Vue with Ruby on Rails?" /><published>2023-04-24T17:13:00+05:30</published><updated>2023-04-24T17:13:00+05:30</updated><id>/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails</id><content type="html" xml:base="/2023/04/24/why-use-reactjs-angular-or-vue-with-ruby-on-rails.html">&lt;p&gt;&lt;img src=&quot;https://bafybeiggzg4m2rnb44a5f6yucz3hlg27uvaaiabcfpgqsbiybz37w7r2ne.ipfs.dweb.link/1571754069Ruby on Rails Copyright Free Logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s super mysterious to me why people choose to use ReactJS, Angular or Vue with Ruby on Rails and pay the price for low productivity. It’s like people are blind and pretend to know nothing about code. Or they go by Popularity Driven Development? That is, they choose stuff based on popularity without technical analysis.&lt;/p&gt;
 
@@ -181,7 +202,4 @@
 &lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
         &lt;source src=&quot;https://nftstorage.link/ipfs/bafybeidpmc7dcrmk55cmajktgkqemvezwex7x4jwv5c2olzddkzuagrjpq &quot; /&gt;
       Your browser does not support the video element.
-      &lt;/video&gt;</content><author><name></name></author><summary type="html">Gautam Adani</summary></entry><entry><title type="html">It’s 2023 and still religion is strong in Tamilnadu. Shame.</title><link href="/2023/02/15/it-s-2023-and-still-religion-is-strong-in-tamilnadu-shame.html" rel="alternate" type="text/html" title="It&apos;s 2023 and still religion is strong in Tamilnadu. Shame." /><published>2023-02-15T14:01:00+05:30</published><updated>2023-02-15T14:01:00+05:30</updated><id>/2023/02/15/it-s-2023-and-still-religion-is-strong-in-tamilnadu-shame</id><content type="html" xml:base="/2023/02/15/it-s-2023-and-still-religion-is-strong-in-tamilnadu-shame.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-        &lt;source src=&quot;https://nftstorage.link/ipfs/bafybeicuqlwb6mjqwkcxz33pxatvvytdihgqizt5niv43khtj7b5ah7gcq &quot; /&gt;
-      Your browser does not support the video element.
-      &lt;/video&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry></feed>
+      &lt;/video&gt;</content><author><name></name></author><summary type="html">Gautam Adani</summary></entry></feed>
