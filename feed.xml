@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-16T00:57:46+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Ghost encounters in office</title><link href="/2023/05/16/ghost-encounters-in-office.html" rel="alternate" type="text/html" title="Ghost encounters in office" /><published>2023-05-16T00:57:00+05:30</published><updated>2023-05-16T00:57:00+05:30</updated><id>/2023/05/16/ghost-encounters-in-office</id><content type="html" xml:base="/2023/05/16/ghost-encounters-in-office.html">&lt;p&gt;I had two ghost encounters in office till to date.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-16T22:02:23+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">An argument for the command line</title><link href="/2023/05/16/an-argument-for-the-command-line.html" rel="alternate" type="text/html" title="An argument for the command line" /><published>2023-05-16T22:01:00+05:30</published><updated>2023-05-16T22:01:00+05:30</updated><id>/2023/05/16/an-argument-for-the-command-line</id><content type="html" xml:base="/2023/05/16/an-argument-for-the-command-line.html">&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/bafybeicligfwyuehx4vms7z5f6nbzpecm7q2td7sjtwpsv3pk4ahojwzp4&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before there was GUI (Graphical User Interface), computers displayed text, they got input as text, and gave text as output. Certainly GUI appealed to a lot of people and made them to use computers, but business that are multimillion dollar worth ones used command line, that is text interface terminals for their computing needs, and they were happy with it.&lt;/p&gt;
+
+&lt;p&gt;Today we are in a wave where we need to make computers idiot-proof, even a baby should be able to use it, the intellectual person is the last customer who we aim for. We programmers seems to think the world is filled with non-intellectuals and we must never write nice informative command line systems for the intellect, and that’s where lot of software problems start.&lt;/p&gt;
+
+&lt;h2 id=&quot;command-line-is-tough-to-use&quot;&gt;Command line is tough to use?&lt;/h2&gt;
+
+&lt;p&gt;One misconception is command line is tough to use. To look at this months calendar this is the command I use on my computer:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cal
+      May 2023
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now try to find on which day lies August 15&lt;sup&gt;th&lt;/sup&gt; 1947, for me it took less than 5 seconds, what about you using an GUI?&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cal aug 1947
+    August 1947
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+31
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Of course, you need to memorize the word &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cal&lt;/code&gt; and read its documentation to use it, but my question is has the humanity got so stupid that shies away from reading things about tools it needs to use?&lt;/p&gt;
+
+&lt;p&gt;Though there are GUI programs, I wish there was command lines tools that would be simple and fast to use.&lt;/p&gt;
+
+&lt;h2 id=&quot;programmers-use-command-line&quot;&gt;Programmers use command line&lt;/h2&gt;
+
+&lt;p&gt;We programmers always use command line tools. The top programming languages are all text based languages and not visual one, though visual languages do exists, they are good for building apps fast initially, but they get bloated with complexity. The vast servers that run the internet run on GNU/Linux whose interface is the command line and do not have fancy Windows OS or Apple OS in it, those OSes are bloated with unneeded GUI. We programmers till to date trust text interfaces.&lt;/p&gt;
+
+&lt;h2 id=&quot;very-fast-to-develop-command-line-applications&quot;&gt;Very fast to develop command line applications&lt;/h2&gt;
+
+&lt;p&gt;Command line tools can be developed very fast, one need not worry a lot about display logic, fonts, colors and blah blah. It’s just information in and information out. Since we are limiting the options a lot without display logic and all the complexities and permutations the comes along with it, we can concentrate on solving the business problem and develop the app than worry about styling glitter.&lt;/p&gt;
+
+&lt;h2 id=&quot;train-people&quot;&gt;Train people&lt;/h2&gt;
+
+&lt;p&gt;One thing with command line is, to use it, one has to train people, but once they are trained, they become super powerful, far powerful than people using GUI. To train people, you need to hire people who are ready to learn, and people who would like to understand your business and learn to use a tool to enhance it will definitely won’t be a stupid and would demand more money. May be businesses today want less paid large numbers of inefficient idiots, than productive intelligent high paid people. Maybe that’s what has killed command line business apps.&lt;/p&gt;
+
+&lt;p&gt;One question I would like to ask business people is, do you think business built relying on idiots will out last business built with people who would like to think and learn?&lt;/p&gt;
+
+&lt;h2 id=&quot;information-matters&quot;&gt;Information matters&lt;/h2&gt;
+
+&lt;p&gt;Ultimately it’s information that matters for human development, tetris played on game boy is more exciting to me than tetris played on a touch screen phone. Gameboy just delivers information in monochrome and does not worry about the shininess of the app, does not worry about color of the blocks and the app animations are kept to a minimum.&lt;/p&gt;
+
+&lt;p&gt;In a logical situation its information and truth that matters than shininess, glitter and glamour. Command line apps gives you raw information without the need for the unnecessary stuff.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-age-of-voice&quot;&gt;The age of voice&lt;/h2&gt;
+
+&lt;p&gt;The age of voice I think will usher in command line development, voice is just information in which gets converted to text, this text is fed into a program that mostly outputs a text, this gets converted to voice and sent back. Developing apps that take in information and transform it to another piece of information will be refreshing for developers than to concentrate on nasty GUI’s.&lt;/p&gt;
+
+&lt;h2 id=&quot;books-are-still-there&quot;&gt;Books are still there&lt;/h2&gt;
+
+&lt;p&gt;Even though we have got movies, books are still there, they are easy to produce than movies, they deliver concise information to the reader. The story telling world seems to still cater the intellect though things can be done in much difficult visual way of movies, why not we app developers do the same?&lt;/p&gt;
+
+&lt;p&gt;In case of app development, developers and businesses treat their users as not intellectuals who like to see right information on their screen, but they treat people as kids who like to see shiny things on screen. Common info tech world, serve the intellect than serving people who like glitter.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Ghost encounters in office</title><link href="/2023/05/16/ghost-encounters-in-office.html" rel="alternate" type="text/html" title="Ghost encounters in office" /><published>2023-05-16T00:57:00+05:30</published><updated>2023-05-16T00:57:00+05:30</updated><id>/2023/05/16/ghost-encounters-in-office</id><content type="html" xml:base="/2023/05/16/ghost-encounters-in-office.html">&lt;p&gt;I had two ghost encounters in office till to date.&lt;/p&gt;
 
 &lt;p&gt;The first one was in a company called Trumatics. I started it with my friend Umashankar who I met in another company called Zanec. We recruited a girl called Vadivikarasi. In that office I used to take walk in the terrace. Once while I was walking I saw Vadivikarasi leaving office, I thought she was leaving early for some reason. I was 40 feet up, and she was on road. I finished my walk and went downstairs to office and there she was Vadivukkarasi. I was shocked and asked her did she leave office and I said to her, I saw her leaving, she too got terrified. Not wanting to make her more afraid I stopped talking about it.&lt;/p&gt;
 
@@ -148,21 +213,4 @@
 
 &lt;p&gt;&lt;img src=&quot;https://nftstorage.link/ipfs/bafkreiewfblq3tx7kg37vibeeeho2vafn3cmlq4soxvia732o2hu5j4vci&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;What path Rahul Gandhi is taking seems to be the right one. It’s better goto prison and even get executed by the tyrant Modi than to live under his rule. I’m sure those who put salt in food and eat, and people who do experience shame will follow Rahul.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Tamilnadu government school rocks</title><link href="/2023/03/17/tamilnadu-government-school-rocks.html" rel="alternate" type="text/html" title="Tamilnadu government school rocks" /><published>2023-03-17T23:34:00+05:30</published><updated>2023-03-17T23:34:00+05:30</updated><id>/2023/03/17/tamilnadu-government-school-rocks</id><content type="html" xml:base="/2023/03/17/tamilnadu-government-school-rocks.html">&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-        &lt;source src=&quot;https://nftstorage.link/ipfs/bafybeibk7xzmlyinnjsfrwcmwzepgo5aqix4767wbqt72ctxf2mdwvelxi &quot; /&gt;
-      Your browser does not support the video element.
-      &lt;/video&gt;
-
-&lt;p&gt;Imagine if in a private school kids could throw off their duppata since its their choice. I studied in a college called Panimalar, if any girl there would arrive to college without a duppata, she would be sent back home, her parent will be called the next day, they would be humiliated and made to cry, their family would be insulted by the management.&lt;/p&gt;
-
-&lt;p&gt;I am really proud of the DMK government in this case. Yes they are looters, yes people died in mysterious ways when 2G scam went on, yes they loot public money to construct remembrance structures for Karunanidhi, Stalin can’t even banish stray dogs that bark every day in my street spoiling my sleep, he cannot give a month long of power without interruption, DMK can’t even sports minister or chief minister outside Karunadnidhi’s family, it has no democracy, but they are making impoverished realize their power.&lt;/p&gt;
-
-&lt;p&gt;The author in the video is said to have written book, possibly calling girls not to wear duppatas, the girls in this school seems to have read it and got fascinated by it, and they threw it off when the author visited their school.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://nftstorage.link/ipfs/bafkreiemvtgaybjsjotpf6geeqgkysxwn2oailoiulkfj2bougva3ooyxi&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We in India make fun of Iran, Saudi Arabia and Islam for forcing women to abide by dress code, but this author has clearly seems to have explained that India is almost no different from these religious fanatic nations.&lt;/p&gt;
-
-&lt;p&gt;I wish parents in Tamilnadu who send kids to private schools visited government schools, make their kids join there, and donate the high amount of money they would pay to private school to the government school in which their kids study.&lt;/p&gt;
-
-&lt;p&gt;Just like the kids in this school, we parents should get educated, and not fall on corrupt private schools feet since they charge a lot just to cheat us and ruin our kids life.&lt;/p&gt;</content><author><name></name></author><summary type="html">Your browser does not support the video element.</summary></entry></feed>
+&lt;p&gt;What path Rahul Gandhi is taking seems to be the right one. It’s better goto prison and even get executed by the tyrant Modi than to live under his rule. I’m sure those who put salt in food and eat, and people who do experience shame will follow Rahul.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
