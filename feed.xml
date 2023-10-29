@@ -1,5 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-10-19T18:46:52+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Tamilnadu’s Engineering colleges are super waste</title><link href="/2023/10/19/tamilnadus-engineering-colleges-are-super-waste.html" rel="alternate" type="text/html" title="Tamilnadu&apos;s Engineering colleges are super waste" /><published>2023-10-19T18:46:00+05:30</published><updated>2023-10-19T18:46:00+05:30</updated><id>/2023/10/19/tamilnadus-engineering-colleges-are-super-waste</id><content type="html" xml:base="/2023/10/19/tamilnadus-engineering-colleges-are-super-waste.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mercedes-Benz_H247_IMG_3397.jpg/1190px-Mercedes-Benz_H247_IMG_3397.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-10-29T14:04:45+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Rails killed ReactJS, now its burning the corpse</title><link href="/2023/10/29/rails-killed-reactjs-now-its-burning-the-corpse.html" rel="alternate" type="text/html" title="Rails killed ReactJS, now its burning the corpse" /><published>2023-10-29T14:04:00+05:30</published><updated>2023-10-29T14:04:00+05:30</updated><id>/2023/10/29/rails-killed-reactjs-now-its-burning-the-corpse</id><content type="html" xml:base="/2023/10/29/rails-killed-reactjs-now-its-burning-the-corpse.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rails, 20+ year old grandpa that still brings smile to developers, unlike ReactJS, which is arrogant unruly teenager, which is no good for humanity.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are two ways to solve a problem.
+One you solve it.
+The other you create an impression of solving it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;https://d1d6azhz7lc2s3.cloudfront.net/hotwire-screencast.mp4 &quot; /&gt;
+      Your browser does not support the video element.
+      &lt;/video&gt;
+
+&lt;p&gt;The video above explains the first way.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-downfall-with-reactjs&quot;&gt;My downfall with ReactJS&lt;/h2&gt;
+
+&lt;p&gt;I am working with one of the best clients I ever had in my life. In India, technicians and programmers get treated like shit, in such a country I feel blessed to work in a team where politics seems to be void. It’s very weird, I can’t believe. When there was the job interview, in the job description it was said I must know basics of ReactJS. I thought ‘how hard could it be?’. ReactJS and other JavaScript frameworks were written to make life of jQuery programmers better right? I was wrong. Fucking wrong.&lt;/p&gt;
+
+&lt;p&gt;I thought myself as a Rails programmer, but my company sees me as full stack programmer (wonder where the full stack ends, does it end in mining sand and making chips?). I didn’t like JavsScript and hence used jQuery, which wrapped JavaScript mess in a tolerable to use library. But in my job I found that ReactJS took JavaScript, added states to front end, made it worst. I found it was a huge framework designed to give a feeling that you are solving something, but gets you nowhere in limited amount of time and effort.&lt;/p&gt;
+
+&lt;p&gt;I took up Ruby and Ruby on Rails because I am very lazy guy. Rails lets me develop stuff for my client without a sweat (human politics and stupidity apart, there is no cure for that), so I can enjoy my life rest of the time. ReactJS made stuff super complex, and now being branded full sack developer, I was pushed into this abyss, hell!&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-killed-reactjs-in-rails-2x&quot;&gt;Rails killed ReactJS in Rails 2.X&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://bafybeiaqsoerch34vafklzb3sbpyyrt4amnhxkdyy67gm5mitudj6cm7mq.ipfs.nftstorage.link/ipfs/bafybeiaqsoerch34vafklzb3sbpyyrt4amnhxkdyy67gm5mitudj6cm7mq/prototype.png&quot; alt=&quot;prototype.png&quot; /&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://bafybeiaqsoerch34vafklzb3sbpyyrt4amnhxkdyy67gm5mitudj6cm7mq.ipfs.nftstorage.link/ipfs/bafybeiaqsoerch34vafklzb3sbpyyrt4amnhxkdyy67gm5mitudj6cm7mq/Screenshot%202023-10-29%20at%2011-18-28%20script.aculo.us%20-%20web%202.0%20javascript.png&quot; alt=&quot;Screenshot 2023-10-29 at 11-18-28 script.aculo.us - web 2.0 javascript.png&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Prototype&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Scriptaculous&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Rails killed ReactJS in Rails 2.X. We had Rails JavaScript or RJS. It neatly wrapped Ruby code over &lt;a href=&quot;http://prototypejs.org/&quot;&gt;Prototype&lt;/a&gt; and &lt;a href=&quot;http://script.aculo.us/&quot;&gt;Scriptaculous&lt;/a&gt;, and gave us a way to partially update pages. It was awesome, then Rails fell into the trap of jQuery, which sucked, but was better than ReactJs, Angular etc.&lt;/p&gt;
+
+&lt;p&gt;Right from the start Rails killed ReactJs. Yet people just took Rails as a buzzword, started to develop and muddle with it with JavaScript frameworks, made life worst for developers. &lt;a href=&quot;https://hotwired.dev/&quot;&gt;Hotwire&lt;/a&gt; is just a rebranding / reincarnation of RJS. If RJS continued, it would have been 5X times more productive than ReactJS, hotwire is 10X more productive ReactJS. That’s the main difference. Both just replace part of a webpage. Nothing more.&lt;/p&gt;
+
+&lt;h2 id=&quot;people-have-no-idea-about-rails-front-end&quot;&gt;People have no idea about Rails front end&lt;/h2&gt;
+
+&lt;p&gt;Without knowing that Rails is a full front end framework, I saw projects after project fall into a trap saying that Rails is great for backend, and some JavaScript framework is great for frontend. All the while I saw how &lt;a href=&quot;https://37signals.com/&quot;&gt;37Signals&lt;/a&gt; effectively used Rails and made huge progress, but half-baked Indians muddled stuff, did politics and made progress so difficult.&lt;/p&gt;
+
+&lt;p&gt;People who are at the top of tech must use a new tech, understand it thoroughly, see if it does good, then adopt it only if it makes any productivity increase. But most code houses in India don’t do this basic research. Tech heads seem to talk, rather than toil with keyboard. Their decision is based on blogs, vlogs and hype.&lt;/p&gt;
+
+&lt;h2 id=&quot;reasons-indian-companies-use-react-and-avoid-rails&quot;&gt;Reasons Indian companies use React and avoid Rails&lt;/h2&gt;
+
+&lt;p&gt;Another reason why Indian companies use ReectJS, Angular, Vue etc. is because they are service companies. They need to give impression to their clients that they are working hard so that they can bill a lot and prolong the project. That’s another reason why people choose non-productive frameworks that will drag stuff months than finishing things in days by using Rails recommended front end techniques which are super productive.&lt;/p&gt;
+
+&lt;h2 id=&quot;hotwire-rebranding-the-old-killer&quot;&gt;Hotwire, rebranding the old killer&lt;/h2&gt;
+
+&lt;p&gt;All RJS did was to take a request, replace part of a page with HTML content, that’s what Hotwire does, but now its more developer friendly and much easier to do. RJS, and jQuery lost the propaganda war with ReactJS, just like Oracle’s SQL won the Database language battle, though it sucked. Hotwire merely make developers look back into Rails front end techniques, and people say its an innovation, in reality its not. I have been replacing parts of webpage using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XMLHttpRequest()&lt;/code&gt; since the days I programmed internet explorer. But yes, Rails and Hotwire has made to do that stuff tremendously easier. That’s an innovation.&lt;/p&gt;
+
+&lt;h2 id=&quot;burning-reactjs-corpse-with-morphing&quot;&gt;Burning ReactJS corpse with Morphing&lt;/h2&gt;
+
+&lt;p&gt;I said Rails killed ReactJS even before BackboneJS was born, now it wants to burn the corpse of ReactJS so that people don’t even know ReactJS exists. Watch this &lt;a href=&quot;https://piped.video/watch?v=m97UsXa6HFg&amp;amp;list=PLHFP2OPUpCeY9IX3Ht727dwu5ZJ2BBbZP&amp;amp;index=10&quot;&gt;video&lt;/a&gt;. If you like to be tracked by Google watch it here:&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/m97UsXa6HFg?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;
+
+&lt;p&gt;Look at this pull request &lt;a href=&quot;https://github.com/hotwired/turbo/pull/1019&quot;&gt;https://github.com/hotwired/turbo/pull/1019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With morphing, Rails is burning the corpses of ReactJS, Angular and Vue. All you need to do is to write server side code, Rails will look at the diff and applies it when the view is rendered. You get a single page application using Rails backend ways. I was blown away. This is what you need, I did have, and I am sure many of us would have had this idea, but now Rails people are bring it to reality. I thank them a lot for doing it. It’s still not innovation as they a have borrowed the idea, but they are committed to make developers happy. I respect that.&lt;/p&gt;
+
+&lt;p&gt;I am also thankful to DHH to keep Rails as a powerful framework where single developer like me can use it to launch a full-fledged SaaS product. DHH is delaying my professional switch to Clojure, I hate him for that.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-escape-from-reactjs-and-other-javascript-frameworks&quot;&gt;How to escape from ReactJS and other JavaScript frameworks&lt;/h2&gt;
+
+&lt;p&gt;If you are products based company and have given your project to some company that wants to bill you a lot, showing lot of work, you are screwed, I don’t know how your product will come out of evil peoples clutches. But if you have a team that obeys you, tell them yto ditch JavaScript framework and develop new features using Hotwire. This will make a quantum leap in productivity. Once the team has slack, tell them to port pages from ReactJS to Hotwire. Have a good tech person to audit their work so that no mishap happens.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://ipfs.io/ipfs/bafkreibsjisszcc5lgojyj4kddqierbti52mab3d74aapsb7b5gc7fgzm4&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;htmx - liberating you from JavaScript hell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you are not in a Rails project, if you are using Django, there is &lt;a href=&quot;https://turbo-django.readthedocs.io/en/latest/&quot;&gt;Turbo Django&lt;/a&gt;, else you can use &lt;a href=&quot;https://htmx.org/&quot;&gt;HTMX&lt;/a&gt;, a library that I think was born out of frustration of using super low productive front end frameworks like ReactJS.&lt;/p&gt;
+
+&lt;h2 id=&quot;yoda&quot;&gt;Yoda&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Don’t forget the &lt;a href=&quot;https://clojure.org&quot;&gt;Yoda&lt;/a&gt; of programming that will bring bliss to development, its one of the latest incarnation of the force.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://ipfs.io/ipfs/bafybeifcn4v7paltgjvvpid5umpjvuuod6y73lcuuqhxoow2b6k6gs4egq&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;May the force be with you.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Rails, 20+ year old grandpa that still brings smile to developers, unlike ReactJS, which is arrogant unruly teenager, which is no good for humanity.</summary></entry><entry><title type="html">Tamilnadu’s Engineering colleges are super waste</title><link href="/2023/10/19/tamilnadus-engineering-colleges-are-super-waste.html" rel="alternate" type="text/html" title="Tamilnadu&apos;s Engineering colleges are super waste" /><published>2023-10-19T18:46:00+05:30</published><updated>2023-10-19T18:46:00+05:30</updated><id>/2023/10/19/tamilnadus-engineering-colleges-are-super-waste</id><content type="html" xml:base="/2023/10/19/tamilnadus-engineering-colleges-are-super-waste.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mercedes-Benz_H247_IMG_3397.jpg/1190px-Mercedes-Benz_H247_IMG_3397.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I was sitting in my hall one day when one of the person in my family remarked that less than 50% or somewhat around that mark of seats in Engineering colleges got filled up. I was a bit shocked. I know that Tamilnadu’s engineering colleges are super waste, but I also know that their marketing departments are perfect, and I also know that people in Tamilnadu are fools, they will never realize that learning knowledge for the sake of learning and curiosity will lead to real learning, and learning for money or fame or status in society will lead you no where. I expected engineering colleges to keep fooling people like politicians will do to us till our civilization ends.&lt;/p&gt;
 
@@ -152,20 +283,4 @@
 
 &lt;p&gt;Another day I was in my car parked under a tree, early morning in Sithalapakkam, a boy with a juice carton in his left hand, sipping it with a straw controlling his scooter with his right hand drove past my car, stopped before it, drank all the juice, tossed the carton not into dustbin, but on to a bush nearby and drove on.&lt;/p&gt;
 
-&lt;p&gt;And here I am expecting India to be a great nation.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was standing in signal where Chennai One meets OMR, my car was just feet or two away from median divider and a small boy possibly 8th standard skillfully drove between my cars right rearview mirror and divider and made a U-turn, when the signal to make a U-turn was not turned on.</summary></entry><entry><title type="html">Could Kandahar have been the capital of Murugan’s empire?</title><link href="/2023/08/09/could-kandshar-have-been-the-capital-of-murugan-s-empire.html" rel="alternate" type="text/html" title="Could Kandahar have been the capital of Murugan&apos;s empire?" /><published>2023-08-09T14:57:00+05:30</published><updated>2023-08-09T14:57:00+05:30</updated><id>/2023/08/09/could-kandshar-have-been-the-capital-of-murugan-s-empire</id><content type="html" xml:base="/2023/08/09/could-kandshar-have-been-the-capital-of-murugan-s-empire.html">&lt;p&gt;&lt;img src=&quot;https://nftstorage.link/ipfs/bafkreic3lns4rjkwmgtsnotlftsuivemmyefurccaxa3lhupce67xlnq3a&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;People in my neighborhood are disturbing my tranquility by shouting praises for lord Muruga. Somehow people seem to think you need to show off your devotion for God to be in his good books. For some reason, the almighty God’s these days needs publicity, PR, lots of money, and people like priests to survive. Requiring so much support just for survival, we still consider her as the almighty, and claim ourselves Homo sapiens.&lt;/p&gt;
-
-&lt;p&gt;My thoughts ran, I was told by my mother that Kandahar, the present capital of Afghanistan is actually Gandhari Nagaram, that is, it was given as the gift to Gouravas as dowry when Gandhari was married to their family.&lt;/p&gt;
-
-&lt;p&gt;Listening to these praises of Murugan / Kandhan, I began to wonder could it be even older, could it have had the name Kandhan Nagaram, the city of Kandhan, today a God, but then a mighty warrior king who was undefeated.&lt;/p&gt;
-
-&lt;p&gt;His armies might have marched from the Himalayas to the Peninsula, he might have been instrumental to have laid the basis of formal Tamil language, maybe he and Pandiyas were great friends.&lt;/p&gt;
-
-&lt;p&gt;Kandan was so victorious, that Afghans when they saw Alexanders war tactics and victories started calling him Sikandar. They still call him like that.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://nftstorage.link/ipfs/bafkreiggbc73r74d5fuvg4xfzviazfq7pyigisz6kebp6zirlyxx3ngyi4&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What ever it was, I am sad that India which should have stretched from Afghanistan to Burma (both inclusive). And from Kashmir to Srilanka is not complete yet. We need a great leader like Murugan again to unite our nation and get back the lost bits.&lt;/p&gt;
-
-&lt;p&gt;The current Indian government is unable to pick up garbage, unable to vanquish dogs that bark and disturb my night sleep, it’s unable to eliminate cattle that litter streets and causes accidents, it’s unable to even reduce the prices of essential food items. Me expecting another Murugan emerging in a crippled nation like India is a tall wish that might never happen.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;And here I am expecting India to be a great nation.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was standing in signal where Chennai One meets OMR, my car was just feet or two away from median divider and a small boy possibly 8th standard skillfully drove between my cars right rearview mirror and divider and made a U-turn, when the signal to make a U-turn was not turned on.</summary></entry></feed>
