@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Execution tracing protocol for better developer experience" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Let’s say you are a developer you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code." />
-<meta property="og:description" content="Let’s say you are a developer you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code." />
+<meta name="description" content="Let’s say you are a developer, and you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code." />
+<meta property="og:description" content="Let’s say you are a developer, and you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code." />
 <link rel="canonical" href="/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html" />
 <meta property="og:url" content="/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html" />
 <meta property="og:site_name" content="Karthikeyan A K’s blog" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Execution tracing protocol for better developer experience" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-03T10:38:00+05:30","datePublished":"2023-12-03T10:38:00+05:30","description":"Let’s say you are a developer you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code.","headline":"Execution tracing protocol for better developer experience","mainEntityOfPage":{"@type":"WebPage","@id":"/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html"},"url":"/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-03T10:38:00+05:30","datePublished":"2023-12-03T10:38:00+05:30","description":"Let’s say you are a developer, and you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code.","headline":"Execution tracing protocol for better developer experience","mainEntityOfPage":{"@type":"WebPage","@id":"/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html"},"url":"/2023/12/03/execution-tracing-protocol-for-better-developer-experience.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Karthikeyan A K's blog" /><script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
@@ -131,7 +131,7 @@
   </div>
   <p></p>
   <div class="post-content">
-    <p>Let’s say you are a developer you want to understand how a software works, so you run it. The software fetches some data from  a table, which is packed by the DB engine, this passes through multiple layers of code.</p>
+    <p>Let’s say you are a developer, and you want to understand how a software works, so you run it. The software fetches some data from a table, which is packed by the DB engine, this passes through multiple layers of code.</p>
 
 <p><img src="https://archive.org/download/execution-tracing/Execution%20Tracing/Execution%20Tracing%201.png" alt="" /></p>
 
@@ -139,21 +139,21 @@
 
 <p><img src="https://archive.org/download/execution-tracing/Execution%20Tracing/Execution%20Tracing%202.png" alt="" /></p>
 
-<p>If the data is not the one I expected, I must trace the data path, and the algorithm path and understand what piece of algorithm receives what data, and how it transforms it from its input to output.</p>
+<p>If the data is not the one I expected, I must trace the data path, and the algorithm path and understand what piece of algorithm receives what data it receives, and how it transforms it from its input to output.</p>
 
-<p>Now imagine there is a protocol built into all languages, data storage system and data delivery systems that delivers data to human, rather than delivering the final blue parallelogram, that is the final data packet, what if they delivered the paths in which the data traveled and information about the code through which the data traveled?</p>
+<p>Now imagine there is a protocol built into all languages, data storage system and data delivery systems that delivers data to human, rather than delivering the final blue parallelogram, that is the final data packet, what if they delivered the paths in which the data traveled and information about the code through which the data traveled and how it got transformed.</p>
 
 <p>Rather than the dark blue parallelogram, you get a huge data packet like this:</p>
 
 <p><img src="https://archive.org/download/execution-tracing/Execution%20Tracing/Execution%20Tracing%203.png" alt="" /></p>
 
-<p>Now say I’m a web developer, just by inspecting a piece of data on my web page, due to this protocol, I get all the rich information that led to the outcome, it becomes very easy for me to inspect and trace things step by step  .</p>
+<p>Now say I’m a web developer, just by inspecting a piece of data on my web page, due to this protocol, I get all the rich information that led to the outcome, it becomes very easy for me to inspect and trace things step by step.</p>
 
 <p>This I think will massively reduce development and debugging time required for any software engineer.</p>
 
 <p>While the code is running in production mode, this feature could be turned off, and just the transformed data arrives to you, thus making the system more efficient but less intelligible.</p>
 
-<p>I think this protocol will be a boon for free software, as users of free software can turn the execution tracing on, can know the data traversal path, they can report better bugs, may be possibly fix them. If this takes off it will be a golden age for developers, and A.I systems that helps us to write software. This protocol can be implemented into neural networks, as it will aid us understanding them faster and better. This is like taking all log files, packing them up and sending to the developer so that he need not go here and there to see what’s happening.</p>
+<p>I think this protocol will be a boon for free software, as users of free software can turn the execution tracing on, they can know the data traversal path, they can report better bugs, may be possibly fix them. If this takes off it will be a golden age for developers and A.I systems that helps us to write software. This protocol can be implemented into neural networks, as it will aid us understanding them faster and better. This is like taking all log files, packing them up and sending to the developer so that he need not go here and there to see what’s happening.</p>
 
   </div>
 
