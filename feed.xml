@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-21T16:14:17+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">I missed these stuff in my college</title><link href="/2024/08/19/i-missed-these-stuff-in-my-college.html" rel="alternate" type="text/html" title="I missed these stuff in my college" /><published>2024-08-19T10:54:00+05:30</published><updated>2024-08-19T10:54:00+05:30</updated><id>/2024/08/19/i-missed-these-stuff-in-my-college</id><content type="html" xml:base="/2024/08/19/i-missed-these-stuff-in-my-college.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/12-inch_silicon_wafer.jpg/768px-12-inch_silicon_wafer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-21T19:51:36+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">POST should return status 201</title><link href="/2024/08/21/post-should-return-status-201.html" rel="alternate" type="text/html" title="POST should return status 201" /><published>2024-08-21T19:51:00+05:30</published><updated>2024-08-21T19:51:00+05:30</updated><id>/2024/08/21/post-should-return-status-201</id><content type="html" xml:base="/2024/08/21/post-should-return-status-201.html">&lt;p&gt;I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.&lt;/p&gt;
+
+&lt;p&gt;In my office, though I am a Ruby on Rails developer, they told me to code in ReactJS too. Things were hieroglyphs, I never understood it, but there I was staring at a ticket, I never finished it. I hated JavaScript, then after learning a bit of React, I started to hate it more. I still can’t believe humans with embarrassing low intelligence exist, that they can invent JavaScript and React.&lt;/p&gt;
+
+&lt;p&gt;Any ways, to learn React, I need a backend, I can’t keep creating back end for this and that. I started to think if we can have instant backend for front end developers, and I came up with the &lt;a href=&quot;https://injee.codeberg.page/&quot;&gt;injee&lt;/a&gt; (in memory JSON store) project. It served me well, I was able to create frontend apps because I had a ready-made back end all the time. I am still working on injee.&lt;/p&gt;
+
+&lt;p&gt;I am not an expert on HTTP protocol, since injee should provide highly standardized API’s my research suggested that a successful POST should return status 201, and not 200.&lt;/p&gt;
+
+&lt;p&gt;This is why I insist that developers should have a side project, or must contribute to open source projects. At work its work work work, you don’t give a thing about your learning, you trade your existence for money, you can’t expect life in it. If I did not have side project I would have never discovered it may be even in next 20 years.&lt;/p&gt;
+
+&lt;p&gt;For some reason side project I find enhances my soul. May be because it’s not Agile, and I don’t have to touch this depressing JIRA to log my time, I don’t have tell to someone every day I worked. I don’t have to rush because I won’t lose out on my appraisal and slip into poverty.&lt;/p&gt;
+
+&lt;p&gt;Injee has not been just refreshing to my soul, about 15+ front end developers have been freed from creating a backend. It’s ironic, because in my work I am unable to free myself from JavaScript and ReactJS even though I am a Ruby on Rails developer and never claimed myself as front end guy, but here, to learn front end tech, I was able to create a project that frees up frontend devs from their miseries of creating a back end server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/19199872/best-practice-for-restful-post-response&quot;&gt;‘Best’ practice for restful POST response&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api&quot;&gt;Best Practices for Designing a Pragmatic RESTful API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.</summary></entry><entry><title type="html">I missed these stuff in my college</title><link href="/2024/08/19/i-missed-these-stuff-in-my-college.html" rel="alternate" type="text/html" title="I missed these stuff in my college" /><published>2024-08-19T10:54:00+05:30</published><updated>2024-08-19T10:54:00+05:30</updated><id>/2024/08/19/i-missed-these-stuff-in-my-college</id><content type="html" xml:base="/2024/08/19/i-missed-these-stuff-in-my-college.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/12-inch_silicon_wafer.jpg/768px-12-inch_silicon_wafer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I was young, I disassembled watches, clocks, those times (in 1980’s) it was all mechanical, I could understand how it worked. But when I opened a radio set, I was puzzled. No matter what I did, I could not find how it worked, it just puzzled me, the same stuff happened when I opened a quartz watch and hand held games, there was big black lump with wires from it, and it worked.&lt;/p&gt;
 
@@ -194,27 +213,4 @@
 
 &lt;p&gt;If we can automate this process, we can have a distributed computers scanning for binaries on the internet, reverse engineering it to code, and releasing equivalent Assembly, C++, Rust, Zig or what ever under GPLV3, thus making them libre to use.&lt;/p&gt;
 
-&lt;p&gt;Maybe we can have some programs in our computers that will scan it for binaries and feed it to this A.I liberator, so that all our software could be unshackled.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching Richard Stallman interview on Youtube, it was sad how evil capitalists destroyed the hacker culture and brought in the reign of proprietary software. Most software we use, like in our phones and computers or other gadgets, hide something malicious. We are unable to see and reverse engineer what it is. Big money wants to shackle and spy on us, and almost everyone on this planet has submitted to them for convenience.</summary></entry><entry><title type="html">Shameful swearing in ceremony of Chandrababu Naidu</title><link href="/2024/06/13/shameful-swearing-in-ceremony-of-chandrababu-naidu.html" rel="alternate" type="text/html" title="Shameful swearing in ceremony of Chandrababu Naidu" /><published>2024-06-13T17:42:00+05:30</published><updated>2024-06-13T17:42:00+05:30</updated><id>/2024/06/13/shameful-swearing-in-ceremony-of-chandrababu-naidu</id><content type="html" xml:base="/2024/06/13/shameful-swearing-in-ceremony-of-chandrababu-naidu.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/da/Chandrababu_Naidu_2017.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Chandrababu Naidu, 13&lt;sup&gt;th&lt;/sup&gt; CM of Andhrapradesh&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;I was watching news today, Chandrababu Naidu took oath as Chief Minister of Andhra. I wish him all the best.&lt;/p&gt;
-
-&lt;p&gt;I did not like the way his swearing in ceremony went. Administration is about giving a good rule to people. It’s about having constant touch with people and responding to their needs. You need workers who go from door to door and listen to them, you need people who care about people so that plans get executed, and you need people who are good brained ones to make things efficient. These sorts of people should be besides you to rule a state, but the kind of people I saw was appalling.&lt;/p&gt;
-
-&lt;p&gt;I think Pawan Kalyan (a cine star) is the deputy CM. All you need to rule people these days is to jump around like a monkey before camera it seems. There was Chiranjeevi, Rajinikanth. Why? Why are these people needed for swearing in? It looks absolutely stupid from an intellectual point of view.&lt;/p&gt;
-
-&lt;p&gt;I wish there was no Modi and Venkaiya Naidu. These people represent a party (BJP) that’s based on religion and blind faith, they do not represent rule by facts and statistics. But yes, compared to film stars, the presence of these people is okay, but it could have been avoided.&lt;/p&gt;
-
-&lt;p&gt;Imagine, what will happen if Mamooty or Mohanlaal became the leader of Kerla’s parties, and finally became its CM? I am sure all Malyali’s will commit suicide in shame. If a state of Kerala can be so alert and choose right people (relatively right, definitely not absolutely right they are) compared to its neighbors, why can’t people of Andhra wake up?&lt;/p&gt;
-
-&lt;p&gt;I don’t think Tamilnadu is far behind Andhra when it comes to shamefully allowing cine stars to become politicians. I have no hope that in another 100 years, Tamilnadu will have a golden Chief Minister like Kamaraj.&lt;/p&gt;</content><author><name></name></author><summary type="html">Chandrababu Naidu, 13th CM of Andhrapradesh</summary></entry></feed>
+&lt;p&gt;Maybe we can have some programs in our computers that will scan it for binaries and feed it to this A.I liberator, so that all our software could be unshackled.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching Richard Stallman interview on Youtube, it was sad how evil capitalists destroyed the hacker culture and brought in the reign of proprietary software. Most software we use, like in our phones and computers or other gadgets, hide something malicious. We are unable to see and reverse engineer what it is. Big money wants to shackle and spy on us, and almost everyone on this planet has submitted to them for convenience.</summary></entry></feed>
