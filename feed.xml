@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-28T13:24:47+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">POST should return status 201</title><link href="/2024/08/21/post-should-return-status-201.html" rel="alternate" type="text/html" title="POST should return status 201" /><published>2024-08-21T19:51:00+05:30</published><updated>2024-08-21T19:51:00+05:30</updated><id>/2024/08/21/post-should-return-status-201</id><content type="html" xml:base="/2024/08/21/post-should-return-status-201.html">&lt;p&gt;I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-28T13:26:20+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">ChatGPT beats Youtube on many occasions</title><link href="/2024/08/28/chatgpt-beats-youtube-on-many-occasions.html" rel="alternate" type="text/html" title="ChatGPT beats Youtube on many occasions" /><published>2024-08-28T13:25:00+05:30</published><updated>2024-08-28T13:25:00+05:30</updated><id>/2024/08/28/chatgpt-beats-youtube-on-many-occasions</id><content type="html" xml:base="/2024/08/28/chatgpt-beats-youtube-on-many-occasions.html">&lt;p&gt;I was watching this video&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+    &lt;figure&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/3_fcZApGq1I?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
+     &lt;/iframe&gt;
+     &lt;/figure&gt;
+     &lt;/div&gt;
+
+&lt;p&gt;I wanted to know how much Gold is there in Earth. This video went on blah blah, and I was not able to find out the answer by skipping here and there. I asked ChatGPT this question and here is the answer:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chatgpt.com/share/421d6287-bfae-414b-a26f-bb05f73d8a74&quot;&gt;Total Gold on Earth&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The total amount of gold on Earth is estimated to be around 244,000 metric tons. However, this estimate includes both the gold that has already been mined and the gold that remains in the ground. Here’s a breakdown:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Mined Gold&lt;/strong&gt;: Approximately 201,296 metric tons of gold have been mined throughout human history.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Unmined Gold Reserves&lt;/strong&gt;: The U.S. Geological Survey (USGS) estimates that about 53,000 metric tons of gold are still in the ground and economically viable to extract with current technology.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;These estimates only account for accessible gold. There is also a vast amount of gold deep within the Earth’s core, which is currently inaccessible to us. Some estimates suggest that there could be as much as 1.6 million metric tons of gold in the Earth’s crust and mantle, but this gold is distributed in such low concentrations that it’s not economically feasible to mine it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;a-sever-problem-with-youtube&quot;&gt;A sever problem with YouTube&lt;/h2&gt;
+
+&lt;p&gt;I think YouTube forces one to create video’s of length so that it can fit in more ad’s. For a person like me who does not want to waster time and want to get precise and fast information, this is a severe problem.&lt;/p&gt;
+
+&lt;p&gt;You have to wait and wait in a video and you don’t know where the answer to the question is.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-chatgpt-more&quot;&gt;Use ChatGPT more&lt;/h2&gt;
+
+&lt;p&gt;I feel that ChatGPT is a competitor to YouTube as well. Suddenly video have become the least dense material to seek precise information, and that’s good. May be in the future, videos are there just for entertainment, and A.I will be there for information and productivity stuff.&lt;/p&gt;
+
+&lt;h2 id=&quot;videogpt&quot;&gt;VideoGPT?&lt;/h2&gt;
+
+&lt;p&gt;We need a A.I that can distill information in videos and answer us precisely. I wish OpenAI mines YouTube too so that we have super precise way to seek information than to look at boring videos.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching this video</summary></entry><entry><title type="html">POST should return status 201</title><link href="/2024/08/21/post-should-return-status-201.html" rel="alternate" type="text/html" title="POST should return status 201" /><published>2024-08-21T19:51:00+05:30</published><updated>2024-08-21T19:51:00+05:30</updated><id>/2024/08/21/post-should-return-status-201</id><content type="html" xml:base="/2024/08/21/post-should-return-status-201.html">&lt;p&gt;I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.&lt;/p&gt;
 
 &lt;p&gt;In my office, though I am a Ruby on Rails developer, they told me to code in ReactJS too. Things were hieroglyphs, I never understood it, but there I was staring at a ticket, I never finished it. I hated JavaScript, then after learning a bit of React, I started to hate it more. I still can’t believe humans with embarrassing low intelligence exist, that they can invent JavaScript and React.&lt;/p&gt;
 
@@ -197,20 +233,4 @@
 
 &lt;p&gt;Indian marriage law sucks, if a couple find themselves in stale marriage, they must wait a year for divorce. It means you have to sacrifice more than 1% of your life, just because your marriage sucks, that’s totally unproductive. We know that fast iterations and trial and error leads to best results, so may be reducing the time from 1 year to 3 months will boost marriage productivity 4X, thus increasing nation’s mental health.&lt;/p&gt;
 
-&lt;p&gt;We as a nation must drop the concept that marriage is divine and embrace the truth that marriage is for fucking (on demand if one is lucky), and there is nothing special about it, dogs, rats, bats fuck, we are not alone. If we come to that conclusion, then as a next step, we can make prostitution legal, so men and women can be satisfied, and only really serious ones will end up in committed fruitful marriages.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">How A.I will make every software a Free Software</title><link href="/2024/06/16/how-ai-will-make-every-software-a-free-software.html" rel="alternate" type="text/html" title="How A.I will make every software a Free Software" /><published>2024-06-16T17:16:00+05:30</published><updated>2024-06-16T17:16:00+05:30</updated><id>/2024/06/16/how-ai-will-make-every-software-a-free-software</id><content type="html" xml:base="/2024/06/16/how-ai-will-make-every-software-a-free-software.html">&lt;p&gt;I was watching &lt;a href=&quot;https://www.youtube.com/watch?v=ucXYWG0vqqk&quot;&gt;Richard Stallman interview&lt;/a&gt; on Youtube, it was sad how evil capitalists destroyed the hacker culture and brought in the reign of proprietary software. Most software we use, like in our phones and computers or other gadgets, hide something malicious. We are unable to see and reverse engineer what it is. Big money wants to shackle and spy on us, and almost everyone on this planet has submitted to them for convenience.&lt;/p&gt;
-
-&lt;p&gt;I strongly recommend every one to learn who &lt;a href=&quot;https://stallman.org&quot;&gt;Richard Stallman&lt;/a&gt; is, and what &lt;a href=&quot;https://fsf.org&quot;&gt;Free Software&lt;/a&gt; is. You will understand you are most probably shackled by proprietary software, and maybe you will think about getting unshackled from it.&lt;/p&gt;
-
-&lt;p&gt;This blog is about the light at the end of tunnel I see. I feel A.I will make every software a Free Software in near future. Say there is a binary on your computer, or mobile, or your microwave, one day you will be able to feed it to a neural network, and it will output the source code that can create the very same binary.&lt;/p&gt;
-
-&lt;p&gt;The way to create such a neural network is very straight forward. You have lots of source code in Github, GitLab, Codeberg and so on, take look at the image below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://archive.org/download/every-software-a-free-software/Every Software a Free Software.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;All we need to do is to take those code / library / projects, compile them to machine code for various processor architectures (say Risc V, ARM, x86), feed the compiled code and source to a neural network for it to learn. With lots of examples, neural network will learn to create source code from binary.&lt;/p&gt;
-
-&lt;p&gt;The software is created on ones computer, so, one can claim he / she has reverse engineered it (with the help of A.I), and release it in the license one wishes. I am sure many free software enthusiasts will release it under &lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0.en.html&quot;&gt;GPLV3&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If we can automate this process, we can have a distributed computers scanning for binaries on the internet, reverse engineering it to code, and releasing equivalent Assembly, C++, Rust, Zig or what ever under GPLV3, thus making them libre to use.&lt;/p&gt;
-
-&lt;p&gt;Maybe we can have some programs in our computers that will scan it for binaries and feed it to this A.I liberator, so that all our software could be unshackled.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching Richard Stallman interview on Youtube, it was sad how evil capitalists destroyed the hacker culture and brought in the reign of proprietary software. Most software we use, like in our phones and computers or other gadgets, hide something malicious. We are unable to see and reverse engineer what it is. Big money wants to shackle and spy on us, and almost everyone on this planet has submitted to them for convenience.</summary></entry></feed>
+&lt;p&gt;We as a nation must drop the concept that marriage is divine and embrace the truth that marriage is for fucking (on demand if one is lucky), and there is nothing special about it, dogs, rats, bats fuck, we are not alone. If we come to that conclusion, then as a next step, we can make prostitution legal, so men and women can be satisfied, and only really serious ones will end up in committed fruitful marriages.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
