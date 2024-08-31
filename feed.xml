@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-31T15:06:31+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-31T15:07:21+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
 </subtitle><entry><title type="html">ChatGPT beats Youtube on many occasions</title><link href="/2024/08/28/chatgpt-beats-youtube-on-many-occasions.html" rel="alternate" type="text/html" title="ChatGPT beats Youtube on many occasions" /><published>2024-08-28T13:25:00+05:30</published><updated>2024-08-28T13:25:00+05:30</updated><id>/2024/08/28/chatgpt-beats-youtube-on-many-occasions</id><content type="html" xml:base="/2024/08/28/chatgpt-beats-youtube-on-many-occasions.html">&lt;p&gt;I was watching this video&lt;/p&gt;
 
 &lt;div class=&quot;video&quot;&gt;
@@ -27,15 +27,15 @@
 
 &lt;p&gt;I think YouTube forces one to create video’s of length so that it can fit in more ad’s. For a person like me who does not want to waste time and want to get precise and fast information, this is a severe problem.&lt;/p&gt;
 
-&lt;p&gt;You have to wait and wait in a video and you don’t know where the answer to the question is.&lt;/p&gt;
+&lt;p&gt;You have to wait and wait in a video, and you don’t know where the answer to the question is.&lt;/p&gt;
 
 &lt;h2 id=&quot;use-chatgpt-more&quot;&gt;Use ChatGPT more&lt;/h2&gt;
 
-&lt;p&gt;I feel that ChatGPT is a competitor to YouTube as well. Suddenly video have become the least dense material to seek precise information, and that’s good. May be in the future, videos are there just for entertainment, and A.I will be there for information and productivity stuff.&lt;/p&gt;
+&lt;p&gt;I feel that ChatGPT is a competitor to YouTube as well. Suddenly video have become the least dense material to seek precise information, and that’s good. May be in the future, videos are there just for entertainment, and A.I. will be there for information and productivity stuff.&lt;/p&gt;
 
 &lt;h2 id=&quot;videogpt&quot;&gt;VideoGPT?&lt;/h2&gt;
 
-&lt;p&gt;We need a A.I that can distill information in videos and answer us precisely. I wish OpenAI mines YouTube too so that we have super precise way to seek information than to look at boring videos.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching this video</summary></entry><entry><title type="html">POST should return status 201</title><link href="/2024/08/21/post-should-return-status-201.html" rel="alternate" type="text/html" title="POST should return status 201" /><published>2024-08-21T19:51:00+05:30</published><updated>2024-08-21T19:51:00+05:30</updated><id>/2024/08/21/post-should-return-status-201</id><content type="html" xml:base="/2024/08/21/post-should-return-status-201.html">&lt;p&gt;I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.&lt;/p&gt;
+&lt;p&gt;We need an A.I. that can distill information in videos and answer us precisely. I wish OpenAI mines YouTube too so that we have super precise way to seek information than to look at boring videos.&lt;/p&gt;</content><author><name></name></author><summary type="html">I was watching this video</summary></entry><entry><title type="html">POST should return status 201</title><link href="/2024/08/21/post-should-return-status-201.html" rel="alternate" type="text/html" title="POST should return status 201" /><published>2024-08-21T19:51:00+05:30</published><updated>2024-08-21T19:51:00+05:30</updated><id>/2024/08/21/post-should-return-status-201</id><content type="html" xml:base="/2024/08/21/post-should-return-status-201.html">&lt;p&gt;I have been coding webapp’s for more than 17 years, and I discovered just yesterday that a successful POST should return status 201.&lt;/p&gt;
 
 &lt;p&gt;In my office, though I am a Ruby on Rails developer, they told me to code in ReactJS too. Things were hieroglyphs, I never understood it, but there I was staring at a ticket, I never finished it. I hated JavaScript, then after learning a bit of React, I started to hate it more. I still can’t believe humans with embarrassing low intelligence exist, that they can invent JavaScript and React.&lt;/p&gt;
 
