@@ -158,22 +158,22 @@
 
 <p><strong>JavaScript 🤮🤮</strong></p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
 
   <span class="c1">// Get all "navbar-burger" elements</span>
-  <span class="kd">const</span> <span class="nx">$navbarBurgers</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.navbar-burger</span><span class="dl">'</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">$navbarBurgers</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">slice</span><span class="p">.</span><span class="nf">call</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nf">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.navbar-burger</span><span class="dl">'</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
 
   <span class="c1">// Add a click event on each of them</span>
-  <span class="nx">$navbarBurgers</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span> <span class="nx">el</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">el</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">$navbarBurgers</span><span class="p">.</span><span class="nf">forEach</span><span class="p">(</span> <span class="nx">el</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">el</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
 
       <span class="c1">// Get the target from the "data-target" attribute</span>
       <span class="kd">const</span> <span class="nx">target</span> <span class="o">=</span> <span class="nx">el</span><span class="p">.</span><span class="nx">dataset</span><span class="p">.</span><span class="nx">target</span><span class="p">;</span>
-      <span class="kd">const</span> <span class="nx">$target</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">target</span><span class="p">);</span>
+      <span class="kd">const</span> <span class="nx">$target</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">target</span><span class="p">);</span>
 
       <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
-      <span class="nx">el</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
-      <span class="nx">$target</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
+      <span class="nx">el</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nf">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
+      <span class="nx">$target</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nf">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">is-active</span><span class="dl">'</span><span class="p">);</span>
 
     <span class="p">});</span>
   <span class="p">});</span>
@@ -185,14 +185,14 @@
 
 <p><strong>jQuery</strong></p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nf">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 
   <span class="c1">// Check for click events on the navbar burger icon</span>
-  <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nf">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 
       <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
-      <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
-      <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+      <span class="nf">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nf">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+      <span class="nf">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nf">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
 
   <span class="p">});</span>
 <span class="p">});</span>
@@ -243,12 +243,12 @@ css: yarn build:css --watch
 
 <p>To toggle the navbar burger I created a a file <code class="language-plaintext highlighter-rouge">app/javascript/navbar-burger.js</code> and it had the following content:</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
   <span class="c1">// Check for click events on the navbar burger icon</span>
-  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">,</span> <span class="p">{},</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nf">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">,</span> <span class="p">{},</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="c1">// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"</span>
-    <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
-    <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+    <span class="nf">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-burger</span><span class="dl">"</span><span class="p">).</span><span class="nf">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
+    <span class="nf">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.navbar-menu</span><span class="dl">"</span><span class="p">).</span><span class="nf">toggleClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">is-active</span><span class="dl">"</span><span class="p">);</span>
   <span class="p">});</span>
 <span class="p">});</span>
 </code></pre></div></div>
