@@ -1,5 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-02T20:33:12+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Covid, and the lack of data</title><link href="/2025/07/02/covid-and-the-lack-of-data.html" rel="alternate" type="text/html" title="Covid, and the lack of data" /><published>2025-07-02T20:32:00+05:30</published><updated>2025-07-02T20:32:00+05:30</updated><id>/2025/07/02/covid-and-the-lack-of-data</id><content type="html" xml:base="/2025/07/02/covid-and-the-lack-of-data.html">&lt;p&gt;It was the second covid wave recently. In the first one we had decisive announcement from the government and strict actions were taken. In the second none. Experts were saying covid was spreading, but people behave like fools, like they were immune, as though they had the ultimate control, and as though nothing bad could happen.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-04T23:37:46+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">SQL challenge of the day, by Timmy Kurian</title><link href="/2025/07/04/sql-challenge-of-the-day-by-timmy-kurian.html" rel="alternate" type="text/html" title="SQL challenge of the day, by Timmy Kurian" /><published>2025-07-04T00:00:00+05:30</published><updated>2025-07-04T00:00:00+05:30</updated><id>/2025/07/04/sql-challenge-of-the-day-by-timmy-kurian</id><content type="html" xml:base="/2025/07/04/sql-challenge-of-the-day-by-timmy-kurian.html">&lt;p&gt;Lifted from: &lt;a href=&quot;https://www.linkedin.com/posts/timy-kurian-88597526_sqlchallenge-sqlinterview-dataengineering-activity-7346602421831331841-wrUh?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAArx5IoBZ1QlV3uo-mV_zNQXTgm4ETiUIeA&quot;&gt;Timmy Kurian’s Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a table of employees with their salaries, find the top 5 highest paid employees in each department.&lt;/p&gt;
+
+&lt;p&gt;Sample Tables (CREATE + INSERT):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;INTO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;VALUES&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;John&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sales&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Jane&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Marketing&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Bob&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sales&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;75000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Alice&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Marketing&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;85000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Mike&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Finance&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sara&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Finance&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;95000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;HR&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Emily&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;HR&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Mark&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;IT&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;120000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Lisa&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;IT&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;110000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Query:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;DENSE_RANK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OVER&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;PARTITION&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary_rank&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ranked_employees&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary_rank&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This query uses the DENSE_RANK() window function to rank employees within their respective departments based on their salary. It then filters for only the top 5 highest paid employees in each department. This can be useful for identifying top performers or potential discrepancies in salary distribution within a company.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lifted from: Timmy Kurian’s Linkedin</summary></entry><entry><title type="html">SQL challenge of the day, by Timmy Kurian</title><link href="/2025/07/03/sql-challenge-of-the-day-by-timmy-kurian.html" rel="alternate" type="text/html" title="SQL challenge of the day, by Timmy Kurian" /><published>2025-07-03T00:00:00+05:30</published><updated>2025-07-03T00:00:00+05:30</updated><id>/2025/07/03/sql-challenge-of-the-day-by-timmy-kurian</id><content type="html" xml:base="/2025/07/03/sql-challenge-of-the-day-by-timmy-kurian.html">&lt;p&gt;Lifted from: &lt;a href=&quot;https://www.linkedin.com/posts/timy-kurian-88597526_sqlchallenge-sqlinterview-dataengineering-activity-7346240066211520513-1qKV?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAArx5IoBZ1QlV3uo-mV_zNQXTgm4ETiUIeA&quot;&gt;Timmy Kurian’s Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a table of employee sales data, find the top 3 employees with the highest total sales for each month.&lt;/p&gt;
+
+&lt;p&gt;Sample Tables (CREATE + INSERT):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_sales&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;employee_name&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;month&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;sales&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;INTO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_sales&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;VALUES&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;John Smith&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;January&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Jane Doe&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;January&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Bob Johnson&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;January&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sara Williams&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;January&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Mark Brown&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;February&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Emily Davis&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;February&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Mike Wilson&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;February&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Lisa Taylor&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;February&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Query:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;ROW_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OVER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;PARTITION&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;month&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales_rank&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employee_sales&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ranked_sales&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales_rank&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This solution uses a window function to rank the sales for each employee in each month. Then, it selects only the top 3 sales for each month. This is achieved by using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PARTITION BY&lt;/code&gt; clause to group the sales by month and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ROW_NUMBER&lt;/code&gt; function to assign a rank to each sales record within the month. The results are then filtered to only show the top 3 sales for each month. This can be useful for identifying top-performing employees in each month and tracking their progress over time.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lifted from: Timmy Kurian’s Linkedin</summary></entry><entry><title type="html">Covid, and the lack of data</title><link href="/2025/07/02/covid-and-the-lack-of-data.html" rel="alternate" type="text/html" title="Covid, and the lack of data" /><published>2025-07-02T20:32:00+05:30</published><updated>2025-07-02T20:32:00+05:30</updated><id>/2025/07/02/covid-and-the-lack-of-data</id><content type="html" xml:base="/2025/07/02/covid-and-the-lack-of-data.html">&lt;p&gt;It was the second covid wave recently. In the first one we had decisive announcement from the government and strict actions were taken. In the second none. Experts were saying covid was spreading, but people behave like fools, like they were immune, as though they had the ultimate control, and as though nothing bad could happen.&lt;/p&gt;
 
 &lt;p&gt;To make matters worst, I used to go and sit in my friend’s office because he requested me so, and from their behavior (just by seeing how they approach tech issues), I could infer none would sanitize their hands, none would use masks, the office was packed, filled with non thinkers, ignorance dominated their brains. I feel sorry and not sorry for them. I also knew from the behavior my friend, that he will not declare holiday to slow spread the virus.&lt;/p&gt;
 
@@ -15,7 +92,74 @@
 
 &lt;p&gt;It was during last COVID, my state chief minister Stalin got elected. You must have seen his election campaign, there would be no COVID precautions. He or his supporters never wore masks. I don’t think anyone sanitized their hands. Yet after winning the elections and becoming the chief minister, he was shameless enough to ask Tamil people to donate money for the governments fight against COVID.&lt;/p&gt;
 
-&lt;h2 id=&quot;will-we-ever-have-responsible-honest-and-intelligent-politicians&quot;&gt;Will we ever have responsible, honest and intelligent politicians?&lt;/h2&gt;</content><author><name></name></author><summary type="html">It was the second covid wave recently. In the first one we had decisive announcement from the government and strict actions were taken. In the second none. Experts were saying covid was spreading, but people behave like fools, like they were immune, as though they had the ultimate control, and as though nothing bad could happen.</summary></entry><entry><title type="html">Read Same As Ever in 5 minutes</title><link href="/2025/06/15/read-same-as-ever-in-5-minutes.html" rel="alternate" type="text/html" title="Read Same As Ever in 5 minutes" /><published>2025-06-15T10:28:00+05:30</published><updated>2025-06-15T10:28:00+05:30</updated><id>/2025/06/15/read-same-as-ever-in-5-minutes</id><content type="html" xml:base="/2025/06/15/read-same-as-ever-in-5-minutes.html">&lt;p&gt;This is the short of the book:&lt;/p&gt;
+&lt;h2 id=&quot;will-we-ever-have-responsible-honest-and-intelligent-politicians&quot;&gt;Will we ever have responsible, honest and intelligent politicians?&lt;/h2&gt;</content><author><name></name></author><summary type="html">It was the second covid wave recently. In the first one we had decisive announcement from the government and strict actions were taken. In the second none. Experts were saying covid was spreading, but people behave like fools, like they were immune, as though they had the ultimate control, and as though nothing bad could happen.</summary></entry><entry><title type="html">SQL challenge of the day, by Timmy Kurian</title><link href="/2025/07/02/sql-challenge-of-the-day-by-timmy-kurian.html" rel="alternate" type="text/html" title="SQL challenge of the day, by Timmy Kurian" /><published>2025-07-02T00:00:00+05:30</published><updated>2025-07-02T00:00:00+05:30</updated><id>/2025/07/02/sql-challenge-of-the-day-by-timmy-kurian</id><content type="html" xml:base="/2025/07/02/sql-challenge-of-the-day-by-timmy-kurian.html">&lt;p&gt;Lifted from: &lt;a href=&quot;https://www.linkedin.com/posts/timy-kurian-88597526_sqlchallenge-sqlinterview-dataengineering-activity-7345877666736062464-2A8o?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAArx5IoBZ1QlV3uo-mV_zNQXTgm4ETiUIeA&quot;&gt;Timmy Kurian’s Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a table of employees with their salaries and department names, calculate the average salary for each department and display the top 5 departments with the highest average salary.
+Sample Tables (CREATE + INSERT):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;VARCHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;INTO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;VALUES&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;John&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Engineering&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Jane&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Engineering&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Bob&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sales&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sara&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Sales&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Mike&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Marketing&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Lisa&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Marketing&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Query:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AVG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;salary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;avg_salary&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;employees&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;GROUP&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;department&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;avg_salary&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;LIMIT&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This query uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AVG()&lt;/code&gt; function to calculate the average salary for each department and then uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ORDER BY&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LIMIT&lt;/code&gt; keywords to select the top 5 departments with the highest average salary. This can be helpful for companies to identify which departments may need salary adjustments to stay competitive in the market.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lifted from: Timmy Kurian’s Linkedin</summary></entry><entry><title type="html">SQL challenge of the day, by Timmy Kurian</title><link href="/2025/07/01/sql-challenge-of-the-day-by-timmy-kurian.html" rel="alternate" type="text/html" title="SQL challenge of the day, by Timmy Kurian" /><published>2025-07-01T00:00:00+05:30</published><updated>2025-07-01T00:00:00+05:30</updated><id>/2025/07/01/sql-challenge-of-the-day-by-timmy-kurian</id><content type="html" xml:base="/2025/07/01/sql-challenge-of-the-day-by-timmy-kurian.html">&lt;p&gt;Lifted from: &lt;a href=&quot;https://www.linkedin.com/posts/timy-kurian-88597526_sqlchallenge-sqlinterview-dataengineering-activity-7345515706592972801-rioo?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAArx5IoBZ1QlV3uo-mV_zNQXTgm4ETiUIeA&quot;&gt;Timmy Kurian’s Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a table of customer purchases, write a query to calculate the running total of the total purchase amount for each customer, sorted in descending order by the running total.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;n&quot;&gt;Sample&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Tables&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;INSERT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchases&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;customer_id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;purchase_id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;INT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;purchase_amount&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;DECIMAL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;purchase_date&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;INTO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchases&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;customer_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchase_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchase_amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchase_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;VALUES&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;75&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-05&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-10&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-15&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-20&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-25&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Query:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;customer_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;purchase_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;purchase_amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;SUM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;purchase_amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OVER&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;PARTITION&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customer_id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchase_date&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running_total&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purchases&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running_total&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This query uses the window function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SUM()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OVER()&lt;/code&gt; to calculate the running total of the purchase amounts for each customer, sorted in descending order by the purchase date. This allows us to see the total amount spent by each customer over time. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PARTITION&lt;/code&gt; BY clause ensures that the running total is calculated separately for each customer. Finally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ORDER BY&lt;/code&gt; clause sorts the results in descending order by the running total. This query can be useful for analyzing customer spending patterns and identifying top customers.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lifted from: Timmy Kurian’s Linkedin</summary></entry><entry><title type="html">Read Same As Ever in 5 minutes</title><link href="/2025/06/15/read-same-as-ever-in-5-minutes.html" rel="alternate" type="text/html" title="Read Same As Ever in 5 minutes" /><published>2025-06-15T10:28:00+05:30</published><updated>2025-06-15T10:28:00+05:30</updated><id>/2025/06/15/read-same-as-ever-in-5-minutes</id><content type="html" xml:base="/2025/06/15/read-same-as-ever-in-5-minutes.html">&lt;p&gt;This is the short of the book:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;If you do not know history, you cannot know the present or the future.&lt;/li&gt;
@@ -156,222 +300,4 @@
 
 &lt;p&gt;This should not just apply for politicians, it should apply for deceased bureaucrats, and normal citizens as well. The heirs of any deceased who has given and taken even 1 paisa as bribe, should loose 80% of their wealth.&lt;/p&gt;
 
-&lt;p&gt;This strict measure will make people aware of what they inherit, and people will be more educated, and will know from where their finances come from. We won’t have lethargic bitches and bastards roaming around the nation like kings and queens, while a honest man works like hell and dies in poverty and vain.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jayalalitha the Corrupt</summary></entry><entry><title type="html">The consequence of India having idiot Modi as Prime Minister</title><link href="/2025/02/16/the-consequence-of-india-having-idiot-modi-as-prime-minister.html" rel="alternate" type="text/html" title="The consequence of India having idiot Modi as Prime Minister" /><published>2025-02-16T09:56:00+05:30</published><updated>2025-02-16T09:56:00+05:30</updated><id>/2025/02/16/the-consequence-of-india-having-idiot-modi-as-prime-minister</id><content type="html" xml:base="/2025/02/16/the-consequence-of-india-having-idiot-modi-as-prime-minister.html">&lt;p&gt;India had great intellectuals like Nehru as Prime Minister, the one we have now, Modi  is a absolute idiot, only fit for drinking cow urine and feeding on cow dung. Let me explain what I mean.&lt;/p&gt;
-
-&lt;h2 id=&quot;maldives-criticizing-modi&quot;&gt;Maldives criticizing Modi&lt;/h2&gt;
-
-&lt;p&gt;Sometime ago Maldives ministers criticized Modi, there was huge uproar in India. Though Modi was criticized, it was promoted by Godi media as thogh India had been criticized, and Modi went to Lakshadweep island and said that India should quit Maldives. Well, a critic on one person was projected by Godi media as a slap to India. In fact &lt;a href=&quot;https://www.thehindu.com/news/international/maldives-govt-distances-itself-from-derogatory-remarks-against-pm-modi-by-minister/article67715983.ece&quot;&gt;Maldives did suspend three of its ministers&lt;/a&gt;. But a big buzz was created.&lt;/p&gt;
-
-&lt;h2 id=&quot;indians-treated-like-shit&quot;&gt;Indian’s treated like shit&lt;/h2&gt;
-
-&lt;p&gt;Recently USA deported about 100 Indians, they were illegal, yet they should be treated as human. They were handcuffed, their legs too were chained, and they were made to travel 40 hours, I have no clue what they did for nature calls. India raised no protest against this animal like treatment of Indians. The Godi media too never took it in a big way. May be for the Godi media, its criticizing Modi is criticizing India, whereas even though 100+ Indians were treated as animals, it meant nothing.&lt;/p&gt;
-
-&lt;h2 id=&quot;trump-abusing-india&quot;&gt;Trump abusing India&lt;/h2&gt;
-
-&lt;div class=&quot;video&quot;&gt;
-    &lt;figure&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/PPrxCLMI1iI?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
-     &lt;/iframe&gt;
-     &lt;/figure&gt;
-     &lt;/div&gt;
-
-&lt;p&gt;In a recent India, US joint press brief, you can see trump abusing India right before Modi. Modi who claims he is super nationalistic and super patriot, just stood there. Either he was so dumb that he had no clue what was going on, or though he knew, he is an idiot and coward who cannot counter it. I wish he had at least a ball. Just one at least, a broken one would have done something.&lt;/p&gt;
-
-&lt;p&gt;The Godi media too was silent, I am not sure if they hailed his trip as a great triumph, but they just kept quiet when India was bashed like hell by Trump. In this blog I will tell you how Modi if he had some brains could have countered.&lt;/p&gt;
-
-&lt;h2 id=&quot;need-for-imbalanced-tariff&quot;&gt;Need for imbalanced tariff&lt;/h2&gt;
-
-&lt;p&gt;We were long a slave nation to the Brits, and hence we are still a very weak nation today. We were abused by the west, and still proper retributions have’t been paid. In this blog I will explain how USA stalled India’s progress, and you decide if there should be a tariff imbalance or not.&lt;/p&gt;
-
-&lt;h2 id=&quot;yale-university&quot;&gt;Yale University&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Enoch_Seeman_the_younger_-_Portrait_of_Gov._Elihu_Yale_%281648-9%E2%80%931721%29_-_1789.1_-_Yale_University_Art_Gallery.jpg/500px-Enoch_Seeman_the_younger_-_Portrait_of_Gov._Elihu_Yale_%281648-9%E2%80%931721%29_-_1789.1_-_Yale_University_Art_Gallery.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Elihu_Yale&quot;&gt;Elihu Yale, the looter of Chennai&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Let’s start with a History. The Yale university in USA was created with the wealth looted from my city Chennai, India. Yale amassed his wealth by not so genuine practices, and he took his loot to England. USA was a poor nation then, and when they wanted to build a university, Yale donated part of wealth he looted to the university, thus the university was named after him.&lt;/p&gt;
-
-&lt;p&gt;In fact it was my city that is solely responsible for the existance of this university, and I don’t think USA acknowledges it and I don’t think its thankful for it.&lt;/p&gt;
-
-&lt;p&gt;I don’t think Modi is literate enough to know this, but at least he could have asked the “learned men” who accompanied him and told facts like this to correct USA, and to humble it. But he was dumb like the statue of Lord Ram erected in Ayodhya.&lt;/p&gt;
-
-&lt;h2 id=&quot;global-warming&quot;&gt;Global Warming&lt;/h2&gt;
-
-&lt;p&gt;USA is the largest emitter of green house gases, it’s the leading cause of Global warming, and we in India too are are experiencing the consequence. USA should be infact be paying trillions of dollars to all countries on this planet to cope with the damage it causes. Yet it’s foolish leader Trump want to drill for more oil and increase fossil fuel usage. Modi could have pointed this simple fact out to Trump. Yet he stayed dumb.&lt;/p&gt;
-
-&lt;h2 id=&quot;1972-nuclear-threat&quot;&gt;1972 Nuclear Threat&lt;/h2&gt;
-
-&lt;p&gt;In 1972 war, USA sent its naval fleet and threatened India with a nuclear strike, it was hell bent on defeating India, Soviet Union saved us by sending its subs to our East Coast. Till today, USA hasn’t asked a sorry for it. This act of USA should have prolonged the war, costed more lives, it also put the independence of Bangladesh into jeopardy. USA never paid us any compensation for this cruel act. Modi could have pointed this out, yet he stayed dumb.&lt;/p&gt;
-
-&lt;h2 id=&quot;promoting-jihadist&quot;&gt;Promoting Jihadist&lt;/h2&gt;
-
-&lt;div class=&quot;video&quot;&gt;
-    &lt;figure&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/uqZ-ToXjCz0?color=white&amp;amp;theme=light&quot; allowfullscreen=&quot;&quot;&gt;
-     &lt;/iframe&gt;
-     &lt;/figure&gt;
-     &lt;/div&gt;
-
-&lt;p&gt;Watch this video, Ronald Regan, another dumb leader, named a launch of space shuttle after Taliban. The bureaucrats of USA cannot think, they thought that snakes thrown at backyard of some one will never bite them, and here they are after loosing twin towers, and they lost the war in Afghanistan. They supported the terrorist nation of Pakistan which shielded Osama Bin Laden who was responsible for killing thousands of US citizens.&lt;/p&gt;
-
-&lt;p&gt;Even today, our soldiers are been killed by the Jihadist promoted by USA, and USA does not pay us single penny for damage it still causes to India. Modi stood there along with Trump as though he does not know this fact. Fucking ball less coward.&lt;/p&gt;
-
-&lt;h2 id=&quot;sanctions&quot;&gt;Sanctions&lt;/h2&gt;
-
-&lt;p&gt;India, or any other nation on this planet has the right to test nuclear weapons. But when we did it, USA slapped sanctions on us. Why? Because according to them we are an inferior species who are not worthwhile to have nukes. Such is the animalistic attitude of US people. Because of their sanctions, many of our programs like the space program, our fighter jet program, our nuclear program stalled. India lost billions of dollars due to sanctions, yet Modi did not have the courage to raise this issue on the podium with Trump.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-killing-of-indian-scientists-and-lal-bahadur-sastri&quot;&gt;The killing of Indian Scientists and Lal Bahadur Sastri&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/86/Homi_Jehangir_Bhabha_1960s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Homi_Jehangir_Bhabha&quot;&gt;Homi Bhabha&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;The mysterious way in which Homi Baba died, if he had lived, our nuke programs could have been much faster. Who killed him? There is a strong suspicion that USA did it. Did USA open up its gates for Indian investigators? No. Why? Most probably because they killed Homi Baba. Till today USA has not said that it will let India to investigate people in USA, nor it had asked sorry. Such an evil nation it is. Any way how will a nation that kills millions every year be sorry for causing a plane crash? You need to be a human to feel sorry.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Lal_Bahadur_Shastri_%28from_stamp%29.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Lal_Bahadur_Sastri&quot;&gt;Lal Bahadur Sastri&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;One our excellent Prime Ministers Lal Bahadur Sastri mysteriously died in Tashkant. Hand of CIA is suspected. Yet USA did not throw open the gates for investigation, neither it admitted to its mistakes and asked sorry.&lt;/p&gt;
-
-&lt;p&gt;Vickram Sarabhai too died in mysterious circumstances. Was USA involved? We don’t know, did USA throw open its gates for investigation? Once again no. Modi could have brought up these issues, and could have said how much potentially USA costs us, and how it never paid us.&lt;/p&gt;
-
-&lt;h2 id=&quot;going-against-indias-nuclear-plans&quot;&gt;Going against India’s nuclear plans&lt;/h2&gt;
-
-&lt;p&gt;USA never wanted India to be a powerful nuclear state, it had done what ever it could to destabilize us. Sanctions, mysterious disappearance of scientists, causing brain drain and so on. It forced us to open up our reactors to USA’s dog IAEA. Modi could have easily pointed these out, yet he stood like dumb before the world press and Trump.&lt;/p&gt;
-
-&lt;h2 id=&quot;nambhi-narayanan&quot;&gt;Nambhi Narayanan&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nambi_Narayanan.jpg/672px-Nambi_Narayanan.jpg&quot; alt=&quot;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nambi_Narayanan&quot;&gt;Nambi Narayanan&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Take the case of Nambi Naryanan. He himself says USA could be behind he being falsely charged by Indian police on espionage case. ISRO is an open organization and they don’t hide their plans. But all of a sudden, Kerala police accused him of selling public domain ISRO data to other countries, its a laughable allegation. Till today who is behind it is not fully clear. If my memory is right A.K.Antony is one among the person who conducted this treason against India. Was his church any way controlled and / or connected with USA? Modi could have raises this issue too.&lt;/p&gt;
-
-&lt;h2 id=&quot;still-not-late&quot;&gt;Still not late&lt;/h2&gt;
-
-&lt;p&gt;Okay Modi is a coward and cannot speak on the podium with Trump. At least after the press meet Indian bureaucrats could have held another press meeting and have put forward these issues and have argued how much damage USA caused to India, and thus imbalanced tariffs are justifiable. They could have boldly said that just tarrifs are not enough, but USA owes tens of billions of dollars as retribution to India. Under a coward and unlearned priminster, how will they open their mouth? Even though Modi is back in India, I don’t think its late to point these out to brain dead Trump and his nation, but I am sure coward India will not do it.&lt;/p&gt;
-
-&lt;p&gt;I wish someone as knowledgeable as Sashi Tharoor is our priminster, some one who would  turn his back on Trump, or oppose him as soon as he abuses our nation.&lt;/p&gt;
-
-&lt;p&gt;We Indians should become intellectuals enough so that intellectuals become our leaders, not some school quitting religious fanatic who can’t even table facts and argue at the right time. Modi has costed a lot for India, and I am sure he will be expensive and cost us a lot more in times to come.&lt;/p&gt;</content><author><name></name></author><summary type="html">India had great intellectuals like Nehru as Prime Minister, the one we have now, Modi is a absolute idiot, only fit for drinking cow urine and feeding on cow dung. Let me explain what I mean.</summary></entry><entry><title type="html">Perils of work from office</title><link href="/2025/01/29/perils-of-work-from-office.html" rel="alternate" type="text/html" title="Perils of work from office" /><published>2025-01-29T17:59:00+05:30</published><updated>2025-01-29T17:59:00+05:30</updated><id>/2025/01/29/perils-of-work-from-office</id><content type="html" xml:base="/2025/01/29/perils-of-work-from-office.html">&lt;h2 id=&quot;healthy-living&quot;&gt;Healthy Living&lt;/h2&gt;
-
-&lt;p&gt;I am writing this blog with a throat and sinus infection. Just two weeks ago people in my office carried it, I had to go to office because it was the norm, the result, last week I took 3 days of leave and once I got better I went, and this week I am down again. Some virus is circulating. The COVID years were my healthiest, those who stayed clean were spared. I worked from home for a company that was efficient, (there were technical idiots in it mixing ReactJS Development with Rails, that’s another story,) but when it comes to work from home they got it spot on. So when it comes to healthy living, work from home wins.&lt;/p&gt;
-
-&lt;h2 id=&quot;traffic&quot;&gt;Traffic&lt;/h2&gt;
-
-&lt;p&gt;In work from home, I could think more. I could think in times I should worry about Chennai traffic, while people who are drunk drive freely, people get license not by passing driving exams, but by bribing the RTO (there is no other way). In my current office parking is crazy, and I have to go at odd times compromising my sleep. A person who is fully awake at 11AM, is forced to wake up at 5AM. Just to avoid traffic and parking issues.&lt;/p&gt;
-
-&lt;p&gt;I am using an electric car, so I am a bit lucky on transport cost, else it would cost me Rs 300 every day to go to my office, thanks to Modi’s inflation. What I can say is even this can be avoided.&lt;/p&gt;
-
-&lt;h2 id=&quot;money&quot;&gt;Money&lt;/h2&gt;
-
-&lt;p&gt;This was once in an office where I was working, suddenly a boy jumped besides me asking for Rs 200/-, I asked for what, then he said “boss, that(fucking) …… has her birthday, we must buy cake and treats for her birthday.” Bloody damn. If prostitution was legal in a big way why would these people have to run behind girls dogs behind a bitch I thought.&lt;/p&gt;
-
-&lt;p&gt;When it comes to work from home, you can simply say congratz or a thumbs up on WhatsApp and that’s it. Who cares who has the dream of fucking who?&lt;/p&gt;
-
-&lt;p&gt;But ya in my previous office there was bloody inefficient team that did want work from office, thankfully it did not materialize. We had to attend in person ceremonies of our manager, because there was no way to avoid it. Fortunately I was in a team that was a bit efficient. I did attend those functions because my project manager was a good person and not because we saw each other every day.&lt;/p&gt;
-
-&lt;p&gt;So in work from office you have to shed money for some fucking person just because the fucking person exists, and its no fault of you that one exists.&lt;/p&gt;
-
-&lt;h2 id=&quot;team-that-does-not-know-remote-work&quot;&gt;Team that does not know remote work&lt;/h2&gt;
-
-&lt;p&gt;In my present office, people went on Pongal leave, out of the 5 or so days they were out, only 2 days were supposed to be holidays, I tried contacting a team member, but to no avail. Teams in my present company are stuck if they are out of office. I wonder if they will survive if they need to work as independent freelancers, launch a product that challenges us and so on?&lt;/p&gt;
-
-&lt;h2 id=&quot;just-a-paying-club&quot;&gt;Just a paying club&lt;/h2&gt;
-
-&lt;p&gt;Even though people put scene they work 10, 11 hours a day, in reality I don’t think one can work, or code more than 3 - 4 hours a day. I have worked just 1 hour a day and have completed stuff on time. But yes I did use highly productive languages like Python, Ruby, Clojure and so on, with a rock solid test suite. I would in fact encourage a programmer to restrict himself to just 4 hours of work a day (including mindless, depressing and unproductive meetings), to be productive and steady on the longer run.&lt;/p&gt;
-
-&lt;p&gt;In software industry, if you claim more than 4 hours of work per day, then it means you do not know to use a computer that makes you highly productive.&lt;/p&gt;
-
-&lt;p&gt;In work from office it’s just a club you attend where your boss pays you for your socializing, that consumes the hours more than 4 that you claim to be working.&lt;/p&gt;
-
-&lt;h2 id=&quot;leaders-insisting-on-work-from-office&quot;&gt;Leaders insisting on work from office&lt;/h2&gt;
-
-&lt;p&gt;Why do leaders insist on work from office, even though software today is the transfer of data that can be done from anywhere? One simple reason. Control. Of course in companies where bosses are dumb, and I had to work from home, control was done by having no so transparent appraisal process, everyone in my previous office knew appraisal was a spoof, but in most office, the boss wants to be seen as a strong guy / gal, and it’s far easier to control you in an environment owned more by your boss than owned by you.&lt;/p&gt;
-
-&lt;h2 id=&quot;office-rent&quot;&gt;Office Rent&lt;/h2&gt;
-
-&lt;p&gt;In city like Chennai, damn the office rent! Damn the greedy and lazy real estate holders. Who will pay so much? Instead of paying rent, just convert small part of your home to office just for this stupid Indian government compliance purpose and make all things remote. I.T industry is literally loosing billions because ignorant people have risen to the top, and they want to put scene by having large offices.&lt;/p&gt;</content><author><name></name></author><summary type="html">Healthy Living</summary></entry><entry><title type="html">Understanding Quantum Computing</title><link href="/2025/01/12/understanding-quantum-computing.html" rel="alternate" type="text/html" title="Understanding Quantum Computing" /><published>2025-01-12T20:36:00+05:30</published><updated>2025-01-12T20:36:00+05:30</updated><id>/2025/01/12/understanding-quantum-computing</id><content type="html" xml:base="/2025/01/12/understanding-quantum-computing.html">&lt;p&gt;Richard Feynman said, if anyone says they understood Quantum Physics, it means they haven’t understood it.&lt;/p&gt;
-
-&lt;p&gt;Engineering is more about practicality than about science. Fuzzy Logic was hated by mathematicians while we engineers are using it for a long time, similarly, we have looked at practical applications of stuff and used it, without having a full understanding.&lt;/p&gt;
-
-&lt;p&gt;Recently Google announced their willow processor. They claimed what was done by their computer in 5 minutes will take the best super computer today \(10^{25}\) years to complete. That’s a staggering claim. In this blog I would like to explain to you the reader how such feats are possible.&lt;/p&gt;
-
-&lt;p&gt;Computers are here to solve problems, so here is one. Imagine you are in a room.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ia902302.us.archive.org/33/items/understanding-quantum-computing.excalidraw/Understanding%20Quantum%20Computing%20%280%29.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You are the green dot, and you want to reach the red X. So there are four pathways. One way to reach this path is like this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ia902302.us.archive.org/33/items/understanding-quantum-computing.excalidraw/Understanding%20Quantum%20Computing%281%29.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Well, that’s one way, there are three ways left. You chose the path at your free will right? Well if you say yes, then you are absolutely wrong. The physics of this universe made you choose that path. In fact there are an uncountable number of universes with uncountable numbers of you, you just experience one of them, that to a short time interval of it. All that had happened is happening, and all that lies in the future has already happened, and there is no time.&lt;/p&gt;
-
-&lt;p&gt;Okay lets keep it simple, now imagine there are four universes where it had made you choose four different paths as follows.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ia902302.us.archive.org/33/items/understanding-quantum-computing.excalidraw/Understanding%20Quantum%20Computing%282%29.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Subatomic particles communicate across multiple universes which our brain can’t comprehend, but even before you start a problem, all possible solutions and failures to solve it exists. In many universes you would (in truth that universe would have made you) have solved the problem with flying colors, in many universes you would have failed miserably, in many universes that problem simply would not exist. So say at quantum level if you know how you solved all problems in all universes, in our simple case it might look like this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ia902302.us.archive.org/33/items/understanding-quantum-computing.excalidraw/Understanding%20Quantum%20Computing%283%29.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As indicated above, you would know all possible solutions of the problem you are solving in an instant.&lt;/p&gt;
-
-&lt;p&gt;Now let’s say we have a problem where only 2 out of 4 paths lead you to the solution, a traditional you, or a computer should test each way to find a solution, but a quantum you, or a computer, since it communicates with parallel universes will know exactly which path leads you to red X, and in which paths you have banged yourself onto a wall.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ia902302.us.archive.org/33/items/understanding-quantum-computing.excalidraw/Understanding%20Quantum%20Computing%284%29.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Richard Feynman said, if anyone says they understood Quantum Physics, it means they haven’t understood it.</summary></entry><entry><title type="html">Signs of a Highly Intelligent Employee</title><link href="/2025/01/07/signs-of-a-highly-intelligent-employee.html" rel="alternate" type="text/html" title="Signs of a Highly Intelligent Employee" /><published>2025-01-07T20:46:00+05:30</published><updated>2025-01-07T20:46:00+05:30</updated><id>/2025/01/07/signs-of-a-highly-intelligent-employee</id><content type="html" xml:base="/2025/01/07/signs-of-a-highly-intelligent-employee.html">&lt;ol&gt;
-  &lt;li&gt;They cheat on their job with a side hustle.&lt;/li&gt;
-  &lt;li&gt;They treat everybody equal (including the cleaner).&lt;/li&gt;
-  &lt;li&gt;They rebel against micromanagement and dictator leaders.&lt;/li&gt;
-  &lt;li&gt;They know when to say no to a meeting.&lt;/li&gt;
-  &lt;li&gt;They help others advance in their career.&lt;/li&gt;
-  &lt;li&gt;They don’t respond to most emails.&lt;/li&gt;
-  &lt;li&gt;They don’t attend meetings, but find efficient ways to communicate.&lt;/li&gt;
-  &lt;li&gt;They stay away from gossip and corporate politics.&lt;/li&gt;
-  &lt;li&gt;They create passive income so if they get fired it matters less.&lt;/li&gt;
-  &lt;li&gt;They try entrepreneurship at least once to see what it feels like.&lt;/li&gt;
-  &lt;li&gt;They’re fine to be the dumbest person in the room.&lt;/li&gt;
-  &lt;li&gt;They ruthlessly protect their time.&lt;/li&gt;
-  &lt;li&gt;They focus on outcomes not KPIs.&lt;/li&gt;
-  &lt;li&gt;They’re wildly open to new ideas.&lt;/li&gt;
-  &lt;li&gt;They create stuff people want.&lt;/li&gt;
-  &lt;li&gt;They learn without being told.&lt;/li&gt;
-  &lt;li&gt;They’re humble.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">They cheat on their job with a side hustle. They treat everybody equal (including the cleaner). They rebel against micromanagement and dictator leaders. They know when to say no to a meeting. They help others advance in their career. They don’t respond to most emails. They don’t attend meetings, but find efficient ways to communicate. They stay away from gossip and corporate politics. They create passive income so if they get fired it matters less. They try entrepreneurship at least once to see what it feels like. They’re fine to be the dumbest person in the room. They ruthlessly protect their time. They focus on outcomes not KPIs. They’re wildly open to new ideas. They create stuff people want. They learn without being told. They’re humble.</summary></entry></feed>
+&lt;p&gt;This strict measure will make people aware of what they inherit, and people will be more educated, and will know from where their finances come from. We won’t have lethargic bitches and bastards roaming around the nation like kings and queens, while a honest man works like hell and dies in poverty and vain.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jayalalitha the Corrupt</summary></entry></feed>
