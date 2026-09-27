@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-09-19T20:28:07+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
-</subtitle><entry><title type="html">Autonomous Business Intelligence</title><link href="/2026/09/19/autonomous-business-intelligence.html" rel="alternate" type="text/html" title="Autonomous Business Intelligence" /><published>2026-09-19T20:26:00+05:30</published><updated>2026-09-19T20:26:00+05:30</updated><id>/2026/09/19/autonomous-business-intelligence</id><content type="html" xml:base="/2026/09/19/autonomous-business-intelligence.html">&lt;p&gt;Hello all, I have a bunch of highly naturally intelligent Data Science interns. We do have work to do every day, but we have automated it with A.I, so there is almost no work.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-09-28T00:57:39+05:30</updated><id>/feed.xml</id><title type="html">Karthikeyan A K’s blog</title><subtitle>Hello World, I am Karthikeyan. I eat briyani and worship Boomthata, the creator of God and Satan.
+</subtitle><entry><title type="html">Why Does the GNU/Linux Community Have Crack People?</title><link href="/2026/09/28/why-gnu-linux-community-have-crack-people.html" rel="alternate" type="text/html" title="Why Does the GNU/Linux Community Have Crack People?" /><published>2026-09-28T00:54:00+05:30</published><updated>2026-09-28T00:54:00+05:30</updated><id>/2026/09/28/why-gnu-linux-community-have-crack-people</id><content type="html" xml:base="/2026/09/28/why-gnu-linux-community-have-crack-people.html">&lt;p&gt;This is my open question to the GNU/Linux community. You people are supposed to be intelligent, but you seem to be crack. Why?&lt;/p&gt;
+
+&lt;p&gt;I wrote a cool utility that marries the shell and LLMs — one of the oldest pieces of software paired with the newest. It’s called &lt;a href=&quot;https://k.libl.in/esh&quot;&gt;esh&lt;/a&gt;. You just type in plain English, and the LLM translates it to shell commands for you. I posted it on &lt;a href=&quot;https://www.reddit.com/r/linux/comments/1wrgyog/comment/pceq3li/?screen_view_count=2&amp;amp;ext-referrer=DIRECT&quot;&gt;r/linux&lt;/a&gt;, and people trashed it. I gave replies, but rather than reply back, they complained to the moderators.&lt;/p&gt;
+
+&lt;p&gt;This should be science, not politics! I thought GNU/Linux groups were a scientific endeavour, never a political one. It’s okay to say I made trash, but when I counter it, counter my counter — if you’ve got the guts. Don’t be a coward!&lt;/p&gt;
+
+&lt;p&gt;As shown in the &lt;a href=&quot;https://www.reddit.com/r/linux/comments/1wrgyog/comment/pceq3li/?screen_view_count=2&amp;amp;ext-referrer=DIRECT&quot;&gt;Reddit thread&lt;/a&gt;, maybe people just don’t know the power of LLMs. There seem to be a lot of luddites, even in the tech community — a lot of people who don’t know about LLMs. I’m a bit appalled by their ignorance. So okay, look at this:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;❯ esh &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;what type of files are present in the Pictures directory?&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Maybe you’re a GNU/Linux guru and you know exactly what to type into the shell, and I don’t. But then why do I need to know it in 2026? The above gave me a lot of results, so I refined it as shown:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;❯ esh &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;what type of files are present in the Pictures directory? Just list the unique types.&quot;&lt;/span&gt;
+find ~/Pictures &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f &lt;span class=&quot;nt&quot;&gt;-exec&lt;/span&gt; file &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;: &lt;span class=&quot;nt&quot;&gt;-f2&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt;
+Run this &lt;span class=&quot;nb&quot;&gt;command&lt;/span&gt;? &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;y/N] y
+&lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt;: stdin: Illegal byte sequence
+ &lt;span class=&quot;s2&quot;&gt;&quot;CREATOR
+ &quot;&lt;/span&gt;GoodFon.ru&lt;span class=&quot;s2&quot;&gt;&quot;
+ [none]x[none]
+ [TIFF image data
+ MPEG ADTS
+Apple binary property list
+Apple Desktop Services Store
+ASCII text
+data
+empty
+EPUB document
+GIF image data
+GIMP XCF image data
+JPEG image data
+Matlab v4 mat-file (little endian) d
+Matlab v4 mat-file (little endian) R
+PDF document
+PNG image data
+RIFF (little-endian) data
+SQLite 3.x database
+SQLite Write-Ahead Log
+SVG Scalable Vector Graphics image
+very short file (no magic)
+XML 1.0 document text
+Zip archive data
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bingo, I got it. Even if you’re a GNU/Linux guru, I bet it would have taken you, say, 10-15 seconds to type the command above — you might make mistakes, things might need correcting, and so on. You’re human: biology, made of molecules, slow. I use electrons and photons — fast, the fundamental matter that builds this universe. Duhhh!&lt;/p&gt;
+
+&lt;p&gt;I am really surprised that GNU/Linux people don’t see that.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is my open question to the GNU/Linux community. You people are supposed to be intelligent, but you seem to be crack. Why?</summary></entry><entry><title type="html">Autonomous Business Intelligence</title><link href="/2026/09/19/autonomous-business-intelligence.html" rel="alternate" type="text/html" title="Autonomous Business Intelligence" /><published>2026-09-19T20:26:00+05:30</published><updated>2026-09-19T20:26:00+05:30</updated><id>/2026/09/19/autonomous-business-intelligence</id><content type="html" xml:base="/2026/09/19/autonomous-business-intelligence.html">&lt;p&gt;Hello all, I have a bunch of highly naturally intelligent Data Science interns. We do have work to do every day, but we have automated it with A.I, so there is almost no work.&lt;/p&gt;
 
 &lt;p&gt;So in order for us to make more money, I want to create a business intelligence platform where everything is automated: A.I will read your data, do research, tell you how your business should be run; and if a “Yes” button is pressed, it will run it. And yes, it will even handle the accounts, marketing, payroll and blah blah. It will be a 100% automated ERP, costing a fraction. Thanks to moderm AI advancements.&lt;/p&gt;
 
@@ -167,55 +213,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://archive.org/details/what-is-agile&quot;&gt;Files&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dog Lovers Are Shit</title><link href="/2026/07/11/dog-lovers-are-shit.html" rel="alternate" type="text/html" title="Dog Lovers Are Shit" /><published>2026-07-11T11:04:00+05:30</published><updated>2026-07-11T11:04:00+05:30</updated><id>/2026/07/11/dog-lovers-are-shit</id><content type="html" xml:base="/2026/07/11/dog-lovers-are-shit.html">&lt;p&gt;I really don’t know why dog lovers are shit. They don’t seem to care about society at all; all they care about is themselves, their feelings, and their dog(s). All I need to do is look out of my window. Dog people walk their dogs, and they let their dogs crap and pee on the roads, quite unapologetically. These are not people living in huts or slums where there are no toilets—where it might be expected that dogs follow their natural habits. These are middle class, upper-middle class, and upper-class people who have toilets in their homes, who know what a toilet is, and who are educated—or at least claim to be. Yet, they exhibit such behavior. I don’t understand why. I don’t understand why they have brains, why they have money, or why they are educated (or claim to be).&lt;/p&gt;
-
-&lt;p&gt;Next, there are people who don’t have dogs but feed stray dogs. In my area, Sithalapakkam, you can hear dogs barking almost all the time. At night, dogs bark like hell, spoiling my sleep. Yet, every now and then, I see somebody placing food outside my gate for the dogs that reside there. I don’t know where these people go when the dogs shit or pee on the road; these people don’t clean it up. I don’t know where they go when dogs bark in the middle of the night and ruin everyone’s sleep.&lt;/p&gt;
-
-&lt;p&gt;I wouldn’t even be surprised if these dog-loving people voted for Actor Vijay. They seem to be so brain-dead.&lt;/p&gt;
-
-&lt;h2 id=&quot;old-people&quot;&gt;Old People&lt;/h2&gt;
-
-&lt;p&gt;I see old people petting dogs a lot, and maybe even feeding them. I think they don’t have anyone to take care of them, and hence they are so attracted to dogs that wag their tails and show affection.&lt;/p&gt;
-
-&lt;h2 id=&quot;psychologically-disordered-people&quot;&gt;Psychologically Disordered People&lt;/h2&gt;
-
-&lt;p&gt;Another thing I think is that people with psychological disorders or distress need company that will always say, “Yes, boss.” And of course, dogs say “Yes, boss” all the time. They cannot think; they don’t have brains like humans, and hence can’t challenge us, and push us to be rational. So, I think a lot of people who have psychological disorders or who are psychologically distressed keep dogs.&lt;/p&gt;
-
-&lt;p&gt;I think we need to run some kind of campaign to let them know that there are people called psychologists who can treat them, rather than having dogs and polluting their society.&lt;/p&gt;
-
-&lt;h2 id=&quot;neighbors-dog&quot;&gt;Neighbor’s Dog&lt;/h2&gt;
-
-&lt;p&gt;I have a neighbor who had a dog. Its name was Max, and it was super loud. Almost every day, just before or slightly after noon—right after I had lunch when I was about to sleep—it would bark. Almost every night before midnight, it would bark. I don’t think my neighbors really fed it; it was so thin, and maybe it was barking all the time because of hunger. I think it’s dead now, and I’m very thankful for that.&lt;/p&gt;
-
-&lt;p&gt;My neighbors let it bark at every guest who came to my home. In fact, some people were scared; they thought &lt;em&gt;we&lt;/em&gt; had dogs. To my surprise, the neighbors would walk the dog on the street and let it crap. I just couldn’t believe it. They weren’t as respectable as I had thought.&lt;/p&gt;
-
-&lt;h2 id=&quot;radhakrishnan&quot;&gt;Radhakrishnan&lt;/h2&gt;
-
-&lt;p&gt;I don’t know what happened to the IAS officer Radhakrishnan. He said there were cow and dog problems in Chennai, and he said he dealt with them. I don’t know where he is now. He looked dedicated, and he looked like he knew what he was doing, but he lied to the people of Chennai.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-dogs&quot;&gt;Why Dogs?&lt;/h2&gt;
-
-&lt;p&gt;Yes, there was a time when humans were hunter-gatherers and dogs were very useful animals. Maybe they could run into the foliage and the wild far faster than we could. Hence, dogs were useful. They could sniff out animals and they have superior senses compared to humans.&lt;/p&gt;
-
-&lt;p&gt;But this is today, 2026. We have domesticated animals. I don’t think we run behind animals and kill them anymore. We have security cameras; even if you say dogs catch thieves, in my area there are so many dogs and I haven’t even seen one thief get caught.&lt;/p&gt;
-
-&lt;p&gt;So why dogs? I really don’t know. Why not pigs? Why not crocodiles? I really don’t know. Or why not snakes?&lt;/p&gt;
-
-&lt;h2 id=&quot;who-this-article-targets&quot;&gt;Who This Article Targets&lt;/h2&gt;
-
-&lt;p&gt;This article does not target dog lovers. As far as I know, they absolutely have no brains. Even after reading this article, they’ll just be angry and nothing else. They simply cannot conceive of the trouble dogs cause other people.&lt;/p&gt;
-
-&lt;p&gt;So, this article is targeted at people who &lt;em&gt;do&lt;/em&gt; have brains who can see the evils dogs are doing to society today, and who can question if dogs are really needed in society today.&lt;/p&gt;
-
-&lt;p&gt;Maybe if we start ridiculing and making fun of people who can’t think, then while they still won’t “think,” getting offended will affect them. Perhaps they will drop the idiotic habit of feeding dogs, raising dogs, and causing trouble to society. And they would stop enjoying letting animals crap and pee on the street.&lt;/p&gt;
-
-&lt;p&gt;It is really hard to make a stupid person intelligent, and it’s really easy to make an intelligent person stupid. So, I don’t think I will win. But I shouldn’t die without giving a bark.&lt;/p&gt;
-
-&lt;h2 id=&quot;people-feeding-dogs-in-sithalapakkam&quot;&gt;People feeding Dogs in Sithalapakkam&lt;/h2&gt;
-
-&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-        &lt;source src=&quot;https://ia801904.us.archive.org/7/items/feeding-dogsin-sithalapakkam-chennai-india/VID_20260320_182324198.ia.mp4 &quot; /&gt;
-      Your browser does not support the video element.
-      &lt;/video&gt;
-
-&lt;p&gt;A guy feeding dog outside my home. Get hires files &lt;a href=&quot;https://archive.org/details/feeding-dogsin-sithalapakkam-chennai-india&quot;&gt;here&lt;/a&gt;. He won’t be there cleaning dog shit, or silencing dogs when it barks at night.&lt;/p&gt;</content><author><name></name></author><summary type="html">I really don’t know why dog lovers are shit. They don’t seem to care about society at all; all they care about is themselves, their feelings, and their dog(s). All I need to do is look out of my window. Dog people walk their dogs, and they let their dogs crap and pee on the roads, quite unapologetically. These are not people living in huts or slums where there are no toilets—where it might be expected that dogs follow their natural habits. These are middle class, upper-middle class, and upper-class people who have toilets in their homes, who know what a toilet is, and who are educated—or at least claim to be. Yet, they exhibit such behavior. I don’t understand why. I don’t understand why they have brains, why they have money, or why they are educated (or claim to be).</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
